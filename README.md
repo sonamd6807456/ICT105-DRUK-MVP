@@ -5,8 +5,9 @@ Course Name: Fundamental Technology Entrepreneurship
 Instructor: Dr. Herison Surbakti
 Project Type: 14-Labs Continuous IT Startup MVP Development
 ## Team Name
-
-4
+1.Kinley Zam
+2.Sonam Deki
+3.Tenzin Dema
 
 ## Team Members and Roles
 | Name | Role | Responsibility |
