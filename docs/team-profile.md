@@ -6,7 +6,7 @@ DRUK
 ## Team Members and Roles
 | Student ID | Name | Role | Main Responsibility |
 |---|---|---|---|
-| 6807455 |Kinley Zam | UI/UX Lead, Validation Lead | Designs wireframes, user flow, and interface screens. Manages customer discovery, survey/interview evidence, and metric colection. |
+| 6807455 |Kinley Zam | UI/UX Lead, Validation Lead | Designs wireframes, user flow, and interface screens. Manages customer discovery, survey/interview evidence, and metric collection. |
 | 6807456 |Sonam Deki | Product Lead, Documentation Lead | Defines problem, target users, value proposition, and project direction. Maintains README, weekly logbook, report files, and final submission package. |
 | 6807457 |Tenzin Dema | Technical Lead |Technical Lead manages prototype development, repository structure, and technical feasibility. |
 
