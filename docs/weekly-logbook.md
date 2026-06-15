@@ -20,7 +20,12 @@
 2.Learning how to create folders and markdown files correctly in GitHub.
 ### Evidence of Work
 - GitHub repository link:https://github.com/sonamd6807456/ICT105-DRUK-MVP.git
+  
 - Screenshot:
+- <img width="1339" height="890" alt="Screenshot 2026-06-15 190825" src="https://github.com/user-attachments/assets/9fd99c0b-8184-41b4-b473-150846ed3da0" />
+- <img width="1878" height="842" alt="Screenshot 2026-06-15 190850" src="https://github.com/user-attachments/assets/80d44a48-d7c9-481f-bd18-d2d239d7a9ee" />
+- <img width="363" height="903" alt="Screenshot 2026-06-15 191112" src="https://github.com/user-attachments/assets/3da4eb37-db06-4200-8d22-d95ae40674ac" />
+
 - File created:
 - `README.md`
 - `docs/team-profile.md`
