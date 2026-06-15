@@ -1,10 +1,10 @@
 # Project Name
 TourEase – Tourism Information Platform
 ## Course Information
-Course Code: ICT105
-Course Name: Fundamental Technology Entrepreneurship
-Instructor: Dr. Herison Surbakti
-Project Type: 14-Labs Continuous IT Startup MVP Development
+ Course Code: ICT105
+ Course Name: Fundamental Technology Entrepreneurship
+ Instructor: Dr. Herison Surbakti
+ Project Type: 14-Labs Continuous IT Startup MVP Development
 ## Team Name
  DRUK
 ## Team Members and Roles
