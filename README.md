@@ -1,4 +1,5 @@
 # Project Name
+TourEase – Tourism Information Platform
 ## Course Information
 Course Code: ICT105
 Course Name: Fundamental Technology Entrepreneurship
@@ -13,11 +14,14 @@ Project Type: 14-Labs Continuous IT Startup MVP Development
 | Name | Role | Responsibility |
 |---|---|---|
 ## Initial Problem Area
-Briefly describe the general problem area your team is interested in.
+Tourists often struggle to find reliable and organized information about attractions, services, and travel destinations in one place. Information is usually scattered across multiple websites, making travel planning difficult.
 ## Target Users
-Describe the possible user group affected by the problem.
+Tourists visiting new locations
+Local travelers
+Students exploring tourist destinations
+Travel enthusiasts
 ## Initial IT Venture Direction
-Briefly describe the possible IT solution direction.
+Develop a tourism information platform that provides users with destination details, attractions, travel information, and recommendations through a simple and user-friendly website.
 ## Technology Possibility
 Possible technologies:
 - Web application
@@ -30,12 +34,12 @@ Possible technologies:
 - SaaS platform
 - Marketplace or digital platform
 ## Repository Structure
-Explain the purpose of each folder.
+
 ## Weekly Progress Log
 | Week | Main Activity | Output | Status |
 |---|---|---|---|
 | Lab 1 | Lab setup and idea log | Repository, team profile, initial idea log | In progress |
 ## Current Status
-Write 3-5 sentences about what the team has completed in Lab 1.
+During Lab 1, the team successfully created the GitHub repository and organized the required folder structure. Team members were assigned roles and responsibilities. GitHub Issues were created to manage initial project tasks. The team also identified the project problem area and documented the initial idea for the tourism platform..
 ## Next Step
-Write what the team will do in Lab 2.
+In Lab 2, the team will further refine the project idea, create wireframes, conduct user and market research, and begin planning the website prototype.
