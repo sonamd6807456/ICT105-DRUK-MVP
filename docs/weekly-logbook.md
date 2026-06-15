@@ -22,7 +22,11 @@
 - GitHub repository link:https://github.com/sonamd6807456/ICT105-DRUK-MVP.git
 - Screenshot:
 - File created:
-- 
+- `README.md`
+- `docs/team-profile.md`
+- `docs/idea-log.md`
+- `docs/problem-notes.md`
+- `docs/weekly-logbook.md`
 
 
 
