@@ -18,18 +18,28 @@ TourEase – Tourism Information Platform
 Tourists often struggle to find reliable and organized information about attractions, services, and travel destinations in one place. Information is usually scattered across multiple websites, making travel planning difficult.
 ## Target Users
 Tourists visiting new locations
+
 Local travelers
+
 Students exploring tourist destinations
+
 Travel enthusiasts
+
 ## Initial IT Venture Direction
 Develop a tourism information platform that provides users with destination details, attractions, travel information, and recommendations through a simple and user-friendly website.
 ## Technology Possibility
 Web application
+
 Dashboard
+
 AI-assisted feature
+
 Cloud-based system
+
 Marketplace or digital platform
+
 Marketplace or digital platform
+
 ## Repository Structure
 <img width="433" height="207" alt="image" src="https://github.com/user-attachments/assets/3d984ae6-4bd1-41ff-adbf-d2ec29310f98" />
 
