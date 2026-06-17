@@ -1,65 +1,52 @@
 # Initial IT Venture Idea Log
 
-## Idea 1:Tourism Information Platform
+## Idea 1 — Smart Campus Event Hub
 
-### Problem Area
-Travelers often struggle to find organized and trustworthy information about tourist attractions, transport, accommodation, and local services in one place.
+**Problem Area:**
+Students often miss campus events and important announcements because information is spread across multiple channels.
 
-### Target Users
-Tourists visiting new destinations
+**Target Users:**
+University students.
 
-Local travelers
+**Current Alternative:**
+Facebook, Line groups, posters, and social media.
 
-Students and backpackers
+**Proposed IT Solution:**
+A platform that allows students to discover events, register online, and receive reminders.
 
-Travel planners
+**Possible Technology:**
 
-### Current Alternative
-Users currently rely on scattered sources such as Google searches, social media posts, travel blogs, and multiple booking websites.
+* Web application
+* Mobile application
+* Cloud database
 
-### Proposed IT Solution
-A web-based tourism platform that lists attractions, travel tips, maps, images, and local services in a simple and organized interface
+**Why This Is Suitable:**
+It improves communication and increases student participation in campus activities.
 
-### Possible Technology
-HTML, CSS, JavaScript
+---
 
-Responsive web design
+## Idea 2 — Tourism Information Platform
 
-Cloud hosting (GitHub Pages or similar)
+**Problem Area:**
+Tourists struggle to find reliable travel information in one place.
 
-Optional map integration (Google Maps API)
+**Target Users:**
+Tourists and travelers.
 
-### Why This is Suitable
-The project is manageable for a semester MVP because it can start with a simple website prototype and gradually add features such as destination listings, search, and recommendations
+**Current Alternative:**
+Google searches, brochures, travel blogs, and social media.
 
+**Proposed IT Solution:**
+A website that provides destination details, travel guides, transportation information, and local recommendations.
 
-## Idea 2:Smart Campus Event Hub
+**Possible Technology:**
 
-### Problem Area
-Students often miss campus events, deadlines, and club activities because information is spread across different channels.
+* Website
+* Database system
+* Search functionality
 
-### Target Users
-University students
-
-Student clubs and organizations
-
-Campus administrators
-
-### Current Alternative
-Events are shared through posters, messaging apps, and social media groups, which are difficult to track.
-
-### Proposed IT Solution
-A centralized web or mobile platform where students can view events, receive reminders, and register for activities
-
-### Possible Technology
-Web or mobile application
-
-Notification system
-
-Cloud database
-
-### Why This is Suitable
-The project can be built incrementally, starting with event listings and user accounts, making it manageable within one semester
+**Why This Is Suitable:**
+It simplifies trip planning and improves the travel experience.
 
 ## Idea 3:Local Artisan Marketplace
 
@@ -88,5 +75,107 @@ Cloud hosting and storage
 
 ### Why This is Suitable
 A marketplace prototype can begin with basic product listings and user profiles, making it achievable for a semester-long MVP project
+
+
+---
+
+## Idea 3 — Local Artisan Marketplace
+
+**Problem Area:**
+Local artisans have limited access to wider markets and customers.
+
+**Target Users:**
+Artisans, craft makers, and small business owners.
+
+**Current Alternative:**
+Physical stores, local markets, and social media.
+
+**Proposed IT Solution:**
+An online marketplace where artisans can showcase and sell handmade products.
+
+**Possible Technology:**
+
+* Web marketplace
+* Cloud database
+* Product management system
+
+**Why This Is Suitable:**
+It expands market reach and supports local entrepreneurship.
+
+---
+
+## Idea 4 — Lost and Found Reporting System
+
+**Problem Area:**
+Students often lose personal belongings on campus and have difficulty locating them.
+
+**Target Users:**
+University students.
+
+**Current Alternative:**
+Notice boards, social media posts, and asking friends.
+
+**Proposed IT Solution:**
+A web-based system where users can report lost and found items, upload photos, and search for missing belongings.
+
+**Possible Technology:**
+
+* Web application
+* Database system
+* User authentication
+
+**Why This Is Suitable:**
+It provides a faster and more organized way to recover lost items.
+
+---
+
+## Idea 5 — Student Planner Dashboard
+
+**Problem Area:**
+Students struggle to manage assignments, deadlines, and class schedules.
+
+**Target Users:**
+University students.
+
+**Current Alternative:**
+Paper planners, notebooks, and calendar applications.
+
+**Proposed IT Solution:**
+A dashboard that helps students track assignments, schedules, and upcoming deadlines in one place.
+
+**Possible Technology:**
+
+* Dashboard system
+* Web application
+* Cloud database
+
+**Why This Is Suitable:**
+It improves time management and academic performance.
+
+---
+
+## Idea 6 — Internship Tracking Dashboard
+
+**Problem Area:**
+Students find it difficult to search for and monitor internship opportunities.
+
+**Target Users:**
+University students.
+
+**Current Alternative:**
+Multiple job websites, emails, and manual tracking.
+
+**Proposed IT Solution:**
+A dashboard that lists internship opportunities and allows students to track application progress.
+
+**Possible Technology:**
+
+* Web application
+* Dashboard system
+* Database management
+
+**Why This Is Suitable:**
+It simplifies internship searches and helps students manage applications more efficiently.
+
 
 
