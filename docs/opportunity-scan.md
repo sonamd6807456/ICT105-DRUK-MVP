@@ -18,3 +18,13 @@
 |Campus Item Recovery Platform |Students lose personal belongings on campus|Students| Asking friends, notice boards |Lost and Found Reporting System| Web Application |
 | Academic Task Tracking Dashboard |Students struggle to track assignments and schedules| Students | Paper notes, calendar apps |Student Planner Dashboard | Dashboard System |
 | Career Application Monitoring Portal | Students have difficulty finding internship opportunities | University Students | Multiple websites, manual search |Internship Tracking Dashboard| Web Application |
+
+
+## Technology Feasibility Mapping
+| Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible? |
+|---|---|---|---|---|---|
+| Idea 1:  Smart Campus Event Hub | Web app prototype + registration & notification system | HTML/CSS/JavaScript + Google Forms + Google Sheets Dashboard | Event title, date/time, location, description, organizer, registration details, reminder preferences | Medium | Yes |
+| Idea 2:Tourism Information Platform | Simple website + content database prototype | HTML/CSS/JavaScript + Airtable Database | Attraction details, location, opening hours, transport options, accommodation info, service contacts, travel tips | Medium | Yes |
+| Idea 3: Local Artisan Marketplace | Interactive UI prototype + product listing database | Figma + Airtable Database + Google Sheets Dashboard | Artisan profile, product name, category, price, description, images, stock status, contact info | Medium | Yes |
+| Idea 4: Campus Item Recovery Platform | Web application prototype + item listing database | HTML/CSS/JavaScript + Google Forms + Google Sheets | Item type, description, location, date/time, reporter info, status, contact details | Low | Yes |
+| Idea 5: Academic Task Tracking Dashboard | Interactive dashboard prototype + task management system | HTML/CSS/JavaScript + Google Sheets Dashboard | Task name, subject/course, due date, priority, description, completion status, notes | Low / Medium | Yes |
