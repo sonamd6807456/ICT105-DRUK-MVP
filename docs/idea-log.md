@@ -7,8 +7,8 @@ Students often miss campus events and important announcements because informatio
 
 ### Target Users:
 
-*University students.
-*Student clubs and organizations
+* University students.
+* Student clubs and organizations
 
 ### Current Alternative:
 Facebook, Line groups, posters, and social media.
@@ -34,8 +34,8 @@ Tourists struggle to find reliable travel information in one place.
 
 ### Target Users:
 
-*Tourists and travelers.
-*Student and backpackers
+* Tourists and travelers.
+* Student and backpackers
 
 ### Current Alternative:
 Google searches, brochures, travel blogs, and social media.
@@ -61,8 +61,8 @@ Local artisans have limited access to wider markets and customers.
 
 ### Target Users:
 
-*Artisans 
-*craft makers and small business owners.
+* Artisans 
+* craft makers and small business owners.
 
 ### Current Alternative:
 Physical stores, local markets, and social media.
