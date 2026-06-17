@@ -5,7 +5,7 @@
 | Idea | Problem Area | Target User | Current Alternative | Initial Technology Direction |
 |---|---|---|---|---|
 | Smart Campus Event Hub |Students miss campus events and announcements. |Students, clubs, administrators|Posters, social media, messaging apps|A web platform for event discovery, registration, and notifications.|
-| Tourism Information Plateform |Tourists find it difficult to access reliable travel information in one place. |Tourists, travelers, students |Google, social media, travel blogs.A website providing tourism information, attractions, and travel recommendations.|
+| Tourism Information Plateform |Tourists find it difficult to access reliable travel information in one place. |Tourists, travelers, students |Google, social media, travel blogs.|A website providing tourism information, attractions, and travel recommendations.|
 | Local Artiasm Marketplace |Local artisans have limited access to online customers.. |Artisans, small businesses, customers |Local markets, shops, social media. |A web marketplace for showcasing and selling handmade products|
 
 
