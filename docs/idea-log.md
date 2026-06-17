@@ -52,6 +52,8 @@ A website that provides destination details, travel guides, transportation infor
 ### Why This Is Suitable:
 It simplifies trip planning and improves the travel experience.
 
+---
+
 ## Idea 3 — Local Artisan Marketplace
 
 ### Problem Area:
@@ -79,27 +81,27 @@ It expands market reach and supports local entrepreneurship.
 
 ---
 
-## Idea 4 — Lost and Found Reporting System
+## Idea 4 — Campus Item Recovery Platform
 
-**Problem Area:**
+### Problem Area:
 Students often lose personal belongings on campus and have difficulty locating them.
 
-**Target Users:**
+### Target Users:
 University students.
 
-**Current Alternative:**
+### Current Alternative:
 Notice boards, social media posts, and asking friends.
 
-**Proposed IT Solution:**
+### Proposed IT Solution:
 A web-based system where users can report lost and found items, upload photos, and search for missing belongings.
 
-**Possible Technology:**
+### Possible Technology:
 
 * Web application
 * Database system
 * User authentication
 
-**Why This Is Suitable:**
+### Why This Is Suitable:**
 It provides a faster and more organized way to recover lost items.
 
 ---
