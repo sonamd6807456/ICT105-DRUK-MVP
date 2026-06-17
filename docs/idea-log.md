@@ -1,105 +1,80 @@
 # Initial IT Venture Idea Log
 
-## Idea 1 — Smart Campus Event Hub
+## Idea 1: Smart Campus Event Hub
 
-**Problem Area:**
+### Problem Area:
 Students often miss campus events and important announcements because information is spread across multiple channels.
 
-**Target Users:**
-University students.
+### Target Users:
 
-**Current Alternative:**
+*University students.
+*Student clubs and organizations
+
+### Current Alternative:
 Facebook, Line groups, posters, and social media.
 
-**Proposed IT Solution:**
+### Proposed IT Solution:
 A platform that allows students to discover events, register online, and receive reminders.
 
-**Possible Technology:**
+## Possible Technology:
 
 * Web application
 * Mobile application
 * Cloud database
 
-**Why This Is Suitable:**
+### Why This Is Suitable:
 It improves communication and increases student participation in campus activities.
 
 ---
 
 ## Idea 2 — Tourism Information Platform
 
-**Problem Area:**
+### Problem Area:
 Tourists struggle to find reliable travel information in one place.
 
-**Target Users:**
-Tourists and travelers.
+### Target Users:
 
-**Current Alternative:**
+*Tourists and travelers.
+*Student and backpackers
+
+### Current Alternative:
 Google searches, brochures, travel blogs, and social media.
 
-**Proposed IT Solution:**
+### Proposed IT Solution:
 A website that provides destination details, travel guides, transportation information, and local recommendations.
 
-**Possible Technology:**
+### Possible Technology:
 
 * Website
 * Database system
 * Search functionality
 
-**Why This Is Suitable:**
+### Why This Is Suitable:
 It simplifies trip planning and improves the travel experience.
-
-## Idea 3:Local Artisan Marketplace
-
-### Problem Area
-Local artisans and small businesses have limited online visibility and difficulty reaching wider customers.
-
-### Target Users
-Local artisans and craft makers
-
-Small business owners
-
-Customers interested in handmade products
-
-### Current Alternative
-Sellers mainly rely on physical shops, local markets, and social media pages to promote products.
-
-### Proposed IT Solution
-An online marketplace where artisans can create profiles, upload products, and connect with buyers
-
-### Possible Technology
-Web application
-
-Product catalog system
-
-Cloud hosting and storage
-
-### Why This is Suitable
-A marketplace prototype can begin with basic product listings and user profiles, making it achievable for a semester-long MVP project
-
-
----
 
 ## Idea 3 — Local Artisan Marketplace
 
-**Problem Area:**
+### Problem Area:
 Local artisans have limited access to wider markets and customers.
 
-**Target Users:**
-Artisans, craft makers, and small business owners.
+### Target Users:
 
-**Current Alternative:**
+*Artisans 
+*craft makers and small business owners.
+
+### Current Alternative:
 Physical stores, local markets, and social media.
 
-**Proposed IT Solution:**
+### Proposed IT Solution:
 An online marketplace where artisans can showcase and sell handmade products.
 
-**Possible Technology:**
+### Possible Technology:
 
 * Web marketplace
 * Cloud database
 * Product management system
 
-**Why This Is Suitable:**
+### Why This Is Suitable:
 It expands market reach and supports local entrepreneurship.
 
 ---
