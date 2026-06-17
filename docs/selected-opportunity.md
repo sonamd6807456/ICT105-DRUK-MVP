@@ -1,18 +1,18 @@
 # Selected Semester Project Opportunity
 
-## Selected Project Title
+### Selected Project Title
 
-Smart Campus Event Hub
+**Smart Campus Event Hub**
 
-## Target User
+### Target User
 
 University students who want an easier way to discover campus events, club activities, workshops, and important deadlines.
 
-## Problem Statement
+### Problem Statement
 
 Students often miss campus events, club activities, and important announcements because information is spread across multiple channels such as posters, social media pages, messaging apps, and word of mouth. As a result, students may be unaware of opportunities available to them, and event organizers may experience low participation and poor communication.
 
-## Current Alternative
+### Current Alternative
 
 Students currently rely on:
 
@@ -23,7 +23,7 @@ Students currently rely on:
 
 However, these sources are often scattered, difficult to track, and do not provide a centralized view of upcoming events and activities.
 
-## Proposed IT Solution
+### Proposed IT Solution
 
 The team will develop Smart Campus Event Hub, a web-based platform where students can:
 
@@ -34,7 +34,7 @@ The team will develop Smart Campus Event Hub, a web-based platform where student
 * Access event details from clubs and organizations in one place
 
 
-## Why This Opportunity Was Selected
+### Why This Opportunity Was Selected
 
 Smart Campus Event Hub received the highest overall score in the team's NUF evaluation.
 
@@ -51,7 +51,7 @@ Smart Campus Event Hub received the highest overall score in the team's NUF eval
 
 Smart Campus Event Hub was selected because it addresses a common problem experienced by university students. It is highly useful, technically achievable within the semester timeline, and can be validated through interviews and surveys. Compared to other ideas, it requires fewer complex features while still providing meaningful value to users.
 
-## Why This Is Feasible Without IoT or Advanced Cybersecurity
+### Why This Is Feasible Without IoT or Advanced Cybersecurity
 
 The project is a standard web application and does not require any IoT devices, sensors, or hardware integration.
 
@@ -64,11 +64,11 @@ The MVP can be developed using common web technologies such as:
 
 The system only requires basic event listings, registration forms, notifications, and information pages. No advanced cybersecurity features, complex authentication systems, or specialized infrastructure are necessary for the prototype stage.
 
-## Possible MVP Type
+### Possible MVP Type
 
 Simple web app prototype
 
-## Initial Validation Plan for Lab 03
+### Initial Validation Plan for Lab 03
 
 ### Who will the team ask?
 
