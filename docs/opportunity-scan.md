@@ -9,7 +9,7 @@
 | Local Artiasm Marketplace |Local artisans have limited access to online customers.. |Artisans, small businesses, customers |Local markets, shops, social media. |A web marketplace for showcasing and selling handmade products|
 
 
-## Technology Feasibility Mapping
+## Feasible IT Project
 | Idea | Observed Problem| Target User | Current Alternative |Possible IT Solution | Feasible Technology |
 |---|---|---|---|---|---|
 |  Smart Campus Event Hub | Students miss campus events and deadlines |University Students |Facebook, Line, posters |Smart Campus Event Hub | Web App, Mobile App |
