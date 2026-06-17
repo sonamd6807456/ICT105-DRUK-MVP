@@ -106,52 +106,52 @@ It provides a faster and more organized way to recover lost items.
 
 ---
 
-## Idea 5 — Student Planner Dashboard
+## Idea 5 — Academic Task Tracking Dashboard
 
-**Problem Area:**
+### Problem Area:
 Students struggle to manage assignments, deadlines, and class schedules.
 
-**Target Users:**
+### Target Users:
 University students.
 
-**Current Alternative:**
-Paper planners, notebooks, and calendar applications.
+### Current Alternative:
+Paper planners, notebooks, and calendar applications or reminder apps.
 
-**Proposed IT Solution:**
+### Proposed IT Solution:
 A dashboard that helps students track assignments, schedules, and upcoming deadlines in one place.
 
-**Possible Technology:**
+### Possible Technology:
 
 * Dashboard system
 * Web application
 * Cloud database
 
-**Why This Is Suitable:**
+### Why This Is Suitable:
 It improves time management and academic performance.
 
 ---
 
-## Idea 6 — Internship Tracking Dashboard
+## Idea 6 — Career Application Monitoring Portal
 
-**Problem Area:**
+### Problem Area:
 Students find it difficult to search for and monitor internship opportunities.
 
-**Target Users:**
+### Target Users:
 University students.
 
-**Current Alternative:**
+### Current Alternative:
 Multiple job websites, emails, and manual tracking.
 
-**Proposed IT Solution:**
+### Proposed IT Solution:
 A dashboard that lists internship opportunities and allows students to track application progress.
 
-**Possible Technology:**
+### Possible Technology:
 
 * Web application
 * Dashboard system
 * Database management
 
-**Why This Is Suitable:**
+### Why This Is Suitable:
 It simplifies internship searches and helps students manage applications more efficiently.
 
 
