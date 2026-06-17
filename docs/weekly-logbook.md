@@ -77,7 +77,7 @@ This idea was rejected because it requires a larger customer base and more compl
 * Opportunity scan file: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/d13e1fe2eddfc2a4bea82d7459ccd567fcfecdd3/docs/opportunity-scan.md
 * NUF scoring file: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/e179fbc9cdb905bc64695b67ec0b6e2f68645c54/data/opportunity-scoring.xlsx
 * Selected opportunity file:https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/aeb56a77da089adc70d20341fb6bc7636b1d8c95/docs/selected-opportunity.md
-* GitHub issue screenshot: 
+* GitHub issue screenshot: <img width="1230" height="735" alt="Screenshot 2026-06-17 192208" src="https://github.com/user-attachments/assets/e62f5c8f-4bf2-499b-9836-65a9221c8488" />
 * Commit link: https://github.com/sonamd6807456/ICT105-DRUK-MVP/commits/main/
 
 ### Plan for Lab 03
