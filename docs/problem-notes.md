@@ -5,7 +5,7 @@
 * University students seeking academic support and learning resources.
 * First-year students adapting to university learning.
 * International and exchange students who need easier access to educational materials.
-* Students looking for study guides, tutoring, and academic advice.
+* Students looking for study guides, tutoring, and academic advi
 
 ## Incidents
 
