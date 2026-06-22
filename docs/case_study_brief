@@ -1,0 +1,25 @@
+# Case Study Brief: Smart Campus Lost-and-Found System
+
+## Context
+Students often lose personal items on campus and do not know where to report, search, or claim them. Current alternatives include asking friends, posting in chat groups, visiting security offices, or waiting for someone to return the item.
+
+## Target User Groups
+- Students who lost an item
+- Students who found an item
+- Security office or administrative staff who handle lost items
+
+## Initial Problem Assumption
+Students struggle to recover lost items because reports are scattered across chat groups and offices.
+
+## Current Alternatives
+- WhatsApp or Line groups
+- Asking classmates or staff
+- Visiting security office manually
+- Posting on social media
+- Waiting for someone to return the item
+
+## Possible MVP Direction
+A web-based lost-and-found reporting and search system where users can submit found/lost item reports, search by item type/location/date, and contact the responsible office.
+
+## Feasible Tools
+Google Forms, Google Sheets, Figma, HTML/CSS/JS, Airtable/Notion database, or a simple web dashboard.
