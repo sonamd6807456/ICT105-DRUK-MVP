@@ -55,9 +55,36 @@ Possible technologies:
 |-------|--------------|---------|--------| 
 | Lab 1 | Lab setup and idea log | Repository setup, team profile, initial three-idea logbook | Completed | 
 | Lab 2 | Opportunity scanning and NUF scoring | Six-idea opportunity table, technology feasibility mapping, NUF scoring, selected project opportunity (Smart Campus Event Hub) | Completed |
+| Lab 03 | Customer Problem Discovery |Target Respondent Profile, Customer Discovery Survey, Problem Notes, Customer Discovery Summary, Assumption-Evidence Table, Weekly Logbook Updates | Completed |
 
-## Current Status
-In Lab 02, the team reviewed six possible IT opportunities and evaluated them using the NUF (New, Useful, Feasible) framework. Smart Campus Event Hub was selected as the semester project because it addresses a real problem faced by university students, provides practical value, and is feasible to develop as an MVP using standard web technologies.
+# Customer Problem Discovery Summary
 
-## Next Step
-In Lab 03, the team will prepare customer discovery questions and collect evidence from target users through surveys and interviews. The team will validate whether students experience difficulties finding information about campus events and determine which features are most important for the MVP.
+## Overview
+
+In Lab 03, our team conducted customer problem discovery to better understand how students learn about campus events, workshops, competitions, and university activities. The objective was to determine whether difficulties in discovering campus events represent a genuine problem for students and whether there is a need for a more organized solution.
+
+## Target Respondents
+
+We focused on the following groups of students:
+
+* First-year students who are still becoming familiar with university communication channels and campus activities.
+* International and exchange students who may have limited access to informal information networks.
+* Students who regularly participate in campus events, workshops, and extracurricular activities.
+* Students who have previously missed events or received event information too late.
+
+## Main Evidence Found
+
+* Event information is distributed across multiple channels, including social media, messaging groups, student clubs, university announcements, and posters.
+* Students often discover events after registration deadlines or after the event has already taken place.
+* Important event announcements can be difficult to find because they are mixed with large amounts of unrelated information.
+* Students frequently rely on friends and classmates to stay informed about upcoming activities.
+* There is no single platform where students can easily view and track all campus events.
+
+## Updated Problem Statement
+
+University students, particularly first-year and international students, face challenges in discovering and keeping track of campus events because information is scattered across multiple communication channels. As a result, students may miss valuable opportunities, registration deadlines, and campus activities, reducing their participation and engagement in university life.
+
+## Decision for Next Step
+
+In Lab 04, we will analyze the collected evidence to identify the primary customer segment and their most important needs. We will develop user personas and user stories, prioritize key features, and begin defining the MVP requirements for the Smart Campus Event Hub.
+
