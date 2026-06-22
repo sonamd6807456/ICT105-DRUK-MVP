@@ -109,7 +109,7 @@ The purpose of this survey is to understand how students discover campus activit
 
 ## Q11. What additional feature would make this platform more valuable for students?
 
----
+* Short Answer 
 
 ---
 
