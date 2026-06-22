@@ -100,51 +100,53 @@ Can a single digital platform improve students' awareness of campus events and m
 
 ### What We Completed
 
-1. Defined the target respondent groups and designed customer discovery questions to understand how students find information about campus events and activities. The survey questions and problem notes were documented in `/docs/customer-questions.md` and `/docs/problem-notes.md`.
+1. Identified target respondents, including first-year students, active campus participants, and exchange students. Developed customer discovery survey questions to understand how students currently discover campus events and documented the materials in `/docs/problem-notes.md`, `/docs/customer-questions.md`, and `/data/raw-responses.xlsx`.
 
-2. Identified key assumptions about the challenges students face when discovering campus events and prepared an assumption-evidence framework to guide future validation activities.
+2. Created an assumption-evidence table to distinguish between team assumptions and user-reported experiences. The analysis was recorded in `/docs/assumption-evidence-table.md`.
 
-3. Updated the project documentation, including the README, customer discovery materials, and weekly logbook, to reflect the problem investigation process and planned evidence collection.
+3. Summarized customer discovery findings, documented recurring challenges, updated project documentation, and revised the README and `/docs/weekly-logbook.md` based on the identified problem patterns.
 
 ### What We Learned About the Problem
 
-1. Campus event information is often distributed across multiple channels such as social media, messaging groups, posters, and university announcements.
+1. Students frequently struggle to stay informed about campus events because announcements are distributed across multiple channels such as social media, messaging groups, student clubs, and posters.
 
-2. Students may struggle to stay informed about events because there is no single place where all event information is available.
+2. Many students discover events too late, resulting in missed registration deadlines, workshops, competitions, and other campus opportunities.
 
-3. First-year and international students are likely to face greater challenges in discovering campus activities due to limited familiarity with university communication channels.
+3. Students need a more organized way to access event information, as relying on multiple communication channels increases the likelihood of missing important announcements.
 
 ### What Evidence We Collected
 
-* Number of respondents/interviews: 0 (Survey preparation stage)
-* Evidence file: To be collected in future customer discovery activities.
-* Initial observation: Students rely on multiple sources to obtain information about campus events.
+* Number of respondents/interviews: 15 students
+* Evidence file: `data/raw-responses.xlsx`
+* Key repeated pattern: Students reported that event information is scattered across different platforms and that important announcements are often missed.
 
 ### What We Changed Based on Evidence
 
-As customer validation has not yet been completed, no major changes have been made to the solution direction. However, we refined our survey questions to focus on understanding students' current behaviors, difficulties, and experiences related to campus event discovery.
+Based on the feedback collected, we refined our solution focus toward providing a centralized event information platform rather than introducing complex features in the early stages.
+
+We also prioritized event reminders, centralized event listings, and improved event visibility because these issues appeared repeatedly in customer responses.
 
 ### Problems or Difficulties
 
-1. Creating customer discovery questions that explore real student problems without leading respondents toward a particular solution.
+1. Designing survey questions that explored students' actual experiences without suggesting or promoting a specific solution.
 
-2. Defining measurable assumptions and planning how future survey responses can be used as evidence to validate the problem.
+2. Converting survey responses into clear evidence that could be used to validate assumptions and identify genuine customer problems.
 
 ### Evidence of Work
 
-* GitHub repository link: https://github.com/HTETHTET-68/ICT105-TriByte-MVP.git
-* Customer questions file: docs/customer-questions.md
-* Problem notes file: docs/problem-notes.md
-* Assumption-evidence table: docs/assumption-evidence-table.md
-* Commit link: https://github.com/HTETHTET-68/ICT105-TriByte-MVP/commits/main/
+* GitHub repository link: 
+* Customer questions file: 
+* Raw responses file:
+* Assumption-evidence table: 
+* Commit link: 
 
 ### Plan for Lab 04
 
-1. Conduct customer discovery surveys and interviews with students.
-2. Analyze survey results and identify recurring pain points.
-3. Create a customer persona based on collected evidence.
-4. Develop user stories for the Smart Campus Event Hub.
-5. Prioritize user needs and define MVP requirements.
+1. Identify the primary customer segment most affected by event discovery challenges.
+2. Create a detailed user persona based on survey responses and customer insights.
+3. Develop user stories that describe how students will discover, track, and participate in campus events using the proposed platform.
+4. Prioritize customer needs and translate them into MVP requirements.
+5. Prepare initial wireframes for the Smart Campus Event Hub.
 
 
 
