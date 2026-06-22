@@ -135,9 +135,9 @@ We also prioritized event reminders, centralized event listings, and improved ev
 ### Evidence of Work
 
 * GitHub repository link: https://github.com/sonamd6807456/ICT105-DRUK-MVP
-* Customer questions file: 
-* Raw responses file:
-* Assumption-evidence table: 
+* Customer questions file: docs/customer-question.md
+* Raw responses file: data/raw-reponses.xlsx
+* Assumption-evidence table: docs/assumption-evidence-table.md
 * Commit link: 
 
 ### Plan for Lab 04
