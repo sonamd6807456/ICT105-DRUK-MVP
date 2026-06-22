@@ -116,7 +116,7 @@ Can a single digital platform improve students' awareness of campus events and m
 
 ### What Evidence We Collected
 
-* Number of respondents/interviews: 15 students
+* Number of respondents/interviews: 20 students
 * Evidence file: `data/raw-responses.xlsx`
 * Key repeated pattern: Students reported that event information is scattered across different platforms and that important announcements are often missed.
 
