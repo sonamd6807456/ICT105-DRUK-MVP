@@ -1,7 +1,7 @@
 
-###Project: Smart Campus Event Hub
+# Project: Smart Campus Event Hub
 
-#Target Respondents
+### Target Respondents
 
 1. University Students
     * Students who regularly attend or are interested in campus events.
@@ -15,6 +15,6 @@
 4. New Students
     * First-year students who may struggle to find information about campus activities and opportunities.
 
-###Reason for Selection
+### Reason for Selection
 
 These respondents are directly affected by how campus event information is shared and accessed. Their feedback will help identify existing problems, understand current solutions, and validate whether a centralized event platform would be valuable.
