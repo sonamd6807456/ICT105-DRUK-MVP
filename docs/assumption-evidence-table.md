@@ -1,15 +1,19 @@
-
 # Assumption-Evidence Table
 
-| Team Assumption | Evidence from Users | Validated? |
-|----------------|--------------------|-------------|
-| Students often miss campus events because information is scattered across different channels. | Students reported relying on posters, social media, and messaging groups to find event information. | Yes |
-| Students find it difficult to keep track of event schedules and deadlines. | Several students mentioned forgetting event dates or learning about events too late. | Yes |
-| Students want a centralized source for campus event information. | Some students expressed frustration with using multiple platforms, but more evidence is needed. | Partially |
-| Missing campus events causes students to lose opportunities for learning and networking. | Students reported missing workshops, club activities, and important announcements. | Yes |
-| Event organizers struggle to reach a large number of students. | Club leaders stated that announcements through posters and chat groups do not always reach everyone. | Yes |
-| Students would benefit from reminders and notifications for upcoming events. | Students said reminders would help them remember important activities. | Partially |
-| A web-based platform is sufficient for an MVP. | The team believes a simple website can demonstrate the concept, but this has not yet been confirmed by users. | Not yet |
-| Students are willing to use a single platform to discover and register for events. | More survey and interview responses are required to confirm this assumption. | Not yet |
+| No. | Team Assumption | Evidence Collected | Evidence Type | Strength | Decision |
+|---:|---|---|---|---|---|
+| 1 | Students struggle to find information about campus events. | Most respondents rated tracking events as difficult or very difficult and reported problems such as scattered information and not knowing where to search. | Survey | Strong | Keep |
+| 2 | Students miss events because information is spread across multiple platforms. | Many respondents reported discovering events after they had already happened and identified scattered information as a major challenge. | Survey | Strong | Keep |
+| 3 | Missing event information causes students to lose valuable opportunities. | Respondents reported missing workshops, competitions, networking opportunities, and feeling disconnected from campus life. | Survey | Strong | Keep |
+| 4 | Students would benefit from a centralized platform for campus events. | Most respondents considered a single platform useful or extremely useful. | Survey | Strong | Keep |
+| 5 | Students are interested in reminders and notifications. | Event reminders and notifications were among the most preferred features selected by respondents. | Survey | Strong | Keep |
+| 6 | Students would actively use a Smart Campus Event Hub if it existed. | Most respondents indicated that they were likely or very likely to use such a platform. | Survey | Strong | Keep |
+| 7 | Students need better ways to organize and filter event information. | Students requested features such as calendars, categories, filters, registration links, and personalized recommendations. | Survey | Strong | Keep |
+| 8 | First-year and exchange students face greater difficulty finding event information. | Year 1 and exchange students frequently reported very difficult experiences and uncertainty about where to search for event information. | Survey | Moderate | Keep |
 
+## Evidence Strength Guide
+
+- **Weak:** Team opinion or feedback from a few friends only.
+- **Moderate:** Similar patterns appear repeatedly in responses from target users.
+- **Strong:** Users provide consistent evidence through surveys, interviews, observations, or demonstrate clear behavior and needs.
 
