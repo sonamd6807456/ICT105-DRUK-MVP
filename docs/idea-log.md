@@ -152,7 +152,7 @@ A dashboard that lists internship opportunities and allows students to track app
 * Database management
 
 ### Why This Is Suitable:
-It simplifies internship searches and helps students manage applications more efficiently. 
+It simplifies internship searches and helps students manage applications more efficiently.  DONE
 
 
 
