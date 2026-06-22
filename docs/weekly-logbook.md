@@ -96,7 +96,55 @@ The key question we want to answer is:
 
 Can a single digital platform improve students' awareness of campus events and make it easier for them to participate in university activities?
 
+## Lab 03: Customer Problem Discovery
 
+### What We Completed
+
+1. Defined the target respondent groups and designed customer discovery questions to understand how students find information about campus events and activities. The survey questions and problem notes were documented in `/docs/customer-questions.md` and `/docs/problem-notes.md`.
+
+2. Identified key assumptions about the challenges students face when discovering campus events and prepared an assumption-evidence framework to guide future validation activities.
+
+3. Updated the project documentation, including the README, customer discovery materials, and weekly logbook, to reflect the problem investigation process and planned evidence collection.
+
+### What We Learned About the Problem
+
+1. Campus event information is often distributed across multiple channels such as social media, messaging groups, posters, and university announcements.
+
+2. Students may struggle to stay informed about events because there is no single place where all event information is available.
+
+3. First-year and international students are likely to face greater challenges in discovering campus activities due to limited familiarity with university communication channels.
+
+### What Evidence We Collected
+
+* Number of respondents/interviews: 0 (Survey preparation stage)
+* Evidence file: To be collected in future customer discovery activities.
+* Initial observation: Students rely on multiple sources to obtain information about campus events.
+
+### What We Changed Based on Evidence
+
+As customer validation has not yet been completed, no major changes have been made to the solution direction. However, we refined our survey questions to focus on understanding students' current behaviors, difficulties, and experiences related to campus event discovery.
+
+### Problems or Difficulties
+
+1. Creating customer discovery questions that explore real student problems without leading respondents toward a particular solution.
+
+2. Defining measurable assumptions and planning how future survey responses can be used as evidence to validate the problem.
+
+### Evidence of Work
+
+* GitHub repository link: https://github.com/HTETHTET-68/ICT105-TriByte-MVP.git
+* Customer questions file: docs/customer-questions.md
+* Problem notes file: docs/problem-notes.md
+* Assumption-evidence table: docs/assumption-evidence-table.md
+* Commit link: https://github.com/HTETHTET-68/ICT105-TriByte-MVP/commits/main/
+
+### Plan for Lab 04
+
+1. Conduct customer discovery surveys and interviews with students.
+2. Analyze survey results and identify recurring pain points.
+3. Create a customer persona based on collected evidence.
+4. Develop user stories for the Smart Campus Event Hub.
+5. Prioritize user needs and define MVP requirements.
 
 
 
