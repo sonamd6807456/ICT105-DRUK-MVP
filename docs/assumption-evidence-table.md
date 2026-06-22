@@ -1,7 +1,7 @@
 # Assumption-Evidence Table
 
 | No. | Team Assumption | Evidence Collected | Evidence Type | Strength | Decision |
-|---:|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 1 | Students struggle to find information about campus events. | Most respondents rated tracking events as difficult or very difficult and reported problems such as scattered information and not knowing where to search. | Survey | Strong | Keep |
 | 2 | Students miss events because information is spread across multiple platforms. | Many respondents reported discovering events after they had already happened and identified scattered information as a major challenge. | Survey | Strong | Keep |
 | 3 | Missing event information causes students to lose valuable opportunities. | Respondents reported missing workshops, competitions, networking opportunities, and feeling disconnected from campus life. | Survey | Strong | Keep |
