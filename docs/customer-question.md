@@ -79,33 +79,35 @@ The purpose of this survey is to understand how students discover campus activit
 
 ---
 
-# Section 4 — Proposed Solution
+# Section 4 — User Needs and Preferences
 
-## Q8. How useful would a single platform that displays all campus events be?
+## Q8. What would make it easier for you to discover campus events?
 
-* [ ] Extremely useful
-* [ ] Useful
-* [ ] Neutral
-* [ ] Not useful
-* [ ] Not useful at all
-
-## Q9. Which features would encourage you to use the platform?
-
+* [ ] All event information in one place
+* [ ] More timely announcements
+* [ ] Better event descriptions
 * [ ] Personalized event recommendations
-* [ ] Event reminders and notifications
-* [ ] Event registration links
-* [ ] Event categories and filters
-* [ ] Calendar view
-* [ ] Bookmark favorite events
+* [ ] Easier event registration
 * [ ] Other: ___________
 
-## Q10. If this platform were available today, how likely would you be to use it?
+## Q9. What information is most important when deciding whether to attend an event?
 
-* [ ] Very likely
-* [ ] Likely
-* [ ] Not sure
-* [ ] Unlikely
-* [ ] Very unlikely
+* [ ] Event date and time
+* [ ] Event location
+* [ ] Event description
+* [ ] Registration process
+* [ ] Benefits of attending
+* [ ] Organizer information
+* [ ] Other: ___________
+
+## Q10. Which method would help you stay informed about upcoming events?
+
+* [ ] Email notifications
+* [ ] Mobile notifications
+* [ ] Social media updates
+* [ ] University website announcements
+* [ ] Student club announcements
+* [ ] Other: ___________
 
 #   Section 4 — Open-ended Feedback
 ## Q11. What additional feature would make this platform more valuable for students?
