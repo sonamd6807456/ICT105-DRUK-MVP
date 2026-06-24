@@ -6,10 +6,10 @@ These requirements define the minimum prototype functionalities for the Smart Ca
 
 | Req ID | Minimum Prototype Functionality | What Students Must Show in Final Prototype |
 | --- | --- | --- |
-| **FR-01** | **Smart Campus Event Hub Homepage** |The system must show a complete user journey: Open Event Hub → Browse Events → View Event Details → Register → Receive Confirmation → Track Participation.|
-| **FR-02** | **Event Discovery User Flow** | The prototype must show how a student uses the system from start to finish. Example: Open Education Hub → Search Resource → View Details → Save/Register → Track Progress. |
+| **FR-01** | **Smart Campus Event Hub Homepage** |The prototype must clearly show the system name, purpose (campus event discovery and participation), target users (students, staff), and main navigation (Events, Register, Dashboard, Profile).|
+| **FR-02** | **Event Discovery User Flow** | The system must show a complete user journey: Open Event Hub → Browse Events → View Event Details → Register → Receive Confirmation → Track Participation. |
 | **FR-03** | **Event Creation / Submission** | Users (admin or organizers) must be able to create or submit events including title, description, date, time, location, category, and capacity. |
-| **FR-04** | **Event Data Storage & Management** ||All events and registrations must be stored using a database, spreadsheet, Firebase, or equivalent system and be retrievable in the interface. |
+| **FR-04** | **Event Data Storage & Management**  All events and registrations must be stored using a database, spreadsheet, Firebase, or equivalent system and be retrievable in the interface. |
 | **FR-05** | **Event Listing Page** |Users must be able to view all available campus events such as seminars, workshops, clubs, sports, and academic activities in a structured list or card layout.|
 | **FR-06** | **Search and Filter Functionality** |Users must be able to search events by keyword and filter by category (academic, sports, cultural), date, location, or availability. |
 | **FR-07** | **Event Detail View** |Each event must have a detailed page showing full information including description, schedule, venue map/location, organizer, and available seats. |
