@@ -55,7 +55,7 @@ First-year university student who wants to participate in campus activities but 
 - The most important user need is timely access to reliable event information.
 
 
-## 1. Persona Name
+## 2. Persona Name
 
 Ame, Exchange Student
 
@@ -104,7 +104,7 @@ Exchange student who wants to participate in campus activities but often misses 
 - The most important user need is timely access to reliable event information.
   
 
-## 1. Persona Name
+## 3. Persona Name
 
 Chris, Year 2 Student
 
