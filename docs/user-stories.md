@@ -20,11 +20,12 @@ As a [user role], I want to [goal/action], so that [benefit/value].
 
 A good acceptance criterion should be:
 
-- Testable.
-- Observable in the final prototype.
-- Connected to a requirement.
-- Connected to user evidence.
-- Not too vague.
+- **Testable** — can be verified with a clear pass/fail outcome.
+- **Observable** — visible and demonstrable in the final prototype.
+- **Connected to a requirement** — maps to a functional requirement (FR-XX).
+- **Connected to user evidence** — supported by survey responses and demo screenshots.
+- **Not too vague** — specific enough that anyone can determine whether it works correctly.
+
 
 ## Rejected / Future User Stories
 
