@@ -53,4 +53,104 @@ First-year university student who wants to participate in campus activities but 
 - The interface should be simple and beginner-friendly for first-year students.
 - The team should avoid unnecessary complex features during the MVP stage.
 - The most important user need is timely access to reliable event information.
+
+
+## 1. Persona Name
+
+Ame, Exchange Student
+
+## 2. User Type
+
+Exchange student who wants to participate in campus activities but often misses important event information.
+
+## 3. Background and Context
+
+- Ame is an exchange student who is still unfamiliar with university life and wants to become involved in extracurricular activities.
+- She experiences the problem when trying to find information about workshops, competitions, club activities, and campus events.
+- The problem usually occurs because event information is shared through different channels and she does not know where to search.
+- She currently relies on lecturers, university social media pages, and friends to discover events.
+
+## 4. Goals
+
+- Stay informed about upcoming campus events.
+- Participate in activities and meet new people.
+- Find event information quickly and easily.
+- Avoid feeling disconnected from campus life.
+- Discover events that match her interests.
+
+## 5. Pain Points from Lab 03 Evidence
+
+| Pain Point | Evidence ID / Respondent | Explanation |
+|---|---|---|
+| Students do not know where to search for events. | R013 | Exchange students are unfamiliar with university information channels. |
+| Event details are unclear. | R004 | Incomplete information creates confusion. |
+| Students feel disconnected from campus life. | R013 | Missing events reduces engagement and social interaction. |
+
+## 6. Current Alternatives / Workarounds
+
+| Current Alternative | Weakness / Limitation | Evidence |
+|---|---|---|
+| University social media | Posts are easy to overlook and buried among other content. | R013 |
+| Lecturers | Event information is shared inconsistently. | R004 |
+| Friends and classmates | Information may not always be complete or timely. | R013 |
+
+## 7. Design Implications
+
+- The platform should provide a centralized source of campus event information.
+- Event details should be clear and easy to understand.
+- Search and filter functions should help students quickly discover events.
+- The interface should be simple and beginner-friendly for new students.
+- The team should avoid unnecessary complex features during the MVP stage.
+- The most important user need is timely access to reliable event information.
+  
+
+## 1. Persona Name
+
+Chris, Year 2 Student
+
+## 2. User Type
+
+Active university student who regularly participates in campus activities and wants better ways to organize event information.
+
+## 3. Background and Context
+
+- Chris is a Year 2 student who actively joins workshops, competitions, and club activities.
+- He experiences the problem when trying to manage multiple events and schedules.
+- The problem usually occurs because event announcements are easy to miss and information is scattered across several platforms.
+- He currently relies on university social media pages, student clubs, and friends to stay informed.
+
+## 4. Goals
+
+- Stay updated on upcoming campus events.
+- Manage events more efficiently.
+- Avoid missing registration deadlines.
+- Receive reminders before important events.
+- Participate in more workshops and networking opportunities.
+
+## 5. Pain Points from Lab 03 Evidence
+
+| Pain Point | Evidence ID / Respondent | Explanation |
+|---|---|---|
+| Event announcements are easy to miss. | R006, R016 | Students often overlook event posts among many messages. |
+| Information is outdated. | R020 | Event information is sometimes inaccurate or no longer current. |
+| Missing events leads to lost networking opportunities. | R006, R016 | Students miss valuable opportunities because information arrives too late. |
+
+## 6. Current Alternatives / Workarounds
+
+| Current Alternative | Weakness / Limitation | Evidence |
+|---|---|---|
+| University social media | Posts are easy to overlook and difficult to organize. | R006, R016 |
+| Student clubs | Information only reaches active members. | R020 |
+| Friends and classmates | Information may not always be timely. | R006 |
+
+## 7. Design Implications
+
+- The platform should provide a centralized source of campus event information.
+- The MVP should include event reminders and notifications.
+- Event details should be clear, accurate, and easy to access.
+- Search and filter functions should help students quickly discover events.
+- The interface should be simple and easy to navigate.
+- The team should avoid unnecessary complex features during the MVP stage.
+- The most important user need is timely access to reliable event information.
+
   
