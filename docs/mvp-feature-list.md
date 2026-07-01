@@ -28,10 +28,10 @@ The MVP should include the smallest set of features that can demonstrate the cor
 * Event Categories Filter
 * Event Submission Form
 
-## Could-Have / Future Features
-
+## Could-Have 
 * Dashboard Summary
-* Event Statistics
+
+## Future Features
 * Event Reminder Notifications
 * Personalized Event Recommendations
 * AI-based Event Suggestions
