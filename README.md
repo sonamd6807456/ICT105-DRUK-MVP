@@ -197,7 +197,5 @@ The primary users of the Smart Campus Event Hub are university students, especia
 
 All group members contributed to the Smart Campus Event Hub repository through Git commits, GitHub Issues, documentation updates, prototype development, and weekly logbook entries. The complete development history is available in the repository commit history and project documentation.`
 
-## GitHub Contribution Evidence
 
-All group members contributed to the Smart Campus Event Hub repository through Git commits, GitHub Issues, documentation updates, prototype development, and weekly logbook entries. The complete development history is available in the repository commit history and project documentation.
 
