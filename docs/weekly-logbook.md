@@ -161,8 +161,8 @@ We also prioritized event reminders, centralized event listings, and improved ev
 | Member Name | Contribution | GitHub Evidence (Commit/Issue/PR Link) |
 |---|---|---|
 |Kinley Zam| Created the User Persona, wrote the User Stories, and designed the User Flow for the Smart Campus Event Hub. | User Persona: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/4cedf17e7388002161120dfedc5cc5fa61350038/docs/user_persona.md  User Stories: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/b95f0b423b9526337c6fd8035f63749b8258564f/docs/user-stories.md User Flow: |
-|Tenzin Dema| Prepared the System Requirements, identified the functional and non-functional requirements, and completed the Lab 04 Practice Workbook. | System Requirement: |
-|Sonam Deki|Defined the target users for the Smart Campus Event Hub, created the MVP Feature List, prepared the Use Case, and updated the Weekly Logbook. | |
+|Tenzin Dema| Prepared the System Requirements, identified the functional and non-functional requirements, and completed the Lab 04 Practice Workbook. | System Requirement:https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/f6ab2f76ed367d67b13a317e9766ca727e741641/docs/system_requirement.md functional and non-functional requirements:   Lab 04 Practice Workbook: |
+|Sonam Deki|Defined the target users for the Smart Campus Event Hub, created the MVP Feature List, prepared the Use Case, and updated the Weekly Logbook. | Defined the target users: |
 
 ## 2. Main Decisions
 - Primary target user:University students
