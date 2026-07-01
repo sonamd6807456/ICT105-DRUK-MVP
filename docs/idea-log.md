@@ -7,9 +7,10 @@ Students often miss campus events and important announcements because informatio
 
 ### Target Users:
 
-* University students.
+* First Year University students
 * Student clubs and organizations
-* First Year Student
+* Campus administrators
+* Students involved in extracurricular activities
   
 
 ### Current Alternative:
