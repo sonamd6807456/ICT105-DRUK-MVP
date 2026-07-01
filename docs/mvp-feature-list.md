@@ -32,6 +32,12 @@ The MVP should include the smallest set of features that can demonstrate the cor
 
 * Dashboard Summary
 * Event Statistics
+* Event Reminder Notifications
+* Personalized Event Recommendations
+* AI-based Event Suggestions
+* User Accounts and Authentication
+* Calendar Synchronization
+* Mobile Application Version
 
 ## Not in MVP
 
