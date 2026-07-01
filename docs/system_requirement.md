@@ -38,6 +38,6 @@ Acceptable platforms may include:
 | Dashboard system | Power BI, Tableau, Google Looker Studio, Excel dashboard, or web dashboard |
 | Low-code/no-code system | Google Forms + Sheets, Airtable, Notion, Glide, AppSheet, Bubble, or similar |
 | Data-driven prototype |Database/spreadsheet system with real filtering, registration, and dashboards |
-| UI/UX prototype | Figma clickable prototype with full event flow |
+| UI/UX prototype | Figma clickable prototype with full event flow and interaction skills |
 
 
