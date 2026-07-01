@@ -193,6 +193,10 @@ The primary users of the Smart Campus Event Hub are university students, especia
 - **User Flow Diagram:** `https://drive.google.com/file/d/1PTpBsfG3VbVta6AEYR5yQX7Rub0RmxwI/view?usp=sharing
 - **Use Case Diagram:** https://drive.google.com/file/d/1r_5z3H_7IjZVuvl0UQ3XWlY0UoghOiQg/view?usp=drive_link `
 
+- ## GitHub Contribution Evidence
+
+All group members contributed to the Smart Campus Event Hub repository through Git commits, GitHub Issues, documentation updates, prototype development, and weekly logbook entries. The complete development history is available in the repository commit history and project documentation
+
 .`
 
 
