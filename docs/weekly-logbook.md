@@ -169,20 +169,20 @@ We also prioritized event reminders, centralized event listings, and improved ev
 - Main persona:Students who want to find and join campus events easily
 - Most important problem:Students miss campus events because information is shared across different platforms.
 - Must-have requirements:
-* View upcoming events
-* Search events
-* Register for events
-* Receive event notifications
+** View upcoming events
+** Search events
+** Register for events
+** Receive event notifications
 - Features included in MVP:
-* Homepage
-* Event listing
-* Event details
-* Event registration
-* Contact page
+** Homepage
+** Event listing
+** Event details
+** Event registration
+** Contact page
 - Features postponed:
-* Event ratings
-* Chat feature
-* AI event recommendations
+** Event ratings
+** Chat feature
+** AI event recommendations
   
 ## 3. Requirement Changes / Clarifications
 The team decided to focus on essential event management features first. Advanced features such as event recommendations and chat will be considered in future versions.
