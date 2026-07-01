@@ -28,6 +28,7 @@ University students often miss campus events, club activities, workshops, and im
 * Student clubs and organizations
 * Campus administrators
 * Students involved in extracurricular activities
+* Exchange and international students
 
 
 ## Initial IT Venture Direction
