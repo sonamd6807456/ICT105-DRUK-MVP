@@ -24,7 +24,7 @@ DRUK
 University students often miss campus events, club activities, workshops, and important deadlines because information is spread across posters, social media pages, and messaging applications. This makes it difficult for students to stay informed and participate actively in campus life.
 
 ## Target Users
-* University students
+* First Year University students
 * Student clubs and organizations
 * Campus administrators
 * Students involved in extracurricular activities
