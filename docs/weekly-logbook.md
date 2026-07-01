@@ -160,7 +160,7 @@ We also prioritized event reminders, centralized event listings, and improved ev
 ## 1. Work Completed Today
 | Member Name | Contribution | GitHub Evidence (Commit/Issue/PR Link) |
 |---|---|---|
-|Kinley Zam| Created the User Persona, wrote the User Stories, and designed the User Flow for the Smart Campus Event Hub. | User Persona:  User Stories: |
+|Kinley Zam| Created the User Persona, wrote the User Stories, and designed the User Flow for the Smart Campus Event Hub. | User Persona: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/4cedf17e7388002161120dfedc5cc5fa61350038/docs/user_persona.md  User Stories: |
 |Tenzin Dema| Prepared the System Requirements, identified the functional and non-functional requirements, and completed the Lab 04 Practice Workbook.. | |
 |Sonam Deki|Defined the target users for the Smart Campus Event Hub, created the MVP Feature List, prepared the Use Case, and updated the Weekly Logbook. | |
 
