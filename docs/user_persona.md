@@ -47,7 +47,7 @@ First-year university student who wants to participate in campus activities but 
 ## 7. Design Implications
 
 - The platform should provide a centralized source of campus event information.
-- The MVP should include event reminders and notifications.
+- The platform should support event reminders and notifications in future versions after validating the core event discovery features.
 - Event details should be clear, accurate, and easy to access.
 - Search and filter functions should help students quickly discover events.
 - The interface should be simple and beginner-friendly for first-year students.
@@ -146,7 +146,7 @@ Active university student who regularly participates in campus activities and wa
 ## 7. Design Implications
 
 - The platform should provide a centralized source of campus event information.
-- The MVP should include event reminders and notifications.
+- The platform should support event reminders and notifications in future versions after validating the core event discovery features.
 - Event details should be clear, accurate, and easy to access.
 - Search and filter functions should help students quickly discover events.
 - The interface should be simple and easy to navigate.
