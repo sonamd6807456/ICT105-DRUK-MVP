@@ -9,6 +9,8 @@ Students often miss campus events and important announcements because informatio
 
 * University students.
 * Student clubs and organizations
+* First Year Student
+  
 
 ### Current Alternative:
 Facebook, Line groups, posters, and social media.
