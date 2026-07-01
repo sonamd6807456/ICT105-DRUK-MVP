@@ -148,7 +148,7 @@ We also prioritized event reminders, centralized event listings, and improved ev
 4. Prioritize customer needs and translate them into MVP requirements.
 5. Prepare initial wireframes for the Smart Campus Event Hub.
 
-# Lab 04 - Weekly Logbook
+# Lab 04 - User Persona, Requirements, and User Stories
 
 ## Group Information
 - Course: ICT105 Fundamental Technology Entrepreneurship
@@ -160,29 +160,29 @@ We also prioritized event reminders, centralized event listings, and improved ev
 ## 1. Work Completed Today
 | Member Name | Contribution | GitHub Evidence (Commit/Issue/PR Link) |
 |---|---|---|
-|Kinley Zam| Created the User Persona and the User Stories | |
-|Tenzin Dema| Prepared the System Requirements and identified the functional and non-functional requirements. | |
-|Sonam Deki| defined the target users for the Smart Campus Event Hub, Created the MVP Feature List, and updated the Weekly Logbook. | |
+|Kinley Zam| Created the User Persona, wrote the User Stories, and designed the User Flow for the Smart Campus Event Hub. | |
+|Tenzin Dema| Prepared the System Requirements, identified the functional and non-functional requirements, and completed the Lab 04 Practice Workbook.. | |
+|Sonam Deki|Defined the target users for the Smart Campus Event Hub, created the MVP Feature List, prepared the Use Case, and updated the Weekly Logbook. | |
 
 ## 2. Main Decisions
 - Primary target user:University students
 - Main persona:Students who want to find and join campus events easily
 - Most important problem:Students miss campus events because information is shared across different platforms.
 - Must-have requirements:
-** View upcoming events
-** Search events
-** Register for events
-** Receive event notifications
+ View upcoming events
+ Search events
+ Register for events
+ Receive event notifications
 - Features included in MVP:
-** Homepage
-** Event listing
-** Event details
-** Event registration
-** Contact page
+ Homepage
+ Event listing
+ Event details
+ Event registration
+ Contact page
 - Features postponed:
-** Event ratings
-** Chat feature
-** AI event recommendations
+ Event ratings
+ Chat feature
+ AI event recommendations
   
 ## 3. Requirement Changes / Clarifications
 The team decided to focus on essential event management features first. Advanced features such as event recommendations and chat will be considered in future versions.
