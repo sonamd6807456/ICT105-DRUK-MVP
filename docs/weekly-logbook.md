@@ -153,14 +153,14 @@ We also prioritized event reminders, centralized event listings, and improved ev
 ## Group Information
 - Course: ICT105 Fundamental Technology Entrepreneurship
 - Lab: Lab 04 - User Persona, Requirements, and User Stories
-- Group Name:DRUK
-- Repository Link:
-- Date:1st July 2026
+- Group Name: DRUK
+- Repository Link: https://github.com/sonamd6807456/ICT105-DRUK-MVP
+- Date: 1st July 2026
 
 ## 1. Work Completed Today
 | Member Name | Contribution | GitHub Evidence (Commit/Issue/PR Link) |
 |---|---|---|
-|Kinley Zam| Created the User Persona, wrote the User Stories, and designed the User Flow for the Smart Campus Event Hub. | |
+|Kinley Zam| Created the User Persona, wrote the User Stories, and designed the User Flow for the Smart Campus Event Hub. | User Persona:  User Stories: |
 |Tenzin Dema| Prepared the System Requirements, identified the functional and non-functional requirements, and completed the Lab 04 Practice Workbook.. | |
 |Sonam Deki|Defined the target users for the Smart Campus Event Hub, created the MVP Feature List, prepared the Use Case, and updated the Weekly Logbook. | |
 
