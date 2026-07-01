@@ -89,3 +89,115 @@ University students, particularly first-year and international students, face ch
 
 In Lab 04, we will analyze the collected evidence to identify the primary customer segment and their most important needs. We will develop user personas and user stories, prioritize key features, and begin defining the MVP requirements for the Smart Campus Event Hub. 
 
+# Lab 04: User Persona, Requirements, and User Stories
+
+## Primary Target User
+
+The primary users of the Smart Campus Event Hub are university students, especially first-year and international students, who want an easy way to discover campus events, receive timely notifications, and register for activities without searching across multiple platforms. Club organizers are secondary users who publish and manage campus events.
+
+## Persona Summary
+
+- **Persona Name:** Maya, Year 1 Student
+- **User Type:** First-year university student
+- **Main Goal:** Find campus events easily, receive reminders, and register without missing important opportunities.
+- **Main Pain Point:** Event information is scattered across posters, social media, emails, university websites, and messaging groups.
+- **Current Workaround:** Checks Facebook pages, LINE groups, university websites, posters, emails, and asks friends or seniors.
+
+## Key Requirements
+
+| Req ID | Requirement | Priority | Related Evidence |
+|--------|-------------|----------|------------------|
+| FR-01 | Display a centralized list of upcoming campus events. | Must | E02, E05, E07 |
+| FR-02 | Allow organizers to publish new campus events. | Must | E04 |
+| FR-03 | Provide search and filtering by category, date, organizer, and keywords. | Must | E07 |
+| FR-04 | Display detailed event information. | Must | E03, E08 |
+| FR-05 | Allow students to register for events. | Must | E08 |
+| FR-06 | Send reminders before scheduled events. | Must | E01, E06, E10 |
+| FR-07 | Notify users when new matching events are available. | Should | E01, E02, E10 |
+| FR-08 | Display events in a calendar view. | Should | E06, E07 |
+| FR-09 | Allow organizers to manage participant registrations. | Should | E09 |
+| FR-10 | Display event status (Upcoming, Registration Open, Closed, Ongoing, Completed). | Could | E03, E09 |
+| NFR-01 | Provide a responsive mobile-friendly interface. | Must | E01, E05, E07 |
+| NFR-02 | Provide a simple and user-friendly interface. | Must | E02, E03, E07 |
+| NFR-03 | Return search and filter results within three seconds. | Should | E07 |
+| NFR-04 | Maintain complete GitHub documentation with README, issues, commits, and weekly logbook. | Must | Course Requirement |
+
+## MVP Feature Scope
+
+| Feature | Priority | Included in Final Prototype? |
+|---------|----------|------------------------------|
+| Centralized Event Listing | Must | Yes |
+| Event Publishing System | Must | Yes |
+| Search and Filter | Must | Yes |
+| Event Details Page | Must | Yes |
+| Event Registration | Must | Yes |
+| Event Reminder & Notifications | Should | Yes |
+| Event Calendar | Should | Yes |
+| Participant Management | Should | Optional |
+| Event Status Tracking | Could | Optional |
+| Personalized Event Recommendations | Won't for MVP | No |
+
+## Diagram Links
+
+- **User Flow Diagram:** `/diagrams
+- **Use Case Diagram:** # Lab 04: User Persona, Requirements, and User Stories
+
+## Primary Target User
+
+The primary users of the Smart Campus Event Hub are university students, especially first-year and international students, who want an easy way to discover campus events, receive timely notifications, and register for activities without searching across multiple platforms. Club organizers are secondary users who publish and manage campus events.
+
+## Persona Summary
+
+- **Persona Name:** Maya, Year 1 Student
+- **User Type:** First-year university student
+- **Main Goal:** Find campus events easily, receive reminders, and register without missing important opportunities.
+- **Main Pain Point:** Event information is scattered across posters, social media, emails, university websites, and messaging groups.
+- **Current Workaround:** Checks Facebook pages, LINE groups, university websites, posters, emails, and asks friends or seniors.
+
+## Key Requirements
+
+| Req ID | Requirement | Priority | Related Evidence |
+|--------|-------------|----------|------------------|
+| FR-01 | Display a centralized list of upcoming campus events. | Must | E02, E05, E07 |
+| FR-02 | Allow organizers to publish new campus events. | Must | E04 |
+| FR-03 | Provide search and filtering by category, date, organizer, and keywords. | Must | E07 |
+| FR-04 | Display detailed event information. | Must | E03, E08 |
+| FR-05 | Allow students to register for events. | Must | E08 |
+| FR-06 | Send reminders before scheduled events. | Must | E01, E06, E10 |
+| FR-07 | Notify users when new matching events are available. | Should | E01, E02, E10 |
+| FR-08 | Display events in a calendar view. | Should | E06, E07 |
+| FR-09 | Allow organizers to manage participant registrations. | Should | E09 |
+| FR-10 | Display event status (Upcoming, Registration Open, Closed, Ongoing, Completed). | Could | E03, E09 |
+| NFR-01 | Provide a responsive mobile-friendly interface. | Must | E01, E05, E07 |
+| NFR-02 | Provide a simple and user-friendly interface. | Must | E02, E03, E07 |
+| NFR-03 | Return search and filter results within three seconds. | Should | E07 |
+| NFR-04 | Maintain complete GitHub documentation with README, issues, commits, and weekly logbook. | Must | Course Requirement |
+
+## MVP Feature Scope
+
+| Feature | Priority | Included in Final Prototype? |
+|---------|----------|------------------------------|
+| Centralized Event Listing | Must | Yes |
+| Event Publishing System | Must | Yes |
+| Search and Filter | Must | Yes |
+| Event Details Page | Must | Yes |
+| Event Registration | Must | Yes |
+| Event Reminder & Notifications | Should | Yes |
+| Event Calendar | Should | Yes |
+| Participant Management | Should | Optional |
+| Event Status Tracking | Could | Optional |
+| Personalized Event Recommendations | Won't for MVP | No |
+
+## Diagram Links
+
+- **User Flow Diagram:** `https://drive.google.com/file/d/1PTpBsfG3VbVta6AEYR5yQX7Rub0RmxwI/view?usp=sharing
+- **Use Case Diagram:** https://drive.google.com/file/d/1r_5z3H_7IjZVuvl0UQ3XWlY0UoghOiQg/view?usp=drive_link `
+
+## GitHub Contribution Evidence
+
+All group members contributed to the Smart Campus Event Hub repository through Git commits, GitHub Issues, documentation updates, prototype development, and weekly logbook entries. The complete development history is available in the repository commit history and project documentation.`
+
+## GitHub Contribution Evidence
+
+All group members contributed to the Smart Campus Event Hub repository through Git commits, GitHub Issues, documentation updates, prototype development, and weekly logbook entries. The complete development history is available in the repository commit history and project documentation.
+
