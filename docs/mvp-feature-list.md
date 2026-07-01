@@ -29,7 +29,7 @@ The MVP should include the smallest set of features that can demonstrate the cor
 * Event Submission Form
 
 ## Could-Have 
-* Dashboard SummaryY
+* Dashboard Summary
 
 ## Future Features
 * Event Reminder Notifications
