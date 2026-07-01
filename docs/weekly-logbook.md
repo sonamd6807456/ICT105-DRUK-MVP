@@ -165,8 +165,7 @@ We also prioritized event reminders, centralized event listings, and improved ev
 |Sonam Deki|Defined the target users for the Smart Campus Event Hub, created the MVP Feature List, prepared the Use Case, and updated the Weekly Logbook. | Defined the target users: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/41b734a1796fbf87ec05484d8ef3bc23bf1c4b76/README.md 
 MVP Feature List: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/5f46ff13975a8498ffa3f54a79d96f610719fcc5/docs/mvp-feature-list.md 
 User Case: <img width="865" height="723" alt="Screenshot 2026-07-01 174656" src="https://github.com/user-attachments/assets/b8cba23d-358c-41da-a78a-360e9bcc069e" /> 
-Weekly Updated Logbook:
- |
+Weekly Updated Logbook:https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/8b83eec4712530277a7751aba1ef096ac8e91902/docs/weekly-logbook.md |
 
 ## 2. Main Decisions
 - Primary target user:University students
@@ -202,10 +201,10 @@ The team decided to focus on essential event management features first. Advanced
 ## 5. Next Actions Before Lab 05
 | Task | Owner | Deadline | GitHub Issue |
 |---|---|---|---|
-|Finalize wireframes |Kinley Zam |Next Lab | |
-|Design website UI |Sonam Deki |Next Lab | |
-|Prepare HTML and CSS structure |Tenzin Dema |Next Lab | |
-|Review project requirements |All Members |Next Lab | |
+|Finalize wireframes |Kinley Zam |Next Lab |#14 |
+|Design website UI |Sonam Deki |Next Lab | #15 |
+|Prepare HTML and CSS structure |Tenzin Dema |Next Lab | #16 |
+|Review project requirements |All Members |Next Lab |#17 |
 
 
 
