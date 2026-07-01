@@ -148,6 +148,41 @@ We also prioritized event reminders, centralized event listings, and improved ev
 4. Prioritize customer needs and translate them into MVP requirements.
 5. Prepare initial wireframes for the Smart Campus Event Hub.
 
+# Lab 04 - Weekly Logbook
+
+## Group Information
+- Course: ICT105 Fundamental Technology Entrepreneurship
+- Lab: Lab 04 - User Persona, Requirements, and User Stories
+- Group Name:DRUK
+- Repository Link:
+- Date:1st July 2026
+
+## 1. Work Completed Today
+| Member Name | Contribution | GitHub Evidence (Commit/Issue/PR Link) |
+|---|---|---|
+| | | |
+
+## 2. Main Decisions
+- Primary target user:
+- Main persona:
+- Most important problem:
+- Must-have requirements:
+- Features included in MVP:
+- Features postponed:
+
+## 3. Requirement Changes / Clarifications
+Record any decision that may affect the final prototype.
+
+## 4. Problems Encountered
+- Technical problem:
+- Team coordination problem:
+- Evidence/requirement problem:
+
+## 5. Next Actions Before Lab 05
+| Task | Owner | Deadline | GitHub Issue |
+|---|---|---|---|
+| | | | |
+
 
 
 
