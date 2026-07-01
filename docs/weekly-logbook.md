@@ -160,28 +160,45 @@ We also prioritized event reminders, centralized event listings, and improved ev
 ## 1. Work Completed Today
 | Member Name | Contribution | GitHub Evidence (Commit/Issue/PR Link) |
 |---|---|---|
-| | | |
+|Kinley Zam| Created the User Persona and the User Stories | |
+|Tenzin Dema| Prepared the System Requirements and identified the functional and non-functional requirements. | |
+|Sonam Deki| defined the target users for the Smart Campus Event Hub, Created the MVP Feature List, and updated the Weekly Logbook. | |
 
 ## 2. Main Decisions
-- Primary target user:
-- Main persona:
-- Most important problem:
+- Primary target user:University students
+- Main persona:Students who want to find and join campus events easily
+- Most important problem:Students miss campus events because information is shared across different platforms.
 - Must-have requirements:
+* View upcoming events
+* Search events
+* Register for events
+* Receive event notifications
 - Features included in MVP:
+* Homepage
+* Event listing
+* Event details
+* Event registration
+* Contact page
 - Features postponed:
-
+* Event ratings
+* Chat feature
+* AI event recommendations
+  
 ## 3. Requirement Changes / Clarifications
-Record any decision that may affect the final prototype.
+The team decided to focus on essential event management features first. Advanced features such as event recommendations and chat will be considered in future versions.
 
 ## 4. Problems Encountered
-- Technical problem:
-- Team coordination problem:
-- Evidence/requirement problem:
+- Technical problem: Selecting the most important features for the MVP.
+- Team coordination problem: Ensuring all team members followed the same document format and agreed on the final MVP features before updating the GitHub repository.
+- Evidence/requirement problem:Collecting enough user feedback to confirm the project requirements.
 
 ## 5. Next Actions Before Lab 05
 | Task | Owner | Deadline | GitHub Issue |
 |---|---|---|---|
-| | | | |
+|Finalize wireframes |Kinley Zam |Next Lab | |
+|Design website UI |Sonam Deki |Next Lab | |
+|Prepare HTML and CSS structure |Tenzin Dema |Next Lab | |
+|Review project requirements |All Members |Next Lab | |
 
 
 
