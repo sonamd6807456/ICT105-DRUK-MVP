@@ -11,6 +11,7 @@ Students often miss campus events and important announcements because informatio
 * Student clubs and organizations
 * Campus administrators
 * Students involved in extracurricular activities
+* Exchange and international students
   
 
 ### Current Alternative:
