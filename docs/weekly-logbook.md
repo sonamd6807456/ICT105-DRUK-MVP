@@ -198,10 +198,10 @@ The team decided to focus on essential event management features first. Advanced
 ## 5. Next Actions Before Lab 05
 | Task | Owner | Deadline | GitHub Issue |
 |---|---|---|---|
-|Finalize wireframes |Kinley Zam |Next Lab |#14 |
-|Design website UI |Sonam Deki |Next Lab | #15 |
-|Prepare HTML and CSS structure |Tenzin Dema |Next Lab | #16 |
-|Review project requirements |All Members |Next Lab |#17 |
+|Finalize wireframes |Kinley Zam |Next Lab |#21 |
+|Design website UI |Sonam Deki |Next Lab | #22 |
+|Prepare HTML and CSS structure |Tenzin Dema |Next Lab | #23 |
+|Review project requirements |All Members |Next Lab |#24 |
 
 
 
