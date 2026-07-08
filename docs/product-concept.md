@@ -4,11 +4,11 @@
 Smart Campus Event Hub
 
 ## 2. Target User
-**Primary Users**
+**Primary Users**:
 First-year undergraduate students at Rangsit University who frequently miss campus events because information is scattered across multiple communication channels.
 International and exchange students who are unfamiliar with university communication channels and need a centralized source of campus information.
 
-**Secondary Users**
+**Secondary Users**:
 Student clubs and organizations that create and promote campus events.
 Campus administrators responsible for publishing university announcements and managing campus activities.
 
