@@ -205,14 +205,17 @@ The team decided to focus on essential event management features first. Advanced
 
 # Weekly Logbook - Lab 05
 
+## Lab 05 Focus
+Product Concept and UI/UX Wireframe
+
 ## Group Name
 DRUK
 
 ## Project Title
 Smart Campus Event Hub
 
-## Lab 05 Focus
-Product Concept and UI/UX Wireframe
+## Repository Link: 
+**Date:** July 8, 2026
 
 ## What We Completed Today
 - [x] Reviewed Lab 04 requirements
@@ -229,7 +232,7 @@ Product Concept and UI/UX Wireframe
 |---|---|---|
 | Sonam Deki | Defined the product concept, updated the README.md, prepared the weekly logbook, created the user flow diagram, organized the project documentation, and updated the GitHub repository with the latest Lab 05 files.| GitHub Commit |
 | Tenzin Dema | Prepared the wireframe specification, completed the screen inventory checklist, created the Smart Campus Event Hub sample-record.csv file, and updated the customer questionnaire survey based on project requirements. | GitHub Commit |
-| Kinley Zam |Prepared the case study brief, completed the feature-to-requirement mapping, and reviewed the wireframes using a usability checklist to ensure consistency and user-friendliness. | GitHub Commit |
+| Kinley Zam |Prepared the case study brief, completed the feature-to-requirement mapping, and reviewed the wireframes using a usability checklist to ensure consistency and user-friendliness and also contributed in user flow diagram | GitHub Commit |
 
 ## Decisions Made
 
@@ -240,6 +243,175 @@ Product Concept and UI/UX Wireframe
 | Include search and filtering in the MVP. | Helps students quickly find relevant campus events. | FR-03 |
 | Provide an organizer/admin interface for event management. | Allows organizers to create, edit, and manage campus events efficiently. | FR-02, FR-09, FR-10 |
 | Use a simple and responsive interface. | Improves usability for students accessing the platform on different devices. | NFR-01, NFR-02 |
+
+## 2. Main Lab 05 Decisions
+
+- Smart Campus Event Hub will continue as a centralized platform for first-year and international students to discover campus events.
+- The Lab 05 wireframes will serve as the visual foundation for the final prototype.
+- The required screens include Homepage, Event Submission Form, Event List, Event Details, Dashboard Summary, and Organizer/Admin View.
+- The MVP will focus on browsing events, searching and filtering events, viewing event details, event registration, organizer event management, and dashboard summaries.
+- Features such as AI-powered recommendations, real-time chat, mobile application deployment, and calendar synchronization remain outside the MVP scope for this semester.
+
+---
+
+## Files Added or Updated
+
+| File / Folder | Purpose |
+|-------------------------------|------------------------------------------------|
+| `docs/product-concept.md` | Defines target users, problem statement, proposed solution, value proposition, MVP scope, and out-of-scope features. |
+| `docs/feature-requirement-mapping.md` | Maps requirements to user stories, MVP features, wireframes, and prototype modules. |
+| `docs/wireframe-specification.md` | Describes the required wireframe screens and expected UI elements. |
+| `docs/wireframe-usability-checklist.md` | Evaluates usability, consistency, and requirement coverage. |
+| `diagrams/user-flow.mmd` | Mermaid source code for the user flow diagram. |
+| `diagrams/user-flow.png` | Exported image of the user flow diagram. |
+| `wireframes/` | Contains all required wireframe PNG files. |
+| `prototype/wireframe-html/` | Clickable HTML/CSS wireframe prototype. |
+| `README.md` | Updated with Lab 05 summary and documentation links. |
+
+---
+
+## Requirement Coverage
+
+- **FR-01** and **FR-02** are demonstrated through the Homepage and navigation flow.
+- **FR-03** is demonstrated through the Event Submission Form.
+- **FR-04** and **FR-05** are demonstrated through the Event Listing page.
+- **FR-06** is demonstrated through Event Registration.
+- **FR-07** and **FR-08** are demonstrated through Search & Filter and Event Details.
+- **FR-09** is demonstrated through the Organizer/Admin View.
+- **FR-10** is demonstrated through Event Status Management.
+- **NFR-01**, **NFR-02**, **NFR-03**, and **NFR-04** are supported through responsive design, usability, performance planning, and complete GitHub documentation.
+
+---
+
+## Problems Encountered
+
+- The team ensured that every wireframe directly supports the documented requirements and user stories instead of being only visually attractive.
+- Some features appeared across multiple screens, requiring feature-requirement mapping for better traceability.
+- The clickable prototype currently uses sample data because a backend database has not yet been implemented.
+
+---
+
+## Next Actions Before Lab 06
+
+| Task | Owner | Deadline | Notes |
+|------|-------|----------|------|
+| Improve the clickable HTML/CSS prototype with JavaScript interactions. | All Members | Before Lab 06 | Enhance search, filtering, and navigation. |
+| Review all documentation and ensure consistency across repository files. | All Members | Before Lab 06 | Verify README, weekly logbook, and supporting documents. |
+| Review wireframe usability and refine screen designs. | All Members | Before Lab 06 | Ensure all screens follow usability guidelines and project requirements. |
+| Create GitHub Issues and update repository progress. | All Members | Before Lab 06 | Maintain project continuity and teamwork evidence. |
+
+---
+
+# Weekly Logbook – Lab 06
+
+## Group Name
+
+DRUK
+
+## Project Title
+
+Smart Campus Event Hub
+
+## Date
+
+July 8, 2026
+
+---
+
+# Members Present
+
+# Members Present
+
+| Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
+|-------------|--------------------|-----------------------------------------|
+| **Sonam Deki** | Updated the Weekly Logbook, created the Data Flow Diagram, and prepared the System Architecture and upda Use Case Diagram. | |
+| **Kinley Zam** | Reviewed the Business Model Canvas, completed the Feature-Value Mapping, and validated wireframe alignment with project requirements. |  |
+| **Tenzin Dema** | Prepared the Technical Architecture documentation, completed the Customer Segment Value section, updated the README, created GitHub Issues, |  |
+
+---
+
+# Decisions Made Today
+
+## 1. Business Model Decision
+
+The team confirmed that the Smart Campus Event Hub will remain a centralized platform that helps first-year and international students discover campus events, register for activities, and receive timely information. Advanced features such as AI recommendations, real-time chat, and mobile applications remain outside the MVP scope.
+
+## 2. Technical Architecture Decision
+
+The final prototype will be developed as a frontend web application using HTML, CSS, and JavaScript with sample JSON/localStorage data.
+
+## 3. Data Structure Decision
+
+The prototype data structure will include the following entities:
+
+- Student User
+- Organizer
+- Campus Event
+- Event Registration
+- Dashboard Summary
+
+These entities are sufficient to demonstrate the current MVP without requiring a production database.
+
+## 4. Diagram Decision
+
+The team finalized the User Flow Diagram, Data Flow Diagram, and System Architecture Diagram. Each prototype screen is directly connected to the documented system requirements, user stories, and MVP features.
+
+---
+
+# Problems or Risks Found
+
+- Several documentation files required synchronization after updating the latest prototype.
+- Maintaining consistency between requirements, user stories, feature mappings, and prototype screens required multiple reviews.
+- Since the prototype is frontend-only, all event records and dashboard data are currently simulated.
+- Time management was important because both documentation and prototype development needed to progress together.
+
+---
+
+# Next Actions Before Lab 07
+
+- Conduct final testing of all prototype navigation and page links.
+- Verify responsive layouts across different screen sizes.
+- Review and improve the visual consistency of all pages.
+- Capture final prototype screenshots for documentation.
+- Review the GitHub repository to ensure all files are complete and synchronized.
+- Resolve any remaining UI or documentation issues before final submission.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Problems Found
 
@@ -254,6 +426,48 @@ Product Concept and UI/UX Wireframe
 - Begin HTML/CSS implementation of the prototype.
 - Test the navigation flow between screens.
 - Update GitHub documentation and commit all completed work.
+
+ 
+---
+
+# Lab 06: Business Model Canvas and Technical Architecture
+
+## Lab 06 Summary
+
+In Lab 06, our team connected the **Smart Campus Event Hub** product concept, system requirements, user stories, MVP features, and wireframes into a complete business model and technical architecture. This lab explains how the platform creates value for students and organizers and how the final prototype will function.
+
+## Files Added or Updated
+
+- Business Model Canvas
+- Feature-Value Mapping
+- Technical Architecture
+- Data Structure
+- System Architecture Diagram
+- Data Flow Diagram
+- Weekly Logbook
+
+## Technical Direction
+
+The **Smart Campus Event Hub** prototype will use a frontend-only architecture built with **HTML, CSS, and JavaScript**, with sample data stored using **JSON** and/or **browser localStorage**.
+
+This approach is suitable for the MVP because it demonstrates the core user journey, including:
+
+- Viewing campus events
+- Searching and filtering events
+- Viewing event details
+- Event registration
+- Organizer event management
+- Dashboard summary
+
+Data will be simulated using sample records and browser localStorage instead of a backend database.
+
+## Final Prototype Connection
+
+The work completed in Lab 06 will guide the development of the final **Smart Campus Event Hub** prototype by showing how each MVP feature supports user needs, system requirements, and user stories.
+
+The Business Model Canvas explains how the platform provides value to **first-year students, international students, student clubs, and campus administrators**, while the technical architecture and data structure describe how event listings, registrations, search functions, dashboard summaries, and organizer management will operate in the final prototype.
+
+These documents ensure that all team members follow the same development plan and that the final prototype clearly demonstrates user interaction, information flow, functional requirements, and overall system behavior.
 
 
 
