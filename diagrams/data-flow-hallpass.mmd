@@ -1,1 +1,37 @@
+```mermaid
+flowchart TD
+    A[Student opens Smart Campus Event Hub homepage] --> B[Choose main action]
 
+    B --> C[Browse upcoming campus events]
+    B --> D[Search and filter events]
+    B --> E[Register for an event]
+    B --> F[Open dashboard summary]
+
+    C --> G[Event list]
+    G --> H[Select an event]
+    H --> I[Event details view]
+    I --> J[Student views event information, date, time, location, and organizer]
+
+    D --> K[Search or filter by category, date, or keyword]
+    K --> L[Filtered event results]
+    L --> I
+
+    E --> M{Registration validation}
+    M -->|Valid| N[Save registration record]
+    M -->|Invalid| O[Display error message]
+    N --> P[Display registration confirmation]
+
+    N --> Q[Registration database]
+
+    R[Organizer / Admin] --> S[Create, edit, or delete events]
+    S --> T{Validation}
+    T -->|Approved| U[Update event database]
+    T -->|Invalid| V[Display error message]
+
+    U --> G
+    Q --> W[Dashboard / Summary]
+    U --> W
+    F --> W
+
+    W --> X[Display total events, upcoming events, registered students, and event categories]
+```
