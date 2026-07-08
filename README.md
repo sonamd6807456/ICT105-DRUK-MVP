@@ -204,7 +204,7 @@ The Smart Campus Event Hub is a web-based platform designed to help university s
 
 The Smart Campus Event Hub user flow begins at the homepage, where users choose whether to browse campus events, access the organizer/admin functions, or view the dashboard. Students can browse events, register for activities, search and filter available events, view detailed event information, and receive event notifications. Organizers can create, update, and manage events, with all changes reflected in the event information list.
 
-**User Flow Diagram:** 
+**User Flow Diagram:** https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/480aefda6d013499fd64d8e5018b5994bdeb1e90/diagrams/user-flow.drawio.png
 
 ---
 
