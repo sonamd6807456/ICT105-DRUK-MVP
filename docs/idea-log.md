@@ -1,33 +1,35 @@
 # Initial IT Venture Idea Log
 
-## Idea 1: Smart Campus Event Hub
+## Idea 1 — Smart Campus Event Hub
 
-### Problem Area:
-Students often miss campus events and important announcements because information is spread across multiple channels.
+### Problem Area
+University students, especially first-year and international students, often miss campus events, workshops, club activities, competitions, and important deadlines because event information is scattered across university websites, social media pages, messaging applications, emails, and campus posters.
 
-### Target Users:
+### Target Users
 
-* First Year University students
-* Student clubs and organizations
-* Campus administrators
-* Students involved in extracurricular activities
-* Exchange and international students
-  
+**Primary Target Users**
+- First-year undergraduate students at Rangsit University who frequently miss campus events because information is scattered across multiple communication channels.
+- International and exchange students who are unfamiliar with university communication channels.
 
-### Current Alternative:
-Facebook, Line groups, posters, and social media.
+**Secondary Target Users**
+- Student clubs and organizations that need an efficient platform to publish and manage campus events.
+- Campus administrators and event organizers responsible for promoting university activities.
 
-### Proposed IT Solution:
-A platform that allows students to discover events, register online, and receive reminders.
+### Current Alternative
+Students currently rely on LINE groups, Facebook pages, Instagram, university websites, emails, campus posters, and friends to discover campus events.
 
-## Possible Technology:
+### Proposed IT Solution
+A web-based Smart Campus Event Hub that centralizes campus event announcements, enables students to search and register for events, receive reminders and notifications, and allows organizers to publish and manage events in one place.
 
-* Web application
-* Mobile application
-* Cloud database
+### Possible Technology
+- Web application
+- Cloud database
+- Dashboard
+- Notification system
+- Responsive user interface
 
-### Why This Is Suitable:
-It improves communication and increases student participation in campus activities.
+### Why This Is Suitable
+This project addresses a real problem experienced by university students and can be developed as a practical web-based MVP within one semester. It improves communication between students and event organizers, increases participation in campus activities, and provides valuable experience in IT entrepreneurship and software development.
 
 ---
 
