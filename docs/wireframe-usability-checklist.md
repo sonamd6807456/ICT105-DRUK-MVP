@@ -10,7 +10,10 @@
 | The detail view shows full information and current status. | Yes | **detail-view.png** – Displays event title, description, date, time, venue, organizer, available seats, event status, and Register button. |
 | The admin view includes at least one management action. | Yes | **admin-view.png** – Includes Approve, Edit, Delete, and Update Event actions for managing event records. |
 | The dashboard shows meaningful summary information. | Yes | **dashboard.png** – Displays total events, upcoming events, completed events, category summary, and simple analytics cards/chart. |
-| Navigation is consistent across screens. | Yes | All wireframes use the same navigation bar (Home, Events, Dashboard, Organizer, Profile) and consistent layout. |
+| Privacy and data responsibility are considered. | Yes | Registration form collects only necessary student information and displays a basic privacy notice. |
+| The profile page displays participation history. | Yes | **profile.png** – Shows registered events, attended events, and participation history. |
+| Navigation, layout, buttons, and typography are consistent across all wireframes. | Yes | All wireframes use the same navigation bar (Home, Events, Dashboard, Organizer, Profile) and consistent layout. |
+| The prototype considers responsive design. | Yes | Wireframes use a responsive card-based layout suitable for desktop and mobile screens. |
 | The design uses realistic sample data. | Yes | Sample events such as **AI Workshop**, **Sports Day**, **Photography Club Meetup**, with realistic dates, venues, organizers, and registration status. |
 | Each screen maps to system-requirements.md. | Yes | Homepage (FR-01, FR-02), Input Form (FR-03, FR-10, FR-11), Record List (FR-05, FR-06, FR-08), Detail View (FR-07, FR-08), Dashboard (FR-12), Admin View (FR-09). |
 
