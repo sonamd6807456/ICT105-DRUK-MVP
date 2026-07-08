@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard | Smart Campus Event Hub</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<script defer src="js/dashboard.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h2>🎓 Smart Campus Event Hub</h2>
+</div>
+
+<nav>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="dashboard.html" class="active">Dashboard</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="reviews.html">Reviews</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="dashboard-header">
+
+<h1 id="welcomeMessage">
+
+Welcome Student
+
+</h1>
+
+<p>
+
+Manage your campus activities and event registrations.
+
+</p>
+
+</section>
+
+<!-- Statistics -->
+
+<section class="stats">
+
+<div class="stat-card">
+
+<h2 id="registeredCount">
+
+0
+
+</h2>
+
+<p>
+
+Registered Events
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 id="favoriteCount">
+
+0
+
+</h2>
+
+<p>
+
+Favorite Events
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 id="reviewCount">
+
+0
+
+</h2>
+
+<p>
+
+Reviews Written
+
+</p>
+
+</div>
+
+</section>
+
+<!-- Registered Events -->
+
+<section>
+
+<h2 class="section-title">
+
+My Registered Events
+
+</h2>
+
+<div id="registrationList" class="dashboard-grid">
+
+</div>
+
+</section>
+
+<!-- Profile Summary -->
+
+<section>
+
+<h2 class="section-title">
+
+Student Profile
+
+</h2>
+
+<div class="profile-card">
+
+<p><strong>Name:</strong> <span id="studentName"></span></p>
+
+<p><strong>ID:</strong> <span id="studentID"></span></p>
+
+<p><strong>Email:</strong> <span id="studentEmail"></span></p>
+
+<p><strong>Faculty:</strong> <span id="studentFaculty"></span></p>
+
+</div>
+
+</section>
+
+<!-- Quick Actions -->
+
+<section>
+
+<h2 class="section-title">
+
+Quick Actions
+
+</h2>
+
+<div class="action-buttons">
+
+<a href="events.html" class="primary-btn">
+
+Browse Events
+
+</a>
+
+<a href="reviews.html" class="primary-btn">
+
+Write Review
+
+</a>
+
+<a href="profile.html" class="primary-btn">
+
+Edit Profile
+
+</a>
+
+<button id="logoutBtn">
+
+Logout
+
+</button>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Smart Campus Event Hub
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
