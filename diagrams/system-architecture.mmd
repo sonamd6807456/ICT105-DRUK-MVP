@@ -1,1 +1,19 @@
+flowchart LR
+    U[Student User] --> UI[Smart Campus Event Hub]
+    UI --> BROWSE[Browse Events]
+    UI --> SEARCH[Search / Filter Events]
+    UI --> REGISTER[Event Registration]
+
+    BROWSE --> STORE[(Event Database)]
+    SEARCH --> STORE
+    REGISTER --> STORE
+
+    STORE --> LIST[Event List]
+    LIST --> DETAIL[Event Details]
+    STORE --> DASH[Dashboard Summary]
+
+    ADMIN[Organizer / Admin] --> PANEL[Admin Panel]
+    PANEL --> STORE
+    PANEL --> MANAGE[Create / Update Events]
+    MANAGE --> STORE
 
