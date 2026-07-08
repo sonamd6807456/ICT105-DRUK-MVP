@@ -203,6 +203,58 @@ The team decided to focus on essential event management features first. Advanced
 |Prepare HTML and CSS structure |Tenzin Dema |Next Lab | #23 |
 |Review project requirements |All Members |Next Lab |#24 |
 
+# Weekly Logbook - Lab 05
+
+## Group Name
+DRUK
+
+## Project Title
+Smart Campus Event Hub
+
+## Lab 05 Focus
+Product Concept and UI/UX Wireframe
+
+## What We Completed Today
+- [x] Reviewed Lab 04 requirements
+- [x] Defined the Smart Campus Event Hub product concept
+- [x] Mapped MVP features to functional requirements
+- [x] Created the required wireframe screens
+- [x] Designed the user flow diagram
+- [x] Built a clickable prototype draft and planned screen navigation
+- [x] Updated the GitHub repository with Lab 05 documents
+
+## Member Contributions
+
+| Member Name | Contribution | Evidence / Commit Link |
+|---|---|---|
+| Sonam Deki | Defined the product concept, updated the README.md, prepared the weekly logbook, created the user flow diagram, organized the project documentation, and updated the GitHub repository with the latest Lab 05 files.| GitHub Commit |
+| Tenzin Dema | Prepared the wireframe specification, completed the screen inventory checklist, created the Smart Campus Event Hub sample-record.csv file, and updated the customer questionnaire survey based on project requirements. | GitHub Commit |
+| Kinley Zam |Prepared the case study brief, completed the feature-to-requirement mapping, and reviewed the wireframes using a usability checklist to ensure consistency and user-friendliness. | GitHub Commit |
+
+## Decisions Made
+
+| Decision | Reason | Related Requirement |
+|---|---|---|
+| Develop the system as a web-based platform. | Easy access for students using laptops and mobile browsers without installing an application. | FR-01 |
+| Keep the MVP focused on essential event management features. | To ensure the prototype can be completed within the semester. | FR-01 to FR-06 |
+| Include search and filtering in the MVP. | Helps students quickly find relevant campus events. | FR-03 |
+| Provide an organizer/admin interface for event management. | Allows organizers to create, edit, and manage campus events efficiently. | FR-02, FR-09, FR-10 |
+| Use a simple and responsive interface. | Improves usability for students accessing the platform on different devices. | NFR-01, NFR-02 |
+
+## Problems Found
+
+- Organizing the user flow to clearly represent both student and organizer functions.
+- Ensuring every wireframe directly supports the functional requirements.
+- Maintaining consistent navigation and layout across all wireframe screens.
+
+## Next Steps Before Lab 06
+
+- Finalize all wireframes based on feedback.
+- Improve the clickable prototype.
+- Begin HTML/CSS implementation of the prototype.
+- Test the navigation flow between screens.
+- Update GitHub documentation and commit all completed work.
+
 
 
 
