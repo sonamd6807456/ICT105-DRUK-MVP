@@ -10,6 +10,24 @@
 | F-06 | Admin Event Management | FR-09, FR-08 | US-08 | Allow organizers or administrators to create, approve, edit, update, and delete events. | /wireframes/admin-view.png | /prototype/admin.html |
 | F-07 | User Profile & Participation History | FR-15 | US-07 | Allow students to view their registered and attended events. | /wireframes/profile.png | /prototype/profile.html |
 
-## Group Case Mapping
+## Requirement Coverage Summary
 
-This mapping demonstrates that every Smart Campus Event Hub wireframe and prototype module is directly connected to the functional requirements and user stories defined in Lab 04. Each feature was designed based on customer discovery evidence and supports one or more MVP requirements. This ensures complete traceability from user needs, functional requirements, and user stories to the final prototype.
+| Requirement ID | Covered By |
+|---|---|
+| FR-01 | Homepage |
+| FR-02 | Homepage, Event Listing |
+| FR-03 | Event Registration Form |
+| FR-04 | Prototype database (event and registration storage) |
+| FR-05 | Event Listing Page |
+| FR-06 | Event Listing Page |
+| FR-07 | Event Detail View |
+| FR-08 | Event Listing, Event Detail, Admin Management |
+| FR-09 | Admin Event Management |
+| FR-10 | Event Registration Form |
+| FR-11 | Event Registration Form |
+| FR-12 | Dashboard & Analytics |
+| FR-13 | Applied consistently across all wireframes |
+| FR-14 | Responsive layout across all prototype pages |
+| FR-15 | User Profile & Participation History |
+| FR-16 | Registration form with privacy notice |
+| FR-17 | All features trace back to validated user needs and user stories |
