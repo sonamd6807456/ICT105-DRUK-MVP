@@ -324,7 +324,7 @@ July 8, 2026
 
 | Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
 |-------------|--------------------|-----------------------------------------|
-| **Sonam Deki** |Updated the README, Weekly Logbook, MVP Feature List, Data Flow Diagram, System Architecture, and Use Case Diagram, and ensured the project documentation remained consistent and aligned with the project requirements | |
+| **Sonam Deki** |Updated the README, Product concept, Weekly Logbook, MVP Feature List, Data Flow Diagram, System Architecture, and Use Case Diagram, and ensured the project documentation remained consistent and aligned with the project requirements | |
 | **Kinley Zam** |Developed and refined the clickable HTML prototype, synchronized the documentation with the implemented prototype, reviewed the Business Model Canvas, completed the Feature-Value Mapping, validated the wireframe against the project requirements, and updated the User Flow Diagram and GitHub Issues.|  |
 | **Tenzin Dema** |Prepared the Technical Architecture documentation, completed the Customer Segment Value section, revised the customer questionnaire survey, and contributed to the Business Model Canvas.|  |
 
