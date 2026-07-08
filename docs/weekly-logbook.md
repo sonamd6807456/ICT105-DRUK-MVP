@@ -324,9 +324,10 @@ July 8, 2026
 
 | Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
 |-------------|--------------------|-----------------------------------------|
-| **Sonam Deki** |Updated the README, Product concept, Weekly Logbook, MVP Feature List, Data Flow Diagram, System Architecture, and Use Case Diagram, and ensured the project documentation remained consistent and aligned with the project requirements | |
-| **Kinley Zam** |Developed and refined the clickable HTML prototype, synchronized the documentation with the implemented prototype, reviewed the Business Model Canvas, completed the Feature-Value Mapping, validated the wireframe against the project requirements, and updated the User Flow Diagram and GitHub Issues.|  |
-| **Tenzin Dema** |Prepared the Technical Architecture documentation, completed the Customer Segment Value section, revised the customer questionnaire survey, and contributed to the Business Model Canvas.|  |
+| **Sonam Deki** |Updated the README, Product concept, Weekly Logbook, MVP Feature List, Data Flow Diagram, System Architecture,  Use Case Diagram, user-flow diagram, created prototype css,updated idea-log.md and ensured the project documentation remained consistent and aligned with the project requirements |/README.md , /docs/product-concept.md ,/docs/weekly-logbook.md , /docs/mvp-feature-list.md, /data-flow.mmd, /system-architecture.mmd, use case diagram, /user-flow.drawio.png ,/prototype/css , /docs/idea-log.md, /docs/weekly-logbook.md |
+| **Kinley Zam** |Developed and refined the clickable HTML prototype, synchronized the documentation with the implemented prototype, reviewed the Business Model Canvas, completed the Feature-Value Mapping, update feature requirement mapping validated the wireframe against the project requirements,  updated the User Flow Diagram, update data structure,update case study-brief.mdand GitHub Issues.|/prototype, /user-flow.png, /case-study-brief.md, //data-structure.md, /feature-requirement-mapping.md, /feature-value-mapping.md, /wireframe-usability-checklist.md     |
+| **Tenzin Dema** |Prepared the Technical Architecture documentation, completed the Customer Segment Value section, revised the customer questionnaire survey, created prototype js, updated screen inventory checklist, revise wireframe specification for clarity and detail, update wireframe usability-checklist.md,and contributed to the Business Model Canvas.|/docs/technical-architecture.md,customer_segments_value.csv, /docs/customer-question.md, /prototype/Js, /docs/screen-inventory-checklist.md, /docs/wireframe-specification.md , /docs/wireframe-usability-checklist.md , 
+/docs/wireframe-usability-checklist.md  |
 
 ---
 
@@ -401,75 +402,6 @@ To be completed during the laboratory session after feedback from the lecturer o
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Problems Found
-
-- Organizing the user flow to clearly represent both student and organizer functions.
-- Ensuring every wireframe directly supports the functional requirements.
-- Maintaining consistent navigation and layout across all wireframe screens.
-
-## Next Steps Before Lab 06
-
-- Finalize all wireframes based on feedback.
-- Improve the clickable prototype.
-- Begin HTML/CSS implementation of the prototype.
-- Test the navigation flow between screens.
-- Update GitHub documentation and commit all completed work.
-
- 
----
-
-# Lab 06: Business Model Canvas and Technical Architecture
-
-## Lab 06 Summary
-
-In Lab 06, our team connected the **Smart Campus Event Hub** product concept, system requirements, user stories, MVP features, and wireframes into a complete business model and technical architecture. This lab explains how the platform creates value for students and organizers and how the final prototype will function.
-
-## Files Added or Updated
-
-- Business Model Canvas
-- Feature-Value Mapping
-- Technical Architecture
-- Data Structure
-- System Architecture Diagram
-- Data Flow Diagram
-- Weekly Logbook
-
-## Technical Direction
-
-The **Smart Campus Event Hub** prototype will use a frontend-only architecture built with **HTML, CSS, and JavaScript**, with sample data stored using **JSON** and/or **browser localStorage**.
-
-This approach is suitable for the MVP because it demonstrates the core user journey, including:
-
-- Viewing campus events
-- Searching and filtering events
-- Viewing event details
-- Event registration
-- Organizer event management
-- Dashboard summary
-
-Data will be simulated using sample records and browser localStorage instead of a backend database.
-
-## Final Prototype Connection
-
-The work completed in Lab 06 will guide the development of the final **Smart Campus Event Hub** prototype by showing how each MVP feature supports user needs, system requirements, and user stories.
-
-The Business Model Canvas explains how the platform provides value to **first-year students, international students, student clubs, and campus administrators**, while the technical architecture and data structure describe how event listings, registrations, search functions, dashboard summaries, and organizer management will operate in the final prototype.
-
-These documents ensure that all team members follow the same development plan and that the final prototype clearly demonstrates user interaction, information flow, functional requirements, and overall system behavior.
 
 
 
