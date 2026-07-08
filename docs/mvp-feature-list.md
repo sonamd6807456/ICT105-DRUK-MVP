@@ -13,9 +13,8 @@ The MVP should include the smallest set of features that can demonstrate the cor
 | F04 |Event Categories Filter |Students want to find relevant events quickly | US-04 | Should | 3 | 4 | 4 | yes |
 | F05 |Event Submission Form |Organizers need a way to add events | US-05 | Should | 3 | 4 | 4 | yes |
 | F06 |Event Dashboard Summary |Users want a quick overview of upcoming events | US-06 | Could | 4 | 3 | 3 | optional |
-| F07 |Event Reminder Notifications |Students miss events due to late reminders | US-07 | Won't | 5 | 4 | 3 | no |
+| F07 |Event Reminder Notifications |Students miss events due to late reminders | US-07 | Should | 5 | 4 | 3 | no |
 | F08 |Personalized Recommendations |Students want tailored event suggestions | US-08 | Won't | 5 | 3 | 2 | no |
-
 
 ## Must-Have Features
 
