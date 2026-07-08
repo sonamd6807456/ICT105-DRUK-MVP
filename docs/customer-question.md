@@ -2,7 +2,7 @@
 
 This survey is conducted by **DRUK** as part of **ICT105 Fundamental Technology Entrepreneurship**.
 
-The purpose of this survey is to understand how students discover campus activities, workshops, competitions, and university events.
+The purpose of this survey is to understand how students discover campus activities, workshops, competitions, and university events. The findings will be used to validate the problem statement and define the MVP requirements for the Smart Campus Event Hub.
 
 * Completion time: 3–5 minutes
 * Responses are anonymous
@@ -117,6 +117,6 @@ The purpose of this survey is to understand how students discover campus activit
 ---
 
 # Thank You
+Your feedback will help our team validate the customer problem, understand student needs, and improve the design of the Smart Campus Event Hub prototype for the ICT105 Fundamental Technology Entrepreneurship project.
 
-Your feedback will help us determine whether a Smart Campus Event Hub can improve student engagement and access to campus opportunities.
 
