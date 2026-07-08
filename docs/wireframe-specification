@@ -2,23 +2,23 @@
 
 ## Required Wireframe Screens
 
-The following wireframes illustrate the main features of the Smart Campus Event Hub. Each screen represents a key part of the user journey and supports the project's MVP requirements. All wireframes should be exported as PNG files.
+Each group must create the following minimum wireframes and export each screen as PNG.
 
 | Wireframe File | Purpose | Minimum Elements to Show | Related Requirements |
 |---|---|---|---|
-| /wireframes/homepage.png | Entry point of the system | Project title, welcome message, navigation bar, search bar, featured/upcoming events, main action buttons | FR-01, FR-03 |
-| /wireframes/event-list.png | Display all campus events | Event cards or list, category, date, organizer, search box, filter options, event status | FR-01, FR-03, FR-10 |
-| /wireframes/event-details.png | Display complete event information | Event title, description, date, time, location, organizer, registration button, event status | FR-04, FR-05 |
-| /wireframes/event-registration.png | Student event registration | Registration form, student information fields, submit button, confirmation/error message | FR-05 |
-| /wireframes/calendar-view.png | Display events in calendar format | Calendar, highlighted event dates, monthly navigation, selected event details | FR-08 |
-| /wireframes/admin-dashboard.png | Event management for organizers | Dashboard summary, total events, participant list, create/edit/delete event buttons, publish event option | FR-02, FR-09, FR-10 |
+| /wireframes/homepage.png | Entry point of the system | Smart Campus Event Hub title, target users (students, staff, organizers), purpose of the platform, featured/upcoming events, main action buttons (Browse Events, Register, Login), navigation menu | FR-01, FR-02 |
+| /wireframes/event-registration.png | User event registration | Event details, registration form (Name, Student ID, Email, Faculty), required fields, Register button, Cancel button, validation/error messages, confirmation area | FR-03, FR-10, FR-11 |
+| /wireframes/event-list.png | List available campus events | Event cards/table, event category, event status, date, location, organizer, Search bar, Filter by category/date/status, View Details/Register buttons | FR-05, FR-06, FR-08 |
+| /wireframes/event-detail.png | Show selected event | Event title, description, category, organizer, venue, schedule, available seats, registration status, Register button, Back button | FR-07, FR-08 |
+| /wireframes/dashboard.png | Summary/analytics view | Total events, upcoming events, registered users, completed events, popular categories, attendance summary, simple chart/cards | FR-12 |
+| /wireframes/admin-dashboard.png | Admin event management | Event management table, Add Event, Edit Event, Delete Event, Approve/Reject Event, Update Status, Manage Registrations, Search and Filter | FR-09, FR-08 |
 
 ## Wireframe Quality Rules
 
-- Use a consistent layout, navigation bar, and design across all screens.
-- Include realistic sample event information instead of empty placeholders.
-- Ensure every wireframe represents a meaningful system function.
-- Clearly show the user flow from browsing events to event registration.
-- Every screen should support one or more functional requirements (FRs) defined in the project documentation.
-- Wireframes may be created using Figma, Canva, PowerPoint, HTML/CSS, or another suitable design tool.
-- Export every completed wireframe as a PNG image.
+- Use consistent navigation, colors, typography, and labels across all screens.
+- Avoid decorative-only screens with no functional meaning.
+- Show realistic sample event data instead of empty placeholders.
+- Every screen must connect directly to the final prototype requirements.
+- Include interactive elements such as search, filter, registration, status updates, and confirmation messages.
+- Wireframes may be created using Figma, Canva, PowerPoint, HTML/CSS, or another suitable prototyping tool.
+- Ensure the design is responsive for both desktop and mobile devices.
