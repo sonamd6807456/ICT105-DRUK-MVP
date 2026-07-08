@@ -1,6 +1,9 @@
 # Project Name
 Smart Campus Event Hub
 
+# Project Goal
+To develop a web-based Smart Campus Event Hub that enables first-year and international students at Rangsit University to discover campus events, register for activities, and receive timely notifications from a single platform.
+
 ## Course Information
 Course Code: ICT105
 
@@ -24,15 +27,15 @@ DRUK
 University students, especially first-year and international students, often miss campus events, workshops, club activities, and important deadlines because information is scattered across posters, emails, social media pages, messaging applications, and university websites.
 
 ## Target Users
-** Primary Target Users
+**Primary Target Users**
 
-First-year undergraduate students at Rangsit University who frequently miss campus events because information is scattered across multiple communication channels.
-International and exchange students who are unfamiliar with university communication channels.
+-First-year undergraduate students at Rangsit University who frequently miss campus events because information is scattered across multiple communication channels.
+-International and exchange students who are unfamiliar with university communication channels.
 
-** Secondary Target Users
+**Secondary Target Users**
 
-Student clubs and organizations that need an efficient platform to publish and manage events.
-Campus administrators responsible for promoting university activities
+-Student clubs and organizations that need an efficient platform to publish and manage events.
+-Campus administrators responsible for promoting university activities
 
 ## Initial IT Venture Direction
 Develop a web-based Smart Campus Event Hub that centralizes campus event announcements, registrations, reminders, and notifications into a single platform, making it easier for students to discover and participate in university activities.
@@ -69,7 +72,7 @@ In Lab 03, our team conducted customer problem discovery to better understand ho
 
 ## Target Respondents
 
-Customer discovery was conducted with 15 students from Rangsit University. The respondents included:
+Customer discovery was conducted with 20 students from Rangsit University. The respondents included:
 
 * First-year undergraduate students who are still becoming familiar with university communication channels and campus activities.
 * International and exchange students who may have limited access to informal information networks.
@@ -78,9 +81,7 @@ Customer discovery was conducted with 15 students from Rangsit University. The r
 
 ##  Research Method
 
-The team conducted customer discovery through an online survey and informal interviews. Respondents were asked how they currently discover campus events, the challenges they face in finding event information, and what features they would expect from a centralized campus event platform. The collected responses were analyzed to identify common problems and validate the need for the proposed solution.
-
-  
+The team conducted customer discovery using an online survey and informal interviews with 20 students. Participants were asked how they currently discover campus events, the challenges they face, and the features they would expect from a centralized event platform. The responses were analyzed to validate the problem and identify user needs.
 
 ## Main Evidence Found
 
@@ -103,6 +104,7 @@ In Lab 04, we will analyze the collected evidence to identify the primary custom
 ## Primary Target User
 
 The primary users of the Smart Campus Event Hub are university students, especially first-year and international students, who want an easy way to discover campus events, receive timely notifications, and register for activities without searching across multiple platforms. Club organizers are secondary users who publish and manage campus events.
+
 
 ## Persona Summary
 
@@ -165,56 +167,6 @@ The platform provides one centralized location for campus events, allowing Maya 
 | Event Status Tracking | Could | Optional |
 | Personalized Event Recommendations | Won't for MVP | No |
 
-## Diagram Links
-
-- **User Flow Diagram:** `/diagrams
-- **Use Case Diagram:** # Lab 04: User Persona, Requirements, and User Stories
-
-## Primary Target User
-
-The primary users of the Smart Campus Event Hub are university students, especially first-year and international students, who want an easy way to discover campus events, receive timely notifications, and register for activities without searching across multiple platforms. Club organizers are secondary users who publish and manage campus events.
-
-## Persona Summary
-
-- **Persona Name:** Maya, Year 1 Student
-- **User Type:** First-year university student
-- **Main Goal:** Find campus events easily, receive reminders, and register without missing important opportunities.
-- **Main Pain Point:** Event information is scattered across posters, social media, emails, university websites, and messaging groups.
-- **Current Workaround:** Checks Facebook pages, LINE groups, university websites, posters, emails, and asks friends or seniors.
-
-## Key Requirements
-
-| Req ID | Requirement | Priority | Related Evidence |
-|--------|-------------|----------|------------------|
-| FR-01 | Display a centralized list of upcoming campus events. | Must | E02, E05, E07 |
-| FR-02 | Allow organizers to publish new campus events. | Must | E04 |
-| FR-03 | Provide search and filtering by category, date, organizer, and keywords. | Must | E07 |
-| FR-04 | Display detailed event information. | Must | E03, E08 |
-| FR-05 | Allow students to register for events. | Must | E08 |
-| FR-06 | Send reminders before scheduled events. | Must | E01, E06, E10 |
-| FR-07 | Notify users when new matching events are available. | Should | E01, E02, E10 |
-| FR-08 | Display events in a calendar view. | Should | E06, E07 |
-| FR-09 | Allow organizers to manage participant registrations. | Should | E09 |
-| FR-10 | Display event status (Upcoming, Registration Open, Closed, Ongoing, Completed). | Could | E03, E09 |
-| NFR-01 | Provide a responsive mobile-friendly interface. | Must | E01, E05, E07 |
-| NFR-02 | Provide a simple and user-friendly interface. | Must | E02, E03, E07 |
-| NFR-03 | Return search and filter results within three seconds. | Should | E07 |
-| NFR-04 | Maintain complete GitHub documentation with README, issues, commits, and weekly logbook. | Must | Course Requirement |
-
-## MVP Feature Scope
-
-| Feature | Priority | Included in Final Prototype? |
-|---------|----------|------------------------------|
-| Centralized Event Listing | Must | Yes |
-| Event Publishing System | Must | Yes |
-| Search and Filter | Must | Yes |
-| Event Details Page | Must | Yes |
-| Event Registration | Must | Yes |
-| Event Reminder & Notifications | Should | Yes |
-| Event Calendar | Should | Yes |
-| Participant Management | Should | Optional |
-| Event Status Tracking | Could | Optional |
-| Personalized Event Recommendations | Won't for MVP | No |
 
 ## Diagram Links
 
@@ -223,7 +175,7 @@ The primary users of the Smart Campus Event Hub are university students, especia
 - **Use Case Diagram:**
    https://drive.google.com/file/d/1r_5z3H_7IjZVuvl0UQ3XWlY0UoghOiQg/view?usp=drive_link 
 
-- ## GitHub Contribution Evidence
+ ## GitHub Contribution Evidence
 
 All team members actively contributed to the Smart Campus Event Hub project through GitHub Issues, commits, documentation updates, prototype development, and weekly logbook entries. The repository history provides evidence of each member's contributions throughout the project.
 
