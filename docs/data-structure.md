@@ -65,9 +65,9 @@ Example Event Record
 
 | Event ID | Title | Category | Date | Venue | Status |
 |---|---|---|---|---|---|
-| E001 | AI Workshop | Academic | 20 Aug 2026 | Building 11 Auditorium | Open |
+| E001 | AI Workshop | Academic | 20 Aug 2026 | 1-301 | Open |
 | E002 | Sports Day | Sports | 25 Aug 2026 | University Stadium | Upcoming |
-| E003 | Photography Club Meetup | Club | 30 Aug 2026 | Student Center | Open |
+| E003 | Photography Club Meetup | Club | 30 Aug 2026 | 8-103 | Open |
 
 
 
