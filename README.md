@@ -179,6 +179,38 @@ The platform provides one centralized location for campus events, allowing Maya 
 
 All team members actively contributed to the Smart Campus Event Hub project through GitHub Issues, commits, documentation updates, prototype development, and weekly logbook entries. The repository history provides evidence of each member's contributions throughout the project.
 
+# Lab 05: Product Concept and UI/UX Wireframe
+
+## Product Concept
+
+The Smart Campus Event Hub is a web-based platform designed to help university students, especially first-year and international students, easily discover campus events, register for activities, and receive timely reminders from a single platform. The system also allows student clubs and campus administrators to publish, update, and manage event information efficiently, reducing the problem of scattered announcements across multiple communication channels.
+
+---
+
+## Requirement-Driven Screens
+
+| Screen | Related Requirement IDs | Wireframe File |
+|---|---|---|
+| Homepage / Landing | FR-01 | /wireframes/homepage.png |
+| Event List & Registration | FR-01, FR-05 | /wireframes/event-list.png |
+| Event Details View | FR-04, FR-05 | /wireframes/event-details.png |
+| Search & Filter Events | FR-03 | /wireframes/search-filter.png |
+| Dashboard / Summary | FR-08 | /wireframes/dashboard.png |
+| Organizer / Admin View | FR-02, FR-09, FR-10 | /wireframes/admin-view.png |
+
+---
+
+## User Flow
+
+The Smart Campus Event Hub user flow begins at the homepage, where users choose whether to browse campus events, access the organizer/admin functions, or view the dashboard. Students can browse events, register for activities, search and filter available events, view detailed event information, and receive event notifications. Organizers can create, update, and manage events, with all changes reflected in the event information list.
+
+**User Flow Diagram:** 
+
+---
+
+## Team Contribution
+
+All team members contributed to the Smart Campus Event Hub project through GitHub Issues, commits, documentation updates, wireframe design, prototype development, and weekly logbook entries. Each member actively participated in planning, validation, and development throughout Lab 05.
 
 
 
