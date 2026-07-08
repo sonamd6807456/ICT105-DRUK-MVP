@@ -1,36 +1,33 @@
 flowchart TD
-    A[Student opens Smart Campus Event Hub homepage] --> B[Choose main action]
+    A[Homepage] --> B[Choose Action]
 
-    B --> C[Browse upcoming campus events]
-    B --> D[Search and filter events]
-    B --> E[Register for an event]
-    B --> F[Open dashboard summary]
+    B --> C[Browse Events]
+    B --> D[Search Events]
+    B --> E[Register Event]
+    B --> F[Dashboard]
 
-    C --> G[Event list]
-    G --> H[Select an event]
-    H --> I[Event details view]
-    I --> J[Student views event information, date, time, location, and organizer]
+    C --> G[Event List]
+    G --> H[Event Details]
 
-    D --> K[Search or filter by category, date, or keyword]
-    K --> L[Filtered event results]
-    L --> I
+    D --> I[Search / Filter]
+    I --> G
 
-    E --> M{Registration validation}
-    M -->|Valid| N[Save registration record]
-    M -->|Invalid| O[Display error message]
-    N --> P[Display registration confirmation]
+    E --> J{Valid?}
+    J -->|Yes| K[Save Registration]
+    J -->|No| L[Show Error]
 
-    N --> Q[Registration database]
+    K --> M[Confirmation]
+    K --> N[(Registration DB)]
 
-    R[Organizer / Admin] --> S[Create, edit, or delete events]
-    S --> T{Validation}
-    T -->|Approved| U[Update event database]
-    T -->|Invalid| V[Display error message]
+    O[Organizer/Admin] --> P[Manage Events]
+    P --> Q{Valid?}
+    Q -->|Yes| R[(Event DB)]
+    Q -->|No| S[Show Error]
 
-    U --> G
-    Q --> W[Dashboard / Summary]
-    U --> W
-    F --> W
+    R --> G
+    N --> T[Dashboard]
+    R --> T
+    F --> T
 
-    W --> X[Display total events, upcoming events, registered students, and event categories]
+    T --> U[Event Summary]
 ```
