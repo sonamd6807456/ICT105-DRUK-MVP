@@ -212,6 +212,89 @@ The Smart Campus Event Hub user flow begins at the homepage, where users choose 
 
 All team members contributed to the Smart Campus Event Hub project through GitHub Issues, commits, documentation updates, wireframe design, prototype development, and weekly logbook entries. Each member actively participated in planning, validation, and development throughout Lab 05.
 
+# Lab 05: Product Concept and UI/UX Wireframe
 
+Lab 05 converts the Lab 04 requirements, user stories, and MVP feature list into the first visual baseline for the final **Smart Campus Event Hub** prototype.
+
+## Lab 05 Outputs
+
+| Required Output | Repository Location | Status |
+|-----------------|---------------------|--------|
+| Product Concept | `docs/product-concept.md` | Completed |
+| Feature-Requirement Mapping | `docs/feature-requirement-mapping.md` | Completed |
+| Wireframe Specification | `docs/wireframe-specification.md` | Completed |
+| Wireframe Usability Checklist | `docs/wireframe-usability-checklist.md` | Completed |
+| User Flow Diagram | `diagrams/user-flow.mmd` and `diagrams/user-flow.png` | Completed |
+| Homepage Wireframe | `wireframes/homepage.png` | Completed |
+| Event Submission Form Wireframe | `wireframes/input-form.png` | Completed |
+| Event List Wireframe | `wireframes/record-list.png` | Completed |
+| Event Detail View Wireframe | `wireframes/detail-view.png` | Completed |
+| Dashboard / Summary Wireframe | `wireframes/dashboard.png` | Completed |
+| Organizer / Admin View Wireframe | `wireframes/admin-view.png` | Completed |
+| Clickable Wireframe Draft | `prototype/wireframe-html/index.html` | Completed |
+
+## Lab 05 Prototype Navigation
+
+- Homepage → Browse Events → Event Detail
+- Homepage → Submit Event Registration → Confirmation → Event List
+- Homepage → Dashboard → Organizer/Admin View
+- Homepage → Search Events → Event Details
+
+## Lab 05 Traceability
+
+The wireframes are not standalone screens. Each screen is directly connected to the project requirements, user stories, and MVP feature list.
+
+The **Feature-Requirement Mapping** document explains how every requirement ID, user story, MVP feature, wireframe, and prototype module are connected to ensure complete traceability throughout the project.
+
+---
+
+# Lab 06: Business Model Canvas and Technical Architecture
+
+## Lab 06 Summary
+
+In Lab 06, our group connected the **Smart Campus Event Hub** product concept, system requirements, user stories, MVP features, and wireframes into a complete Business Model Canvas and Technical Architecture. This lab explains how the platform creates value for students and how the final prototype will be designed and implemented.
+
+## Files Added or Updated
+
+- Business Model Canvas
+- Customer Segment Value
+- Feature-Value Mapping
+- Technical Architecture
+- System Architecture Diagram
+- Data Flow Diagram
+- Weekly Logbook
+- README Update
+
+## Technical Direction
+
+The **Smart Campus Event Hub** prototype will use a **front-end web architecture** built with **HTML, CSS, and JavaScript**.
+
+Sample data and browser **localStorage** will simulate data storage instead of using a full backend database.
+
+This approach is suitable for the MVP because the prototype focuses on demonstrating the core user journey, including:
+
+- Browsing campus events
+- Searching and filtering events
+- Viewing event details
+- Registering for events
+- Viewing the dashboard summary
+- Managing events through the Organizer/Admin interface
+
+## Final Prototype Connection
+
+The Lab 06 deliverables provide the foundation for developing the final Smart Campus Event Hub prototype by clearly connecting:
+
+- Product Concept
+- Business Model Canvas
+- Customer Segment Value
+- System Requirements
+- User Stories
+- MVP Features
+- Wireframes
+- Technical Architecture
+- Data Flow
+- System Architecture
+
+These documents ensure that every feature in the final prototype supports the identified user needs, project requirements, and MVP objectives while demonstrating clear user interaction, system behavior, and information flow.
 
 
