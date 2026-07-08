@@ -21,18 +21,21 @@ DRUK
 | Kinley Zam | UX/UI Lead, Validation Lead | Design interface screens, conduct user research, and maintain validation evidence |
 
 ## Initial Problem Area
-University students often miss campus events, club activities, workshops, and important deadlines because information is spread across posters, social media pages, and messaging applications. This makes it difficult for students to stay informed and participate actively in campus life.
+University students, especially first-year and international students, often miss campus events, workshops, club activities, and important deadlines because information is scattered across posters, emails, social media pages, messaging applications, and university websites.
 
 ## Target Users
-* First Year University students
-* Student clubs and organizations
-* Campus administrators
-* Students involved in extracurricular activities
-* Exchange and international students
+** Primary Target Users
 
+First-year undergraduate students at Rangsit University who frequently miss campus events because information is scattered across multiple communication channels.
+International and exchange students who are unfamiliar with university communication channels.
+
+** Secondary Target Users
+
+Student clubs and organizations that need an efficient platform to publish and manage events.
+Campus administrators responsible for promoting university activities
 
 ## Initial IT Venture Direction
-Develop a Smart Campus Event Hub, a web-based platform that centralizes event information, announcements, and activity registration in one place. The system will help students discover events and receive timely notifications.
+Develop a web-based Smart Campus Event Hub that centralizes campus event announcements, registrations, reminders, and notifications into a single platform, making it easier for students to discover and participate in university activities.
 
 ## Technology Possibility
 Possible technologies: 
@@ -66,12 +69,18 @@ In Lab 03, our team conducted customer problem discovery to better understand ho
 
 ## Target Respondents
 
-We focused on the following groups of students:
+Customer discovery was conducted with 15 students from Rangsit University. The respondents included:
 
-* First-year students who are still becoming familiar with university communication channels and campus activities.
+* First-year undergraduate students who are still becoming familiar with university communication channels and campus activities.
 * International and exchange students who may have limited access to informal information networks.
 * Students who regularly participate in campus events, workshops, and extracurricular activities.
-* Students who have previously missed events or received event information too late.
+* Students who had previously missed campus events or registration deadlines due to scattered information.
+
+##  Research Method
+
+The team conducted customer discovery through an online survey and informal interviews. Respondents were asked how they currently discover campus events, the challenges they face in finding event information, and what features they would expect from a centralized campus event platform. The collected responses were analyzed to identify common problems and validate the need for the proposed solution.
+
+  
 
 ## Main Evidence Found
 
@@ -97,11 +106,30 @@ The primary users of the Smart Campus Event Hub are university students, especia
 
 ## Persona Summary
 
-- **Persona Name:** Maya, Year 1 Student
-- **User Type:** First-year university student
-- **Main Goal:** Find campus events easily, receive reminders, and register without missing important opportunities.
-- **Main Pain Point:** Event information is scattered across posters, social media, emails, university websites, and messaging groups.
-- **Current Workaround:** Checks Facebook pages, LINE groups, university websites, posters, emails, and asks friends or seniors.
+**Persona Name:** Maya Sharma
+**Age:** 18
+**Year of Study:** First-Year Undergraduate Student
+**University:** Rangsit University
+**User Type:** Primary Target User
+**Device Used:** Smartphone (Android/iPhone) and Laptop
+**Digital Habits:**
+* Uses LINE every day for university communication.
+* Checks Instagram and Facebook several times a day.
+* Frequently accesses the university website for announcements.
+**Goals:**
+* Find campus events quickly.
+* Register for workshops and competitions before deadlines.
+* Receive reminders about upcoming events.
+* Participate more actively in university activities.
+**Main Pain Points:**
+* Event information is scattered across posters, emails, social media, websites, and messaging groups.
+* Important announcements are easy to miss.
+* Registration deadlines are often discovered too late.
+**Current Workaround:**
+Maya checks Facebook pages, LINE groups, university websites, posters, emails, and often asks friends or seniors for event information.
+**How Smart Campus Event Hub Helps:**
+The platform provides one centralized location for campus events, allowing Maya to discover activities, register online, and receive timely reminders, reducing the chance of missing important opportunities.
+
 
 ## Key Requirements
 
@@ -131,7 +159,7 @@ The primary users of the Smart Campus Event Hub are university students, especia
 | Search and Filter | Must | Yes |
 | Event Details Page | Must | Yes |
 | Event Registration | Must | Yes |
-| Event Reminder & Notifications | Should | Yes |
+| Event Reminder Notifications | Should | Yes |
 | Event Calendar | Should | Yes |
 | Participant Management | Should | Optional |
 | Event Status Tracking | Could | Optional |
@@ -190,14 +218,16 @@ The primary users of the Smart Campus Event Hub are university students, especia
 
 ## Diagram Links
 
-- **User Flow Diagram:** `https://drive.google.com/file/d/1PTpBsfG3VbVta6AEYR5yQX7Rub0RmxwI/view?usp=sharing
-- **Use Case Diagram:** https://drive.google.com/file/d/1r_5z3H_7IjZVuvl0UQ3XWlY0UoghOiQg/view?usp=drive_link `
+- **User Flow Diagram:**
+  https://drive.google.com/file/d/1PTpBsfG3VbVta6AEYR5yQX7Rub0RmxwI/view?usp=sharing
+- **Use Case Diagram:**
+   https://drive.google.com/file/d/1r_5z3H_7IjZVuvl0UQ3XWlY0UoghOiQg/view?usp=drive_link 
 
 - ## GitHub Contribution Evidence
 
-All group members contributed to the Smart Campus Event Hub repository through Git commits, GitHub Issues, documentation updates, prototype development, and weekly logbook entries. The complete development history is available in the repository commit history and project documentation
+All team members actively contributed to the Smart Campus Event Hub project through GitHub Issues, commits, documentation updates, prototype development, and weekly logbook entries. The repository history provides evidence of each member's contributions throughout the project.
 
-.`
+
 
 
 
