@@ -134,6 +134,37 @@ The platform provides one centralized location for campus events, allowing Maya 
 
 
 ## Key Requirements
+ | Req ID | Requirement | Priority | Related Evidence |
+|--------|-------------|----------|------------------|
+| FR-01 | Display a centralized list of upcoming campus events. | Must | E02, E05, E07 |
+| FR-02 | Allow organizers to publish new campus events. | Must | E04 |
+| FR-03 | Provide search and filtering by category, date, organizer, and keywords. | Must | E07 |
+| FR-04 | Display detailed event information. | Must | E03, E08 |
+| FR-05 | Allow students to register for events. | Must | E08 |
+| FR-06 | Send reminders before scheduled events. | Must | E01, E06, E10 |
+| FR-07 | Notify users when new matching events are available. | Should | E01, E02, E10 |
+| FR-08 | Display events in a calendar view. | Should | E06, E07 |
+| FR-09 | Allow organizers to manage participant registrations. | Should | E09 |
+| FR-10 | Display event status (Upcoming, Registration Open, Closed, Ongoing, Completed). | Could | E03, E09 |
+| NFR-01 | Provide a responsive mobile-friendly interface. | Must | E01, E05, E07 |
+| NFR-02 | Provide a simple and user-friendly interface. | Must | E02, E03, E07 |
+| NFR-03 | Return search and filter results within three seconds. | Should | E07 |
+| NFR-04 | Maintain complete GitHub documentation with README, issues, commits, and weekly logbook. | Must | Course Requirement |
+
+## MVP Feature Scope
+
+| Feature | Priority | Included in Final Prototype? |
+|---------|----------|------------------------------|
+| Centralized Event Listing | Must | Yes |
+| Event Publishing System | Must | Yes |
+| Search and Filter | Must | Yes |
+| Event Details Page | Must | Yes |
+| Event Registration | Must | Yes |
+| Event Reminder Notifications | Should | Yes |
+| Event Calendar | Should | Yes |
+| Participant Management | Should | Optional |
+| Event Status Tracking | Could | Optional |
+| Personalized Event Recommendations | Won't for MVP | No |
 
 
 
