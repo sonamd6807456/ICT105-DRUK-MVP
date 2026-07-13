@@ -68,11 +68,16 @@ Technology Stack:
 * pitch: Final presentation slides and pitch materials.
 
 ## Weekly Progress Log
-| Lab | Main Activity | Output | Status | 
-|-------|--------------|---------|--------| 
-| Lab 1 | Lab setup and idea log | Repository setup, team profile, initial three-idea logbook | Completed | 
+
+| Lab | Main Activity | Output | Status |
+|---|---|---|---|
+| Lab 1 | Lab setup and idea log | Repository setup, team profile, initial three-idea logbook, GitHub repository structure | Completed |
 | Lab 2 | Opportunity scanning and NUF scoring | Six-idea opportunity table, technology feasibility mapping, NUF scoring, selected project opportunity (Smart Campus Event Hub) | Completed |
-| Lab 03 | Customer Problem Discovery |Target Respondent Profile, Customer Discovery Survey, Problem Notes, Customer Discovery Summary, Assumption-Evidence Table, Weekly Logbook Updates | Completed |
+| Lab 3 | Customer Problem Discovery | Target Respondent Profile, Customer Discovery Survey, Problem Notes, Customer Discovery Summary, Assumption-Evidence Table, Weekly Logbook Updates | Completed |
+| Lab 4 | User Persona, Requirements, and User Stories | User Persona (Maya Sharma), User Stories, User Flow Diagram, Functional and Non-Functional Requirements, MVP Feature Scope, Requirement Traceability | Completed |
+| Lab 5 | Product Concept and UI/UX Wireframe | Product Concept Document, Feature-Requirement Mapping, Wireframe Specification, Homepage Wireframe, Event Listing Wireframe, Event Details Wireframe, Dashboard Wireframe, Organizer View Wireframe, Clickable Prototype Draft | Completed |
+| Lab 6 | Business Model Canvas and Technical Architecture | Business Model Canvas, Customer Segment Value, Feature-Value Mapping, System Architecture Diagram, Data Flow Diagram, Technical Architecture Documentation, README Updates | Completed |
+| Lab 7 | MVP Prototype Development and Experiment Preparation | Functional Web Prototype Development using HTML, CSS, JavaScript, LocalStorage Simulation, MVP Experiment Plan, Usability Testing Preparation, Success Metrics and Decision Rules | Completed |
 ----
 
 # Lab 03 – Customer Problem Discovery
