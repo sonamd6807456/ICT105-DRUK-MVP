@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard | Smart Campus Event Hub</title>
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/admin.css">
+
+</head>
+
+<body>
+
+<div class="admin-container">
+
+    <!-- Sidebar -->
+
+    <aside class="admin-sidebar">
+
+        <h2>Admin Panel</h2>
+
+        <ul>
+
+            <li class="active">
+
+                <a href="dashboard.html">
+
+                    Dashboard
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="users.html">
+
+                    Manage Users
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="events.html">
+
+                    Manage Events
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="reviews.html">
+
+                    Manage Reviews
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="../index.html">
+
+                    Back to Website
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="admin-main">
+
+        <h1>
+
+            Dashboard
+
+        </h1>
+
+        <div class="admin-cards">
+
+            <div class="admin-card">
+
+                <h2 id="totalUsers">0</h2>
+
+                <p>Total Users</p>
+
+            </div>
+
+            <div class="admin-card">
+
+                <h2 id="totalEvents">0</h2>
+
+                <p>Total Events</p>
+
+            </div>
+
+            <div class="admin-card">
+
+                <h2 id="totalReviews">0</h2>
+
+                <p>Total Reviews</p>
+
+            </div>
+
+            <div class="admin-card">
+
+                <h2 id="totalRegistrations">0</h2>
+
+                <p>Registrations</p>
+
+            </div>
+
+        </div>
+
+        <section class="admin-table">
+
+            <h2>
+
+                Recent Users
+
+            </h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Name</th>
+
+                        <th>Student ID</th>
+
+                        <th>Email</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="userTable">
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="../js/storage.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/admin.js"></script>
+
+<div id="toast" class="toast"></div>
+
+</body>
+
+</html>
