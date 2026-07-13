@@ -1,13 +1,19 @@
 tester_code,task_id,task_description,completed,time_seconds,help_needed,confusion_point,rating_clarity_1_5,notes
-T01,T1,Understand homepage purpose,Yes,30,No,,5,Homepage clearly explains the platform and navigation.
-T01,T2,Browse upcoming campus events,Yes,42,No,,5,Event list was easy to understand.
-T02,T3,Search for an event by keyword,Yes,50,No,,5,Search function worked as expected.
-T02,T4,Filter events by category,Yes,55,No,Filter options could be more visible,4,Category filter helped find events quickly.
-T03,T5,View event details,Yes,38,No,,5,Event information was clear and complete.
-T03,T6,Register for an event,Yes,70,No,Confirmation message could be larger,4,Registration process was simple.
-T04,T7,Check event calendar,Yes,48,No,,5,Calendar made upcoming events easy to view.
-T04,T8,Find event status,Yes,40,No,Status colors were slightly confusing,4,Need clearer color indicators.
-T05,T9,Navigate to dashboard summary,Yes,35,No,,5,Dashboard provided a useful overview.
-T05,T10,Organizer creates a new event,Yes,95,Yes,Some form fields were unclear,4,Need better field descriptions for organizers.
-T06,T11,Organizer updates event information,Yes,80,No,,5,Editing events was straightforward.
-T06,T12,Organizer manages participant list,Yes,88,Yes,Participant management options were not immediately obvious,4,Add clearer action buttons.
+T01,T1,Understand homepage purpose,Yes,30,No,,5,Homepage clearly explains the purpose of finding and joining campus events
+T01,T2,Find an upcoming campus event,Yes,55,No,,5,Event list was easy to understand and displayed useful information
+T02,T3,Search for an event using category or keyword filter,Yes,70,No,Unsure which category filter to choose,4,Filter labels should be more specific and easier to understand
+T02,T4,Open event details page,Yes,45,No,,4,Event information was clear but users wanted more visual details
+T03,T5,Register for a selected event,Yes,85,No,Registration button was slightly difficult to find,4,Make registration button more noticeable
+T04,T6,View upcoming events in dashboard/calendar,Yes,60,No,,5,Calendar view helped users track upcoming activities
+T05,T7,Check event reminder notification feature,No,90,Yes,Unclear how reminders are activated,3,Need clearer explanation of reminder settings
+T05,T8,Submit an event through organizer page,Yes,100,No,Required fields were not obvious,4,Add clearer instructions for organizers.
+
+# MVP##Experiment Result Summary
+
+The Smart Campus Event Hub prototype was tested with 5 students from Rangsit University to evaluate whether users could discover campus events, search activities, view event details, register for events, and understand reminder features.
+
+The results showed that most users successfully completed the main tasks without assistance. The highest-performing features were the homepage, event listing, and calendar view, where users rated the clarity between 4 and 5 out of 5.
+
+However, some usability issues were identified. Users suggested improving filter category labels, making the registration button more visible, and providing clearer instructions for reminder notifications.
+
+Based on the experiment results, the team will improve the user interface and navigation flow before final prototype implementation.
