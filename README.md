@@ -4,6 +4,14 @@ Smart Campus Event Hub
 # Project Goal
 To develop a web-based Smart Campus Event Hub that enables first-year and international students at Rangsit University to discover campus events, register for activities, and receive timely notifications from a single platform.
 
+## Project Objectives
+
+- Centralize campus event information into one platform.
+- Increase student participation in campus activities.
+- Reduce missed registration deadlines.
+- Improve communication between students and organizers.
+- Provide a simple and user-friendly event management system.
+
 ## Course Information
 Course Code: ICT105
 
@@ -41,12 +49,14 @@ University students, especially first-year and international students, often mis
 Develop a web-based Smart Campus Event Hub that centralizes campus event announcements, registrations, reminders, and notifications into a single platform, making it easier for students to discover and participate in university activities.
 
 ## Technology Possibility
-Possible technologies: 
-* Web application
-* Dashboard
-* Cloud-based system
-* AI-assisted feature
-* SaaS platform
+ Technology Stack:
+- HTML5
+- CSS3
+- JavaScript
+- Browser LocalStorage (for MVP data simulation)
+- GitHub Repository
+- Draw.io (Diagrams)
+- Figma / HTML Wireframes
   
 ## Repository Structure
 * docs: Project profiles, idea logs, weekly logbooks, and opportunity scan documents. 
@@ -63,8 +73,9 @@ Possible technologies:
 | Lab 1 | Lab setup and idea log | Repository setup, team profile, initial three-idea logbook | Completed | 
 | Lab 2 | Opportunity scanning and NUF scoring | Six-idea opportunity table, technology feasibility mapping, NUF scoring, selected project opportunity (Smart Campus Event Hub) | Completed |
 | Lab 03 | Customer Problem Discovery |Target Respondent Profile, Customer Discovery Survey, Problem Notes, Customer Discovery Summary, Assumption-Evidence Table, Weekly Logbook Updates | Completed |
+----
 
-# Customer Problem Discovery Summary
+# Lab 03 – Customer Problem Discovery
 
 ## Overview
 
@@ -98,6 +109,8 @@ University students, particularly first-year and international students, face ch
 ## Decision for Next Step
 
 In Lab 04, we will analyze the collected evidence to identify the primary customer segment and their most important needs. We will develop user personas and user stories, prioritize key features, and begin defining the MVP requirements for the Smart Campus Event Hub. 
+
+----
 
 # Lab 04: User Persona, Requirements, and User Stories
 
@@ -179,13 +192,15 @@ The platform provides one centralized location for campus events, allowing Maya 
 
 All team members actively contributed to the Smart Campus Event Hub project through GitHub Issues, commits, documentation updates, prototype development, and weekly logbook entries. The repository history provides evidence of each member's contributions throughout the project.
 
+----
+
 # Lab 05: Product Concept and UI/UX Wireframe
 
 ## Product Concept
 
 The Smart Campus Event Hub is a web-based platform designed to help university students, especially first-year and international students, easily discover campus events, register for activities, and receive timely reminders from a single platform. The system also allows student clubs and campus administrators to publish, update, and manage event information efficiently, reducing the problem of scattered announcements across multiple communication channels.
 
----
+Lab 05 converts the Lab 04 requirements, user stories, and MVP feature list into the first visual baseline for the final **Smart Campus Event Hub** prototype.
 
 ## Requirement-Driven Screens
 
@@ -206,15 +221,6 @@ The Smart Campus Event Hub user flow begins at the homepage, where users choose 
 
 **User Flow Diagram:** https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/480aefda6d013499fd64d8e5018b5994bdeb1e90/diagrams/user-flow.drawio.png
 
----
-
-## Team Contribution
-
-All team members contributed to the Smart Campus Event Hub project through GitHub Issues, commits, documentation updates, wireframe design, prototype development, and weekly logbook entries. Each member actively participated in planning, validation, and development throughout Lab 05.
-
-# Lab 05: Product Concept and UI/UX Wireframe
-
-Lab 05 converts the Lab 04 requirements, user stories, and MVP feature list into the first visual baseline for the final **Smart Campus Event Hub** prototype.
 
 ## Lab 05 Outputs
 
@@ -226,8 +232,8 @@ Lab 05 converts the Lab 04 requirements, user stories, and MVP feature list into
 | Wireframe Usability Checklist | `docs/wireframe-usability-checklist.md` | Completed |
 | User Flow Diagram | `diagrams/user-flow.mmd` and `diagrams/user-flow.png` | Completed |
 | Homepage Wireframe | `wireframes/homepage.png` | Completed |
-| Event Submission Form Wireframe | `wireframes/input-form.png` | Completed |
-| Event List Wireframe | `wireframes/record-list.png` | Completed |
+| Event  Registration Form Wireframe | `wireframes/input-form.png` | Completed |
+| Event Listing Wireframe | `wireframes/record-list.png` | Completed |
 | Event Detail View Wireframe | `wireframes/detail-view.png` | Completed |
 | Dashboard / Summary Wireframe | `wireframes/dashboard.png` | Completed |
 | Organizer / Admin View Wireframe | `wireframes/admin-view.png` | Completed |
@@ -245,6 +251,10 @@ Lab 05 converts the Lab 04 requirements, user stories, and MVP feature list into
 The wireframes are not standalone screens. Each screen is directly connected to the project requirements, user stories, and MVP feature list.
 
 The **Feature-Requirement Mapping** document explains how every requirement ID, user story, MVP feature, wireframe, and prototype module are connected to ensure complete traceability throughout the project.
+
+## Team Contribution
+
+All team members contributed to the Smart Campus Event Hub project through GitHub Issues, commits, documentation updates, wireframe design, prototype development, and weekly logbook entries. Each member actively participated in planning, validation, and development throughout Lab 05.
 
 ---
 
@@ -267,9 +277,7 @@ In Lab 06, our group connected the **Smart Campus Event Hub** product concept, s
 
 ## Technical Direction
 
-The **Smart Campus Event Hub** prototype will use a **front-end web architecture** built with **HTML, CSS, and JavaScript**.
-
-Sample data and browser **localStorage** will simulate data storage instead of using a full backend database.
+TThe Smart Campus Event Hub MVP is implemented as a front-end web application using HTML, CSS, and JavaScript. Browser LocalStorage is used to simulate event data during prototype development, allowing the system to demonstrate core functionality without requiring a backend database.
 
 This approach is suitable for the MVP because the prototype focuses on demonstrating the core user journey, including:
 
@@ -295,6 +303,9 @@ The Lab 06 deliverables provide the foundation for developing the final Smart Ca
 - Data Flow
 - System Architecture
 
-These documents ensure that every feature in the final prototype supports the identified user needs, project requirements, and MVP objectives while demonstrating clear user interaction, system behavior, and information flow.
+## Conclusion
 
+The Smart Campus Event Hub demonstrates how technology can improve communication and student engagement by providing a centralized platform for campus events. Through six laboratory phases, our team successfully transformed an initial idea into a validated MVP concept supported by customer research, user requirements, wireframes, business analysis, and technical architecture. These deliverables provide a strong foundation for developing the final working prototype.
+
+The completed documentation, wireframes, diagrams, and prototype provide a solid foundation for the remaining development phases and demonstrate the feasibility of the Smart Campus Event Hub as a minimum viable product (MVP).
 
