@@ -309,7 +309,7 @@ The Smart Campus Event Hub demonstrates how technology can improve communication
 
 The completed documentation, wireframes, diagrams, and prototype provide a solid foundation for the remaining development phases and demonstrate the feasibility of the Smart Campus Event Hub as a minimum viable product (MVP).
 
-# README Update Template for Lab 07
+----
 
 ## Lab 07: MVP Experiment Design
 
