@@ -78,6 +78,14 @@ Technology Stack:
 | Lab 5 | Product Concept and UI/UX Wireframe | Product Concept Document, Feature-Requirement Mapping, Wireframe Specification, Homepage Wireframe, Event Listing Wireframe, Event Details Wireframe, Dashboard Wireframe, Organizer View Wireframe, Clickable Prototype Draft | Completed |
 | Lab 6 | Business Model Canvas and Technical Architecture | Business Model Canvas, Customer Segment Value, Feature-Value Mapping, System Architecture Diagram, Data Flow Diagram, Technical Architecture Documentation, README Updates | Completed |
 | Lab 7 | MVP Prototype Development and Experiment Preparation | Functional Web Prototype Development using HTML, CSS, JavaScript, LocalStorage Simulation, MVP Experiment Plan, Usability Testing Preparation, Success Metrics and Decision Rules | Completed |
+| Lab 8 |  |  | Not Started |
+| Lab 9 |  |  | Not Started |
+| Lab 10 |  |  | Not Started |
+| Lab 11 |  |  | Not Started |
+| Lab 12 |  |  | Not Started |
+| Lab 13 |  |  | Not Started |
+| Lab 14 |  |  | Not Started |
+
 ----
 
 # Lab 03 – Customer Problem Discovery
