@@ -1,36 +1,33 @@
-# MVP Experiment Flow
+flowchart LR
 
-## Experiment Flow: Smart Campus Event Hub
+    USER[Student Tester] --> START[Start Experiment]
 
-Start
-  ↓
-Recruit Test Users
-  ↓
-Explain Experiment Purpose
-  ↓
-Provide Prototype Access Link
-  ↓
-User Opens Homepage
-  ↓
-Task 1: Understand Platform Purpose
-  ↓
-Task 2: Browse Upcoming Campus Events
-  ↓
-Task 3: Search and Filter Events
-  ↓
-Task 4: Open Event Details
-  ↓
-Task 5: Register for an Event
-  ↓
-Task 6: View Dashboard / Calendar
-  ↓
-Collect User Feedback
-  ↓
-Measure Success Metrics
-  ↓
-Analyze Problems and Suggestions
-  ↓
-Improve Prototype Design
-  ↓
-Continue Development Sprint
-End
+    START --> TASK1[Understand Homepage Purpose]
+
+    TASK1 --> TASK2[Browse Upcoming Campus Events]
+
+    TASK2 --> TASK3[Search and Filter Events]
+
+    TASK3 --> TASK4[View Event Details]
+
+    TASK4 --> TASK5[Register for Event]
+
+    TASK5 --> TASK6[View Dashboard / Calendar]
+
+    TASK6 --> FEEDBACK[Collect User Feedback]
+
+    FEEDBACK --> DATA[(Testing Data)]
+
+    DATA --> ANALYSIS[Analyze Experiment Results]
+
+    ANALYSIS --> METRIC[Measure Success Metrics]
+
+    METRIC --> DECISION{Metrics Meet Target?}
+
+    DECISION -->|Yes| CONTINUE[Continue Implementation Sprint]
+
+    DECISION -->|No| IMPROVE[Improve Prototype Design]
+
+    IMPROVE --> START
+
+    CONTINUE --> FINAL[Develop Final Prototype]
