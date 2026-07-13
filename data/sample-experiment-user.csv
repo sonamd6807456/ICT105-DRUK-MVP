@@ -1,0 +1,6 @@
+tester_code,task_id,task_description,completed,time_seconds,help_needed,confusion_point,rating_clarity_1_5,notes
+T01,T1,Understand homepage purpose,Yes,35,No,,5,Clear title and main navigation buttons helped users understand the purpose of the platform.
+T01,T2,Find an upcoming campus event,Yes,95,No,Unsure which event category to choose,4,Need clearer event categories and filter labels.
+T02,T3,Search for an event using search and filter,Yes,45,No,,5,Search function was easy to use and helped users quickly find events.
+T03,T4,Open event details and view event information,Yes,40,No,,4,Event details were clear but users wanted more images and additional information.
+T04,T5,Register for an event,No,80,Yes,Registration button was difficult to locate,3,Need a more visible registration button and clearer registration process.
