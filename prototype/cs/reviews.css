@@ -1,0 +1,63 @@
+/* ==========================================
+   REVIEWS PAGE
+========================================== */
+
+#comment{
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    resize:vertical;
+
+    font-size:1rem;
+
+}
+
+#reviewList{
+
+    display:grid;
+
+    gap:20px;
+
+}
+
+.review-card{
+
+    background:#ffffff;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.review-card h3{
+
+    color:#003B8E;
+
+    margin-bottom:10px;
+
+}
+
+.review-card p{
+
+    color:#555;
+
+    margin:8px 0;
+
+}
+
+.review-card span{
+
+    color:#f59e0b;
+
+    font-weight:600;
+
+}
