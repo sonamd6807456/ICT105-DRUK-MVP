@@ -400,8 +400,7 @@ July 15, 2026
 |---|---|---|
 | Tenzin Dema | Prepared project documentation, defined critical assumptions, designed feedback collection materials, prepared experiment result templates, updated README documentation, created Smart Campus Event Hub case study brief, managed project issues, and updated technical architecture documentation. | `docs/critical-assumptions.md`, `docs/feedback-form.md`, `data/experiment-results-template.md`, `README.md`, `docs/case-study-brief.md`, `ISSUES.md`, `docs/technical-architecture.md` |
 | Sonam Deki | Designed the experiment flow diagram, prepared sample test users, created experiment user profiles, developed the MVP experiment plan, and supported success measurement planning. | `docs/experiment-flow-diagram.md`, `data/sample-test-user.md`, `data/sample-experiment-user.md`, `docs/mvp-experiment-plan.md`, `docs/success-metrics.md` |
-| Kinley Zam | Created the feedback form template, prepared the experiment script, updated the Smart Campus Event Hub prototype, improved HTML/CSS/JavaScript implementation,updated the wireframes and uploaded prototype screenshots for documentation. | `data/feedback-form-template.csv`, `docs/experiment-script.md`, `prototype/index.html`,| `prototype/style.css`, `prototype/script.js`, `wireframes, `screenshots/` |
-
+| Kinley Zam | Created the feedback form template, prepared the experiment script, updated and improved the Smart Campus Event Hub prototype, modified HTML, CSS, and JavaScript files, updated wireframes, and uploaded prototype screenshots for project documentation. | `data/feedback-form-template.csv`, `docs/experiment-script.md`, `prototype/index.html`, `prototype/style.css`, `prototype/script.js`, `docs/wireframe.md`, `screenshots/` |
 
 ---
 
