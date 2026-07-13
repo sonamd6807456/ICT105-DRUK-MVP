@@ -37,26 +37,26 @@ University students, especially first-year and international students, often mis
 ## Target Users
 **Primary Target Users**
 
--First-year undergraduate students at Rangsit University who frequently miss campus events because information is scattered across multiple communication channels.
--International and exchange students who are unfamiliar with university communication channels.
+- First-year undergraduate students at Rangsit University who frequently miss campus events because information is scattered across multiple communication channels.
+- International and exchange students who are unfamiliar with university communication channels.
 
 **Secondary Target Users**
 
--Student clubs and organizations that need an efficient platform to publish and manage events.
--Campus administrators responsible for promoting university activities
+- Student clubs and organizations that need an efficient platform to publish and manage events.
+- Campus administrators responsible for promoting university activities.
 
 ## Initial IT Venture Direction
 Develop a web-based Smart Campus Event Hub that centralizes campus event announcements, registrations, reminders, and notifications into a single platform, making it easier for students to discover and participate in university activities.
 
 ## Technology Possibility
- Technology Stack:
+Technology Stack:
 - HTML5
 - CSS3
 - JavaScript
-- Browser LocalStorage (for MVP data simulation)
-- GitHub Repository
+- Browser LocalStorage (MVP data simulation)
+- GitHub (Version Control)
 - Draw.io (Diagrams)
-- Figma / HTML Wireframes
+- Figma / HTML (Wireframes & Prototype)
   
 ## Repository Structure
 * docs: Project profiles, idea logs, weekly logbooks, and opportunity scan documents. 
@@ -277,7 +277,7 @@ In Lab 06, our group connected the **Smart Campus Event Hub** product concept, s
 
 ## Technical Direction
 
-TThe Smart Campus Event Hub MVP is implemented as a front-end web application using HTML, CSS, and JavaScript. Browser LocalStorage is used to simulate event data during prototype development, allowing the system to demonstrate core functionality without requiring a backend database.
+The Smart Campus Event Hub MVP is implemented as a front-end web application using HTML, CSS, and JavaScript. Browser LocalStorage is used to simulate event data during prototype development, allowing the system to demonstrate core functionality without requiring a backend database.
 
 This approach is suitable for the MVP because the prototype focuses on demonstrating the core user journey, including:
 
