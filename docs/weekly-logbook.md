@@ -379,9 +379,6 @@ The team finalized the User Flow Diagram, Data Flow Diagram, and System Architec
 ---
 
 
-## Lecturer / TA Notes
-
-To be completed during the laboratory session after feedback from the lecturer or teaching assistant.
 
 
 
