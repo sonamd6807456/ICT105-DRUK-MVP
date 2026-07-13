@@ -10,101 +10,94 @@
 
 **Frontend-only: HTML/CSS/JavaScript**
 
-The Smart Campus Event Hub will be implemented as a clickable web prototype using static HTML pages, shared CSS styling, and JavaScript interactions.
-
-The prototype will demonstrate:
-
-- Campus event browsing
-- Event searching and filtering
-- Event details viewing
-- Student registration
-- Event reminders
-- Organizer event publishing
-- Dashboard summary display
-
-The frontend-only approach allows the team to validate the MVP concept, user experience, and core functionality within the ICT105 semester timeline.
+Smart Campus Event Hub will be implemented as a clickable web prototype using static HTML pages, shared CSS styling, and JavaScript for simple interactions such as page navigation, event search, category filtering, form validation, registration simulation, and dashboard display.
 
 ---
 
-# 2. Architecture Decision
+## 2. Architecture Decision
 
-A frontend-only architecture is suitable for the Smart Campus Event Hub because the MVP focuses on demonstrating the main user experience instead of developing a complete production system.
+A frontend-only architecture is suitable for Smart Campus Event Hub because the current MVP focuses on demonstrating the user journey for discovering campus events, viewing event information, registering for activities, and managing events rather than developing a complete production system.
 
-This architecture is appropriate because:
+This platform is appropriate because:
 
-- HTML, CSS, and JavaScript can be developed efficiently within the semester timeline.
-- GitHub Pages can host the prototype without backend configuration.
-- Required user flows can be demonstrated clearly.
-- Event information and registration behavior can be simulated using static data.
-- The architecture matches the MVP scope.
-- Complex features such as authentication systems, cloud databases, AI recommendation, and real-time notification services are excluded.
+- The team can efficiently develop HTML, CSS, and JavaScript pages within the semester timeline.
+- GitHub Pages can host the prototype without requiring backend configuration.
+- The prototype clearly demonstrates all required user screens and navigation.
+- Event information, registrations, and dashboard statistics can be simulated using sample data and JavaScript.
+- It matches the MVP scope, which excludes production authentication, live databases, AI recommendations, real-time notifications, and calendar synchronization.
 
 ---
 
-# 3. Main Components
+## 3. Main Components
 
-| Component | Description | Technology | Related Requirement |
+| Component | Description | Tool / Technology | Related Requirement |
 |---|---|---|---|
-| User Interface | Provides pages, navigation, event cards, buttons, and responsive layout. | HTML, CSS, JavaScript | FR-01, FR-04, NFR-01, NFR-02 |
-| Event Listing Module | Displays upcoming campus events and activities. | HTML, CSS, JavaScript | FR-01 |
-| Search and Filter Module | Allows students to search events by category, date, organizer, and keywords. | JavaScript filtering | FR-03 |
-| Event Details Module | Shows complete event information including date, location, organizer, and status. | HTML, CSS, JavaScript | FR-04, FR-10 |
-| Registration Module | Allows students to register for events. | HTML Form, JavaScript Validation | FR-05 |
-| Notification Module | Simulates event reminders and new event notifications. | JavaScript alerts | FR-06, FR-07 |
-| Organizer Module | Allows organizers to create and manage events. | Static Dashboard, JavaScript | FR-02, FR-09 |
-| Calendar Module | Displays upcoming events in calendar format. | HTML, CSS, JavaScript | FR-08 |
-| Data Storage | Stores sample events and registration data. | JavaScript Arrays / JSON | FR-01, FR-05 |
+| User Interface | Provides the Smart Campus Event Hub pages, navigation bar, event cards, buttons, typography, and responsive design. | HTML, CSS, JavaScript | FR-01, FR-13, FR-14 |
+| Event Registration Form | Allows students to register for campus events through a structured registration form with required fields and validation. | HTML Form, JavaScript Validation | FR-10, FR-11 |
+| Data Storage | Uses sample/static event records and simulated registration data instead of a production database. | JavaScript arrays / static sample records | FR-04, FR-05 |
+| Event Listing | Displays campus event cards with title, category, date, location, organizer, and event status. | HTML, CSS, JavaScript | FR-05, FR-06 |
+| Event Detail View | Shows complete information for a selected event including description, schedule, venue, organizer, available seats, and registration status. | `event-details.html`, HTML, CSS, JavaScript | FR-07, FR-08 |
+| Admin Event Management | Simulates event creation, editing, approval, deletion, and registration management through an organizer dashboard. | Static dashboard page, JavaScript | FR-03, FR-09 |
+| Dashboard / Summary | Displays total events, upcoming events, participant counts, popular categories, and attendance summaries. | `dashboard.html`, HTML, CSS, JavaScript | FR-12 |
 
 ---
 
-# 4. Fully Implemented Features
+## 4. What Will Be Fully Implemented?
 
-The final prototype will implement:
+The final prototype will fully implement the following frontend features:
 
-- Homepage / Landing page
-- Student event browsing
-- Event list page
-- Search functionality
-- Category filtering
-- Date filtering
-- Event details page
-- Event registration form
-- Registration confirmation
-- Calendar view
-- Organizer event creation page
-- Dashboard summary
-- Event status display
-- Responsive mobile-friendly interface
+- Homepage / Landing Page
+- Navigation between all prototype pages
+- Event Listing Page
+- Search and Filter functionality
+- Event Detail Page
+- Event Registration Form
+- Required field validation for event registration
+- Organizer/Admin Event Management Page
+- Dashboard Summary Page
+- User Profile & Participation History Page
+- Consistent interface design across all pages
+- Responsive layout for desktop and smaller screens
 
+### Prototype Files
 
-## Prototype Structure
+- `prototype/index.html`
+- `prototype/events.html`
+- `prototype/event-details.html`
+- `prototype/register.html`
+- `prototype/dashboard.html`
+- `prototype/admin.html`
+- `prototype/profile.html`
 
-```text
-Smart-Campus-Event-Hub/
+---
 
-│
-├── prototype/
-│
-│── index.html
-│── events.html
-│── event-details.html
-│── register.html
-│── calendar.html
-│── organizer.html
-│── dashboard.html
-│── login.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── images/
-│   └── event-images/
-│
-├── docs/
-│
-├── diagrams/
-│
-└── screenshots/
+## 5. What Will Be Simulated?
+
+Because Smart Campus Event Hub is a frontend-only MVP, the following features will be simulated:
+
+- User registration and login
+- Event registration saving
+- Event database
+- Admin event approval and management
+- Dashboard statistics
+- User account/session behavior
+- Event status updates
+- Notification and reminder messages
+- Data updates after form submission
+
+The prototype will use static sample event data and JavaScript behavior to demonstrate how these features would work in a complete system.
+
+---
+
+## 6. Final Prototype Risk
+
+The biggest technical risk is that the prototype may not demonstrate realistic data flow because it does not use a real backend server or live database.
+
+The team will reduce this risk by:
+
+- Using realistic sample campus event records.
+- Demonstrating complete user pathways from browsing events to registration.
+- Adding JavaScript validation, search, and filtering functionality.
+- Keeping the interface consistent across all pages.
+- Clearly documenting which features are fully implemented and which are simulated.
+- Aligning every screen with the system requirements, user stories, MVP features, and feature-to-requirement mapping.
