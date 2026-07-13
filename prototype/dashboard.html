@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard | Smart Campus Event Hub</title>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+
+             <img src="images/logo1.webp" alt="Logo">
+
+            <h2>Campus Hub</h2>
+
+        </div>
+
+        <ul>
+
+            <li class="active">
+                <a href="dashboard.html">
+                    <i class="fas fa-house"></i>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="events.html">
+                    <i class="fas fa-calendar-days"></i>
+                    Events
+                </a>
+            </li>
+
+            <li>
+                <a href="favorites.html">
+                    <i class="fas fa-heart"></i>
+                    Favorites
+                </a>
+            </li>
+
+            <li>
+                <a href="reviews.html">
+                    <i class="fas fa-star"></i>
+                    Reviews
+                </a>
+            </li>
+
+            <li>
+                <a href="profile.html">
+                    <i class="fas fa-user"></i>
+                    Profile
+                </a>
+            </li>
+
+            <li>
+                <a href="#" id="logoutBtn">
+                    <i class="fas fa-right-from-bracket"></i>
+                    Logout
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <!-- Top Header -->
+
+        <header class="dashboard-header">
+
+            <div>
+
+                <h1 id="welcomeUser">
+
+                    Welcome
+
+                </h1>
+
+                <p>
+
+                    Smart Campus Event Hub
+
+                </p>
+
+            </div>
+
+        </header>
+
+        <!-- Statistics -->
+
+        <section class="stats-grid">
+
+            <div class="stat-card">
+
+                <i class="fas fa-calendar-check"></i>
+
+                <h2 id="registeredCount">
+
+                    0
+
+                </h2>
+
+                <p>
+
+                    Registered Events
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <i class="fas fa-heart"></i>
+
+                <h2 id="favoriteCount">
+
+                    0
+
+                </h2>
+
+                <p>
+
+                    Favorite Events
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <i class="fas fa-star"></i>
+
+                <h2 id="reviewCount">
+
+                    0
+
+                </h2>
+
+                <p>
+
+                    Reviews
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Upcoming Events -->
+
+        <section class="dashboard-section">
+
+            <h2>
+
+                Upcoming Events
+
+            </h2>
+
+            <div
+                class="event-grid"
+                id="upcomingEvents">
+
+            </div>
+
+        </section>
+
+        <!-- Quick Actions -->
+
+        <section class="dashboard-section">
+
+            <h2>
+
+                Quick Actions
+
+            </h2>
+
+            <div class="quick-actions">
+
+                <a
+                    href="events.html"
+                    class="btn-primary">
+
+                    Browse Events
+
+                </a>
+
+                <a
+                    href="favorites.html"
+                    class="btn-secondary">
+
+                    My Favorites
+
+                </a>
+
+                <a
+                    href="profile.html"
+                    class="btn-secondary">
+
+                    Edit Profile
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="js/storage.js"></script>
+<script src="js/main.js"></script>
+<script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
