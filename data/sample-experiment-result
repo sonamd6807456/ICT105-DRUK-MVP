@@ -8,7 +8,7 @@ T04,T6,View upcoming events in dashboard/calendar,Yes,60,No,,5,Calendar view hel
 T05,T7,Check event reminder notification feature,No,90,Yes,Unclear how reminders are activated,3,Need clearer explanation of reminder settings
 T05,T8,Submit an event through organizer page,Yes,100,No,Required fields were not obvious,4,Add clearer instructions for organizers.
 
-# MVP##Experiment Result Summary
+# MVP Experiment Result Summary
 
 The Smart Campus Event Hub prototype was tested with 5 students from Rangsit University to evaluate whether users could discover campus events, search activities, view event details, register for events, and understand reminder features.
 
