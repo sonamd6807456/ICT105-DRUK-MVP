@@ -1,0 +1,13 @@
+tester_code,task_id,task_description,completed,time_seconds,help_needed,confusion_point,rating_clarity_1_5,notes
+T01,T1,Understand homepage purpose,Yes,30,No,,5,Homepage clearly explains the platform and navigation.
+T01,T2,Browse upcoming campus events,Yes,42,No,,5,Event list was easy to understand.
+T02,T3,Search for an event by keyword,Yes,50,No,,5,Search function worked as expected.
+T02,T4,Filter events by category,Yes,55,No,Filter options could be more visible,4,Category filter helped find events quickly.
+T03,T5,View event details,Yes,38,No,,5,Event information was clear and complete.
+T03,T6,Register for an event,Yes,70,No,Confirmation message could be larger,4,Registration process was simple.
+T04,T7,Check event calendar,Yes,48,No,,5,Calendar made upcoming events easy to view.
+T04,T8,Find event status,Yes,40,No,Status colors were slightly confusing,4,Need clearer color indicators.
+T05,T9,Navigate to dashboard summary,Yes,35,No,,5,Dashboard provided a useful overview.
+T05,T10,Organizer creates a new event,Yes,95,Yes,Some form fields were unclear,4,Need better field descriptions for organizers.
+T06,T11,Organizer updates event information,Yes,80,No,,5,Editing events was straightforward.
+T06,T12,Organizer manages participant list,Yes,88,Yes,Participant management options were not immediately obvious,4,Add clearer action buttons.
