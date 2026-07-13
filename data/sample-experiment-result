@@ -1,19 +1,50 @@
-tester_code,task_id,task_description,completed,time_seconds,help_needed,confusion_point,rating_clarity_1_5,notes
-T01,T1,Understand homepage purpose,Yes,30,No,,5,Homepage clearly explains the purpose of finding and joining campus events
-T01,T2,Find an upcoming campus event,Yes,55,No,,5,Event list was easy to understand and displayed useful information
-T02,T3,Search for an event using category or keyword filter,Yes,70,No,Unsure which category filter to choose,4,Filter labels should be more specific and easier to understand
-T02,T4,Open event details page,Yes,45,No,,4,Event information was clear but users wanted more visual details
-T03,T5,Register for a selected event,Yes,85,No,Registration button was slightly difficult to find,4,Make registration button more noticeable
-T04,T6,View upcoming events in dashboard/calendar,Yes,60,No,,5,Calendar view helped users track upcoming activities
-T05,T7,Check event reminder notification feature,No,90,Yes,Unclear how reminders are activated,3,Need clearer explanation of reminder settings
-T05,T8,Submit an event through organizer page,Yes,100,No,Required fields were not obvious,4,Add clearer instructions for organizers.
+# MVP Experiment Result
 
-# MVP Experiment Result Summary
+## 1. Usability Testing Results
 
-The Smart Campus Event Hub prototype was tested with 5 students from Rangsit University to evaluate whether users could discover campus events, search activities, view event details, register for events, and understand reminder features.
+The Smart Campus Event Hub prototype was tested with students from Rangsit University to evaluate whether users could discover campus events, search activities, view event details, register for events, and understand the main features of the platform.
 
-The results showed that most users successfully completed the main tasks without assistance. The highest-performing features were the homepage, event listing, and calendar view, where users rated the clarity between 4 and 5 out of 5.
+| Tester Code | Task ID | Task Description | Completed | Time (seconds) | Help Needed | Confusion Point | Rating Clarity (1-5) | Notes |
+|---|---|---|---|---:|---|---|---:|---|
+| T01 | T1 | Understand homepage purpose | Yes | 30 | No | - | 5 | Homepage clearly explains the purpose of finding and joining campus events. |
+| T01 | T2 | Find an upcoming campus event | Yes | 55 | No | - | 5 | Event list was easy to understand and displayed useful information. |
+| T02 | T3 | Search for an event using category or keyword filter | Yes | 70 | No | Unsure which category filter to choose | 4 | Filter labels should be more specific and easier to understand. |
+| T02 | T4 | Open event details page | Yes | 45 | No | - | 4 | Event information was clear, but users wanted more visual details. |
+| T03 | T5 | Register for a selected event | Yes | 85 | No | Registration button was slightly difficult to find | 4 | Make the registration button more noticeable. |
+| T04 | T6 | View upcoming events in dashboard/calendar | Yes | 60 | No | - | 5 | Calendar view helped users track upcoming activities. |
+| T05 | T7 | Check event reminder notification feature | No | 90 | Yes | Unclear how reminders are activated | 3 | Need clearer explanation of reminder settings. |
+| T05 | T8 | Submit an event through organizer page | Yes | 100 | No | Required fields were not obvious | 4 | Add clearer instructions for organizers. |
 
-However, some usability issues were identified. Users suggested improving filter category labels, making the registration button more visible, and providing clearer instructions for reminder notifications.
+---
 
-Based on the experiment results, the team will improve the user interface and navigation flow before final prototype implementation.
+# 2. Success Metric Evaluation
+
+| Metric ID | Metric | Calculation | Result | Target | Status |
+|---|---|---|---|---|---|
+| M-01 | Task completion rate | Completed tasks (7) / Total tasks (8) × 100 | 87.5% | 70% or higher | Passed |
+| M-02 | Registration completion rate | Successful registrations / Registration attempts × 100 | 100% | 80% or higher | Passed |
+| M-03 | Search success rate | Users who successfully found events / Total users tested | 100% | 70% or higher | Passed |
+| M-04 | Event information clarity rating | Average rating from event detail feedback | 4/5 | Average 4 out of 5 | Passed |
+| M-05 | Feature usefulness rating | Average feedback rating of MVP features | 4.25/5 | Average 4 out of 5 | Passed |
+
+---
+
+# 3. Key Findings
+
+| Area Tested | Finding | Improvement Action |
+|---|---|---|
+| Homepage | Users easily understood the purpose of the platform. | Maintain current homepage structure. |
+| Event Listing | Users successfully found available campus events. | Continue improving event organization and display. |
+| Search and Filter | Some users were unsure about filter categories. | Improve filter labels and category descriptions. |
+| Event Registration | Users completed registration but some had difficulty finding the button. | Make registration button more visible. |
+| Reminder Feature | Users were unclear about reminder activation. | Add clearer reminder instructions. |
+| Organizer Submission | Required fields were not obvious. | Add field descriptions and validation messages. |
+
+---
+
+# 4. Decision After Experiment
+
+Based on the experiment results, most users successfully completed the main Smart Campus Event Hub workflow. The MVP achieved the target success metrics for task completion, usability, and feature usefulness.
+
+The team will continue with the implementation sprint while improving the search filter labels, registration button visibility, reminder explanation, and organizer submission guidance.
+
