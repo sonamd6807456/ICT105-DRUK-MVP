@@ -378,6 +378,169 @@ The team finalized the User Flow Diagram, Data Flow Diagram, and System Architec
 
 ---
 
+# Weekly Logbook - Lab 07
+
+## Group Name
+
+DRUK
+
+## Project Title
+
+Smart Campus Event Hub
+
+## Date
+
+July 15, 2026
+
+---
+
+## Members Present
+
+| Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
+|---|---|---|
+| Tenzin Dema | Prepared project documentation, defined critical assumptions, designed feedback collection materials, prepared experiment result templates, updated README documentation, created Smart Campus Event Hub case study brief, managed project issues, and updated technical architecture documentation. | `docs/critical-assumptions.md`, `docs/feedback-form.md`, `data/experiment-results-template.md`, `README.md`, `docs/case-study-brief.md`, `ISSUES.md`, `docs/technical-architecture.md` |
+| Sonam Deki | Designed the experiment flow diagram, prepared sample test users, created experiment user profiles, developed the MVP experiment plan, and supported success measurement planning. | `docs/experiment-flow-diagram.md`, `data/sample-test-user.md`, `data/sample-experiment-user.md`, `docs/mvp-experiment-plan.md`, `docs/success-metrics.md` |
+| Kinley Zam | Created the feedback form template, prepared the experiment script, updated the Smart Campus Event Hub prototype, improved HTML/CSS/JavaScript implementation, and uploaded prototype screenshots for documentation. | `data/feedback-form-template.csv`, `docs/experiment-script.md`, `prototype/index.html`, `prototype/style.css`, `prototype/script.js`, `docs/screenshots/` |
+
+
+---
+
+# Decisions Made Today
+
+## 1. MVP Experiment Type
+
+The team selected a combination of **Simple Web Prototype**, **Clickable Prototype**, and **Form-Based Simulation** to evaluate the Smart Campus Event Hub.
+
+The prototype allows students to:
+
+- Browse upcoming campus events
+- Search and filter events by category
+- View event details
+- Register for events
+- Receive event information
+- Submit event feedback
+- Manage personal event participation
+
+The experiment focuses on testing whether students can easily discover and participate in campus activities.
+
+---
+
+## 2. Experiment Objective
+
+The objective of the MVP experiment is to determine whether students can successfully use the Smart Campus Event Hub to discover, register, and interact with campus events.
+
+The experiment aims to validate whether the system solves current campus event problems:
+
+- Students are unaware of available campus activities.
+- Event information is scattered across different platforms.
+- Students have difficulty finding events suitable for their interests.
+- Event organizers lack an effective way to reach students.
+
+---
+
+## 3. Critical Assumptions
+
+The team identified and prioritized the following assumptions:
+
+### User Problem Assumption
+
+Students need a centralized platform where they can easily discover campus events and activities.
+
+### Usability Assumption
+
+Students should be able to search, view, and register for events without additional assistance.
+
+### Value Proposition Assumption
+
+A Smart Campus Event Hub can increase student participation by providing organized and accessible event information.
+
+### Technical Feasibility Assumption
+
+The system can support event management, searching, registration, and notifications using available web technologies.
+
+---
+
+## 4. Success Metrics
+
+The team defined measurable success criteria:
+
+- Event discovery success rate
+- Search and filter completion rate
+- Event registration completion rate
+- Time required to complete tasks
+- User satisfaction score
+- User understanding of event information
+- Feature usefulness rating
+
+These measurements will determine whether the MVP meets student needs.
+
+---
+
+## 5. Experiment Preparation
+
+Five representative users were selected:
+
+- First-year Student
+- International Student
+- Senior Student
+- Student Club Organizer
+- Campus Staff Member
+
+The testing activities include:
+
+1. Find an upcoming campus event.
+2. Search for a specific event category.
+3. View event details.
+4. Register for an event.
+5. Provide feedback about the platform.
+
+The team prepared:
+
+- Usability testing script
+- User tasks
+- Feedback questionnaire
+- Observation checklist
+
+---
+
+# Problems or Risks Found
+
+- Event registration is currently simulated without a real database system.
+- Notification features require further development.
+- Event approval and management processes need additional implementation.
+- User preferences may differ depending on student interests.
+- More usability testing is needed before final development.
+
+---
+
+# Files Added or Updated
+
+| File | Purpose |
+|---|---|
+| `docs/mvp-experiment-plan.md` | Documents MVP experiment objectives, scope, and testing approach. |
+| `docs/critical-assumptions.md` | Defines project assumptions, risks, and validation methods. |
+| `docs/experiment-script.md` | Provides usability testing instructions and participant tasks. |
+| `docs/success-metrics.md` | Defines evaluation criteria and measurements. |
+| `docs/feedback-form.md` | Contains questions for collecting user opinions. |
+| `docs/weekly-logbook.md` | Updated weekly project progress. |
+| `README.md` | Updated project overview and latest experiment progress. |
+
+---
+
+# Next Actions Before Lab 08
+
+- Conduct usability testing with selected participants.
+- Collect feedback from students and organizers.
+- Analyze user behavior and task completion results.
+- Improve event browsing and registration features.
+- Update prototype based on testing results.
+- Finalize documentation for the next development phase.
+
+---
+
+# Lecturer / TA Notes
+
+*To be completed during the laboratory session after feedback from the lecturer or teaching assistant.*
 
 
 
