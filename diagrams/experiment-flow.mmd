@@ -1,35 +1,25 @@
 flowchart TD
 
-A[Start Experiment] --> B[Select Test Users]
+    A[Define MVP Goals and Requirements] --> B[Select Features to Validate]
 
-B --> C[Provide Prototype Access]
+    B --> C[Choose Representative Test Users]
 
-C --> D[Open Smart Campus Event Hub]
+    C --> D[Prepare Smart Campus Event Hub Prototype]
 
-D --> E[Test Homepage]
+    D --> E[Assign User Testing Tasks]
 
-E --> F[Browse Events]
+    E --> F[Observe User Interaction]
 
-F --> G[Search and Filter Events]
+    F --> G[Record Task Completion Time and Issues]
 
-G --> H[View Event Details]
+    G --> H[Collect User Ratings and Feedback]
 
-H --> I[Register for Event]
+    H --> I[Evaluate Results Using Success Metrics]
 
-I --> J[Check Dashboard Calendar]
+    I --> J{Prototype Ready?}
 
-J --> K[Collect User Feedback]
+    J -->|Yes| K[Proceed with MVP Development]
 
-K --> L[Record Testing Results]
+    J -->|Needs Improvement| L[Refine Interface and User Experience]
 
-L --> M[Analyze Success Metrics]
-
-M --> N{Decision}
-
-N -->|Pass| O[Continue MVP Development]
-
-N -->|Fail| P[Improve Prototype]
-
-P --> D
-
-O --> Q[Final Prototype]
+    L --> M[Repeat User Testing]
