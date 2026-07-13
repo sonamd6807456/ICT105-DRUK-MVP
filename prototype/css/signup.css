@@ -1,0 +1,188 @@
+/* ==========================================
+   SIGNUP PAGE
+========================================== */
+
+body{
+
+    margin:0;
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f5f7fa;
+
+}
+
+.signup-section{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:50px 20px;
+
+}
+
+.signup-card{
+
+    width:100%;
+
+    max-width:500px;
+
+    background:#ffffff;
+
+    padding:40px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.signup-card h1{
+
+    text-align:center;
+
+    color:#003B8E;
+
+    margin-bottom:10px;
+
+}
+
+.signup-card p{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:30px;
+
+}
+
+.form-group{
+
+    margin-bottom:20px;
+
+}
+
+.form-group label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:500;
+
+}
+
+.form-group input{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    box-sizing:border-box;
+
+    transition:.3s;
+
+}
+
+.form-group input:focus{
+
+    border-color:#003B8E;
+
+    outline:none;
+
+}
+
+.btn-signup{
+
+    width:100%;
+
+    background:#003B8E;
+
+    color:#ffffff;
+
+    border:none;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.btn-signup:hover{
+
+    background:#00296b;
+
+}
+
+.login-link{
+
+    margin-top:25px;
+
+    text-align:center;
+
+}
+
+.login-link a{
+
+    text-decoration:none;
+
+    color:#003B8E;
+
+    font-weight:600;
+
+}
+
+@media(max-width:600px){
+
+    .signup-card{
+
+        padding:25px;
+
+    }
+
+}
+.form-group select{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    background:#ffffff;
+
+    box-sizing:border-box;
+
+    transition:.3s;
+
+}
+
+.form-group select:focus{
+
+    border-color:#003B8E;
+
+    outline:none;
+
+}
