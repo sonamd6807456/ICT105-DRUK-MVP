@@ -1,33 +1,35 @@
-flowchart LR
+flowchart TD
 
-    USER[Student Tester] --> START[Start Experiment]
+A[Start Experiment] --> B[Select Test Users]
 
-    START --> TASK1[Understand Homepage Purpose]
+B --> C[Provide Prototype Access]
 
-    TASK1 --> TASK2[Browse Upcoming Campus Events]
+C --> D[Open Smart Campus Event Hub]
 
-    TASK2 --> TASK3[Search and Filter Events]
+D --> E[Test Homepage]
 
-    TASK3 --> TASK4[View Event Details]
+E --> F[Browse Events]
 
-    TASK4 --> TASK5[Register for Event]
+F --> G[Search and Filter Events]
 
-    TASK5 --> TASK6[View Dashboard / Calendar]
+G --> H[View Event Details]
 
-    TASK6 --> FEEDBACK[Collect User Feedback]
+H --> I[Register for Event]
 
-    FEEDBACK --> DATA[(Testing Data)]
+I --> J[Check Dashboard Calendar]
 
-    DATA --> ANALYSIS[Analyze Experiment Results]
+J --> K[Collect User Feedback]
 
-    ANALYSIS --> METRIC[Measure Success Metrics]
+K --> L[Record Testing Results]
 
-    METRIC --> DECISION{Metrics Meet Target?}
+L --> M[Analyze Success Metrics]
 
-    DECISION -->|Yes| CONTINUE[Continue Implementation Sprint]
+M --> N{Decision}
 
-    DECISION -->|No| IMPROVE[Improve Prototype Design]
+N -->|Pass| O[Continue MVP Development]
 
-    IMPROVE --> START
+N -->|Fail| P[Improve Prototype]
 
-    CONTINUE --> FINAL[Develop Final Prototype]
+P --> D
+
+O --> Q[Final Prototype]
