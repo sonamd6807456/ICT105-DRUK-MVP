@@ -309,3 +309,45 @@ The Smart Campus Event Hub demonstrates how technology can improve communication
 
 The completed documentation, wireframes, diagrams, and prototype provide a solid foundation for the remaining development phases and demonstrate the feasibility of the Smart Campus Event Hub as a minimum viable product (MVP).
 
+# README Update Template for Lab 07
+
+## Lab 07: MVP Experiment Design
+
+### Experiment Objective
+The objective of this experiment is to validate whether the Smart Campus Event Hub helps university students discover campus events more easily, understand event information, and successfully register for activities through a centralized web platform. The experiment also evaluates the usability of the prototype and identifies improvements before developing the final prototype.
+
+### Critical Assumptions
+
+The top three assumptions are:
+
+1. Students need a centralized platform because campus event information is currently scattered across multiple communication channels.
+2. Students can easily search, filter, and find relevant campus events using the prototype.
+3. Students are willing to register for campus events through the Smart Campus Event Hub instead of relying on existing communication methods.
+
+### MVP Experiment Type
+
+**Prototype Usability Testing**
+
+The team will conduct usability testing using the clickable HTML/CSS/JavaScript prototype. Participants will complete common tasks such as browsing events, searching for activities, viewing event details, and registering for an event. This experiment is appropriate because it allows the team to validate the user experience and identify usability issues before implementing a full system.
+
+### Success Metrics
+
+- At least **80%** of participants successfully complete the event registration process without assistance.
+- At least **80%** of participants can find a specific event using the search and filter functions.
+- Average usability rating of **4 out of 5** or higher.
+- At least **80%** of participants agree that the platform makes it easier to discover campus events.
+- At least **75%** of participants say they would use the Smart Campus Event Hub if it were available.
+
+### Files Added in Lab 07
+
+- `/docs/mvp-experiment-plan.md`
+- `/docs/critical-assumptions.md`
+- `/docs/experiment-script.md`
+- `/docs/success-metrics.md`
+- `/docs/feedback-form.md`
+- `/docs/weekly-logbook.md`
+
+### Connection to Final Prototype
+
+The results of this MVP experiment will guide the development of the final Smart Campus Event Hub prototype by identifying usability problems, validating key assumptions, and confirming whether the MVP successfully addresses students' difficulties in discovering campus events. User feedback will help improve navigation, event search and filtering, registration workflow, dashboard design, and overall user experience before the final submission.
+
