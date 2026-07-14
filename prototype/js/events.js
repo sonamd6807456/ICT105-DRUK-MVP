@@ -92,12 +92,12 @@ function displayEvents(eventList){
 
 
                 <p>
-                📅 ${event.date}
+                 ${event.date}
                 </p>
 
 
                 <p>
-                📍 ${event.location}
+                 ${event.location}
                 </p>
 
 
@@ -142,7 +142,7 @@ function displayEvents(eventList){
                     class="favorite-btn"
                     onclick="addFavorite(${event.id})">
 
-                    ❤️ Favorite
+                     Favorite
 
                     </button>
 
