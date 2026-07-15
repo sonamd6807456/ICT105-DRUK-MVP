@@ -353,12 +353,12 @@ The team will conduct usability testing using the clickable HTML/CSS/JavaScript 
 
 ### Files Added in Lab 07
 
-- `/docs/mvp-experiment-plan.md`
-- `/docs/critical-assumptions.md`
-- `/docs/experiment-script.md`
-- `/docs/success-metrics.md`
-- `/docs/feedback-form.md`
-- `/docs/weekly-logbook.md`
+- /docs/MVP-experiment-plan.md
+- /docs/critical-assumptions.md
+- /docs/experiment-script.md
+- /docs/success-metrics.md
+- /docs/feedback-form.md
+- /docs/weekly-logbook.md
 
 ### Connection to Final Prototype
 
@@ -400,5 +400,13 @@ Based on the validation results, the team decided to **continue with minor revis
 ---
 
 ### Files Added
+- /data/validation-results.xlsx
+- /data/validation-results.csv
+- /docs/customer-validation-summary.md
+- /docs/analytics-insights.md
+- /docs/mvp-decision.md
+- screenshots/validation-summary.md
+- /docs/weekly-logbook.md
+   
 
 
