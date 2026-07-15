@@ -4,13 +4,13 @@ Use this file to record qualitative observations during validation.
 
 | Test User ID | Role | What the user did | Confusion point | Direct comment | Requirement affected |
 |---|---|---|---|---|---|
-| TU-01 | Student | Signed up, logged in, browsed events, and registered for an event successfully. | None | "The website is easy to use and the event list is clear." | FR-01, FR-02, FR-03, FR-04 |
-| TU-02 | Student | Created an account and explored upcoming events. | Unsure where to click to register. | "The Register button should be more noticeable." | FR-04 |
-| TU-03 | Student | Logged in, viewed event details, and submitted a review. | None | "The review feature is simple and convenient." | FR-02, FR-03, FR-06 |
-| TU-04 | Student | Registered for multiple events and viewed profile information. | None | "Navigation between pages is smooth." | FR-04, FR-05 |
-| TU-05 | Student | Edited profile and browsed different event categories. | Wanted a search feature. | "Adding a search bar would make finding events faster." | FR-03, FR-05 |
-| TU-06 | Student | Logged in, viewed events, and registered for an activity. | Confirmation message was not obvious. | "A pop-up confirmation after registration would be helpful." | FR-04 |
-| TU-07 | Student | Submitted a review after viewing an event. | None | "The feedback form is easy to complete." | FR-06 |
-| TU-08 | Student | Tested the website on a mobile device. | None | "The website works well on my phone." | FR-03 |
-| TU-09 | Student | Completed the full process from signup to event registration. | None | "Everything was straightforward and easy to understand." | FR-01, FR-02, FR-03, FR-04 |
-| TU-10 | Student | Explored all pages including profile, events, and reviews. | Suggested event filters. | "Event categories or filters would improve navigation." | FR-03 |
+| TU-01 | First-year Student | Created an account, logged in, browsed events, and registered successfully. | None | "The registration process is very simple." | FR-01, FR-02, FR-03, FR-04 |
+| TU-02 | Second-year Student | Explored events and added favorites. | None | "The event cards are clean and informative." | FR-03, FR-05 |
+| TU-03 | International Student | Browsed events and registered for an event. | None | "The website is easy to understand even for new students." | FR-03, FR-04 |
+| TU-04 | Student Club Member | Viewed event details and registered for activities. | None | "The event information is clear and helpful." | FR-03, FR-04 |
+| TU-05 | Third-year Student | Explored dashboard, events, and profile page. | None | "Navigation between pages is smooth." | FR-03, FR-06 |
+| TU-06 | Student Club Organizer | Tested organizer dashboard and managed events. | None | "Managing events is straightforward." | FR-08 |
+| TU-07 | Campus Administrator | Reviewed event management and user management pages. | None | "The admin dashboard is well organized." | FR-08 |
+| TU-08 | Final-year Student | Tested search, favorites, and event registration. | None | "The favorites feature is useful for keeping track of events." | FR-03, FR-05 |
+| TU-09 | Exchange Student | Completed the entire process from signup to registration. | None | "The website is intuitive and easy to navigate." | FR-01, FR-02, FR-03, FR-04 |
+| TU-10 | Student Representative | Evaluated all major website functions including reviews and profile. | None | "Overall, the website provides a great user experience." | FR-03, FR-05, FR-06, FR-07 |
