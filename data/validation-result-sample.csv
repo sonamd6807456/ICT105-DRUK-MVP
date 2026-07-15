@@ -1,13 +1,13 @@
 Test_User_ID,User_Role,Prototype_Version,Main_Task,Task_Completed,Time_Seconds,Confusion_Point,Feature_Most_Useful,Feedback_Score_1_5,Interest_Level_1_5,Comment,Requirement_Affected
-TU-01,Student,v1.0,Browse campus events,Yes,42,No confusion,Event Listing,5,5,Homepage was easy to understand.,FR-01
-TU-02,Student,v1.0,Search for workshops,Yes,65,Search & Filter,Search Function,4,5,Filter labels should be clearer.,FR-03
-TU-03,Student,v1.0,View event details,Yes,48,No confusion,Event Details,5,5,Event information was complete.,FR-04
-TU-04,Student,v1.0,Register for an event,Yes,72,Registration Form,Event Registration,4,5,Some form labels need improvement.,FR-05
-TU-05,Student,v1.0,Browse upcoming events,Yes,38,No confusion,Event List,5,4,Easy to browse available events.,FR-01
-TU-06,Organizer,v1.0,Create an event,Yes,90,Event Category,Event Management,4,5,Event categories should be more descriptive.,FR-09
-TU-07,Organizer,v1.0,Update event information,Yes,82,No confusion,Event Management,5,5,Updating events was straightforward.,FR-10
-TU-08,Student,v1.0,Search events by category,No,98,Search & Filter,Search Function,3,4,Category filter was difficult to use.,FR-03
-TU-09,Student,v1.0,Register for workshop,Yes,68,No confusion,Registration,5,5,Registration process was simple.,FR-05
-TU-10,Student,v1.0,View dashboard summary,Yes,40,No confusion,Dashboard,5,5,Dashboard was clear and useful.,FR-08
-TU-11,Campus Administrator,v1.0,Manage event records,Yes,95,Dashboard Layout,Admin Dashboard,4,4,Dashboard layout needs better organization.,FR-09
-TU-12,International Student,v1.0,Find and register for events,Yes,74,Search Filters,Search Function,4,5,More filtering options would help.,FR-03
+TU-01,Student,v1.0,Browse Events page,Yes,42,No confusion,Events Page,5,5,The homepage and Events page were easy to navigate.,FR-01
+TU-02,Student,v1.0,Search campus events,Yes,65,Search & Filter,Search Function,4,5,Search filters should have clearer category labels.,FR-03
+TU-03,Student,v1.0,View event details,Yes,48,No confusion,Event Details,5,5,The event details page provided enough information.,FR-04
+TU-04,Student,v1.0,Log in and access Student Dashboard,Yes,72,Login Page,Student Dashboard,4,5,The login process was simple but could have clearer instructions.,FR-02
+TU-05,Student,v1.0,Browse upcoming events,Yes,38,No confusion,Events List,5,4,Finding upcoming events was quick and easy.,FR-01
+TU-06,Organizer,v1.0,Manage events in Admin Dashboard,Yes,90,Admin Manage Events,Admin Dashboard,4,5,Managing events was useful but categories should be easier to organize.,FR-09
+TU-07,Organizer,v1.0,Update event information,Yes,82,No confusion,Admin Manage Events,5,5,Updating event information was straightforward.,FR-10
+TU-08,Student,v1.0,Search events by category,No,98,Search & Filter,Search Function,3,4,Category filters were difficult to understand.,FR-03
+TU-09,Student,v1.0,View My Favorites page,Yes,68,No confusion,My Favorites,5,5,The Favorites page was useful and easy to access.,FR-05
+TU-10,Student,v1.0,Open Student Dashboard,Yes,40,Student Dashboard,Dashboard Overview,4,5,Dashboard information could be organized more clearly.,FR-08
+TU-11,Campus Administrator,v1.0,Manage users and reviews,Yes,95,Admin Dashboard,Admin Manage Users,4,4,Admin pages are useful but navigation can be improved.,FR-09
+TU-12,International Student,v1.0,Find events using search,Yes,74,Search & Filter,Search Function,4,5,Adding more filter options would improve event searching.,FR-03
