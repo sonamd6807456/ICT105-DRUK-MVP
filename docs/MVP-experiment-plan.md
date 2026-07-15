@@ -3,10 +3,10 @@
 ## 1. Group and Project Information
 
 - Group name: DRUK
-- Project title: Smart Campus Event Hub
-- Repository link: https://github.com/sonamd6807456/ICT105-DRUK-MVP
-- Main target user: First-year and international students at Rangsit University
-- Prototype platform: HTML, CSS, JavaScript web prototype with LocalStorage simulation
+- Project title: Smart Campus Event Hub.
+- Repository link: https://github.com/sonamd6807456/ICT105-DRUK-MVP.
+- Main target user: First-year and international students at Rangsit University.
+- Prototype platform: HTML, CSS, JavaScript web prototype with LocalStorage simulation.
 
 ---
 
