@@ -1,0 +1,13 @@
+Test_User_ID,User_Role,Prototype_Version,Main_Task,Task_Completed,Time_Seconds,Confusion_Point,Feature_Most_Useful,Feedback_Score_1_5,Interest_Level_1_5,Comment,Requirement_Affected
+TU-01,Student,v1.0,Browse campus events,Yes,42,No confusion,Event Listing,5,5,The homepage is easy to navigate and events are well organized.,FR-01
+TU-02,Student,v1.0,Search for a workshop,Yes,65,Search filters,Search & Filter,4,5,Search works well but filter labels should be clearer.,FR-03
+TU-03,Student,v1.0,View event details,Yes,48,No confusion,Event Details,5,5,The event information is complete and easy to understand.,FR-04
+TU-04,Student,v1.0,Register for an event,Yes,72,Registration form,Event Registration,4,5,Registration was simple but some field labels could be clearer.,FR-05
+TU-05,Student,v1.0,View dashboard summary,Yes,38,No confusion,Dashboard Summary,5,4,The dashboard gives a clear overview of upcoming events.,FR-08
+TU-06,Organizer,v1.0,Create a new event,Yes,90,Event category,Event Management,4,5,Creating an event is easy but categories could be better organized.,FR-09
+TU-07,Organizer,v1.0,Update event information,Yes,82,No confusion,Event Management,5,5,Updating event details is quick and straightforward.,FR-10
+TU-08,Student,v1.0,Search events by category,No,98,Category filters,Search & Filter,3,4,I couldn't easily find the correct category filter.,FR-03
+TU-09,Student,v1.0,Register for a workshop,Yes,68,No confusion,Event Registration,5,5,The registration process is fast and user-friendly.,FR-05
+TU-10,Student,v1.0,Browse homepage and event list,Yes,40,No confusion,Homepage,5,5,Everything is easy to locate from the homepage.,FR-01
+TU-11,Campus Administrator,v1.0,Manage event records,Yes,95,Dashboard layout,Admin Dashboard,4,4,The dashboard is useful but could display more event statistics.,FR-09
+TU-12,International Student,v1.0,Find and register for an event,Yes,74,Search filters,Search & Filter,4,5,Adding more filter options would make searching easier.,FR-03
