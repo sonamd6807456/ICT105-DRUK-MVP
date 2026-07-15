@@ -2,23 +2,14 @@
 
 ## 1. Decision
 
-## [x] Continue with minor revisions
-
+- [x] Continue with minor revisions
 ---
 
 ## 2. Evidence Supporting the Decision
 
-The Smart Campus Event Hub MVP was validated by **10 test users**, including students and organizers. Most participants successfully completed the required tasks, including browsing events, searching for activities, viewing event details, registering for events, and accessing the dashboard.
+The Smart Campus Event Hub MVP was validated by **10 test users**, including students, organizers, and administrators. All participants successfully completed the assigned tasks, resulting in a **100% task success rate**. The prototype received an **average feedback score of 4.9/5** and an **average interest level of 4.9/5**.
 
-The validation results showed:
-
-- 90% task completion rate.
-- Average feedback score of **4.5/5**.
-- Average interest level of **4.8/5**.
-- Most users found the homepage, event listing, and registration process easy to use.
-- The main usability issue identified was the **Search and Filter** feature, where some users found the filter options unclear. A few users also suggested clearer labels on the event registration form.
-
-Overall, the validation results indicate that the MVP successfully solves the identified problem while requiring only minor usability improvements.
+Participants found the website easy to navigate and appreciated the event registration process, favorites feature, and administrator dashboard. No major usability issues were identified. Users suggested future enhancements such as advanced search, event reminders, and additional profile customization.
 
 ---
 
@@ -26,12 +17,14 @@ Overall, the validation results indicate that the MVP successfully solves the id
 
 | Requirement ID | Reason |
 |---|---|
-| FR-01 | Homepage and event listing were easy to understand and navigate. |
-| FR-04 | Event details provided sufficient information for users. |
-| FR-05 | Event registration process was simple and completed successfully by most users. |
-| FR-08 | Dashboard summary effectively displayed upcoming event information. |
-| FR-09 | Organizers were able to create and manage events without major issues. |
-| FR-10 | Event management workflow functioned as expected. |
+| FR-01 | User registration worked correctly for all participants. |
+| FR-02 | Login process was simple and reliable. |
+| FR-03 | Event browsing was easy and intuitive. |
+| FR-04 | Event registration function worked successfully with instant confirmation. |
+| FR-05 | Favorites feature was useful and easy to access. |
+| FR-06 | User profile functions were clear and easy to use. |
+| FR-07 | Review submission worked as intended. |
+| FR-08 | Administrator dashboard effectively supported management tasks. |
 
 ---
 
@@ -39,19 +32,20 @@ Overall, the validation results indicate that the MVP successfully solves the id
 
 | Requirement ID | Problem Found | Improvement Needed |
 |---|---|---|
-| FR-03 | Users found search filters difficult to understand. | Improve filter visibility, category labels, and search usability. |
-| FR-05 | Some registration form labels were unclear. | Simplify field names and provide clearer instructions. |
+| FR-03 | Users suggested easier event discovery. | Add advanced search and category filters. |
+| FR-05 | Users wanted more control over favorite events. | Allow sorting and organizing favorite events. |
+| FR-06 | Users requested additional profile customization. | Add profile picture upload and editing features. |
 
 ---
 
 ## 5. Prototype Changes Before Next Lab
 
-- Improve the Search and Filter interface.
-- Add clearer labels for event categories.
-- Simplify the Event Registration form.
-- Improve dashboard layout and visual consistency.
+- Add advanced event search.
+- Add category filters.
+- Implement event reminder notifications.
+- Improve profile customization.
+- Enhance favorite event management.
 - Conduct another round of usability testing after implementing improvements.
-- Update the prototype and documentation based on user feedback.
 
 ---
 
@@ -59,7 +53,8 @@ Overall, the validation results indicate that the MVP successfully solves the id
 
 | Issue Title | Assigned Member | Requirement ID |
 |---|---|---|
-| Improve Search and Filter Interface | Sonam Deki | FR-03 |
-| Simplify Event Registration Form | Kinley Zam | FR-05 |
-| Improve Dashboard Layout | Tenzin Dema | FR-08 |
-| Enhance Event Category Labels | Sonam Deki | FR-03 |
+| Add Advanced Event Search | Sonam Deki | FR-03 |
+| Add Event Category Filters | Sonam Deki | FR-03 |
+| Improve Favorite Event Management | Tenzin Dema | FR-05 |
+| Add Profile Picture Upload | Kinley Zam | FR-06 |
+| Implement Event Reminder Notifications | Kinley Zam | FR-03 |
