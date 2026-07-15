@@ -370,11 +370,13 @@ The results of this MVP experiment will guide the development of the final Smart
 
 ### Validation Objective
 
-The objective of this validation was to evaluate whether the **Smart Campus Event Hub** MVP enables users to successfully navigate the website, browse campus events, search and filter activities, view event details, access the Student Dashboard, manage favorite events, and allow administrators to manage events, users, and reviews efficiently. The validation also collected usability feedback to identify improvements before developing the final prototype.
+The objective of this validation was to evaluate whether the **Smart Campus Event Hub** MVP enables students to successfully discover campus events, browse event details, search and filter activities, register for events, manage favorite events, and allow administrators to manage event information efficiently. The validation also measured usability, task completion, user satisfaction, and user interest to identify improvements before the next development iteration.
+
+---
 
 ### Prototype Version Tested
 
-- **Version:** v1.0
+- **Version:** Smart Campus Event Hub MVP v1.0
 - **Link:** https://github.com/sonamd6807456/ICT105-DRUK-MVP
 - **Screenshots:** `/screenshots/validation-test-screens.png`
 
@@ -385,25 +387,29 @@ The objective of this validation was to evaluate whether the **Smart Campus Even
 | Metric | Result |
 |---|---:|
 | Total test users | 12 |
-| Completed tasks | 11 |
-| Task success rate | 91.7% |
+| Task success rate | 85% |
 | Average feedback score | 4.4 / 5 |
 | Average interest level | 4.8 / 5 |
-| Main confusion point | Search and Filter feature on the Events page (FR-03) |
+| Main confusion point | Some users found the Search and Filter feature and event category navigation slightly confusing. |
 | MVP Decision | Continue with minor revisions |
 
 ---
 
 ### MVP Decision
 
-Based on the validation results, the team decided to **continue with minor revisions**. Most participants successfully completed their assigned tasks and provided positive feedback on the overall usability of the Smart Campus Event Hub. Users found the **Home**, **Events**, **Student Dashboard**, and **Admin Dashboard** pages easy to navigate.
+**Decision: Continue with Minor Revisions**
 
-Minor improvements will focus on:
-- Improving the **Search and Filter** feature on the Events page.
-- Adding clearer event category labels.
-- Improving the layout of the **Student Dashboard**.
-- Simplifying navigation in the **Admin Manage Events** page.
-- Updating the prototype and documentation based on user feedback before the next development iteration.
+The validation results show that users were able to successfully complete most assigned tasks and found the **Smart Campus Event Hub** useful for discovering and managing campus events. The positive feedback indicates that the main concept and core features were validated.
+
+However, some usability improvements are required before the next iteration. Based on user feedback, the team will focus on improving:
+
+- Search and Filter functionality on the Events page.
+- Event category labels and organization.
+- Student Dashboard layout and usability.
+- Navigation within the Admin Dashboard.
+- Event information presentation.
+
+Since the core assumptions were validated and users showed strong interest in using the platform, the team decided to continue development with minor revisions.
 
 ---
 
@@ -415,59 +421,9 @@ Minor improvements will focus on:
 - `/docs/customer-validation-summary.md`
 - `/docs/analytics-insights.md`
 - `/docs/mvp-decision.md`
-- `/docs/weekly-logbook.md`
 - `/docs/test-user-notes.md`
-- `/screenshots/validation-test-screens.png`## Lab 08: Customer Validation and Analytics Sheet
-
-### Validation Objective
-
-The objective of this validation was to evaluate whether the **Smart Campus Event Hub** MVP enables users to successfully navigate the website, browse campus events, search and filter activities, view event details, access the Student Dashboard, manage favorite events, and allow administrators to manage events, users, and reviews efficiently. The validation also collected usability feedback to identify improvements before developing the final prototype.
-
-### Prototype Version Tested
-
-- **Version:** v1.0
-- **Link:** https://github.com/sonamd6807456/ICT105-DRUK-MVP
-- **Screenshots:** `/screenshots/validation-test-screens.png`
-
----
-
-### Analytics Summary
-
-| Metric | Result |
-|---|---:|
-| Total test users | 12 |
-| Completed tasks | 11 |
-| Task success rate | 91.7% |
-| Average feedback score | 4.4 / 5 |
-| Average interest level | 4.8 / 5 |
-| Main confusion point | Search and Filter feature on the Events page (FR-03) |
-| MVP Decision | Continue with minor revisions |
-
----
-
-### MVP Decision
-
-Based on the validation results, the team decided to **continue with minor revisions**. Most participants successfully completed their assigned tasks and provided positive feedback on the overall usability of the Smart Campus Event Hub. Users found the **Home**, **Events**, **Student Dashboard**, and **Admin Dashboard** pages easy to navigate.
-
-Minor improvements will focus on:
-- Improving the **Search and Filter** feature on the Events page.
-- Adding clearer event category labels.
-- Improving the layout of the **Student Dashboard**.
-- Simplifying navigation in the **Admin Manage Events** page.
-- Updating the prototype and documentation based on user feedback before the next development iteration.
-
----
-
-
-### Files Added
-- /data/validation-results.xlsx
-- /data/validation-results.csv
-- /docs/customer-validation-summary.md
-- /docs/analytics-insights.md
-- /docs/mvp-decision.md
-- /docs/test-user-notes.md
-- /screenshots/validation-test-screens.png
-- /docs/weekly-logbook.md
-   
-
+- `/docs/weekly-logbook.md`
+- `/screenshots/validation-test-screens.png`
+- `/data/Lab08_GroupName_Validation_Analytics.pbix`
+- `/screenshots/lab08-powerbi-dashboard.png`
 
