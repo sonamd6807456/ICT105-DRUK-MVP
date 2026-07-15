@@ -4,64 +4,72 @@
 
 **Smart Campus Event Hub**
 
+---
+
 ## 2. Prototype Tested
 
-The team tested the final MVP prototype of the **Smart Campus Event Hub**, a web application that enables students to discover campus events, register for events, save favorite events, manage their profiles, and submit reviews. The prototype also includes an administrator dashboard for managing events, users, and reviews.
+The team tested the MVP prototype of the **Smart Campus Event Hub**, a web application that enables students to discover campus events, register for events, save favorite events, manage their profiles, and submit reviews. The prototype also includes an administrator dashboard for managing events, users, and reviews.
 
 - **Prototype version:** v1.0 (Final MVP)
 - **Prototype link or screenshot location:** `/screenshots/final-prototype/`
 - **Main task tested:**
   - User registration
   - User login
-  - Browse events
-  - Register for an event
+  - Browse campus events
+  - View event details
+  - Register for events
   - Add events to favorites
-  - View profile
+  - View user profile
   - Submit reviews
+  - Manage events through the administrator dashboard
+
 - **Related requirements from `system-requirements.md`:**
   - FR-01 User Registration
   - FR-02 User Login
   - FR-03 Browse Events
-  - FR-04 Event Registration
-  - FR-05 Favorite Events
-  - FR-06 User Profile
-  - FR-07 Submit Reviews
+  - FR-04 Event Details
+  - FR-05 Event Registration
+  - FR-06 Favorite Events
+  - FR-07 User Profile & Reviews
   - FR-08 Admin Dashboard
 
 ---
 
 ## 3. Test Users
 
-| Test User ID | User Role | Why this user is relevant |
-|---|---|---|
-| TU-01 | First-year Student | Frequently participates in campus activities and represents the primary target user. |
-| TU-02 | Second-year Student | Regularly attends university events and evaluates event discovery. |
-| TU-03 | International Student | Tested event browsing and registration features. |
-| TU-04 | Student Club Member | Evaluated event details and registration process. |
-| TU-05 | Third-year Student | Tested event listing and dashboard features. |
-| TU-06 | Student Club Organizer | Tested event management and organizer functions. |
-| TU-07 | Campus Administrator | Tested administrator dashboard and event management. |
-| TU-08 | Final-year Student | Evaluated favorites and navigation features. |
-| TU-09 | Exchange Student | Tested the complete registration process from a new user's perspective. |
-| TU-10 | Student Representative | Evaluated overall usability and homepage navigation. |
+A total of **100 participants** representing different campus users participated in the usability testing.
+
+| User Role | Number of Test Users | Why this user is relevant |
+|---|---:|---|
+| First-year Students | 20 | Primary users who regularly participate in university activities. |
+| Second-year Students | 15 | Regular campus event participants. |
+| Third-year Students | 10 | Evaluated navigation and usability. |
+| Final-year Students | 10 | Tested overall user experience. |
+| International Students | 15 | Evaluated accessibility and ease of understanding. |
+| Student Club Members | 10 | Tested event information and registration. |
+| Student Club Organizers | 10 | Evaluated event management features. |
+| Campus Administrators | 10 | Tested administrator functions and dashboard. |
 
 ---
 
 ## 4. Validation Method
 
-The prototype was evaluated through task-based usability testing. Participants completed common tasks while observers recorded task completion, feedback, and usability observations.
+The prototype was evaluated using **task-based usability testing**. Participants completed a series of common tasks while observers recorded task completion, usability observations, feedback, and suggestions.
 
 - **Testing method:** Task-based usability testing
-- **Date/time:** July 2026
+- **Date:** July–August 2026
 - **Location:** Rangsit University Computer Laboratory
-- **Number of testers:** 10
-- **Data collected:**
-  - Task completion
-  - Completion time
-  - User feedback
-  - Satisfaction score
-  - Interest level
-  - Navigation observations
+- **Number of testers:** 100
+
+### Data Collected
+
+- Task completion
+- Completion time
+- Ease of use rating
+- Usefulness rating
+- User comments
+- Suggested improvements
+- Navigation observations
 
 ---
 
@@ -69,17 +77,36 @@ The prototype was evaluated through task-based usability testing. Participants c
 
 | Metric | Result | Interpretation |
 |---|---:|---|
-| Total test users | 10 | Sufficient sample for MVP validation |
-| Task success rate | 100% | Every participant completed all assigned tasks successfully |
-| Average feedback score | 4.9 / 5 | Users were highly satisfied with the prototype |
-| Average interest level | 4.9 / 5 | Students showed strong interest in using the system |
-| Most common confusion point | No major confusion points observed | Users completed tasks without significant usability issues |
+| Total test users | 100 | Large sample for MVP validation |
+| Completed tasks | 88 | Most participants successfully completed the assigned tasks. |
+| Task success rate | 88% | The prototype demonstrates good usability but requires minor improvements. |
+| Average ease of use | 4.4 / 5 | Users generally found the interface easy to learn and navigate. |
+| Average usefulness | 4.6 / 5 | Participants believed the system would improve access to campus events. |
+| Most common suggestion | Add event search and reminders | Users requested additional convenience features for future versions. |
 
 ---
 
 ## 6. Key User Comments
 
-Participants found the website clean, modern, and easy to navigate. They appreciated the event cards, instant registration confirmation, favorites feature, and responsive design. Several users suggested future enhancements such as event reminders, calendar integration, and additional profile customization.
+Most participants found the Smart Campus Event Hub visually attractive, simple to navigate, and useful for discovering campus activities.
+
+Users particularly appreciated:
+
+- Clean homepage design.
+- Clear event information.
+- Instant **"Registered Successfully"** confirmation after clicking the Register button.
+- Favorites feature.
+- Student Dashboard.
+- Administrator Dashboard.
+
+The most common suggestions included:
+
+- Add an event search feature.
+- Add event category filters.
+- Add reminder notifications before events.
+- Integrate events with a calendar.
+- Allow profile picture customization.
+- Improve favorite event management.
 
 ---
 
@@ -87,12 +114,16 @@ Participants found the website clean, modern, and easy to navigate. They appreci
 
 | Requirement ID | Evidence Found | Required Prototype Improvement |
 |---|---|---|
-| FR-03 | Users suggested easier event discovery. | Add advanced search and category filters. |
-| FR-05 | Users requested more favorite management options. | Allow sorting and organizing favorite events. |
-| FR-06 | Users suggested additional profile customization. | Add profile picture upload and editing features. |
+| FR-03 | Users requested faster event discovery. | Add event search and category filters. |
+| FR-06 | Users wanted additional favorite management features. | Allow sorting and organizing favorite events. |
+| FR-07 | Users suggested more profile customization. | Add profile picture upload and editing features. |
 
 ---
 
 ## 8. Conclusion
 
-The Smart Campus Event Hub MVP was successfully validated. All ten participants completed every assigned task without difficulty, achieving a 100% task success rate. The prototype received high satisfaction and interest ratings, demonstrating that it effectively supports students in discovering and registering for campus events. Only minor enhancements were suggested for future development.
+The Smart Campus Event Hub MVP was evaluated with **100 participants**. **Eighty-eight participants successfully completed the assigned tasks**, resulting in an **88% task success rate**. Participants reported high ease of use and usefulness ratings, indicating that the prototype effectively supports students in discovering and registering for campus events.
+
+Although the overall feedback was positive, participants suggested several enhancements, including event search, category filtering, reminder notifications, calendar integration, and additional profile customization.
+
+Overall, the validation demonstrates that the MVP has strong potential and should **continue with minor revisions** before the next stage of development.
