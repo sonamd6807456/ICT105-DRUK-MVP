@@ -570,9 +570,9 @@ The team prepared:
 
 | Member Name | Contribution | GitHub Evidence |
 |---|---|---|
-| **Sonam Deki** |Updated the README, prepared the Analytics Insights, created the validation-results-sample.csv validation-results.csv, and  and ensured the project documentation was updated for Lab 08 |"README.md; docs/analytics-insights.md; data/validation-results-sample.csv;diagrams/validation-result flow.mmd  |
-| **Kinley Zam** |Prepared the data-validation-results template, completed the Customer Validation Summary, documented the Test User Notes, created the Case Study Brief - Smart Campus Event Hub based on user validation results and revised prototype code.","data/data-validation-results-template.xlsx; |docs/customer-validation-summary.md; docs/test-user-notes.md; docs/case-study-brief-smart-campus-event-hub.md,data/validation-results.csv|
-| **Tenzin Dema** |Prepared the MVP Decision document, updated the Weekly Logbook, completed the Validation Results Analytics, and created the Feedback Form Template to support usability testing and evaluation." |"docs/mvp-decision.md; docs/weekly-logbook.md; validation-results-analytics.xlsx; data/feedback-form-template.csv |
+| **Sonam Deki** |Updated the README, prepared the Analytics Insights, created the validation-results-sample.csv validation-results.csv,Designed validation result flow.mmd and  and ensured the project documentation was updated for Lab 08 |"README.md; docs/analytics-insights.md; data/validation-results-sample.csv;diagrams/validation-result flow.mmd  |
+| **Kinley Zam** |Prepared the data-validation-results template, completed the Customer Validation Summary, documented the Test User Notes, created the Case Study Brief - Smart Campus Event Hub based on user validation results and revised prototype code.","data/data-validation-results-template.xlsx; |docs/customer-validation-summary.md; docs/test-user-notes.md; docs/case-study-brief.md, data/validation-results.csv|
+| **Tenzin Dema** |Prepared the MVP Decision document, updated the Weekly Logbook, completed the Validation Results Analytics, created the Feedback Form Template to support usability testing and evaluation and uploaded screenshot/lab-08-powerbi-dashboard.jpg ." |"docs/mvp-decision.md; docs/weekly-logbook.md; validation-results-analytics.xlsx; data/feedback-form-template.csv,screenshot/lab-08-powerbi-dashboard.jpg|
 
 ---
 
