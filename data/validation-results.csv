@@ -9,3 +9,18 @@ TU07,Organizer,v1.0,Update event,Yes,55,None,Event Management,5,5,Updating was e
 TU08,Student,v1.0,Search workshops,No,80,Category filter,Search Filter,3,4,Filters need improvement,FR-03
 TU09,Student,v1.0,Register workshop,Yes,65,None,Registration,5,5,Simple registration,FR-05
 TU10,Student,v1.0,Browse homepage,Yes,30,None,Homepage,5,5,Homepage very clear,FR-01
+
+
+Test_User_ID,User_Role,Prototype_Version,Main_Task,Task_Completed,Time_Seconds,Confusion_Point,Feature_Most_Useful,Feedback_Score_1_5,Interest_Level_1_5,Comment,Requirement_Affected
+TU-01,Student,v1.0,Browse campus events,Yes,42,No confusion,Event Listing,5,5,Homepage was easy to understand.,FR-01
+TU-02,Student,v1.0,Search for workshops,Yes,65,Search & Filter,Search Function,4,5,Filter labels should be clearer.,FR-03
+TU-03,Student,v1.0,View event details,Yes,48,No confusion,Event Details,5,5,Event information was complete.,FR-04
+TU-04,Student,v1.0,Register for an event,Yes,72,Registration Form,Event Registration,4,5,Some form labels need improvement.,FR-05
+TU-05,Student,v1.0,Browse upcoming events,Yes,38,No confusion,Event List,5,4,Easy to browse available events.,FR-01
+TU-06,Organizer,v1.0,Create an event,Yes,90,Event Category,Event Management,4,5,Event categories should be more descriptive.,FR-09
+TU-07,Organizer,v1.0,Update event information,Yes,82,No confusion,Event Management,5,5,Updating events was straightforward.,FR-10
+TU-08,Student,v1.0,Search events by category,No,98,Search & Filter,Search Function,3,4,Category filter was difficult to use.,FR-03
+TU-09,Student,v1.0,Register for workshop,Yes,68,No confusion,Registration,5,5,Registration process was simple.,FR-05
+TU-10,Student,v1.0,View dashboard summary,Yes,40,No confusion,Dashboard,5,5,Dashboard was clear and useful.,FR-08
+TU-11,Campus Administrator,v1.0,Manage event records,Yes,95,Dashboard Layout,Admin Dashboard,4,4,Dashboard layout needs better organization.,FR-09
+TU-12,International Student,v1.0,Find and register for events,Yes,74,Search Filters,Search Function,4,5,More filtering options would help.,FR-03
