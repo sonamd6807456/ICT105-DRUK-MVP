@@ -76,59 +76,6 @@ The Search and Filter Events feature generated the highest number of confusion p
 Future improvements should focus on making search filters clearer and improving category labels.
 
 
-# Lab 08 - Analytics Insights
 
-## 1. Analytics Question
-
-**What did users do, say, and prove when testing the MVP direction?**
-
-Users successfully completed the main tasks of the Smart Campus Event Hub, including creating an account, logging in, browsing events, registering for events, managing favorites, viewing their profiles, and submitting reviews. Their feedback showed that the system is easy to use, visually appealing, and supports the intended campus event management workflow.
 
 ---
-
-## 2. Metrics Calculated
-
-| Metric | Formula / Method | Result |
-|---|---|---|
-| Total test users | Count testers | **10** |
-| Completed tasks | Count Task_Completed = Yes | **10** |
-| Task success rate | Completed tasks / total testers | **100% (10/10)** |
-| Average feedback score | Average of 1-5 scores | **4.9 / 5** |
-| Average interest level | Average of 1-5 scores | **4.9 / 5** |
-| Confusion points | Count repeated confusion categories | **None observed** |
-
----
-
-## 3. Findings
-
-1. **All 10 participants successfully completed every assigned task**, resulting in a **100% task success rate**, which demonstrates that the prototype is intuitive and easy to use.
-
-2. **Users gave an average feedback score of 4.9/5**, indicating high satisfaction with the website's interface, navigation, and event registration process.
-
-3. **No major usability issues or repeated confusion points were observed.** Participants particularly appreciated the instant registration confirmation, responsive design, and clear event information.
-
----
-
-## 4. Interpretation
-
-The testing results demonstrate that the Smart Campus Event Hub successfully meets the needs of its target users. Participants were able to navigate the website without assistance and complete all major tasks efficiently. The high satisfaction and interest ratings validate the current MVP direction. While users suggested future enhancements such as event reminders, calendar integration, and additional filtering options, these are optional improvements rather than critical usability issues.
-
----
-
-## 5. Requirements Affected
-
-| Requirement ID | Evidence | Action Needed |
-|---|---|---|
-| FR-03 | Users suggested more advanced search and filtering options. | Add category filters and keyword search. |
-| FR-05 | Users requested additional favorite management features. | Allow sorting and organizing favorite events. |
-| FR-06 | Users suggested profile customization features. | Add profile picture upload and profile editing options. |
-
----
-
-## 6. Next Prototype Improvement
-
-- Implement advanced search and event filtering.
-- Add calendar integration and event reminder notifications.
-- Enhance the Favorites page with sorting and organization features.
-- Allow users to upload profile pictures and edit profile details.
-- Continue improving accessibility and responsive design for different devices.
