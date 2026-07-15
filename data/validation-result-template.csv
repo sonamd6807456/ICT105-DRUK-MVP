@@ -1,11 +1,101 @@
-Timestamp,Test_User_ID,User_Role,Prototype_Link,Task_Assigned,Task_Completed_Yes_No,Ease_of_Use_1_5,Usefulness_1_5,Confusing_Screen_or_Step,Most_Useful_Feature,Suggested_Improvement,Requirement_Affected
-7/15/2026 10:00,TU-01,First-year Student,v1.0 (Final MVP),"Sign up, login, browse events, register",Yes,5,5,None,Event Registration,Add event reminders,"FR-01, FR-02, FR-03, FR-04"
-7/15/2026 10:05,TU-02,Second-year Student,v1.0 (Final MVP),"Browse events and add favorites",Yes,5,5,None,Favorites,Add category filters,"FR-03, FR-05"
-7/15/2026 10:10,TU-03,International Student,v1.0 (Final MVP),"Browse and register for an event",Yes,5,5,None,Event Registration,Add event search,"FR-03, FR-04"
-7/15/2026 10:15,TU-04,Student Club Member,v1.0 (Final MVP),"View event details and register",Yes,5,5,None,Event Details,Calendar integration,"FR-03, FR-04"
-7/15/2026 10:20,TU-05,Third-year Student,v1.0 (Final MVP),"Explore dashboard and profile",Yes,4,5,None,Student Dashboard,Profile picture upload,"FR-03, FR-06"
-7/15/2026 10:25,TU-06,Student Club Organizer,v1.0 (Final MVP),"Manage campus events",Yes,5,5,None,Admin Event Management,Bulk event editing,"FR-08"
-7/15/2026 10:30,TU-07,Campus Administrator,v1.0 (Final MVP),"Manage users, reviews and events",Yes,5,5,None,Admin Dashboard,Export reports,"FR-08"
-7/15/2026 10:35,TU-08,Final-year Student,v1.0 (Final MVP),"Register and manage favorites",Yes,5,4,None,Favorites,Organize favorites,"FR-03, FR-05"
-7/15/2026 10:40,TU-09,Exchange Student,v1.0 (Final MVP),"Complete full user journey",Yes,5,5,None,Event Registration,Event reminders,"FR-01, FR-02, FR-03, FR-04"
-7/15/2026 10:45,TU-10,Student Representative,v1.0 (Final MVP),"Test all major website features",Yes,5,5,None,Overall Navigation,Profile customization,"FR-03, FR-05, FR-06, FR-07"
+TestID,TestDate,TestUserID,UserRole,DeviceType,PrototypeVersion,TaskName,TaskCompleted,CompletionTimeSeconds,EaseOfUseScore,UsefulnessScore,ConfusionPoint,MostUsefulFeature,WouldUseAgain,InterestLevel,RequirementID,MVPDecisionSignal,Notes
+T001,2026-07-20,U001,First-year Student,Mobile,v1.0,Browse campus events,Yes,42,5,5,None,Event Listing,Yes,5,FR-01,Validated,Homepage was easy to navigate.
+T002,2026-07-20,U002,Second-year Student,Laptop,v1.0,Search campus events,Yes,65,4,5,Search & Filter,Search Function,Yes,5,FR-03,Partial,Category filters should be clearer.
+T003,2026-07-20,U003,International Student,Mobile,v1.0,View event details,Yes,48,5,5,None,Event Details,Yes,5,FR-04,Validated,Event information was complete.
+T004,2026-07-20,U004,Student Club Member,Laptop,v1.0,Register for an event,Yes,72,4,5,Registration Form,Event Registration,Yes,5,FR-05,Partial,Registration form labels could be improved.
+T005,2026-07-21,U005,Third-year Student,Mobile,v1.0,Browse upcoming events,Yes,38,5,4,None,Event List,Yes,4,FR-01,Validated,Easy to browse upcoming events.
+T006,2026-07-21,U006,Student Club Organizer,Laptop,v1.0,Create a new event,Yes,90,4,5,Event Category,Event Management,Yes,5,FR-09,Partial,Event category selection needs improvement.
+T007,2026-07-21,U007,Organizer,Desktop,v1.0,Update event information,Yes,82,5,5,None,Event Management,Yes,5,FR-10,Validated,Updating event details was straightforward.
+T008,2026-07-21,U008,Student,Mobile,v1.0,Search events by category,No,98,3,4,Search & Filter,Search Function,Maybe,4,FR-03,Revise,Category filter was difficult to understand.
+T009,2026-07-22,U009,Student,Laptop,v1.0,Register for workshop,Yes,68,5,5,None,Registration,Yes,5,FR-05,Validated,Registration process was simple.
+T010,2026-07-22,U010,Student,Mobile,v1.0,View dashboard summary,Yes,40,5,5,None,Student Dashboard,Yes,5,FR-08,Validated,Dashboard clearly displayed upcoming events.
+T011,2026-07-22,U011,Campus Administrator,Desktop,v1.0,Manage event records,Yes,95,4,4,Dashboard Layout,Admin Dashboard,Yes,4,FR-09,Partial,Dashboard layout should be more organized.
+T012,2026-07-22,U012,International Student,Mobile,v1.0,Find and register for events,Yes,74,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,More filtering options would help.
+T013,2026-07-23,U013,Student,Laptop,v1.0,View favorite events,Yes,58,5,5,None,Favorites,Yes,5,FR-06,Validated,Favorites page was useful.
+T014,2026-07-23,U014,Student,Mobile,v1.0,Edit profile information,Yes,63,4,4,Profile Settings,User Profile,Yes,4,FR-07,Partial,Need profile picture upload.
+T015,2026-07-23,U015,Organizer,Desktop,v1.0,Review event registrations,Yes,88,5,5,None,Registration List,Yes,5,FR-10,Validated,Easy to manage participant registrations.
+T016,2026-07-23,U016,Student,Mobile,v1.0,Browse events and register,Yes,77,5,5,None,Event Registration,Yes,5,FR-04,Validated,Entire process was smooth.
+T017,2026-07-24,U017,Student,Laptop,v1.0,Search sports events,Yes,70,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,Need additional search filters.
+T018,2026-07-24,U018,Student,Mobile,v1.0,View event details,Yes,55,5,5,None,Event Details,Yes,5,FR-04,Validated,Event description and location were clear.
+T019,2026-07-24,U019,Campus Administrator,Desktop,v1.0,Approve submitted events,Yes,92,4,5,Admin Dashboard,Admin Dashboard,Yes,5,FR-09,Partial,Approval page could be simplified.
+T020,2026-07-24,U020,Student,Mobile,v1.0,Complete full event journey,Yes,80,5,5,None,Overall Navigation,Yes,5,"FR-01, FR-03, FR-04, FR-05",Validated,Prototype was easy to use from start to finish.
+T021,2026-07-25,U021,First-year Student,Laptop,v1.0,Browse event categories,Yes,46,5,5,None,Event Categories,Yes,5,FR-03,Validated,Categories were easy to browse.
+T022,2026-07-25,U022,Student Representative,Desktop,v1.0,Manage featured events,Yes,87,4,5,Dashboard Layout,Admin Dashboard,Yes,5,FR-09,Partial,Featured events section could be clearer.
+T023,2026-07-25,U023,International Student,Mobile,v1.0,Search orientation events,Yes,60,5,5,None,Search Function,Yes,5,FR-03,Validated,Found orientation events quickly.
+T024,2026-07-25,U024,Student,Mobile,v1.0,Save favorite event,Yes,53,5,5,None,Favorites,Yes,5,FR-06,Validated,Favorites feature was useful.
+T025,2026-07-25,U025,Organizer,Laptop,v1.0,Edit event information,Yes,85,4,5,Event Category,Event Management,Yes,5,FR-10,Partial,Need more event category options.
+T026,2026-07-26,U026,Student,Mobile,v1.0,Register for seminar,Yes,69,5,5,None,Event Registration,Yes,5,FR-05,Validated,Registration confirmation was clear.
+T027,2026-07-26,U027,Second-year Student,Laptop,v1.0,Search technology events,Yes,61,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,More filter options would be helpful.
+T028,2026-07-26,U028,Student Club Member,Desktop,v1.0,Create workshop event,Yes,94,4,5,Event Category,Event Management,Yes,5,FR-09,Partial,Need more event category choices.
+T029,2026-07-26,U029,Student,Mobile,v1.0,Browse upcoming events,Yes,44,5,5,None,Event Listing,Yes,5,FR-01,Validated,Very easy to browse events.
+T030,2026-07-26,U030,International Student,Mobile,v1.0,View event details,Yes,56,5,5,None,Event Details,Yes,5,FR-04,Validated,Location information was helpful.
+T031,2026-07-27,U031,Student,Laptop,v1.0,Save favorite event,Yes,49,5,5,None,Favorites,Yes,5,FR-06,Validated,Favorites feature worked well.
+T032,2026-07-27,U032,Campus Administrator,Desktop,v1.0,Manage event approvals,Yes,101,4,5,Dashboard Layout,Admin Dashboard,Yes,5,FR-09,Partial,Dashboard should group pending approvals.
+T033,2026-07-27,U033,Student,Mobile,v1.0,Search sports competition,No,104,3,4,Search & Filter,Search Function,Maybe,4,FR-03,Revise,Search filters were confusing.
+T034,2026-07-27,U034,Student,Mobile,v1.0,Register for sports event,Yes,73,4,5,Registration Form,Registration,Yes,5,FR-05,Partial,Registration form needs shorter labels.
+T035,2026-07-27,U035,Organizer,Laptop,v1.0,Update event schedule,Yes,86,5,5,None,Event Management,Yes,5,FR-10,Validated,Editing event schedule was simple.
+T036,2026-07-28,U036,Student,Mobile,v1.0,Browse featured events,Yes,39,5,5,None,Featured Events,Yes,5,FR-01,Validated,Featured section looked attractive.
+T037,2026-07-28,U037,Student Representative,Desktop,v1.0,Review dashboard statistics,Yes,83,4,4,Dashboard Layout,Dashboard,Yes,4,FR-08,Partial,Dashboard charts could be larger.
+T038,2026-07-28,U038,Student,Laptop,v1.0,Search club activities,Yes,58,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,Need search by organizer.
+T039,2026-07-28,U039,International Student,Mobile,v1.0,Register for orientation,Yes,67,5,5,None,Registration,Yes,5,FR-05,Validated,Easy registration process.
+T040,2026-07-28,U040,Organizer,Desktop,v1.0,Create cultural event,Yes,91,5,5,None,Event Management,Yes,5,FR-09,Validated,Creating events was straightforward.
+T041,2026-07-29,U041,Student,Mobile,v1.0,View event details,Yes,51,5,5,None,Event Details,Yes,5,FR-04,Validated,Speaker information was complete.
+T042,2026-07-29,U042,Student,Laptop,v1.0,Find volunteer events,Yes,63,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,Volunteer category should be highlighted.
+T043,2026-07-29,U043,Student Club Member,Desktop,v1.0,Manage participant list,Yes,95,5,5,None,Participant Management,Yes,5,FR-10,Validated,Participant list was easy to manage.
+T044,2026-07-29,U044,Student,Mobile,v1.0,Browse dashboard notifications,Yes,46,5,5,None,Dashboard,Yes,5,FR-08,Validated,Notifications were useful.
+T045,2026-07-29,U045,Campus Administrator,Desktop,v1.0,Review reported events,Yes,102,4,5,Dashboard Layout,Admin Dashboard,Yes,5,FR-09,Partial,Need color coding for reports.
+T046,2026-07-30,U046,Student,Mobile,v1.0,Search academic events,Yes,59,5,5,None,Search Function,Yes,5,FR-03,Validated,Academic events were easy to locate.
+T047,2026-07-30,U047,Student,Laptop,v1.0,Register for competition,Yes,70,5,5,None,Registration,Yes,5,FR-05,Validated,Competition registration was simple.
+T048,2026-07-30,U048,Organizer,Desktop,v1.0,Edit event location,Yes,88,4,5,Event Category,Event Management,Yes,5,FR-10,Partial,Location categories should be improved.
+T049,2026-07-30,U049,Student,Mobile,v1.0,View favorite events,Yes,45,5,5,None,Favorites,Yes,5,FR-06,Validated,Favorites loaded quickly.
+T050,2026-07-30,U050,International Student,Laptop,v1.0,Complete full event journey,Yes,79,5,5,None,Overall Navigation,Yes,5,"FR-01, FR-03, FR-04, FR-05",Validated,Entire website was easy to navigate.
+T051,2026-07-31,U051,First-year Student,Mobile,v1.0,Browse campus events,Yes,43,5,5,None,Event Listing,Yes,5,FR-01,Validated,Homepage provided a clear overview of events.
+T052,2026-07-31,U052,Second-year Student,Laptop,v1.0,Search campus workshops,Yes,66,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,Workshop filters should include more options.
+T053,2026-07-31,U053,International Student,Mobile,v1.0,View event details,Yes,50,5,5,None,Event Details,Yes,5,FR-04,Validated,Event details were understandable.
+T054,2026-07-31,U054,Student Club Member,Laptop,v1.0,Register club activity,Yes,75,4,5,Registration Form,Event Registration,Yes,5,FR-05,Partial,Form design could be simplified.
+T055,2026-08-01,U055,Third-year Student,Mobile,v1.0,Browse upcoming events,Yes,41,5,4,None,Event List,Yes,4,FR-01,Validated,Event list was easy to access.
+T056,2026-08-01,U056,Student Club Organizer,Laptop,v1.0,Create new event,Yes,93,4,5,Event Category,Event Management,Yes,5,FR-09,Partial,More event types should be available.
+T057,2026-08-01,U057,Organizer,Desktop,v1.0,Update event details,Yes,84,5,5,None,Event Management,Yes,5,FR-10,Validated,Changes were saved successfully.
+T058,2026-08-01,U058,Student,Mobile,v1.0,Search events by date,No,96,3,4,Search & Filter,Search Function,Maybe,4,FR-03,Revise,Date filtering was difficult to find.
+T059,2026-08-02,U059,Student,Laptop,v1.0,Register for campus event,Yes,71,5,5,None,Event Registration,Yes,5,FR-05,Validated,Registration steps were clear.
+T060,2026-08-02,U060,Student,Mobile,v1.0,View dashboard summary,Yes,42,5,5,None,Student Dashboard,Yes,5,FR-08,Validated,Dashboard showed important information.
+T061,2026-08-02,U061,Campus Administrator,Desktop,v1.0,Manage event records,Yes,97,4,4,Dashboard Layout,Admin Dashboard,Yes,4,FR-09,Partial,Admin tools need better organization.
+T062,2026-08-02,U062,International Student,Mobile,v1.0,Find international events,Yes,76,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,Need language-based filtering.
+T063,2026-08-03,U063,Student,Laptop,v1.0,Save event to favorites,Yes,57,5,5,None,Favorites,Yes,5,FR-06,Validated,Favorites feature was convenient.
+T064,2026-08-03,U064,Student,Mobile,v1.0,Edit profile information,Yes,65,4,4,Profile Settings,User Profile,Yes,4,FR-07,Partial,More profile customization needed.
+T065,2026-08-03,U065,Organizer,Desktop,v1.0,Review event participants,Yes,89,5,5,None,Registration List,Yes,5,FR-10,Validated,Participant management was efficient.
+T066,2026-08-03,U066,Student,Mobile,v1.0,Browse and register event,Yes,78,5,5,None,Event Registration,Yes,5,FR-04,Validated,Navigation flow was smooth.
+T067,2026-08-04,U067,Student,Laptop,v1.0,Search academic activities,Yes,69,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,Need more advanced search options.
+T068,2026-08-04,U068,Student Club Member,Desktop,v1.0,Create seminar event,Yes,92,4,5,Event Category,Event Management,Yes,5,FR-09,Partial,Category selection needs improvement.
+T069,2026-08-04,U069,Student,Mobile,v1.0,Browse upcoming events,Yes,45,5,5,None,Event Listing,Yes,5,FR-01,Validated,Upcoming events were easy to find.
+T070,2026-08-04,U070,International Student,Mobile,v1.0,View event information,Yes,54,5,5,None,Event Details,Yes,5,FR-04,Validated,Information was clearly presented.
+T071,2026-08-05,U071,Student,Laptop,v1.0,Save favorite event,Yes,50,5,5,None,Favorites,Yes,5,FR-06,Validated,Saving events worked well.
+T072,2026-08-05,U072,Campus Administrator,Desktop,v1.0,Approve event requests,Yes,99,4,5,Dashboard Layout,Admin Dashboard,Yes,5,FR-09,Partial,Approval workflow needs improvement.
+T073,2026-08-05,U073,Student,Mobile,v1.0,Search cultural events,No,106,3,4,Search & Filter,Search Function,Maybe,4,FR-03,Revise,Cultural category was unclear.
+T074,2026-08-05,U074,Student,Mobile,v1.0,Register for workshop,Yes,74,4,5,Registration Form,Registration,Yes,5,FR-05,Partial,Registration form needs shorter text.
+T075,2026-08-05,U075,Organizer,Laptop,v1.0,Update event schedule,Yes,87,5,5,None,Event Management,Yes,5,FR-10,Validated,Schedule updates were easy to complete.
+T076,2026-08-06,U076,Student,Mobile,v1.0,Browse featured campus events,Yes,40,5,5,None,Featured Events,Yes,5,FR-01,Validated,Featured events section was attractive and easy to use.
+T077,2026-08-06,U077,Student Representative,Desktop,v1.0,Review event statistics,Yes,85,4,4,Dashboard Layout,Dashboard,Yes,4,FR-08,Partial,Statistics section needs clearer visuals.
+T078,2026-08-06,U078,Student,Laptop,v1.0,Search club events,Yes,60,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,Need search by club name.
+T079,2026-08-06,U079,International Student,Mobile,v1.0,Register orientation event,Yes,68,5,5,None,Registration,Yes,5,FR-05,Validated,Registration was quick and simple.
+T080,2026-08-06,U080,Organizer,Desktop,v1.0,Create cultural event,Yes,90,5,5,None,Event Management,Yes,5,FR-09,Validated,Creating events was user-friendly.
+T081,2026-08-07,U081,Student,Mobile,v1.0,View event details,Yes,52,5,5,None,Event Details,Yes,5,FR-04,Validated,Event information was complete and organized.
+T082,2026-08-07,U082,Student,Laptop,v1.0,Find volunteer activities,Yes,64,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,Volunteer filter should be easier to locate.
+T083,2026-08-07,U083,Student Club Member,Desktop,v1.0,Manage participant list,Yes,96,5,5,None,Participant Management,Yes,5,FR-10,Validated,Managing participants was simple.
+T084,2026-08-07,U084,Student,Mobile,v1.0,View notifications,Yes,47,5,5,None,Dashboard Notifications,Yes,5,FR-08,Validated,Notifications helped track events.
+T085,2026-08-07,U085,Campus Administrator,Desktop,v1.0,Review event reports,Yes,103,4,5,Dashboard Layout,Admin Dashboard,Yes,5,FR-09,Partial,Report management needs better organization.
+T086,2026-08-08,U086,Student,Mobile,v1.0,Search academic events,Yes,58,5,5,None,Search Function,Yes,5,FR-03,Validated,Academic events were easy to discover.
+T087,2026-08-08,U087,Student,Laptop,v1.0,Register for competition,Yes,72,5,5,None,Registration,Yes,5,FR-05,Validated,Competition registration worked smoothly.
+T088,2026-08-08,U088,Organizer,Desktop,v1.0,Edit event location,Yes,86,4,5,Event Category,Event Management,Yes,5,FR-10,Partial,Location options need improvement.
+T089,2026-08-08,U089,Student,Mobile,v1.0,View favorite events,Yes,46,5,5,None,Favorites,Yes,5,FR-06,Validated,Favorites loaded correctly.
+T090,2026-08-08,U090,International Student,Laptop,v1.0,Complete full event journey,Yes,81,5,5,None,Overall Navigation,Yes,5,"FR-01, FR-03, FR-04, FR-05",Validated,Full process was simple and understandable.
+T091,2026-08-09,U091,First-year Student,Mobile,v1.0,Browse event categories,Yes,44,5,5,None,Event Categories,Yes,5,FR-03,Validated,Categories helped find events faster.
+T092,2026-08-09,U092,Second-year Student,Laptop,v1.0,Search technology events,Yes,62,4,5,Search Filters,Search Function,Yes,5,FR-03,Partial,More detailed filters are needed.
+T093,2026-08-09,U093,Student Club Organizer,Desktop,v1.0,Create workshop event,Yes,95,4,5,Event Category,Event Management,Yes,5,FR-09,Partial,More event categories should be added.
+T094,2026-08-09,U094,Student,Mobile,v1.0,Browse upcoming events,Yes,43,5,5,None,Event Listing,Yes,5,FR-01,Validated,Finding upcoming events was easy.
+T095,2026-08-09,U095,International Student,Mobile,v1.0,View event details,Yes,57,5,5,None,Event Details,Yes,5,FR-04,Validated,Event location details were useful.
+T096,2026-08-10,U096,Student,Laptop,v1.0,Save favorite event,Yes,48,5,5,None,Favorites,Yes,5,FR-06,Validated,Favorites improved event tracking.
+T097,2026-08-10,U097,Campus Administrator,Desktop,v1.0,Manage event approvals,Yes,100,4,5,Dashboard Layout,Admin Dashboard,Yes,5,FR-09,Partial,Approval dashboard should be simplified.
+T098,2026-08-10,U098,Student,Mobile,v1.0,Search sports competition,No,105,3,4,Search & Filter,Search Function,Maybe,4,FR-03,Revise,Sports filters were confusing.
+T099,2026-08-10,U099,Organizer,Laptop,v1.0,Update event information,Yes,84,5,5,None,Event Management,Yes,5,FR-10,Validated,Updating information was straightforward.
+T100,2026-08-10,U100,Student,Mobile,v1.0,Complete full event journey,Yes,79,5,5,None,Overall Navigation,Yes,5,"FR-01, FR-03, FR-04, FR-05",Validated,Prototype successfully supported the complete user journey.
