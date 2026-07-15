@@ -4,7 +4,9 @@
 
 **What did users do, say, and prove when testing the MVP direction?**
 
-The validation focused on whether users could successfully browse campus events, search and filter activities, view event details, register for events, and whether organizers could manage event information. The results demonstrate that the Smart Campus Event Hub addresses the problem of scattered event information while identifying a few usability improvements.
+The validation focused on whether users could successfully navigate the Smart Campus Event Hub prototype by accessing the Home page, browsing campus events, using the Search and Filter feature on the Events page, viewing event details, logging into the system, accessing the Student Dashboard, managing their Profile and My Favorites, and whether administrators could manage events, users, and reviews through the Admin Dashboard.
+
+The results demonstrate that the Smart Campus Event Hub effectively addresses the problem of scattered campus event information while identifying several minor usability improvements.
 
 ---
 
@@ -12,30 +14,30 @@ The validation focused on whether users could successfully browse campus events,
 
 | Metric | Formula / Method | Result |
 |---|---|---:|
-| Total test users | Count testers | 10 |
-| Completed tasks | Count Task_Completed = Yes | 9 |
-| Task success rate | Completed tasks ÷ Total testers × 100 | 90% |
-| Average feedback score | Average of 1–5 scores | 4.5 / 5 |
+| Total test users | Count testers | 12 |
+| Completed tasks | Count Task_Completed = Yes | 11 |
+| Task success rate | Completed tasks ÷ Total testers × 100 | 91.7% |
+| Average feedback score | Average of 1–5 scores | 4.4 / 5 |
 | Average interest level | Average of 1–5 scores | 4.8 / 5 |
-| Confusion points | Count repeated confusion categories | 3 |
+| Confusion points | Count repeated confusion categories | 6 |
 
 ---
 
 ## 3. Findings
 
-1. Most participants successfully completed the assigned tasks, resulting in a **90% task success rate**, indicating that the core functionality of the prototype is easy to use.
+1. Most participants successfully completed their assigned tasks, resulting in a **91.7% task success rate**, indicating that users could easily navigate the Home page, Events page, Login page, Student Dashboard, and Admin Dashboard.
 
-2. Users gave an average **feedback score of 4.5/5** and an **interest level of 4.8/5**, showing strong satisfaction and willingness to use the Smart Campus Event Hub in the future.
+2. Participants gave an average **feedback score of 4.4/5** and an average **interest level of 4.8/5**, showing that users found the Smart Campus Event Hub useful, easy to navigate, and valuable for discovering campus events.
 
-3. The most common usability issue involved the **Search and Filter** feature, where several participants found the filter options and category labels unclear.
+3. The most common usability issue occurred on the **Events** page. Several users found the **Search and Filter** options and event category labels difficult to understand. A few administrators also suggested improving the navigation of the **Admin Manage Events** page.
 
 ---
 
 ## 4. Interpretation
 
-The validation results indicate that the Smart Campus Event Hub successfully addresses the identified problem by providing a centralized platform for discovering campus events. Users were able to navigate the prototype, find event information, and register for activities with minimal difficulty.
+The validation results indicate that the Smart Campus Event Hub successfully provides a centralized platform for discovering campus events and announcements. Students were able to browse events, view event details, log in, manage their profiles, and access their dashboards with minimal assistance. Administrators were also able to manage events, users, and reviews through the Admin Dashboard.
 
-The feedback also highlighted several minor usability improvements, particularly for the Search and Filter feature and the Event Registration form. These improvements will increase the overall user experience before the next prototype iteration.
+Although the overall user experience was positive, several usability improvements were identified. The Search and Filter feature on the Events page should be simplified, event category labels should be clearer, and the Admin Manage Events page should provide a more intuitive management workflow.
 
 ---
 
@@ -43,39 +45,39 @@ The feedback also highlighted several minor usability improvements, particularly
 
 | Requirement ID | Evidence | Action Needed |
 |---|---|---|
-| FR-03 | Several users found the search filters difficult to understand. | Improve filter visibility, category labels, and search usability. |
-| FR-05 | Some users found registration form labels slightly unclear. | Simplify the registration form and improve field descriptions. |
-| FR-09 | Organizers suggested clearer event category selection. | Improve the event submission form and category options. |
+| FR-03 | Several users found the Search and Filter options on the Events page difficult to understand. | Improve filter visibility, search usability, and category labels. |
+| FR-08 | Some students suggested making the Student Dashboard easier to understand. | Improve the dashboard layout and organize information more clearly. |
+| FR-09 | Administrators suggested simplifying event management tasks. | Improve navigation and usability of the Admin Manage Events page. |
 
 ---
 
 ## 6. Next Prototype Improvement
 
-- Improve the Search and Filter interface.
-- Add clearer category labels and filter options.
-- Simplify the Event Registration form.
-- Improve the Organizer Event Submission page.
+- Improve the Search and Filter feature on the Events page.
+- Add clearer event category labels.
+- Improve navigation between Home, Events, Student Dashboard, Profile, and My Favorites.
+- Improve the layout of the Student Dashboard.
+- Simplify the Admin Manage Events interface.
+- Improve consistency across all prototype pages.
 - Conduct another round of usability testing after implementing the improvements.
 - Update the prototype, documentation, and GitHub repository based on the validation results.
 
+---
+
 # Analytics Insights Summary
 
-Validation was conducted with ten participants.
+Validation was conducted with **12 participants**.
 
 Results showed:
 
-- Total testers: 10
-- Task completion rate: 90%
-- Average feedback score: 4.5/5
-- Average interest level: 4.8/5
+- **Total testers:** 12
+- **Completed tasks:** 11
+- **Task success rate:** 91.7%
+- **Average feedback score:** 4.4 / 5
+- **Average interest level:** 4.8 / 5
 
-Most participants completed their tasks successfully within one minute.
+Most participants successfully completed their assigned tasks with minimal assistance while navigating the Home, Events, Student Dashboard, Profile, My Favorites, and Admin Dashboard pages.
 
-The Search and Filter Events feature generated the highest number of confusion points because users found the available filter options difficult to understand.
+The **Search and Filter** feature on the **Events** page generated the highest number of confusion points because several users found the filter options and event categories difficult to understand.
 
-Future improvements should focus on making search filters clearer and improving category labels.
-
-
-
-
----
+Future improvements will focus on improving search usability, simplifying event categories, enhancing the Student Dashboard layout, and making the Admin Manage Events interface easier to use before developing the next version of the Smart Campus Event Hub prototype.
