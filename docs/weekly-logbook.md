@@ -541,6 +541,7 @@ The team prepared:
 
 *To be completed during the laboratory session after feedback from the lecturer or teaching assistant.*
 
+
 # Weekly Logbook - Lab 08
 
 ## Group Information
@@ -554,14 +555,14 @@ The team prepared:
 
 ## Work Completed Today
 
-- [x] Reviewed Lab 07 MVP experiment plan
-- [x] Prepared validation dataset structure
-- [x] Created and updated analytics sheet
-- [x] Wrote customer validation summary
-- [x] Wrote analytics insights
-- [x] Wrote MVP decision
-- [x] Updated README
-- [x] Created GitHub issues for prototype improvements
+- [x] Reviewed Lab 07 MVP Experiment Plan
+- [x] Prepared the validation dataset structure
+- [x] Created and updated the analytics sheet
+- [x] Wrote the Customer Validation Summary
+- [x] Wrote the Analytics Insights
+- [x] Wrote the MVP Decision
+- [x] Updated the README
+- [x] Created GitHub Issues for prototype improvements
 
 ---
 
@@ -569,35 +570,30 @@ The team prepared:
 
 | Member Name | Contribution | GitHub Evidence |
 |---|---|---|
-| **Sonam Deki** | Updated README, Analytics Insights, issues and coordinated the validation documentation. | `README.md`,  `docs/analytics-insights.md`, |
-| **Kinley Zam** | Reviewed the validation results, analyzed customer feedback, validated usability findings, and updated the validation dataset and Power BI analytics. | `data/validation-results.csv`, `validation-results.xlsx`, documentation review |
-| **Tenzin Dema** | Updated the MVP Experiment Plan, Critical Assumptions, Success Metrics, Test User Notes, GitHub Issues, and improved the prototype based on validation feedback. | `docs/mvp-experiment-plan.md`, `docs/critical-assumptions.md`, `docs/success-metrics.md`, `docs/test-user-notes.md`, `Issues`, prototype/ |
+| **Sonam Deki** |Updated the README, prepared the Analytics Insights, created the validation-results-sample.csv and validation-results.csv,"README.md; docs/analytics-insights.md; data/validation-results-sample.csv; data/validation-results.csv  |
+| **Kinley Zam** |Prepared the data-validation-results template, completed the Customer Validation Summary, documented the Test User Notes, created the Case Study Brief - Smart Campus Event Hub based on user validation results and revised prototype code.","data/data-validation-results-template.xlsx; docs/customer-validation-summary.md; docs/test-user-notes.md; docs/case-study-brief-smart-campus-event-hub.md|
+| **Tenzin Dema** |Prepared the MVP Decision document, updated the Weekly Logbook, completed the Validation Results Analytics, and created the Feedback Form Template to support usability testing and evaluation.","docs/mvp-decision.md; docs/weekly-logbook.md; validation-results-analytics.xlsx; data/feedback-form-template.csv |
 
 ---
 
 ## Problems Found
 
-- Some users found the **Search and Filter** feature slightly confusing because the filter options were not immediately visible.
-- A few users suggested improving the labels in the **Event Registration Form** for better clarity.
-- Since the prototype is front-end only, event data is currently simulated using sample records and browser LocalStorage instead of a live database.
-- Additional usability testing would provide stronger validation evidence for future improvements.
+- Some users found the **Search and Filter** feature on the **Events** page difficult to understand because the filter options and category labels were not immediately clear.
+- A few users suggested improving the layout of the **Student Dashboard** so important event information is easier to locate.
+- Administrators recommended simplifying navigation within the **Admin Manage Events** page to make event management more efficient.
+- Since the prototype is a front-end MVP, all event information is currently simulated using sample data and browser LocalStorage instead of a live database.
 
 ---
 
 ## Next Actions
 
-- Improve the Search and Filter interface based on user feedback.
-- Simplify the Event Registration Form by using clearer labels and instructions.
-- Refine the dashboard layout and improve event category organization.
-- Conduct another round of usability testing after implementing improvements.
-- Update the prototype, documentation, and GitHub repository to reflect the revised MVP before the next laboratory session.
-
-
-
-
-
-
-
+- Improve the **Search and Filter** feature on the Events page.
+- Add clearer event category labels.
+- Improve the layout of the **Student Dashboard**.
+- Simplify navigation within the **Admin Manage Events** page.
+- Improve consistency across all prototype pages.
+- Conduct another round of usability testing after implementing the improvements.
+- Update the prototype, documentation, and GitHub repository based on the validation results.
 
 
 
