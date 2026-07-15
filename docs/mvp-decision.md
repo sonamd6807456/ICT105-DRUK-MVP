@@ -12,17 +12,17 @@ The Smart Campus Event Hub MVP was validated with **10 test users**, including f
 
 The usability testing results showed:
 
-- **Task Success Rate:** 90%
+- **Task Success Rate:** 86%
 - **Average Ease of Use Score:** 4.5/5
 - **Average Usefulness Score:** 4.8/5
 
-Most participants successfully completed their assigned tasks, including browsing events, searching events, viewing event details, registering for events, and testing event management features.
+Most participants successfully completed tasks related to browsing campus events, viewing event details, registering for events, accessing the dashboard, and managing event information. A small number of users experienced difficulties with search and filtering tasks, which affected the overall completion rate.
 
-Users found the platform useful because it provides a centralized location for discovering campus activities. The Event Listing, Event Details, Event Registration, and Event Management features received positive feedback.
+The results indicate that the Smart Campus Event Hub successfully addresses the problem of scattered campus event information by providing a centralized platform for discovering and managing university activities.
 
-However, some users experienced difficulties with the Search and Filter feature. Participants suggested clearer category labels, improved filtering options, and better organization of dashboard information.
+Users positively evaluated the Event Listing, Event Details, Event Registration, and Event Management features. However, some usability issues were identified in the Search and Filter feature, registration form labels, dashboard organization, and event category selection.
 
-Based on the validation results, the team decided to continue development with minor revisions to improve usability.
+Based on the validation results, the team decided to continue development with minor revisions. The MVP successfully validated the core event discovery and registration process, while improvements are required for search functionality, filtering options, and interface clarity.
 
 ---
 
@@ -30,13 +30,13 @@ Based on the validation results, the team decided to continue development with m
 
 | Requirement ID | Reason |
 |---|---|
-| FR-01 | The Event Listing page successfully helped users discover upcoming campus events. Users found browsing events simple and intuitive. |
-| FR-03 | Search functionality is important for finding specific events, although improvements are needed for better filtering. |
-| FR-04 | Event Details provided sufficient information about campus activities and was easy for users to understand. |
-| FR-05 | Event Registration was successfully completed by users and was considered useful. |
-| FR-08 | Dashboard features helped users view event-related information and upcoming activities. |
-| FR-09 | Event Management supported organizers and administrators in creating and managing events. |
-| FR-10 | Updating event information worked successfully and was easy for administrators to use. |
+| FR-01 | The Event Listing feature successfully helped students discover upcoming campus events. Users found the homepage and event list easy to navigate. |
+| FR-03 | Search and filtering are important for event discovery. Although improvements are required, users found this feature useful. |
+| FR-04 | The Event Details page provided complete information such as event descriptions, locations, and schedules. |
+| FR-05 | The Event Registration feature worked successfully and helped users participate in campus activities. |
+| FR-08 | The Student Dashboard helped users view upcoming events and important event-related information. |
+| FR-09 | Event Management features supported organizers and administrators in creating and managing campus events. |
+| FR-10 | Updating event information was completed successfully and was easy for organizers and administrators. |
 
 ---
 
@@ -44,10 +44,10 @@ Based on the validation results, the team decided to continue development with m
 
 | Requirement ID | Problem Found | Improvement Needed |
 |---|---|---|
-| FR-03 | Users had difficulty understanding search categories and filters. | Improve filter labels and add more advanced filtering options such as date, category, and organizer. |
-| FR-08 | Dashboard information could be organized more clearly. | Improve dashboard layout and information arrangement. |
-| FR-09 | Organizers suggested simplifying event category selection. | Make event creation and management forms easier to complete. |
-| FR-05 | Some users requested clearer registration form fields. | Improve registration form labels and instructions. |
+| FR-03 | Some users found search categories and filters confusing. | Improve filter labels and add more options such as date, organizer, and event category. |
+| FR-05 | Users suggested clearer registration form instructions and field labels. | Improve form design and make registration steps easier to understand. |
+| FR-08 | Dashboard information was useful but some users wanted better organization. | Improve dashboard layout and information structure. |
+| FR-09 | Organizers experienced difficulty selecting event categories during event creation. | Simplify event submission forms and improve category selection. |
 
 ---
 
@@ -57,10 +57,11 @@ The team will implement the following improvements:
 
 - Improve search and filtering functionality.
 - Add clearer event category labels.
-- Improve dashboard layout and information organization.
-- Simplify event creation and management forms.
-- Improve registration form instructions.
-- Conduct another usability testing round after implementing changes.
+- Add additional filtering options such as date, organizer, and event type.
+- Improve event registration form instructions and field labels.
+- Improve student dashboard layout and information organization.
+- Simplify organizer event creation and management workflow.
+- Conduct another usability testing round after implementing improvements.
 
 ---
 
@@ -69,8 +70,8 @@ The team will implement the following improvements:
 | Issue Title | Assigned Member | Requirement ID |
 |---|---|---|
 | Improve Event Search and Filtering System | Sonam Deki | FR-03 |
-| Redesign Event Category Filter Labels | Sonam Deki | FR-03 |
-| Improve Student Dashboard Layout | Tenzin Dema | FR-08 |
-| Simplify Event Registration Form | Tenzin Dema | FR-05 |
-| Improve Organizer Event Management Form | Kinley Zam | FR-09 |
-| Enhance Event Information Update Process | Kinley Zam | FR-10 |
+| Add Clearer Event Category Filters | Sonam Deki | FR-03 |
+| Improve Student Dashboard Information Layout | Tenzin Dema | FR-08 |
+| Improve Event Registration Form Labels | Tenzin Dema | FR-05 |
+| Simplify Organizer Event Creation Form | Kinley Zam | FR-09 |
+| Improve Event Management and Update Workflow | Kinley Zam | FR-10 |
