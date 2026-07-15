@@ -541,6 +541,57 @@ The team prepared:
 
 *To be completed during the laboratory session after feedback from the lecturer or teaching assistant.*
 
+# Weekly Logbook - Lab 08
+
+## Group Information
+
+- **Group Name:** DRUK
+- **Project Title:** Smart Campus Event Hub
+- **Repository Link:** https://github.com/sonamd6807456/ICT105-DRUK-MVP
+- **Lab Date:** July 15, 2026
+
+---
+
+## Work Completed Today
+
+- [x] Reviewed Lab 07 MVP experiment plan
+- [x] Prepared validation dataset structure
+- [x] Created and updated analytics sheet
+- [x] Wrote customer validation summary
+- [x] Wrote analytics insights
+- [x] Wrote MVP decision
+- [x] Updated README
+- [x] Created GitHub issues for prototype improvements
+
+---
+
+## Member Contributions
+
+| Member Name | Contribution | GitHub Evidence |
+|---|---|---|
+| **Sonam Deki** | Updated README, Analytics Insights, issues and coordinated the validation documentation. | `README.md`,  `docs/analytics-insights.md`, |
+| **Kinley Zam** | Reviewed the validation results, analyzed customer feedback, validated usability findings, and updated the validation dataset and Power BI analytics. | `data/validation-results.csv`, `validation-results.xlsx`, documentation review |
+| **Tenzin Dema** | Updated the MVP Experiment Plan, Critical Assumptions, Success Metrics, Test User Notes, GitHub Issues, and improved the prototype based on validation feedback. | `docs/mvp-experiment-plan.md`, `docs/critical-assumptions.md`, `docs/success-metrics.md`, `docs/test-user-notes.md`, `Issues`, prototype/ |
+
+---
+
+## Problems Found
+
+- Some users found the **Search and Filter** feature slightly confusing because the filter options were not immediately visible.
+- A few users suggested improving the labels in the **Event Registration Form** for better clarity.
+- Since the prototype is front-end only, event data is currently simulated using sample records and browser LocalStorage instead of a live database.
+- Additional usability testing would provide stronger validation evidence for future improvements.
+
+---
+
+## Next Actions
+
+- Improve the Search and Filter interface based on user feedback.
+- Simplify the Event Registration Form by using clearer labels and instructions.
+- Refine the dashboard layout and improve event category organization.
+- Conduct another round of usability testing after implementing improvements.
+- Update the prototype, documentation, and GitHub repository to reflect the revised MVP before the next laboratory session.
+
 
 
 
