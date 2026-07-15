@@ -1,11 +1,186 @@
 Timestamp,Test_User_ID,User_Role,Prototype_Link,Task_Assigned,Task_Completed_Yes_No,Ease_of_Use_1_5,Usefulness_1_5,Confusing_Screen_or_Step,Most_Useful_Feature,Suggested_Improvement,Requirement_Affected
-2026-07-15 10:05,TU-01,Student,Smart Campus Event Hub Prototype,Browse campus events,Yes,5,5,None,Event Listing,None,FR-01
-2026-07-15 10:10,TU-02,International Student,Smart Campus Event Hub Prototype,Search campus events using filters,Yes,4,5,Search and Filter,Search Function,Improve filter category labels,FR-03
-2026-07-15 10:15,TU-03,Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,None,Event Details,None,FR-04
-2026-07-15 10:20,TU-04,Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,Registration Form,Event Registration,Use clearer form field labels,FR-05
-2026-07-15 10:25,TU-05,International Student,Smart Campus Event Hub Prototype,View student dashboard summary,Yes,5,4,None,Student Dashboard,Improve dashboard information layout,FR-08
-2026-07-15 10:30,TU-06,Student Club Organizer,Smart Campus Event Hub Prototype,Create a new campus event,Yes,4,5,Event Submission Form,Event Management,Simplify event category selection,FR-09
-2026-07-15 10:35,TU-07,Campus Administrator,Smart Campus Event Hub Prototype,Update event information,Yes,5,5,None,Event Management,None,FR-10
-2026-07-15 10:40,TU-08,Student,Smart Campus Event Hub Prototype,Search events by category,No,3,4,Search and Filter,Search Function,Improve category filtering options,FR-03
-2026-07-15 10:45,TU-09,International Student,Smart Campus Event Hub Prototype,Register for a workshop event,Yes,5,5,None,Event Registration,None,FR-05
-2026-07-15 10:50,TU-10,Student,Smart Campus Event Hub Prototype,Browse homepage and upcoming events,Yes,5,5,None,Event Listing,None,FR-01
+2026-07-20,U001,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Event categories,"The homepage clearly explained how students can discover campus events.","FR-01, FR-02"
+2026-07-20,U002,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,4,5,,Event listing cards,"The event cards helped me quickly understand available campus activities.","FR-03, FR-04"
+2026-07-20,U003,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,4,4,Search keyword label,Search function,"The search feature was useful but the search button should be more visible.","FR-05"
+2026-07-20,U004,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,5,5,,Category filter,"The category filter made finding relevant events easier.","FR-06"
+2026-07-20,U005,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event details provided enough information before registration.","FR-07"
+2026-07-20,U006,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,,Registration form,"The registration process was simple and understandable.","FR-08"
+2026-07-20,U007,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,No,3,4,Event form fields,Event creation form,"Some input labels need clearer instructions.","FR-09"
+2026-07-20,U008,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,4,,Dashboard summary,"The dashboard displayed event information clearly.","FR-10"
+2026-07-20,U009,International Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,4,,Homepage overview,"The homepage made it easy to understand the purpose of the platform.","FR-01, FR-02"
+2026-07-20,U010,First-year Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,4,5,,Event listing cards,"The event list helped me compare different campus activities.","FR-03, FR-04"
+2026-07-20,U011,Senior Student,Smart Campus Event Hub Prototype,Search for an event,Yes,5,5,,Search function,"I could quickly find an event using keywords.","FR-05"
+2026-07-20,U012,Exchange Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,4,5,,Category filter,"The categories helped me find events related to my interests.","FR-06"
+2026-07-20,U013,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event information was clear and complete.","FR-07"
+2026-07-20,U014,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,4,,Registration form,"The registration steps were easy to follow.","FR-08"
+2026-07-20,U015,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,4,5,,Event creation form,"The form helped organizers add event information easily.","FR-09"
+2026-07-20,U016,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,No,3,4,Dashboard navigation,Dashboard summary,"The dashboard statistics were useful but navigation should be clearer.","FR-10"
+2026-07-20,U017,International Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Feature cards,"The main features were easy to identify from the homepage.","FR-01, FR-02"
+2026-07-20,U018,First-year Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,5,4,,Event listing cards,"The event cards provided enough information to choose activities.","FR-03, FR-04"
+2026-07-20,U019,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,4,4,Search bar location,Search function,"The search bar should be placed in a more noticeable location.","FR-05"
+2026-07-20,U020,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,5,5,,Category filter,"Filtering events made browsing faster.","FR-06"
+2026-07-20,U021,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,4,5,,Event detail page,"The details page provided useful information about location and time.","FR-07"
+2026-07-20,U022,International Student,Smart Campus Event Hub Prototype,Register for an event,No,3,4,Registration button,Registration form,"The registration button should be more visible.","FR-08"
+2026-07-20,U023,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,5,5,,Event creation form,"Creating an event was simple and required appropriate information.","FR-09"
+2026-07-20,U024,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,5,,Dashboard summary,"The dashboard clearly showed event statistics.","FR-10"
+2026-07-20,U025,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,4,5,,Main navigation,"Navigation between event pages was clear.","FR-01, FR-02"
+2026-07-21,U026,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,5,5,,Event listing cards,"The event cards made it easy to discover activities.","FR-03, FR-04"
+2026-07-21,U027,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,4,5,,Search function,"The search feature reduced the time needed to find events.","FR-05"
+2026-07-21,U028,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,4,4,Category labels,Category filter,"The category names could be more descriptive.","FR-06"
+2026-07-21,U029,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event details were easy to understand.","FR-07"
+2026-07-21,U030,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,,Registration form,"The registration process was quick and simple.","FR-08"
+2026-07-21,U031,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,5,5,,Event creation form,"The event creation process was straightforward.","FR-09"
+2026-07-21,U032,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,No,2,3,Dashboard location,Dashboard summary,"The dashboard section was difficult to locate.","FR-10"
+2026-07-21,U033,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,4,5,,Feature cards,"The homepage showed the main purpose clearly.","FR-01, FR-02"
+2026-07-21,U034,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,5,5,,Event listing cards,"The event categories and descriptions were useful.","FR-03, FR-04"
+2026-07-21,U035,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,5,4,,Search function,"Searching events was easy but suggestions could improve.","FR-05"
+2026-07-21,U036,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,4,5,,Category filter,"The filter helped find specific event types quickly.","FR-06"
+2026-07-21,U037,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event details included important information.","FR-07"
+2026-07-21,U038,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,5,5,,Registration form,"The registration process was easy to complete.","FR-08"
+2026-07-21,U039,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,4,5,Date selection,Event creation form,"The date selection field could be clearer.","FR-09"
+2026-07-21,U040,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,4,,Dashboard summary,"The dashboard displayed useful information.","FR-10"
+2026-07-21,U041,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Homepage overview,"The platform purpose was immediately understandable.","FR-01, FR-02"
+2026-07-21,U042,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,4,5,,Event listing cards,"The event list made discovering activities easier.","FR-03, FR-04"
+2026-07-21,U043,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,5,5,,Search function,"The search feature worked effectively.","FR-05"
+2026-07-21,U044,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,5,4,,Category filter,"The filter options were useful.","FR-06"
+2026-07-21,U045,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event page provided complete information.","FR-07"
+2026-07-21,U046,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,Registration confirmation,Registration form,"The confirmation message should be more noticeable.","FR-08"
+2026-07-21,U047,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,4,4,,Event creation form,"The form was easy but more guidance could help.","FR-09"
+2026-07-21,U048,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,5,5,,Dashboard summary,"The dashboard clearly displayed event information.","FR-10"
+2026-07-21,U049,International Student,Smart Campus Event Hub Prototype,Understand homepage,No,3,3,Navigation labels,Main navigation,"One navigation label should be clearer.","FR-01, FR-02"
+2026-07-21,U050,First-year Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,4,5,,Event listing cards,"The event cards helped me quickly compare activities.","FR-03, FR-04"
+Timestamp,Test_User_ID,User_Role,Prototype_Link,Task_Assigned,Task_Completed_Yes_No,Ease_of_Use_1_5,Usefulness_1_5,Confusing_Screen_or_Step,Most_Useful_Feature,Suggested_Improvement,Requirement_Affected
+2026-07-22,U051,First-year Student,Smart Campus Event Hub Prototype,Search for an event,Yes,4,5,Search keyword label,Search function,"The search feature was useful but the search suggestions could be improved.","FR-05"
+2026-07-22,U052,International Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,5,4,Category labels,Category filter,"The category names should be more specific for easier selection.","FR-06"
+2026-07-22,U053,Exchange Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event details showed important information clearly.","FR-07"
+2026-07-22,U054,Senior Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,,Registration form,"The registration process was simple and easy to understand.","FR-08"
+2026-07-22,U055,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,4,5,Event category selection,Event creation form,"The event category field should provide more examples.","FR-09"
+2026-07-22,U056,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,No,2,3,Statistic labels,Dashboard summary,"The dashboard statistics need clearer labels.","FR-10"
+2026-07-22,U057,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,Feature card wording,Feature cards,"The homepage clearly showed the purpose of the system.","FR-01, FR-02"
+2026-07-22,U058,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,5,4,,Event listing cards,"Events were easy to browse and compare.","FR-03, FR-04"
+2026-07-22,U059,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,4,4,,Search function,"I could quickly find events using keywords.","FR-05"
+2026-07-22,U060,International Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,4,5,,Category filter,"Filtering made it easier to find suitable activities.","FR-06"
+2026-07-22,U061,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event information was complete and helpful.","FR-07"
+2026-07-22,U062,First-year Student,Smart Campus Event Hub Prototype,Register for an event,No,3,3,Registration button,Registration form,"The registration button should be more visible.","FR-08"
+2026-07-22,U063,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,5,5,,Event creation form,"The form included the required event details.","FR-09"
+2026-07-22,U064,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,4,,Dashboard summary,"The dashboard provided useful event management information.","FR-10"
+2026-07-22,U065,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,4,5,,Homepage overview,"The homepage explained the platform features clearly.","FR-01, FR-02"
+2026-07-22,U066,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,4,4,Event category label,Event listing cards,"The event categories should be more noticeable.","FR-03, FR-04"
+2026-07-22,U067,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,5,5,,Search function,"Searching for events was fast and convenient.","FR-05"
+2026-07-22,U068,First-year Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,4,5,,Category filter,"The category filter helped locate events easily.","FR-06"
+2026-07-22,U069,International Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The details page answered my questions before joining.","FR-07"
+2026-07-22,U070,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,4,,Review statistics,The dashboard displayed event statistics clearly.,FR-10
+2026-07-22,U071,First-year Student,Smart Campus Event Hub Prototype,Register for an event,Yes,5,5,,Registration form,"The registration process was easy to complete.","FR-08"
+2026-07-22,U072,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,4,5,,Event creation form,"Creating an event was simple and organized.","FR-09"
+2026-07-22,U073,International Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Feature cards,"The main features were easy to identify.","FR-01, FR-02"
+2026-07-22,U074,Exchange Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,4,5,,Event listing cards,"The event cards provided enough information.","FR-03, FR-04"
+2026-07-22,U075,Senior Student,Smart Campus Event Hub Prototype,Search for an event,Yes,5,4,Search bar placement,Search function,"The search bar should be positioned more clearly.","FR-05"
+2026-07-23,U076,First-year Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,5,5,,Category filter,"The filter helped me find events related to my interests.","FR-06"
+2026-07-23,U077,International Student,Smart Campus Event Hub Prototype,View event details,Yes,4,5,,Event detail page,"The event page provided useful information about schedule and location.","FR-07"
+2026-07-23,U078,Exchange Student,Smart Campus Event Hub Prototype,Register for an event,Yes,5,5,,Registration form,"Registration was simple and required clear information.","FR-08"
+2026-07-23,U079,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,5,5,,Event creation form,"The organizer form was easy to complete.","FR-09"
+2026-07-23,U080,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,4,,Dashboard summary,"The dashboard made event tracking easier.","FR-10"
+2026-07-23,U081,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Main navigation,"Navigation between pages was simple.","FR-01, FR-02"
+2026-07-23,U082,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,4,5,,Event listing cards,"The event list was helpful for discovering activities.","FR-03, FR-04"
+2026-07-23,U083,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,No,2,4,Search keyword format,Search function,"The search input instructions should be clearer.","FR-05"
+2026-07-23,U084,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,4,5,,Category filter,"The filtering options improved event discovery.","FR-06"
+2026-07-23,U085,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event details were easy to understand.","FR-07"
+2026-07-23,U086,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,Confirmation message,Registration form,"The confirmation message should be more noticeable.","FR-08"
+2026-07-23,U087,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,5,4,,Event creation form,"The form worked well but needed clearer instructions.","FR-09"
+2026-07-23,U088,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,5,5,,Dashboard summary,"The dashboard clearly displayed event information.","FR-10"
+2026-07-23,U089,International Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,4,5,,Homepage overview,"The homepage explained the system purpose clearly.","FR-01, FR-02"
+2026-07-23,U090,First-year Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,5,5,,Event listing cards,"The event cards made comparing events easier.","FR-03, FR-04"
+2026-07-23,U091,Senior Student,Smart Campus Event Hub Prototype,Search for an event,Yes,5,5,,Search function,"The search feature worked effectively.","FR-05"
+2026-07-23,U092,Exchange Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,4,4,,Category filter,"The filter options were useful but could include more categories.","FR-06"
+2026-07-23,U093,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The information provided was enough before registration.","FR-07"
+2026-07-23,U094,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,5,4,,Registration form,"The registration steps were understandable.","FR-08"
+2026-07-23,U095,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,No,3,3,Required fields,Event creation form,"Required fields should have stronger indicators.","FR-09"
+2026-07-23,U096,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,5,,Dashboard summary,"The dashboard helped monitor events effectively.","FR-10"
+2026-07-23,U097,International Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Feature cards,"The homepage was easy for new students to understand.","FR-01, FR-02"
+2026-07-23,U098,First-year Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,4,5,,Event listing cards,"The event listing was useful and organized.","FR-03, FR-04"
+2026-07-23,U099,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,5,4,,Search function,"The search feature helped locate events quickly.","FR-05"
+2026-07-23,U100,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,4,5,,Category filter,"The categories helped me find relevant campus events.","FR-06"
+Timestamp,Test_User_ID,User_Role,Prototype_Link,Task_Assigned,Task_Completed_Yes_No,Ease_of_Use_1_5,Usefulness_1_5,Confusing_Screen_or_Step,Most_Useful_Feature,Suggested_Improvement,Requirement_Affected
+2026-07-24,U101,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event details provided complete information about time, venue, and description.","FR-07"
+2026-07-24,U102,International Student,Smart Campus Event Hub Prototype,Register for an event,No,3,4,Registration button,Registration form,"The registration button should be more visible.","FR-08"
+2026-07-24,U103,Exchange Student,Smart Campus Event Hub Prototype,Create a campus event,Yes,5,5,,Event creation form,"The organizer form was simple and included necessary fields.","FR-09"
+2026-07-24,U104,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,5,,Dashboard summary,"The dashboard helped monitor event activities.","FR-10"
+2026-07-24,U105,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,4,4,,Homepage overview,"The homepage explained the platform purpose clearly.","FR-01, FR-02"
+2026-07-24,U106,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,5,5,,Event listing cards,"The event cards helped discover campus activities.","FR-03, FR-04"
+2026-07-24,U107,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,4,5,,Search function,"The search feature made finding events easier.","FR-05"
+2026-07-24,U108,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,No,2,4,Category dropdown,Category filter,"The category dropdown should be easier to notice.","FR-06"
+2026-07-24,U109,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event details page was easy to navigate.","FR-07"
+2026-07-24,U110,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,,Registration form,"The registration process was quick and understandable.","FR-08"
+2026-07-24,U111,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,4,5,Date input,Event creation form,"The date selection should provide clearer guidance.","FR-09"
+2026-07-24,U112,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,5,5,,Dashboard summary,"The dashboard displayed important event statistics.","FR-10"
+2026-07-24,U113,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Feature cards,"The features were easy to identify from the homepage.","FR-01, FR-02"
+2026-07-24,U114,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,No,3,4,Event category label,Event listing cards,"The categories should be clearer for different event types.","FR-03, FR-04"
+2026-07-24,U115,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,5,5,,Search function,"The search feature worked effectively.","FR-05"
+2026-07-24,U116,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,4,5,,Category filter,"The filter improved the event browsing experience.","FR-06"
+2026-07-24,U117,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,4,,Event detail page,"The event details were useful before deciding to join.","FR-07"
+2026-07-24,U118,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,Confirmation message,Registration form,"The confirmation message should be displayed more clearly.","FR-08"
+2026-07-24,U119,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,5,5,,Event creation form,"The form supported event creation effectively.","FR-09"
+2026-07-24,U120,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,4,,Dashboard summary,"The dashboard was useful for managing events.","FR-10"
+2026-07-25,U121,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Homepage overview,"The homepage clearly explained the purpose of the system.","FR-01, FR-02"
+2026-07-25,U122,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,4,5,,Event listing cards,"The event listing made finding activities easier.","FR-03, FR-04"
+2026-07-25,U123,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,5,5,,Search function,"The search tool helped quickly locate events.","FR-05"
+2026-07-25,U124,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,5,4,,Category filter,"The category filter improved navigation.","FR-06"
+2026-07-25,U125,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,4,5,,Event detail page,"The event information was detailed and useful.","FR-07"
+2026-07-25,U126,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,5,5,,Registration form,"The registration process was simple.","FR-08"
+2026-07-25,U127,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,5,5,,Event creation form,"The event creation page was easy to use.","FR-09"
+2026-07-25,U128,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,5,Dashboard navigation,Dashboard summary,"The dashboard navigation could be improved.","FR-10"
+2026-07-25,U129,International Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Main navigation,"The homepage navigation was clear.","FR-01, FR-02"
+2026-07-25,U130,First-year Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,4,4,,Event listing cards,"The event cards provided useful summaries.","FR-03, FR-04"
+2026-07-25,U131,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,4,5,Search label,Search function,"The search label should be clearer.","FR-05"
+2026-07-25,U132,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,5,5,,Category filter,"The filter feature saved time when browsing.","FR-06"
+2026-07-25,U133,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The page provided all important event information.","FR-07"
+2026-07-25,U134,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,,Registration form,"The form was easy to complete.","FR-08"
+2026-07-25,U135,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,4,4,,Event creation form,"The organizer form worked well but needed examples.","FR-09"
+2026-07-25,U136,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,5,5,,Dashboard summary,"The dashboard clearly showed event records.","FR-10"
+2026-07-26,U137,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,4,5,,Feature cards,"The homepage made features easy to understand.","FR-01, FR-02"
+2026-07-26,U138,International Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,5,5,,Event listing cards,"The event list was organized and helpful.","FR-03, FR-04"
+2026-07-26,U139,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,4,4,,Search function,"The search function worked but could include suggestions.","FR-05"
+2026-07-26,U140,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,5,5,,Category filter,"The category filter was useful for finding activities.","FR-06"
+2026-07-26,U141,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,4,5,,Event detail page,"The event details helped me decide whether to join.","FR-07"
+2026-07-26,U142,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,5,5,,Registration form,"The registration process was simple.","FR-08"
+2026-07-26,U143,Club Organizer,Smart Campus Event Hub Prototype,Create a campus event,Yes,5,5,,Event creation form,"The form supported organizers effectively.","FR-09"
+2026-07-26,U144,Student Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,4,,Dashboard summary,"The dashboard information was understandable.","FR-10"
+2026-07-26,U145,International Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Homepage overview,"The homepage clearly introduced the platform.","FR-01, FR-02"
+2026-07-26,U146,First-year Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,5,5,,Event listing cards,"The event listing was easy to browse.","FR-03, FR-04"
+2026-07-26,U147,Exchange Student,Smart Campus Event Hub Prototype,Search for an event,Yes,5,4,,Search function,"The search feature was helpful.","FR-05"
+2026-07-26,U148,Senior Student,Smart Campus Event Hub Prototype,Filter events by category,Yes,4,5,,Category filter,"The category filter improved event discovery.","FR-06"
+2026-07-26,U149,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,"The event details were clear and complete.","FR-07"
+2026-07-26,U150,International Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,,Registration form,"The registration process was convenient.","FR-08"
+Timestamp,Test_User_ID,User_Role,Prototype_Link,Task_Assigned,Task_Completed_Yes_No,Ease_of_Use_1_5,Usefulness_1_5,Confusing_Screen_or_Step,Most_Useful_Feature,Suggested_Improvement,Requirement_Affected
+2026-07-26,U151,First-year Student,Smart Campus Event Hub Prototype,Create an account or sign in,No,2,3,Password guidance,Signup form,The password requirements should be displayed more clearly.,FR-03
+2026-07-26,U152,Senior Student,Smart Campus Event Hub Prototype,Register for a campus event,Yes,4,5,Registration confirmation,Event registration,The confirmation message should be more noticeable after registration.,FR-05,FR-10
+2026-07-26,International Student,Smart Campus Event Hub Prototype,Browse event categories,Yes,4,4,,Category filter,The event categories helped me quickly find relevant activities.,FR-02,FR-06
+2026-07-26,U154,Staff Administrator,Smart Campus Event Hub Prototype,View event management dashboard,Yes,4,5,,Dashboard summary,The dashboard provided useful event information and statistics.,FR-11
+2026-07-26,U155,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,3,5,Feature card wording,Homepage event cards,The event descriptions could be shorter and clearer.,FR-01,FR-02
+2026-07-26,U156,First-year Student,Smart Campus Event Hub Prototype,Search for campus events,Yes,4,3,,Search function,The search worked but more filter options would improve usability.,FR-04,FR-06
+2026-07-26,International Student,Smart Campus Event Hub Prototype,View event details,Yes,4,4,,Event detail page,The event information was easy to understand.,FR-07
+2026-07-26,U158,International Student,Smart Campus Event Hub Prototype,Create an account or sign in,Yes,4,4,,Authentication navigation,The login process was simple to complete.,FR-03
+2026-07-26,U159,Exchange Student,Smart Campus Event Hub Prototype,Register for a campus event,Yes,4,4,Registration button,Registration form,The registration button should be easier to notice.,FR-05,FR-10
+2026-07-26,U160,International Student,Smart Campus Event Hub Prototype,Receive event notifications,Yes,4,4,,Notification feature,Reminders helped me remember upcoming events.,FR-08
+2026-07-26,U161,Student Administrator,Smart Campus Event Hub Prototype,View event analytics dashboard,Yes,3,4,,Dashboard statistics,The statistics labels should be clearer.,FR-11
+2026-07-26,First-year Student,Smart Campus Event Hub Prototype,Browse upcoming events,Yes,3,5,,Event listing page,The event list made it easy to discover activities.,FR-01,FR-02
+2026-07-26,U163,First-year Student,Smart Campus Event Hub Prototype,Search and filter events,Yes,4,5,Filter labels,Search and filter,The filters were useful but category names should be clearer.,FR-04,FR-06
+2026-07-26,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,,Event detail page,I could quickly understand the event date, location, and description.,FR-07
+2026-07-26,International Student,Smart Campus Event Hub Prototype,Create an account or sign in,Yes,5,4,,Login form,I could access the platform without assistance.,FR-03
+2026-07-26,Exchange Student,Smart Campus Event Hub Prototype,Register for a campus event,Yes,4,4,Registration confirmation,Registration feature,The confirmation message should include more details.,FR-05,FR-10
+2026-07-26,Senior Student,Smart Campus Event Hub Prototype,Read event announcements,Yes,4,5,,Announcement section,Important event updates were easy to find.,FR-08
+2026-07-26,Student Administrator,Smart Campus Event Hub Prototype,Manage event information,Yes,4,4,,Admin dashboard,The management tools were useful.,FR-11
+2026-07-26,International Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,3,5,Navigation labels,Homepage design,Some navigation labels should be clearer.,FR-01,FR-02
+2026-07-26,Exchange Student,Smart Campus Event Hub Prototype,Browse events,Yes,5,5,,Event cards,The event cards helped me compare activities quickly.,FR-01
+2026-07-26,First-year Student,Smart Campus Event Hub Prototype,Search campus events,Yes,4,5,,Search and filter,Finding events was fast and convenient.,FR-04
+2026-07-26,International Student,Smart Campus Event Hub Prototype,Register for events,Yes,5,5,,Registration form,The registration process was easy to complete.,FR-05
+2026-07-26,Student Administrator,Smart Campus Event Hub Prototype,View dashboard,No,2,3,Dashboard location,Dashboard summary,The dashboard link should be easier to locate.,FR-11
+2026-07-26,First-year Student,Smart Campus Event Hub Prototype,View event details,Yes,4,4,,Event details,The event information was useful.,FR-07
+2026-07-27,International Student,Smart Campus Event Hub Prototype,Browse event categories,Yes,5,4,,Category filter,The categories helped me find suitable events.,FR-02,FR-06
+2026-07-27,Exchange Student,Smart Campus Event Hub Prototype,Register for campus events,Yes,4,5,,Registration feature,The registration process was smooth.,FR-05,FR-10
+2026-07-27,Staff Administrator,Smart Campus Event Hub Prototype,Manage events,Yes,4,5,,Admin dashboard,The dashboard displayed important information clearly.,FR-11
+2026-07-27,First-year Student,Smart Campus Event Hub Prototype,Receive notifications,Yes,5,4,,Reminder feature,Notifications were useful for upcoming activities.,FR-08
+2026-07-27,Senior Student,Smart Campus Event Hub Prototype,Search events,Yes,5,5,,Search function,The search feature helped locate events quickly.,FR-04
+2026-07-27,International Student,Smart Campus Event Hub Prototype,View event details,Yes,4,5,,Event detail page,The event details were complete and clear.,FR-07
+2026-07-27,First-year Student,Smart Campus Event Hub Prototype,Understand homepage,Yes,5,5,,Homepage overview,The purpose of the platform was clear.,FR-01
+2026-07-27,Student Administrator,Smart Campus Event Hub Prototype,View analytics dashboard,Yes,4,4,,Statistics panel,The dashboard information was useful.,FR-11
