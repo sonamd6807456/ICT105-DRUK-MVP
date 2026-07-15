@@ -1,11 +1,11 @@
 Timestamp,Test_User_ID,User_Role,Prototype_Link,Task_Assigned,Task_Completed_Yes_No,Ease_of_Use_1_5,Usefulness_1_5,Confusing_Screen_or_Step,Most_Useful_Feature,Suggested_Improvement,Requirement_Affected
 2026-07-15 10:05,TU-01,Student,Smart Campus Event Hub Prototype,Browse campus events,Yes,5,5,None,Event Listing,None,FR-01
-2026-07-15 10:10,TU-02,International Student,Smart Campus Event Hub Prototype,Search campus events,Yes,4,5,Search Filter,Search and Filter,Make filter options clearer,FR-03
+2026-07-15 10:10,TU-02,International Student,Smart Campus Event Hub Prototype,Search campus events using filters,Yes,4,5,Search and Filter,Search Function,Improve filter category labels,FR-03
 2026-07-15 10:15,TU-03,Student,Smart Campus Event Hub Prototype,View event details,Yes,5,5,None,Event Details,None,FR-04
-2026-07-15 10:20,TU-04,Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,Registration Form,Event Registration,Use clearer field labels,FR-05
-2026-07-15 10:25,TU-05,International Student,Smart Campus Event Hub Prototype,View dashboard summary,Yes,5,4,None,Dashboard Summary,None,FR-08
-2026-07-15 10:30,TU-06,Student Club Organizer,Smart Campus Event Hub Prototype,Create a new event,Yes,4,5,Event Submission Form,Event Management,Simplify event category selection,FR-09
+2026-07-15 10:20,TU-04,Student,Smart Campus Event Hub Prototype,Register for an event,Yes,4,5,Registration Form,Event Registration,Use clearer form field labels,FR-05
+2026-07-15 10:25,TU-05,International Student,Smart Campus Event Hub Prototype,View student dashboard summary,Yes,5,4,None,Student Dashboard,Improve dashboard information layout,FR-08
+2026-07-15 10:30,TU-06,Student Club Organizer,Smart Campus Event Hub Prototype,Create a new campus event,Yes,4,5,Event Submission Form,Event Management,Simplify event category selection,FR-09
 2026-07-15 10:35,TU-07,Campus Administrator,Smart Campus Event Hub Prototype,Update event information,Yes,5,5,None,Event Management,None,FR-10
-2026-07-15 10:40,TU-08,Student,Smart Campus Event Hub Prototype,Search workshop events,No,3,4,Search Filter,Search and Filter,Improve category filters,FR-03
-2026-07-15 10:45,TU-09,International Student,Smart Campus Event Hub Prototype,Register for a workshop,Yes,5,5,None,Event Registration,None,FR-05
-2026-07-15 10:50,TU-10,Student,Smart Campus Event Hub Prototype,Browse homepage and events,Yes,5,5,None,Homepage,None,FR-01
+2026-07-15 10:40,TU-08,Student,Smart Campus Event Hub Prototype,Search events by category,No,3,4,Search and Filter,Search Function,Improve category filtering options,FR-03
+2026-07-15 10:45,TU-09,International Student,Smart Campus Event Hub Prototype,Register for a workshop event,Yes,5,5,None,Event Registration,None,FR-05
+2026-07-15 10:50,TU-10,Student,Smart Campus Event Hub Prototype,Browse homepage and upcoming events,Yes,5,5,None,Event Listing,None,FR-01
