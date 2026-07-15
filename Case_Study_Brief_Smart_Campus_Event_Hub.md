@@ -1,21 +1,33 @@
-# Case Study Brief: Smart Campus Event Hub
+# Case Study Brief - Smart Campus Event Hub
 
-## Problem Context
+## Case Context
 
-University students often miss campus events, workshops, competitions, club activities, and important announcements because event information is scattered across multiple communication channels such as social media, messaging applications, emails, posters, and university websites. As a result, students are unaware of valuable opportunities, while event organizers experience lower participation and ineffective communication.
+Students often miss campus events because information is shared across multiple platforms, such as social media, messaging groups, notice boards, or word of mouth. As a result, students may not receive timely updates about upcoming activities, registration deadlines, or event changes. Student organizations and administrators also face challenges in promoting events and managing participant registrations efficiently.
 
-## Practice Purpose
+## MVP Experiment
 
-This case is used only for guided practice in Lab 07. Students must later apply the same MVP experiment design process to their own group project by validating whether the Smart Campus Event Hub effectively helps students discover and participate in campus events.
+The MVP experiment tests whether users can:
 
-## Example MVP Experiment Direction
+1. Create a new account and log in successfully.
+2. Browse available campus events.
+3. View detailed event information.
+4. Register for an event and receive a confirmation message.
+5. Add events to their Favorites list.
+6. View and manage their user profile.
+7. Submit reviews and feedback.
+8. Allow administrators to manage events, users, and reviews through the admin dashboard.
 
-The team wants to test whether students can successfully use the Smart Campus Event Hub to browse upcoming events, search and filter events, view detailed event information, register for events, and navigate the platform without assistance.
+## Validation Goal
 
-## Example Critical Assumption
+The goal is to determine whether the proposed event management workflow is easy to understand, useful for students and administrators, and suitable for further development before implementing additional features.
 
-Students will use a centralized campus event platform if it is easier, faster, and more convenient than relying on social media, messaging apps, posters, and university websites to find event information.
+## Practice Data
 
-## Example Experiment Type
+Use the collected validation data generated during MVP testing:
 
-Clickable HTML/CSS/JavaScript prototype with task-based usability testing, simulated event registration, search and filtering functions, and user feedback collection.
+- `/data/validation-results-template.csv`
+- `/data/validation-results-template.xlsx`
+
+## Student Group Task
+
+After completing the MVP validation, the group will analyze the collected user feedback, summarize the validation results, identify usability improvements, update the prototype based on the findings, and prepare the final implementation of the Smart Campus Event Hub.
