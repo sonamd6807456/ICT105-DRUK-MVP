@@ -364,3 +364,41 @@ The team will conduct usability testing using the clickable HTML/CSS/JavaScript 
 
 The results of this MVP experiment will guide the development of the final Smart Campus Event Hub prototype by identifying usability problems, validating key assumptions, and confirming whether the MVP successfully addresses students' difficulties in discovering campus events. User feedback will help improve navigation, event search and filtering, registration workflow, dashboard design, and overall user experience before the final submission.
 
+----
+
+## Lab 08: Customer Validation and Analytics Sheet
+
+### Validation Objective
+
+The objective of this validation was to evaluate whether the Smart Campus Event Hub MVP helps students easily discover campus events, search for activities, view event details, register for events, and allows organizers to manage event information effectively. The validation also identified usability issues and gathered user feedback to improve the prototype before final implementation.
+
+### Prototype Version Tested
+
+- **Version:** v1.0
+- **Link:** https://github.com/sonamd6807456/ICT105-DRUK-MVP
+- **Screenshots:** `/screenshots/validation-test-screens.png`
+
+---
+
+### Analytics Summary
+
+| Metric | Result |
+|---|---:|
+| Total test users | 12 |
+| Task success rate | 91.7% |
+| Average feedback score | 4.4 / 5 |
+| Average interest level | 4.8 / 5 |
+| Main confusion point | Search and Filter feature (FR-03) |
+| MVP Decision | Continue with minor revisions |
+
+---
+
+### MVP Decision
+
+Based on the validation results, the team decided to **continue with minor revisions**. Most participants successfully completed their assigned tasks and provided positive feedback on the prototype. Minor improvements will be made to the Search and Filter feature, event registration form, and dashboard layout before continuing with the final prototype.
+
+---
+
+### Files Added
+
+
