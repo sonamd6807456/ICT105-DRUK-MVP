@@ -1,0 +1,11 @@
+Timestamp,Test_User_ID,User_Role,Prototype_Link,Task_Assigned,Task_Completed_Yes_No,Ease_of_Use_1_5,Usefulness_1_5,Confusing_Screen_or_Step,Most_Useful_Feature,Suggested_Improvement,Requirement_Affected
+7/15/2026 10:00,TU-01,First-year Student,v1.0 (Final MVP),"Sign up, login, browse events, register",Yes,5,5,None,Event Registration,Add event reminders,"FR-01, FR-02, FR-03, FR-04"
+7/15/2026 10:05,TU-02,Second-year Student,v1.0 (Final MVP),"Browse events and add favorites",Yes,5,5,None,Favorites,Add category filters,"FR-03, FR-05"
+7/15/2026 10:10,TU-03,International Student,v1.0 (Final MVP),"Browse and register for an event",Yes,5,5,None,Event Registration,Add event search,"FR-03, FR-04"
+7/15/2026 10:15,TU-04,Student Club Member,v1.0 (Final MVP),"View event details and register",Yes,5,5,None,Event Details,Calendar integration,"FR-03, FR-04"
+7/15/2026 10:20,TU-05,Third-year Student,v1.0 (Final MVP),"Explore dashboard and profile",Yes,4,5,None,Student Dashboard,Profile picture upload,"FR-03, FR-06"
+7/15/2026 10:25,TU-06,Student Club Organizer,v1.0 (Final MVP),"Manage campus events",Yes,5,5,None,Admin Event Management,Bulk event editing,"FR-08"
+7/15/2026 10:30,TU-07,Campus Administrator,v1.0 (Final MVP),"Manage users, reviews and events",Yes,5,5,None,Admin Dashboard,Export reports,"FR-08"
+7/15/2026 10:35,TU-08,Final-year Student,v1.0 (Final MVP),"Register and manage favorites",Yes,5,4,None,Favorites,Organize favorites,"FR-03, FR-05"
+7/15/2026 10:40,TU-09,Exchange Student,v1.0 (Final MVP),"Complete full user journey",Yes,5,5,None,Event Registration,Event reminders,"FR-01, FR-02, FR-03, FR-04"
+7/15/2026 10:45,TU-10,Student Representative,v1.0 (Final MVP),"Test all major website features",Yes,5,5,None,Overall Navigation,Profile customization,"FR-03, FR-05, FR-06, FR-07"
