@@ -27,16 +27,16 @@ The team tested the **Smart Campus Event Hub MVP (v1.0)**, a web-based platform 
 
 ### Related Requirements
 
-FR-01 Homepage
-FR-02 Event Discovery Flow
-FR-05 Event Listing
-FR-06 Search & Filter
-FR-07 Event Detail
-FR-08 Registration & Attendance Status
-FR-09 Admin Event Management
-FR-12 Dashboard
----
+- FR-01 Homepage
+- FR-02 Event Discovery Flow
+- FR-05 Event Listing
+- FR-06 Search & Filter
+- FR-07 Event Detail
+- FR-08 Registration & Attendance Status
+- FR-09 Admin Event Management
+- FR-12 Dashboard
 
+---
 ## 3. Test Users
 
 A total of **100 participants** representing the target users of the Smart Campus Event Hub participated in the usability validation.
