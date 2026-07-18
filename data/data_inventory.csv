@@ -1,1 +1,21 @@
-
+Data_Field,Example_Value,Purpose,Personal_Data,Sensitive_Data,Visibility,Keep_Remove_Replace,Responsible_Action
+Event_ID,EVT-001,Uniquely identify each campus event,No,No,Public,Keep,Organizer
+Event_Name,International Student Orientation,Display the event title,No,No,Public,Keep,Organizer
+Event_Category,Workshop,Categorize campus events,No,No,Public,Keep,Organizer
+Event_Date,2026-08-15,Display the scheduled event date,No,No,Public,Keep,Organizer
+Event_Time,09:00 AM,Display the event start time,No,No,Public,Keep,Organizer
+Event_Location,Rangsit University Auditorium,Inform users where the event takes place,No,No,Public,Keep,Organizer
+Event_Description,Orientation program for new international students.,Provide event details,No,No,Public,Keep,Organizer
+Organizer_Name,International Office,Identify the event organizer,No,No,Public,Keep,Organizer
+Registration_Status,Open,Show whether registration is available,No,No,Public,Keep,System
+Event_Status,Upcoming,Display the current event status,No,No,Public,Keep,System
+Student_Name,Tenzin Dema,Identify the registered student,Yes,No,Private,Replace,Administrator
+Student_ID,6807456,Verify student registration,Yes,Yes,Private,Remove,Administrator
+Email_Address,student@rsu.ac.th,Send registration confirmation and reminders,Yes,Yes,Private,Replace,Administrator
+Phone_Number,+66XXXXXXXXX,Contact participant if necessary,Yes,Yes,Private,Remove,Administrator
+Registration_Date,2026-08-10,Record when a student registered,No,No,Internal,Keep,System
+Reminder_Status,Sent,Track reminder notifications,No,No,Internal,Keep,System
+Feedback_Score,5,Measure user satisfaction after the event,No,No,Internal,Keep,Validation Lead
+User_Comment,Easy to register and find events.,Collect user feedback,No,No,Internal,Keep,Validation Lead
+Requirement_Affected,FR-05,Link validation results to system requirements,No,No,Internal,Keep,Technical Lead
+Prototype_Version,v1.0,Track the prototype version tested,No,No,Internal,Keep,Technical Lead
