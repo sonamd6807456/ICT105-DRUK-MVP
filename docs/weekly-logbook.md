@@ -639,9 +639,7 @@ The team prepared:
 
 | Member | Contribution | GitHub Evidence |
 |---|---|---|
-| **Sonam Deki** | Updated GitHub Issues, Weekly Logbook, Legal & Ethical Checklist, Updated Requirements Note, created the Privacy & Security Review Flowchart, and completed the Practice Risk Register Sample. | GitHub Issues #49–#54,docs/weekly-logbook.md,  docs/legal-ethical-checklist.md,  
-docs/updated-requirements-note.md,  diagrams/privacy-security-review.mmd, 
-data/practice_risk_register_sample.csv |
+| **Sonam Deki** | Updated GitHub Issues, Weekly Logbook, Legal & Ethical Checklist, Updated Requirements Note, created the Privacy & Security Review Flowchart, and completed the Practice Risk Register Sample. |GitHub Issues #49–#54,docs/weekly-logbook.md,  docs/legal-ethical-checklist.md, docs/updated-requirements-note.md,  diagrams/privacy-security-review.mmd, data/practice_risk_register_sample.csv |
 | **Kinley Zam** | Completed the Third-Party Assets Register Template, Data Handling Policy, Privacy and Data Protection document, User Consent Statement, and collected project screenshots. | docs/third-party-assets-register.md,  docs/data-handling-policy.md, docs/privacy-data-protection.md, docs/user-consent-statement.md, screenshots/ |
 | **Tenzin Dema** | Updated the README, completed the IP and Third-Party Assets review, prepared the Data Inventory Template, reviewed Security Risks, and developed the Case Study Brief for the Smart Campus Event Hub. |  /README.md , docs/ip-third-party-assets.md , docs/data-inventory-template.md ,  docs/security-risk-check.md , docs/case-study-brief.md  |
 
