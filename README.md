@@ -79,13 +79,11 @@ Technology Stack:
 | Lab 6 | Business Model Canvas and Technical Architecture | Business Model Canvas, Customer Segment Value, Feature-Value Mapping, System Architecture Diagram, Data Flow Diagram, Technical Architecture Documentation, README Updates | Completed |
 | Lab 7 | MVP Prototype Development and Experiment Preparation | Functional Web Prototype Development using HTML, CSS, JavaScript, LocalStorage Simulation, MVP Experiment Plan, Usability Testing Preparation, Success Metrics and Decision Rules | Completed |
 | Lab 8 | Customer Validation, Analytics, and MVP Decision | Customer Validation Testing, Validation Results CSV, Analytics Summary, User Feedback Analysis, Power BI Dashboard, Customer Validation Summary, MVP Decision Document, Weekly Logbook Updates | Completed |
-| Lab 9 |  |  | Not Started |
+| Lab 9 | Privacy, Security, Legal & Ethical Review | Data Inventory Template, Privacy & Data Protection, Data Handling Policy, User Consent Statement, Legal & Ethical Checklist, IP & Third-Party Assets Review, Third-Party Assets Register, Security Risk Check, Practice Risk Register, Updated Requirements Note, Case Study Brief, Privacy & Security Review Flowchart, GitHub Issues, README Updates, Weekly Logbook | Completed |
 | Lab 10 |  |  | Not Started |
 | Lab 11 |  |  | Not Started |
 | Lab 12 |  |  | Not Started |
 | Lab 13 |  |  | Not Started |
-| Lab 14 |  |  | Not Started |
-
 ----
 
 # Lab 03 – Customer Problem Discovery
@@ -474,8 +472,7 @@ The main updates include:
 
 | Team Member | Contribution |
 |---|---|
-| UI/UX Lead | Reviewed privacy and ethical issues related to the user interface and ensured that public event pages do not unnecessarily expose personal information. |
-| Product Lead | Reviewed the project requirements, responsible design risks, user privacy concerns, and updated requirements after Lab 09. |
-| Technical Lead | Reviewed input validation, organizer/admin access, event status updates, third-party assets, and basic security risks. |
-| All Team Members | Contributed to the Responsible IT review, risk identification, documentation, and GitHub repository updates. |
+| **Sonam Deki** | Updated GitHub Issues, Weekly Logbook, Legal & Ethical Checklist, Updated Requirements Note, created the Privacy & Security Review Flowchart, and completed the Practice Risk Register Sample. |GitHub Issues #49–#54,docs/weekly-logbook.md,  docs/legal-ethical-checklist.md, docs/updated-requirements-note.md,  diagrams/privacy-security-review.mmd, data/practice_risk_register_sample.csv |
+| **Kinley Zam** | Completed the Third-Party Assets Register Template, Data Handling Policy, Privacy and Data Protection document, User Consent Statement, and collected project screenshots. | docs/third-party-assets-register.md,  docs/data-handling-policy.md, docs/privacy-data-protection.md, docs/user-consent-statement.md, screenshots/ |
+| **Tenzin Dema** | Updated the README, completed the IP and Third-Party Assets review, prepared the Data Inventory Template, reviewed Security Risks, and developed the Case Study Brief for the Smart Campus Event Hub. |  /README.md , docs/ip-third-party-assets.md , docs/data-inventory-template.md ,  docs/security-risk-check.md , docs/case-study-brief.md  |
 
