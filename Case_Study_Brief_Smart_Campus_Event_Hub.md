@@ -70,3 +70,23 @@ After completing the MVP validation, the project team will:
 6. Improve the prototype by addressing the identified usability issues.
 7. Create GitHub Issues for the required improvements.
 8. Prepare the Smart Campus Event Hub for the next implementation phase.
+
+9. # Case Study Brief: Smart Campus Event Hub
+
+## Problem Context
+
+Students often find it difficult to discover and keep track of campus events because event information is spread across different communication channels such as social media, messaging groups, posters, emails, and university websites. As a result, students may miss important events, registration deadlines, or event updates.
+
+Organizers also need a more centralized way to create, publish, update, and manage campus event information. Current alternatives may require sharing information through multiple platforms, which can make event information difficult to find and keep updated.
+
+## Proposed Prototype
+
+A web-based Smart Campus Event Hub prototype where students can browse campus events, search and filter events by relevant information, view event details, register for events, and view their participation information.
+
+The prototype also allows organizers or administrators to create and manage event information, update event status, manage event capacity, and monitor event-related information through organizer or dashboard functions.
+
+## Responsible IT Focus for Lab 09
+
+Students must check what data is collected during event browsing and registration, whether personal information such as student names, student IDs, or email addresses is necessary, whether users understand how their registration information is used, whether external assets such as images, icons, fonts, code, or datasets are properly licensed and credited, and whether organizer and administrator functions are clearly separated from normal student functions.
+
+The team must also review whether event information and registration data are protected from unauthorized changes, whether public event pages expose private student information, and whether basic input validation and status-update controls are implemented.
