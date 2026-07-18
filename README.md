@@ -427,3 +427,55 @@ Since the core assumptions were validated and users showed strong interest in us
 - `/data/Lab08_GroupName_Validation_Analytics.pbix`
 - `/screenshots/lab08-powerbi-dashboard.png`
 
+- # Lab 09 - Responsible IT Check
+
+## Responsible Design Summary
+
+During Lab 09, the Smart Campus Event Hub was reviewed for privacy, ethical, intellectual property, and basic security risks.
+
+The main privacy risk is the collection and handling of student registration information. The system should only collect necessary information and should not publicly display private information such as student IDs, email addresses, or other personal details.
+
+The main ethical risks include ensuring that students understand how their registration information is used and ensuring that event information is accurate and accessible to users. The system should also avoid misleading information and should provide equal access to campus event information.
+
+The main intellectual property risk involves the use of external images, icons, fonts, code, datasets, templates, APIs, or AI-generated materials. Any third-party assets used in the final prototype must be checked for licensing requirements and credited when necessary. The main project code, design, content, and sample event data are created or prepared by the project team.
+
+The main security risks involve incomplete or invalid form submissions, unauthorized access to organizer or administrator functions, unauthorized changes to event information, and the exposure of private student registration information. These risks can be reduced through input validation, role separation, controlled event status updates, and protection of personal information.
+
+The overall decision is to **continue with mitigation**. The Smart Campus Event Hub can continue as a frontend MVP prototype, but additional security and privacy controls should be implemented before the system is used as a real production application.
+
+## Files Added
+
+- docs/legal-ethical-checklist.md
+- docs/privacy-and-data-protection.md
+- docs/ip-and-third-party-assets.md
+- docs/security-risk-check.md
+- docs/risk-register.md
+- docs/updated-requirements-note.md
+- docs/weekly-logbook.md
+
+## Requirement Update
+
+The `system-requirements.md` file was reviewed after Lab 09.
+
+**Requirement update: Yes.**
+
+The requirements were updated to clarify privacy, responsible data handling, input validation, and access control for organizer and administrator functions. The core functional requirements of the Smart Campus Event Hub remain unchanged.
+
+The main updates include:
+
+- Collecting only necessary student registration information.
+- Protecting personal information from public display.
+- Validating event and registration form inputs.
+- Restricting organizer and administrator functions to authorized users.
+- Controlling event status and event information updates.
+- Recording the use of any external assets or third-party materials.
+
+## Team Contributions
+
+| Team Member | Contribution |
+|---|---|
+| UI/UX Lead | Reviewed privacy and ethical issues related to the user interface and ensured that public event pages do not unnecessarily expose personal information. |
+| Product Lead | Reviewed the project requirements, responsible design risks, user privacy concerns, and updated requirements after Lab 09. |
+| Technical Lead | Reviewed input validation, organizer/admin access, event status updates, third-party assets, and basic security risks. |
+| All Team Members | Contributed to the Responsible IT review, risk identification, documentation, and GitHub repository updates. |
+
