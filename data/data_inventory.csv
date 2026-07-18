@@ -1,21 +1,24 @@
 Data_Field,Example_Value,Purpose,Personal_Data,Sensitive_Data,Visibility,Keep_Remove_Replace,Responsible_Action
-Event_ID,EVT-001,Uniquely identify each campus event,No,No,Public,Keep,Organizer
-Event_Name,International Student Orientation,Display the event title,No,No,Public,Keep,Organizer
-Event_Category,Workshop,Categorize campus events,No,No,Public,Keep,Organizer
-Event_Date,2026-08-15,Display the scheduled event date,No,No,Public,Keep,Organizer
-Event_Time,09:00 AM,Display the event start time,No,No,Public,Keep,Organizer
-Event_Location,Rangsit University Auditorium,Inform users where the event takes place,No,No,Public,Keep,Organizer
-Event_Description,Orientation program for new international students.,Provide event details,No,No,Public,Keep,Organizer
-Organizer_Name,International Office,Identify the event organizer,No,No,Public,Keep,Organizer
-Registration_Status,Open,Show whether registration is available,No,No,Public,Keep,System
-Event_Status,Upcoming,Display the current event status,No,No,Public,Keep,System
-Student_Name,Tenzin Dema,Identify the registered student,Yes,No,Private,Replace,Administrator
-Student_ID,6807456,Verify student registration,Yes,Yes,Private,Remove,Administrator
-Email_Address,student@rsu.ac.th,Send registration confirmation and reminders,Yes,Yes,Private,Replace,Administrator
-Phone_Number,+66XXXXXXXXX,Contact participant if necessary,Yes,Yes,Private,Remove,Administrator
-Registration_Date,2026-08-10,Record when a student registered,No,No,Internal,Keep,System
-Reminder_Status,Sent,Track reminder notifications,No,No,Internal,Keep,System
-Feedback_Score,5,Measure user satisfaction after the event,No,No,Internal,Keep,Validation Lead
-User_Comment,Easy to register and find events.,Collect user feedback,No,No,Internal,Keep,Validation Lead
-Requirement_Affected,FR-05,Link validation results to system requirements,No,No,Internal,Keep,Technical Lead
-Prototype_Version,v1.0,Track the prototype version tested,No,No,Internal,Keep,Technical Lead
+RecordID,EH-001,Uniquely identify each event record,No,No,Internal,Keep,System
+RecordType,Event Review,Classify the record as a review or guide,No,No,Public,Keep,Organizer
+Title,RSU Freshman Orientation,Display the event title,No,No,Public,Keep,Organizer
+Category,Orientation,Categorize campus events,No,No,Public,Keep,Organizer
+Location,Building 11 Auditorium,Show where the event takes place,No,No,Public,Keep,Organizer
+SubmittedDate,2026-06-01,Record submission date,No,No,Internal,Keep,System
+ModeratedDate,2026-06-02,Track moderation history,No,No,Internal,Keep,Administrator
+ContributorRole,First-year Student,Identify contributor role,No,No,Internal,Keep,Administrator
+UserSegment,First-year Student,Identify target user group,No,No,Internal,Keep,Administrator
+ReviewOrGuideText,The orientation was informative...,Store event review or guide content,No,No,Public,Keep,Contributor
+Rating,5,Display user rating,No,No,Public,Keep,System
+Status,Approved,Show moderation status,No,No,Internal,Keep,Administrator
+Language,English,Display content language,No,No,Public,Keep,System
+Tags,"orientation,freshman,campus",Improve search and filtering,No,No,Public,Keep,System
+EventDescription,Orientation program for new students,Provide detailed event information,No,No,Public,Keep,Organizer
+EventDate,2026-08-15,Display event schedule,No,No,Public,Keep,Organizer
+EventTime,09:00 AM,Display event start time,No,No,Public,Keep,Organizer
+Organizer,International Office,Identify the event organizer,No,No,Public,Keep,Organizer
+Capacity,500,Limit registrations,No,No,Public,Keep,Organizer
+RegistrationStatus,Open,Display registration availability,No,No,Public,Keep,System
+AttendanceStatus,Registered,Track participation status,Yes,No,Private,Keep,System
+StudentEmail,student@rsu.ac.th,Send registration confirmation and reminders,Yes,Yes,Private,Replace,Administrator
+StudentID,6807456,Validate student registration,Yes,Yes,Private,Remove,Administrator
