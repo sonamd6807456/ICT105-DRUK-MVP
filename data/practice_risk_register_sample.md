@@ -1,0 +1,7 @@
+Risk_ID,Category,Risk_Description,Affected_Feature_or_Requirement,Severity,Likelihood,Mitigation_Action,Owner,GitHub_Evidence,Status
+R-01,Privacy,Student personal information may be visible to other users,FR-02 User Login & Profile,High,Medium,Display only necessary profile information and protect personal data,Documentation Lead,Issue #21,Open
+R-02,Security,Unauthorized users may access administrator functions,FR-09 Admin Dashboard,High,Medium,Implement role-based access control and restrict admin pages to authorized users only,Technical Lead,Issue #22,Open
+R-03,Copyright,Images or event posters may be used without proper permission,FR-04 Event Details,Medium,Medium,Use royalty-free images or obtain permission and record image sources,Documentation Lead,Issue #23,In Progress
+R-04,Ethical,Users may assume all event information is officially approved by the university,Homepage and Event Listings,Medium,Low,Add a disclaimer explaining that event information should be verified with official university announcements,Product Lead,Issue #24,Closed
+R-05,Data Quality,Duplicate events may appear in the event list,FR-03 Search & Filter,Medium,Medium,Allow organizers and administrators to identify and remove duplicate events before publishing,Technical Lead,Issue #25,Open
+R-06,Privacy,Event descriptions or uploaded images may accidentally reveal personal information,FR-10 Event Management,High,Low,Provide submission guidelines and review event content before publication,UX/UI Lead,Issue #26,Open
