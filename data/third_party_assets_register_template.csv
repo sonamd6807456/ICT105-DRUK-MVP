@@ -1,1 +1,5 @@
-
+Asset_Name,Type,Source_URL,License_or_Permission,Used_In,Credit_Required,Risk_Level,Action
+Google Fonts,Font,https://fonts.google.com,SIL Open Font License 1.1,Website Typography,No,Low,Document the source in project documentation.
+Font Awesome,Icon Library,https://fontawesome.com,Font Awesome Free License,Navigation Bar and User Interface Icons,Yes,Low,Provide attribution if required by the license.
+Prototype Images (Google Search),Images,https://images.google.com,Educational prototype use only (original source should be verified),Homepage Banner, Event Cards,Yes,Medium,Replace with properly licensed images or original images before public release.
+ChatGPT,AI Assistance,https://chatgpt.com,OpenAI Terms of Use,Documentation, Report Writing, and Code Assistance,No,Low,Review and verify AI-generated content before submission.
