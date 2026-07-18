@@ -598,10 +598,78 @@ The team prepared:
 - Conduct another round of usability testing after implementing improvements.
 - Update the prototype, documentation, and GitHub repository based on validation feedback.
 
+-------
 
+#  Lab 09-Privacy, Ethics, Security, and Risk Management
 
+## Group Name
 
+**DRUK**
 
+---
+
+## Date
+
+**18 July 2026**
+
+---
+
+## Members Present
+
+- Sonam Deki
+- Kinley Zam
+- Tenzin Dema
+
+---
+
+## Work Completed Today
+
+- **Data Inventory:** Prepared the Data Inventory Template to identify the data collected by the Smart Campus Event Hub.
+- **Privacy Review:** Completed the Privacy and Data Protection document and created the Privacy & Security Review Flowchart.
+- **Ethical Review:** Completed the Legal and Ethical Checklist and User Consent Statement.
+- **Intellectual Property Review:** Prepared the IP and Third-Party Assets document and the Third-Party Assets Register Template.
+- **Security Review:** Completed the Security Risk Check and Practice Risk Register Sample.
+- **Risk Register:** Identified project risks and documented mitigation strategies.
+- **Requirements Update Note:** Reviewed validation evidence and documented required system requirement updates.
+- **Documentation:** Updated the README, Weekly Logbook, GitHub Issues, Case Study Brief, and collected project screenshots.
+
+---
+
+## Member Contributions
+
+| Member | Contribution | GitHub Evidence |
+|---|---|---|
+| **Sonam Deki** | Updated GitHub Issues, Weekly Logbook, Legal & Ethical Checklist, Updated Requirements Note, created the Privacy & Security Review Flowchart, and completed the Practice Risk Register Sample. | GitHub Issues #49–#54,docs/weekly-logbook.md,  docs/legal-ethical-checklist.md,  
+docs/updated-requirements-note.md,  diagrams/privacy-security-review.mmd, 
+data/practice_risk_register_sample.csv |
+| **Kinley Zam** | Completed the Third-Party Assets Register Template, Data Handling Policy, Privacy and Data Protection document, User Consent Statement, and collected project screenshots. | docs/third-party-assets-register.md,  docs/data-handling-policy.md, docs/privacy-data-protection.md, docs/user-consent-statement.md, screenshots/ |
+| **Tenzin Dema** | Updated the README, completed the IP and Third-Party Assets review, prepared the Data Inventory Template, reviewed Security Risks, and developed the Case Study Brief for the Smart Campus Event Hub. |  /README.md , docs/ip-third-party-assets.md , docs/data-inventory-template.md ,  docs/security-risk-check.md , docs/case-study-brief.md  |
+
+---
+
+## Decisions Made
+
+- The team completed all required Lab 09 privacy, security, legal, ethical, and intellectual property documentation.
+- The team agreed to continue with the current Smart Campus Event Hub MVP while implementing the usability improvements identified during customer validation.
+- All documentation was reviewed before being uploaded to the GitHub repository.
+
+---
+
+## Issues / Blockers
+
+- The prototype currently stores data using browser LocalStorage instead of a backend database.
+- Some advanced features, such as event reminders and enhanced search filters, are planned for future implementation.
+- Additional user testing will be conducted after the next prototype improvements.
+
+---
+
+## Next Action Before Lab 10
+
+- Implement the remaining usability improvements identified during validation.
+- Improve the Search and Filter feature and dashboard layout.
+- Finalize all project documentation and GitHub repository updates.
+- Conduct final MVP testing and prepare the project presentation for Lab 10.
+- Review all GitHub Issues and close completed tasks before submission.
 
 
 
