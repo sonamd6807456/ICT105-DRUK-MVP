@@ -1,1 +1,8 @@
-
+category,examples,allowed_statuses
+Academic Event,"Workshops, seminars, guest lectures, conferences, study sessions","Pending, Approved, Rejected"
+Career Event,"Career fairs, job fairs, networking events, recruitment sessions, career workshops","Pending, Approved, Rejected"
+Sports Event,"Football, basketball, volleyball, fitness activities, tournaments","Pending, Approved, Rejected"
+Cultural Event,"Cultural festivals, traditional celebrations, cultural performances, exhibitions","Pending, Approved, Rejected"
+Student Activities,"Club meetings, student organization events, orientation activities, social gatherings","Pending, Approved, Rejected"
+Arts and Entertainment,"Concerts, movie screenings, performances, art exhibitions, talent shows","Pending, Approved, Rejected"
+Technology Event,"Hackathons, coding workshops, technology talks, innovation events, digital skills training","Pending, Approved, Rejected"
