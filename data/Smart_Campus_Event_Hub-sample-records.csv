@@ -1,0 +1,9 @@
+record_id,record_type,title,category,location,date_submitted,rating,description,status,submitted_by
+SCH-001,Event,Freshman Orientation 2026,Orientation,Main Auditorium,2026-07-10,5,"Welcome session introducing first-year students to campus facilities, academic services, and student organizations.",Published,student.affairs@rsu.ac.th
+SCH-002,Event,ICT Coding Workshop,Workshop,ICT Building Room 401,2026-07-11,5,"Hands-on HTML, CSS, and JavaScript workshop for ICT students.",Published,ict.club@rsu.ac.th
+SCH-003,Announcement,Scholarship Information Session,Academic Event,Conference Hall A,2026-07-12,,,"Learn about available scholarships, eligibility, and the application process.",Published,financial.aid@rsu.ac.th
+SCH-004,Event,Campus Sports Festival,Sports,University Stadium,2026-07-13,4,"Annual sports competition open to all students and university clubs.",Pending,sports.club@rsu.ac.th
+SCH-005,Event,Career Fair 2026,Career,Student Center,2026-07-14,5,"Meet employers, explore internship opportunities, and attend career talks.",Published,career.center@rsu.ac.th
+SCH-006,Announcement,Library Research Training,Workshop,Central Library,2026-07-15,4,"Training on using online journals, databases, and citation tools.",Published,library@rsu.ac.th
+SCH-007,Event,International Cultural Night,Cultural Event,University Plaza,2026-07-16,5,"Students from different countries showcase their cultures through food, music, and performances.",Pending,international.office@rsu.ac.th
+SCH-008,Event,Environmental Awareness Campaign,Volunteer,Campus Garden,2026-07-17,4,"Tree planting, campus clean-up activities, and environmental awareness sessions.",Published,green.club@rsu.ac.th
