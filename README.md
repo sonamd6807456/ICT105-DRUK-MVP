@@ -80,7 +80,7 @@ Technology Stack:
 | Lab 7 | MVP Prototype Development and Experiment Preparation | Functional Web Prototype Development using HTML, CSS, JavaScript, LocalStorage Simulation, MVP Experiment Plan, Usability Testing Preparation, Success Metrics and Decision Rules | Completed |
 | Lab 8 | Customer Validation, Analytics, and MVP Decision | Customer Validation Testing, Validation Results CSV, Analytics Summary, User Feedback Analysis, Power BI Dashboard, Customer Validation Summary, MVP Decision Document, Weekly Logbook Updates | Completed |
 | Lab 9 | Privacy, Security, Legal & Ethical Review | Data Inventory Template, Privacy & Data Protection, Data Handling Policy, User Consent Statement, Legal & Ethical Checklist, IP & Third-Party Assets Review, Third-Party Assets Register, Security Risk Check, Practice Risk Register, Updated Requirements Note, Case Study Brief, Privacy & Security Review Flowchart, GitHub Issues, README Updates, Weekly Logbook | Completed |
-| Lab 10 |  |  | Not Started |
+| Lab 10 | MVP Implementation Sprint 1 | Prototype implementation, Feature Implementation Status, Updated README, Feature-to-Requirement Traceability, Functional Prototype Screenshots, MVP Sprint Documentation, GitHub Updates, Weekly Logbook | Completed |
 | Lab 11 |  |  | Not Started |
 | Lab 12 |  |  | Not Started |
 | Lab 13 |  |  | Not Started |
@@ -475,4 +475,50 @@ The main updates include:
 | **Sonam Deki** | Updated GitHub Issues, Weekly Logbook, Legal & Ethical Checklist, Updated Requirements Note, created the Privacy & Security Review Flowchart, and completed the Practice Risk Register Sample. |GitHub Issues #49–#54,docs/weekly-logbook.md,  docs/legal-ethical-checklist.md, docs/updated-requirements-note.md,  diagrams/privacy-security-review.mmd, data/practice_risk_register_sample.csv |
 | **Kinley Zam** | Completed the Third-Party Assets Register Template, Data Handling Policy, Privacy and Data Protection document, User Consent Statement, and collected project screenshots. | docs/third-party-assets-register.md,  docs/data-handling-policy.md, docs/privacy-data-protection.md, docs/user-consent-statement.md, screenshots/ |
 | **Tenzin Dema** | Updated the README, completed the IP and Third-Party Assets review, prepared the Data Inventory Template, reviewed Security Risks, and developed the Case Study Brief for the Smart Campus Event Hub. |  /README.md , docs/ip-third-party-assets.md , docs/data-inventory-template.md ,  docs/security-risk-check.md , docs/case-study-brief.md  |
+
+## Lab 10 - MVP Implementation Sprint 1
+
+### Sprint Goal
+
+Our goal in Lab 10 is to build the first working MVP of the **Smart Campus Event Hub** based on the approved requirements, wireframes, system architecture, and responsible design principles. This sprint focuses on implementing the core features that allow students to discover, register for, and manage campus events.
+
+### Implementation Approach
+
+- **Platform/tools:** HTML5, CSS3, JavaScript (ES6), Browser Local Storage, GitHub
+- **Backend status:** Client-side prototype (simulated backend)
+- **Data storage/simulation:** Browser Local Storage (`localStorage`)
+- **Prototype link or folder:** `prototype/`
+
+### Features Implemented in Sprint 1
+
+| Feature | Requirement ID | Status | Evidence |
+|---|---|---|---|
+| Homepage | FR-01 | Implemented | `index.html`; `screenshots/home.png` |
+| Event Creation / Input Form | FR-03 | Implemented | `admin/events.html`; `screenshots/admin manage events page.png` |
+| Event Listing | FR-05 | Implemented | `events.html`; `screenshots/events page.png` |
+| Search & Filter | FR-06 | Implemented | `events.html`; Search bar and category filter |
+| Event Detail View | FR-07 | Implemented | `event-details.html`; `screenshots/event details page.png` |
+| Registration & Status Tracking | FR-08 | Implemented | `dashboard.html`; `screenshots/student dashboard.png` |
+| Admin View | FR-09 | Implemented | `admin/dashboard.html`; `screenshots/admin dashboard page.png` |
+| Dashboard & Analytics | FR-12 | Implemented | `dashboard.html`; `screenshots/student dashboard.png` |
+
+### Screenshots
+
+- **Homepage:** `screenshots/home.png`
+- **Input Form:** `screenshots/admin manage events page.png`
+- **Record List:** `screenshots/events page.png`
+- **Detail View:** `screenshots/event details page.png`
+- **Admin/Status View:** `screenshots/admin dashboard page.png`
+
+### Team Contribution
+
+All members of **Team DRUK** contributed to the same GitHub repository.
+
+- **Sonam Deki** – 
+- **Kinley Zam** – 
+- **Tenzin Dema** – 
+
+The team collaborated on frontend development, interface design, JavaScript functionality, testing, documentation, and prototype validation throughout Lab 10.
+
+
 
