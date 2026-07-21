@@ -90,3 +90,29 @@ The prototype also allows organizers or administrators to create and manage even
 Students must check what data is collected during event browsing and registration, whether personal information such as student names, student IDs, or email addresses is necessary, whether users understand how their registration information is used, whether external assets such as images, icons, fonts, code, or datasets are properly licensed and credited, and whether organizer and administrator functions are clearly separated from normal student functions.
 
 The team must also review whether event information and registration data are protected from unauthorized changes, whether public event pages expose private student information, and whether basic input validation and status-update controls are implemented.
+
+# Case Study Brief: Smart Campus Event Hub
+
+## Practice purpose
+
+This case is used only for Lab 10 guided practice. Students must apply the same implementation process to their own selected group project.
+
+## Problem context
+
+Students often miss campus events because event information is scattered across multiple platforms such as social media, posters, emails, and messaging applications. As a result, students may miss important academic, club, sports, and university activities due to late or incomplete information.
+
+## Target users
+
+- First-year undergraduate students who want to discover campus events and activities.
+- International and exchange students who need a centralized platform to find university events and orientation activities.
+- Student clubs and organizations that create and promote campus events.
+- University staff and event coordinators responsible for publishing and managing official campus events.
+- Campus administrators who monitor event information, registrations, and announcements through the administration dashboard.
+
+## Minimum prototype idea
+
+A web-based Smart Campus Event Hub that allows students to browse upcoming events, search and filter events by category, view event details, register for events, manage favorite events, and access a personalized student dashboard. Administrators can create, edit, and manage campus events through an admin dashboard.
+
+## Practice note
+
+The provided HTML, CSS, and JavaScript prototype uses browser **localStorage** and sample data to simulate event management and user interactions. It does not require a backend database. Teams may optionally replace **localStorage** with Firebase, Supabase, PHP/MySQL, or another backend solution for future development.
