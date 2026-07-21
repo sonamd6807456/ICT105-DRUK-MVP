@@ -6,53 +6,56 @@ Use this file to prove that your prototype implementation is connected to `syste
 
 | Req ID | Required Functionality | Prototype Screen/Module | Current Status | Evidence | Next Fix Needed |
 |---|---|---|---|---|---|
-| FR-01 | Homepage or landing screen | Homepage (`index.html`) | **Implemented** | `prototype/index.html`; `screenshots/home.png` | Final usability review and verify all navigation links. |
-| FR-02 | Primary user pathway | Homepage → Events → Event Details → Event Registration | **Implemented** | `prototype/index.html`; `prototype/events.html`; `prototype/event-details.html`; `prototype/register.html` | Verify the complete user journey from browsing to registration. |
-| FR-03 | User input or data submission | Login, Signup, Profile, Event Registration Forms | **Implemented** | `prototype/login.html`; `prototype/signup.html`; `prototype/profile.html`; `prototype/register.html` | Perform final validation testing for all forms. |
-| FR-04 | Data storage or simulated storage | localStorage (Users, Registrations, Favorites) | **Implemented** | `prototype/js/storage.js`; `prototype/js/main.js` | Verify data persistence after page refresh. |
-| FR-05 | View records or information list | Events Listing and Favorites | **Implemented** | `prototype/events.html`; `prototype/favorites.html` | Confirm all event information displays correctly. |
-| FR-06 | Search, filter, or category function | Search Bar and Category Filter | **Implemented** | `prototype/events.html`; `prototype/js/main.js` | Test search accuracy and category filtering with multiple events. |
-| FR-07 | Detail view for each record | Event Details Page | **Implemented** | `prototype/event-details.html` | Verify every event card links to the correct details page. |
-| FR-08 | Status or progress tracking | Student Dashboard | **Implemented** | `prototype/dashboard.html`; registration status section | Verify upcoming and registered events display correctly. |
-| FR-09 | Admin or manager function | Admin Dashboard, Manage Events, Manage Users, Manage Reviews | **Implemented** | `prototype/admin-dashboard.html`; `prototype/manage-events.html`; `prototype/manage-users.html`; `prototype/manage-reviews.html` | Complete final testing of all admin management functions. |
-| FR-10 | Validation and error prevention | Login, Signup and Registration Forms | **Implemented** | HTML required attributes; JavaScript validation | Verify invalid inputs and duplicate registrations are prevented. |
-| FR-11 | Confirmation or feedback message | Login, Registration and Favorite Notifications | **Implemented** | JavaScript success alerts/toast notifications | Ensure confirmation messages appear after every successful action. |
-| FR-12 | Dashboard or summary view | Student Dashboard and Admin Dashboard | **Implemented** | `prototype/dashboard.html`; `prototype/admin-dashboard.html` | Verify dashboard statistics update correctly. |
-| FR-13 | UI consistency | Shared Navigation, Cards, Buttons, Forms and Layout | **Implemented** | `prototype/css/style.css`; shared UI components | Complete final visual consistency check across all pages. |
-| FR-14 | Mobile-friendly/responsive design | Responsive Website Layout | **Implemented** | `prototype/css/responsive.css`; responsive navigation | Test layout on desktop, tablet and mobile devices. |
-| FR-15 | Privacy and responsible data handling | Login, Signup, Profile and Simulated Data Storage | **Implemented** | `docs/data-handling-policy.md`; authentication pages; localStorage implementation | Verify privacy notice and responsible handling of simulated user data. |
-| FR-16 | Final prototype traceability | Documentation, Screenshots and GitHub Repository | **Implemented** | `docs/system-requirements.md`; GitHub commits; screenshots; prototype files | Confirm all documentation and evidence match the final prototype. |
+| FR-01 | Smart Campus Event Hub Homepage | Homepage (`index.html`) | **Implemented** | `index.html`; Homepage screenshot | Final review of homepage navigation and content. |
+| FR-02 | Event Discovery User Flow | Homepage → Events → Event Details → Register → Dashboard | **Implemented** | `index.html`; `events.html`; `event-details.html`; `dashboard.html` | Verify complete registration flow and participation tracking. |
+| FR-03 | Event Creation / Submission | Admin Event Management | **Implemented** | `admin/events.html`; Event submission form | Verify event creation, editing and updating functions. |
+| FR-04 | Event Data Storage & Management | localStorage / Simulated Storage | **Implemented** | `js/storage.js`; `js/main.js` | Verify all event and registration data persists correctly. |
+| FR-05 | Event Listing Page | Events Page | **Implemented** | `events.html`; Event cards | Confirm all campus events display correctly. |
+| FR-06 | Search and Filter | Search Bar and Category Filter | **Implemented** | `events.html`; `js/events.js` | Test keyword search and category filtering. |
+| FR-07 | Event Detail View | Event Details Page | **Implemented** | `event-details.html` | Verify complete event information is displayed correctly. |
+| FR-08 | Registration & Attendance Status Tracking | Student Dashboard | **Implemented** | `dashboard.html`; Registration status section | Verify Upcoming, Registered and Completed statuses. |
+| FR-09 | Admin Event Management | Admin Dashboard | **Implemented** | `admin/dashboard.html`; `admin/events.html`; `admin/users.html`; `admin/reviews.html` | Perform final testing of admin management features. |
+| FR-10 | Input Validation | Login, Signup and Event Forms | **Implemented** | HTML required fields; JavaScript validation | Verify all invalid inputs are prevented. |
+| FR-11 | Confirmation & Feedback Messages | Registration and Login Notifications | **Implemented** | JavaScript alerts/toast messages | Ensure confirmation messages display after successful actions. |
+| FR-12 | Dashboard and Analytics | Student Dashboard and Admin Dashboard | **Implemented** | `dashboard.html`; `admin/dashboard.html` | Verify dashboard statistics and summaries are accurate. |
+| FR-13 | Consistent UI Design | Shared Navigation, Forms and Layout | **Implemented** | `css/style.css`; Shared interface across pages | Complete final UI consistency review. |
+| FR-14 | Responsive Design | Responsive Website Layout | **Implemented** | `css/responsive.css` | Test interface on desktop, tablet and mobile devices. |
+| FR-15 | User Profile & Participation History | Profile Page | **Implemented** | `profile.html`; Dashboard | Verify participation history displays correctly. |
+| FR-16 | Privacy & Data Responsibility | Login, Signup and User Data | **Implemented** | Data Handling Policy; `js/storage.js`; authentication pages | Verify privacy notice and responsible handling of user data. |
+| FR-17 | Prototype Traceability | Project Documentation and GitHub Repository | **Implemented** | `system-requirements.md`; GitHub repository; project screenshots | Confirm all documentation matches the final prototype. |
 
 ---
 
 ## Summary
 
 ### Features implemented
-- Homepage
-- User Login
-- User Signup
-- Browse Campus Events
+- Smart Campus Event Hub Homepage
+- User Authentication (Login & Signup)
+- Event Discovery
+- Event Listing
+- Event Search and Category Filtering
 - Event Details
 - Event Registration
-- Search Events
-- Category Filter
-- Favorites
 - Student Dashboard
 - Admin Dashboard
-- Manage Events
-- Manage Users
-- Manage Reviews
-- Responsive Website Layout
-- Simulated Data Storage using localStorage
+- Event Management
+- User Management
+- Review Management
+- User Profile
+- Participation Tracking
+- Responsive Website
+- Simulated Data Storage
+- Consistent User Interface
+- Privacy and Responsible Data Handling
 
 ### Features partially working
-- None. All planned MVP features have been implemented in the current prototype.
+- None. All planned MVP features have been implemented.
 
 ### Features not yet started
-- None. All core functional requirements for the MVP have been completed.
+- None.
 
 ### Features requiring instructor feedback
-- Whether client-side `localStorage` satisfies the simulated data storage requirement (FR-04).
-- Whether the simulated authentication and admin functions meet the MVP expectations.
-- Whether the privacy and responsible data handling implementation satisfies the project requirements.
-- Whether the final screenshots and GitHub documentation provide sufficient evidence for assessment.
+- Confirm that simulated `localStorage` satisfies the event storage requirement (FR-04).
+- Confirm that simulated authentication and dashboard functions meet MVP expectations.
+- Verify that the privacy notice and responsible data handling satisfy project requirements.
+- Confirm that the GitHub repository and screenshots provide sufficient implementation evidence for final assessment.
