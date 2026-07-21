@@ -3,7 +3,7 @@
 ## Prototype Platform
 
 - Platform: HTML, CSS, and JavaScript frontend web prototype hosted on GitHub Pages
-- Prototype link: [Paste your GitHub Pages link here]
+- Prototype link: https://github.com/sonamd6807456/ICT105-DRUK-MVP
 - Access note: The prototype is publicly accessible through the GitHub Pages link. Users can browse events, search and filter event listings, view event details, register for events, and access student and organizer/admin functions.
 - Last updated: 2026-07-21
 
