@@ -509,16 +509,16 @@ Our goal in Lab 10 is to build the first working MVP of the **Smart Campus Event
 - **Record List:** `screenshots/events page.png`
 - **Detail View:** `screenshots/event details page.png`
 - **Admin/Status View:** `screenshots/admin dashboard page.png`
-
+- 
 ### Team Contribution
 
-All members of **Team DRUK** contributed to the same GitHub repository.
+All group members contributed to the same GitHub repository and completed work through assigned GitHub issues, commits, prototype files, documentation, and screenshot evidence.
 
-- **Sonam Deki** – 
-- **Kinley Zam** – 
-- **Tenzin Dema** – 
-
-The team collaborated on frontend development, interface design, JavaScript functionality, testing, documentation, and prototype validation throughout Lab 10.
+| Member | Contribution | Evidence |
+|--------|--------------|----------|
+| **Kinley Zam – Member 1** | Prepared the feature implementation status documentation, updated the project README, captured and organized project screenshots, and developed the prototype HTML pages for the Smart Campus Event Hub. | GitHub Issue #55, `docs/feature-implementation-status.md`, `README.md`, `screenshots/`, `prototype/html/`, commits, and repository updates. |
+| **Sonam Deki – Member 2** | Created the Smart Campus Event Hub sample records and project documentation. Prepared the implementation plan, completed the case study, maintained the project styling, and organized project data and assets. | GitHub Issue #56, `data/smart-campus-event-hub-sample-record.md`, `docs/implementation-plan.md`, `docs/case-study.md`, `prototype/css/`, commits, and documentation updates. |
+| **Tenzin Dema – Member 3** | Prepared project statistics and documentation. Created the Smart Campus Event Hub statistics by category, implementation flow diagram, updated the weekly logbook, maintained the prototype link template, and implemented JavaScript functionality for the prototype. | GitHub Issue #57, `data/smart-campus-event-hub-statistics-category.md`, `diagram/implementation-flow/`, `docs/weekly-logbook.md`, `prototype/prototype-link.md`, `prototype/js/`, commits, and project updates. |
 
 
 
