@@ -669,63 +669,115 @@ The team prepared:
 - Conduct final MVP testing and prepare the project presentation for Lab 10.
 - Review all GitHub Issues and close completed tasks before submission.
 
-# Weekly Logbook - Lab 10
+# Weekly Logbook – Lab 10
 
 ## Lab Topic
-MVP Implementation Sprint 1
+
+**MVP Implementation Sprint 1**
 
 ## What We Built Today
 
-- Built the first working version of the Smart Campus Event Hub prototype using HTML, CSS, and JavaScript.
-- Created the homepage, event listing, event details, student dashboard, and organizer/admin management screens.
-- Added basic interactions including event search, category filtering, viewing event details, event registration simulation, and event status management.
-- Used sample event data to demonstrate how events can be displayed, searched, filtered, registered for, and managed.
+During Lab 10, our team implemented and updated the **Smart Campus Event Hub MVP Prototype** using **HTML, CSS, JavaScript, and browser localStorage**.
+
+The main prototype pages and features completed during the sprint include:
+
+- Homepage and shared navigation
+- Student signup and login pages
+- Campus events listing page
+- Event details page
+- Event registration system
+- Favorite events feature
+- Search and category filter
+- Student dashboard
+- User profile page
+- Event registration status display
+- Event management page (Admin)
+- Add new event form
+- Edit and delete event functionality
+- Dashboard statistics
+- Toast notification and action feedback
+- Responsive design for desktop, tablet, and mobile devices
+- Browser localStorage for simulated data persistence
+
+The project documentation was also updated to match Sprint 1, including the implementation plan, feature implementation status, weekly logbook, prototype folder, and README.
+
+---
 
 ## Requirement IDs Addressed
 
-- FR-01: Students can browse and discover available campus events.
-- FR-05: Students can search and filter events by keyword and category.
-- FR-06: Students can view detailed information about a selected event.
-- FR-07: Students can register for available campus events.
-- FR-08: Organizers or administrators can create and manage event information.
-- FR-09: Organizers or administrators can update event status and manage event-related information.
+- **FR-01 to FR-03:** Homepage, shared navigation, signup, and login
+- **FR-04 to FR-06:** Browse events, search events, and filter by category
+- **FR-07 to FR-09:** Event details, event registration, and registration confirmation
+- **FR-10 to FR-12:** Favorites page, student dashboard, and profile page
+- **FR-13 to FR-16:** Admin dashboard, manage events, add events, and update events
+- **FR-17 to FR-18:** Dashboard statistics and action feedback notifications
+- **NFR-01 to NFR-04:** Responsive interface, usability, browser storage, and consistent UI design
 
-## Contribution by Members
+---
+
+## Team Contribution
+
+All team members collaborated using the same GitHub repository and completed their assigned tasks through GitHub Issues, commits, prototype development, documentation updates, and screenshot evidence.
 
 | Member | Contribution | Evidence |
-|---|---|---|
-| UI/UX Lead | Designed and developed the layout for the homepage, event listing, event details, and student dashboard screens. | HTML/CSS files, screenshots, GitHub commits |
-| Product Lead | Reviewed the system requirements, user stories, and MVP feature list and checked that the implemented features matched the project scope. | Requirement mapping, project documentation, GitHub commits |
-| Technical Lead | Implemented the HTML, CSS, and JavaScript functionality, including event data, search, filtering, registration simulation, and event management interactions. | Prototype files, JavaScript code, GitHub commits |
-| All Team Members | Tested the prototype, reviewed the features, contributed to documentation, and updated the shared GitHub repository. | Testing evidence, screenshots, GitHub commits |
+|--------|--------------|----------|
+| **Kinley Zam – Member 1** | Developed the Smart Campus Event Hub frontend pages using HTML, created and updated the homepage, events page, dashboard, profile page, and favorites page. Also updated the feature implementation status document, README, and organized project screenshots. | GitHub Issue #55, `prototype/*.html`, `docs/feature-implementation-status.md`, `README.md`, `screenshots/`, GitHub commits, and repository updates. |
+| **Sonam Deki – Member 2** | Prepared the Smart Campus Event Hub project documentation, implementation plan, case study, sample event records, and maintained the CSS styling for the prototype. Also organized project assets and repository documentation. | GitHub Issue #56, `docs/implementation-plan.md`, `docs/case-study.md`, `data/smart-campus-event-hub-sample-record.md`, `prototype/css/`, GitHub commits, and documentation updates. |
+| **Tenzin Dema – Member 3** | Developed the JavaScript functionality for the prototype, implemented localStorage features, event registration, favorites system, dashboard functionality,implementation flowchart and prepared project statistics, implementation flow diagram, weekly logbook, and prototype link documentation. | GitHub Issue #57, `prototype/js/`, `docs/weekly-logbook.md`, `prototype/prototype-link.md`, `data/smart-campus-event-hub-statistics-category.md`, `diagrams/implementation-flow/`, GitHub commits, and project updates. |
+
+---
 
 ## Screenshots Added
 
-- /screenshots/homepage.png
-- /screenshots/events-page.png
-- /screenshots/event-details.png
-- /screenshots/student-dashboard.png
-- /screenshots/admin-dashboard.png
-- /screenshots/manage-events.png
+The following screenshots will be included as evidence of the implemented prototype:
+
+- `/screenshots/homepage.png`
+- `/screenshots/login-page.png`
+- `/screenshots/signup-page.png`
+- `/screenshots/events-page.png`
+- `/screenshots/event-details.png`
+- `/screenshots/event-registration.png`
+- `/screenshots/favorites-page.png`
+- `/screenshots/dashboard.png`
+- `/screenshots/profile-page.png`
+- `/screenshots/manage-events.png`
+- `/screenshots/add-event.png`
+- `/screenshots/dashboard-statistics.png`
+- `/screenshots/search-filter.png`
+- `/screenshots/responsive-mobile.png`
+
+---
 
 ## Problems Faced
 
-- Connecting sample event data with the search and category filtering functions.
-- Making sure navigation between student pages and organizer/admin pages worked correctly.
-- Ensuring that event registration and event status information were displayed consistently.
-- Making sure the implemented features matched the approved requirements and user stories.
-- Adjusting the layout and interactions to make the prototype easier for students and organizers to use.
+- Linking pages together correctly within the prototype.
+- Synchronizing localStorage between Events, Favorites, Dashboard, and Registration pages.
+- Favorite events were initially not displaying because event IDs and favorite data were stored differently.
+- Registration status was not updating immediately after registration.
+- Some navigation links produced "File Not Found" errors due to incorrect file paths.
+- Responsive layouts required additional adjustments for smaller devices.
+- Managing shared JavaScript functions across multiple pages required careful testing.
+- localStorage only stores data in the current browser and device, limiting persistence.
+- Authentication and user roles were simulated using frontend JavaScript only.
+
+To address these issues, the team reviewed the JavaScript logic, standardized localStorage usage, corrected navigation links, tested the complete workflow across pages, and improved UI consistency.
+
+---
 
 ## Plan for Next Lab
 
-- Continue improving and completing the MVP features.
-- Improve the event search, category filtering, registration, and event management functions.
-- Conduct usability testing with potential student users.
-- Fix any navigation, layout, validation, or interaction problems found during testing.
-- Update the feature implementation status and requirement mapping with evidence from the prototype.
-- Continue developing the Smart Campus Event Hub based on the approved requirements for the next implementation sprint.
+In the next lab, the team plans to:
 
-
+- Conduct usability testing with target users.
+- Test complete registration and favorites workflows.
+- Verify dashboard statistics.
+- Test admin event management features.
+- Improve responsive layouts.
+- Fix any remaining JavaScript bugs.
+- Collect user feedback.
+- Update screenshots after improvements.
+- Update GitHub Issues with implementation evidence.
+- Complete Sprint 2 development and validation.
 
 
 
