@@ -1,6 +1,8 @@
 /* ==========================================
-   FAVORITES PAGE
+   SMART CAMPUS EVENT HUB
+   FAVORITES.JS
 ========================================== */
+
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -8,172 +10,465 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+
+
 /* ==========================================
    LOAD FAVORITES
 ========================================== */
 
+
 function loadFavorites(){
 
-    const currentUser = getCurrentUser();
 
-    if(!currentUser){
+    const container =
+    document.getElementById("favoritesContainer");
 
-        window.location.href = "login.html";
 
-        return;
 
-    }
+    if(!container) return;
 
-    const favorites = getFavorites();
 
-    const events = getEvents();
 
-    const container = document.getElementById("favoritesContainer");
+    let favorites =
+    getFavorites();
+
+
+
+    // Convert IDs to numbers
+    favorites =
+    favorites.map(Number);
+
+
+
+
+    let events =
+    getEvents();
+
+
+
 
     container.innerHTML = "";
 
-    const myFavorites = favorites.filter(
 
-        favorite => favorite.userId === currentUser.id
 
-    );
 
-    if(myFavorites.length === 0){
+    if(favorites.length === 0){
 
-        container.innerHTML =
 
-        `
+        container.innerHTML = `
+
+
         <div class="no-events">
 
-            <h2>No Favorite Events</h2>
+
+            <h2>
+            No Favorite Events
+            </h2>
+
 
             <p>
-
-                Start adding events to your favorites.
-
+            You haven't added any favorite events yet.
             </p>
 
+
         </div>
+
+
         `;
+
 
         return;
 
+
     }
 
-    myFavorites.forEach(item=>{
 
-        const event = events.find(
 
-            event=>event.id===item.eventId
 
+    favorites.forEach(id => {
+
+
+
+        const event =
+        events.find(
+            e => Number(e.id) === Number(id)
         );
+
+
 
         if(!event) return;
 
-        const percentage =
 
-        (event.registered/event.seats)*100;
 
-        container.innerHTML +=
 
-        `
+        let progress =
+        (event.registered / event.seats) * 100;
+
+
+
+
+        let registered =
+        getRegisteredEvents()
+        .map(Number)
+        .includes(
+            Number(event.id)
+        );
+
+
+
+
+        container.innerHTML += `
+
+
+
         <div class="event-card">
 
-            <img src="${event.image}" alt="${event.title}">
+
+
+            <img
+
+            src="${event.image}"
+
+            alt="${event.title}"
+
+            onerror="this.src='images/techfest.jpg'">
+
+
+
+
 
             <div class="event-content">
 
+
+
                 <span class="event-category">
 
-                    ${event.category}
+                ${event.category}
 
                 </span>
 
+
+
+
+
                 <h3>
 
-                    ${event.title}
+                ${event.title}
 
                 </h3>
 
-                <p>
 
-                    <strong>Date:</strong>
 
-                    ${event.date}
 
-                </p>
 
                 <p>
 
-                    <strong>Location:</strong>
+                <strong>Date:</strong>
 
-                    ${event.location}
+                ${event.date}
 
                 </p>
+
+
+
+
+
+                <p>
+
+                <strong>Location:</strong>
+
+                ${event.location}
+
+                </p>
+
+
+
+
+
+                <p>
+
+                ${event.description}
+
+                </p>
+
+
+
+
 
                 <div class="progress">
 
-                    <div class="progress-bar"
 
-                    style="width:${percentage}%">
+                    <div
+
+                    class="progress-bar"
+
+                    style="width:${progress}%">
 
                     </div>
 
+
                 </div>
+
+
+
+
+
+                <p>
+
+                ${event.registered}
+                /
+                ${event.seats}
+
+                Participants
+
+                </p>
+
+
+
+
 
                 <div class="event-buttons">
 
-                    <a
 
-                    href="event-details.html?id=${event.id}"
 
-                    class="btn-primary">
+                ${
+                    registered
 
-                    Details
+                    ?
 
-                    </a>
+                    `
 
                     <button
 
-                    class="favorite-btn"
+                    class="btn-primary"
 
-                    onclick="removeFavorite(${event.id})">
+                    disabled>
 
-                    Remove
+                    Registered ✓
 
                     </button>
 
+
+                    `
+
+
+                    :
+
+
+                    `
+
+                    <button
+
+                    class="btn-primary"
+
+                    onclick="registerFromFavorites(${event.id})">
+
+
+                    Register
+
+
+                    </button>
+
+
+                    `
+
+                }
+
+
+
+
+
+                <button
+
+                class="favorite-btn"
+
+                onclick="removeFavorite(${event.id})">
+
+
+                 Remove
+
+
+                </button>
+
+
+
+
                 </div>
+
+
+
 
             </div>
 
+
+
+
         </div>
+
+
+
         `;
+
+
 
     });
 
+
+
 }
+
+
+
+
+
+
 
 /* ==========================================
    REMOVE FAVORITE
 ========================================== */
 
+
 function removeFavorite(eventId){
 
-    const currentUser = getCurrentUser();
 
-    let favorites = getFavorites();
 
-    favorites = favorites.filter(item=>!(
+    eventId =
+    Number(eventId);
 
-        item.userId===currentUser.id &&
 
-        item.eventId===eventId
 
-    ));
+    let favorites =
+    getFavorites();
 
-    saveFavorites(favorites);
+
+
+    favorites =
+    favorites
+    .map(Number)
+    .filter(
+        id => id !== eventId
+    );
+
+
+
+    saveFavorites(
+        favorites
+    );
+
+
 
     loadFavorites();
+
+
+
+}
+
+
+
+
+
+
+
+/* ==========================================
+   REGISTER FROM FAVORITES
+========================================== */
+
+
+function registerFromFavorites(id){
+
+
+
+    id =
+    Number(id);
+
+
+
+    let registered =
+    getRegisteredEvents();
+
+
+
+    registered =
+    registered.map(Number);
+
+
+
+
+    if(
+        registered.includes(id)
+    ){
+
+
+        alert(
+        "Already Registered."
+        );
+
+
+        return;
+
+
+    }
+
+
+
+
+
+    registered.push(id);
+
+
+
+    saveRegisteredEvents(
+        registered
+    );
+
+
+
+
+    let events =
+    getEvents();
+
+
+
+
+    events =
+    events.map(event=>{
+
+
+        if(
+            event.id === id
+            &&
+            event.registered < event.seats
+        ){
+
+
+            event.registered++;
+
+
+        }
+
+
+        return event;
+
+
+    });
+
+
+
+
+    saveEvents(
+        events
+    );
+
+
+
+    alert(
+    "Registration Successful!"
+    );
+
+
+
+    loadFavorites();
+
+
 
 }
