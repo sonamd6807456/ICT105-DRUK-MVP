@@ -4,17 +4,13 @@
 ========================================== */
 
 
-const eventContainer =
-document.getElementById("eventContainer");
+/* ==========================================
+   ELEMENTS
+========================================== */
 
-
-const searchInput =
-document.getElementById("searchInput");
-
-
-const categoryFilter =
-document.getElementById("categoryFilter");
-
+const eventContainer = document.getElementById("eventContainer");
+const searchInput = document.getElementById("searchInput");
+const categoryFilter = document.getElementById("categoryFilter");
 
 
 let events = getEvents();
@@ -25,16 +21,17 @@ let events = getEvents();
    DISPLAY EVENTS
 ========================================== */
 
-
 function displayEvents(eventList){
 
 
-    eventContainer.innerHTML="";
+    eventContainer.innerHTML = "";
 
 
-    if(eventList.length===0){
 
-        eventContainer.innerHTML=`
+    if(eventList.length === 0){
+
+
+        eventContainer.innerHTML = `
 
         <div class="no-events">
 
@@ -48,17 +45,39 @@ function displayEvents(eventList){
 
         `;
 
+
         return;
 
     }
 
 
 
-    eventList.forEach(event=>{
+
+    let registeredEvents = getRegisteredEvents();
+
+    registeredEvents = registeredEvents.map(Number);
+
+
+
+
+    eventList.forEach(event => {
+
+
+
+        let favoriteStatus =
+        isFavorite(event.id);
+
+
+
+        let registeredStatus =
+        registeredEvents.includes(
+            Number(event.id)
+        );
+
 
 
         let progress =
-        (event.registered/event.seats)*100;
+        (event.registered / event.seats) * 100;
 
 
 
@@ -68,10 +87,14 @@ function displayEvents(eventList){
         <div class="event-card">
 
 
-            <img 
+            <img
+
             src="${event.image}"
+
             alt="${event.title}"
-            onerror="this.onerror=null; this.src='images/techfest.jpg';">
+
+            onerror="this.src='images/techfest.jpg'">
+
 
 
             <div class="event-content">
@@ -86,68 +109,140 @@ function displayEvents(eventList){
 
 
                 <h3>
+
                 ${event.title}
+
                 </h3>
 
 
 
                 <p>
-                 ${event.date}
+
+                <strong>Date:</strong>
+                ${event.date}
+
                 </p>
 
 
+
                 <p>
-                 ${event.location}
+
+                <strong>Location:</strong>
+                ${event.location}
+
                 </p>
 
 
+
                 <p>
+
                 ${event.description}
+
                 </p>
+
 
 
 
                 <div class="progress">
 
 
-                    <div class="progress-bar"
+                    <div
+
+                    class="progress-bar"
+
                     style="width:${progress}%">
-                    
+
                     </div>
 
 
                 </div>
 
 
+
                 <p>
+
                 ${event.registered}
-                / ${event.seats} Participants
+                /
+                ${event.seats}
+                Participants
+
                 </p>
+
 
 
 
                 <div class="event-buttons">
 
 
-                    <a href="event-details.html?id=${event.id}"
-                    class="btn-primary">
 
-                    Register
+                ${
+                    registeredStatus
 
-                    </a>
+                    ?
 
-
+                    `
 
                     <button
-                    class="favorite-btn"
-                    onclick="addFavorite(${event.id})">
 
-                     Favorite
+                    class="btn-primary"
+
+                    disabled>
+
+                    Registered ✓
 
                     </button>
 
+                    `
+
+
+                    :
+
+
+                    `
+
+                    <button
+
+                    class="btn-primary"
+
+                    onclick="registerEvent(${event.id})">
+
+                    Register
+
+                    </button>
+
+                    `
+
+                }
+
+
+
+
+               <button
+
+                 class="btn-primary favorite-btn"
+
+                  onclick="toggleFavorite(${event.id})">
+
+                ${
+                    favoriteStatus
+
+                    ?
+
+                    " Favorited"
+
+                    :
+
+                    "Favorite"
+
+                }
+
+
+                </button>
+
+
 
                 </div>
+
 
 
             </div>
@@ -156,76 +251,17 @@ function displayEvents(eventList){
         </div>
 
 
+
         `;
 
 
-    });
-
-
-}
-
-
-
-
-/* ==========================================
-   SEARCH + FILTER
-========================================== */
-
-
-function filterEvents(){
-
-
-    let search =
-    searchInput.value.toLowerCase();
-
-
-    let category =
-    categoryFilter.value;
-
-
-
-    let filtered =
-    events.filter(event=>{
-
-
-        let matchSearch =
-        event.title.toLowerCase()
-        .includes(search);
-
-
-
-        let matchCategory =
-        category==="all" ||
-        event.category===category;
-
-
-
-        return matchSearch && matchCategory;
-
 
     });
 
 
 
-    displayEvents(filtered);
-
-
 }
 
-
-
-
-searchInput.addEventListener(
-"input",
-filterEvents
-);
-
-
-
-categoryFilter.addEventListener(
-"change",
-filterEvents
-);
 
 
 
@@ -234,24 +270,57 @@ filterEvents
 ========================================== */
 
 
-function addFavorite(id){
+function isFavorite(id){
 
 
-    let favorites =
-    getFavorites();
+    let favorites = getFavorites();
 
 
 
-    if(!favorites.includes(id)){
+    favorites = favorites.map(Number);
 
 
-        favorites.push(id);
+
+    return favorites.includes(
+        Number(id)
+    );
 
 
-        saveFavorites(favorites);
+}
 
 
-        alert("Added to Favorites");
+
+
+function toggleFavorite(id){
+
+
+    id = Number(id);
+
+
+
+    let favorites = getFavorites();
+
+
+
+    favorites = favorites.map(Number);
+
+
+
+
+    if(
+        favorites.includes(id)
+    ){
+
+
+        favorites =
+        favorites.filter(
+            item => item !== id
+        );
+
+
+        alert(
+        "Removed from Favorites"
+        );
 
 
     }
@@ -259,14 +328,165 @@ function addFavorite(id){
     else{
 
 
-        alert("Already in Favorites");
+        favorites.push(id);
+
+
+        alert(
+        "Added to Favorites"
+        );
 
 
     }
+
+
+
+    saveFavorites(
+        favorites
+    );
+
+
+
+    displayEvents(events);
+
 
 }
 
 
 
+function registerEvent(id) {
 
-displayEvents(events);
+    id = Number(id);
+
+    const currentUser = getCurrentUser();
+
+    if (!currentUser) {
+
+        alert(
+            "Please login before registering for an event."
+        );
+
+        return;
+
+    }
+
+
+    let registrations =
+        getRegistrations();
+
+
+    const alreadyRegistered =
+        registrations.some(
+            registration =>
+                registration.userId === currentUser.id &&
+                registration.eventId === id
+        );
+
+
+    if (alreadyRegistered) {
+
+        alert(
+            "You have already registered for this event."
+        );
+
+        return;
+
+    }
+
+
+    const event =
+        events.find(
+            event => event.id === id
+        );
+
+
+    if (!event) {
+
+        alert(
+            "Event not found."
+        );
+
+        return;
+
+    }
+
+
+    if (
+        event.registered >= event.seats
+    ) {
+
+        alert(
+            "This event is already full."
+        );
+
+        return;
+
+    }
+
+
+    const registration = {
+
+        userId:
+            currentUser.id,
+
+        userName:
+            currentUser.name,
+
+        studentId:
+            currentUser.studentId,
+
+        email:
+            currentUser.email,
+
+        eventId:
+            event.id,
+
+        eventTitle:
+            event.title,
+
+        registrationDate:
+            new Date().toLocaleDateString()
+
+    };
+
+
+    registrations.push(
+        registration
+    );
+
+
+    saveRegistrations(
+        registrations
+    );
+
+
+    events =
+        events.map(event => {
+
+            if (
+                event.id === id
+            ) {
+
+                event.registered++;
+
+            }
+
+            return event;
+
+        });
+
+
+    saveEvents(
+        events
+    );
+
+
+    alert(
+        "Registration Successful!"
+    );
+
+
+    displayEvents(
+        events
+    );
+
+}
