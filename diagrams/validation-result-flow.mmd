@@ -1,28 +1,29 @@
 flowchart TD
 
-A[Review Lab 07 MVP Experiment Plan]
---> B[Prepare User Validation Test]
+    A[Review MVP Experiment Plan]
 
-B --> C[Test Smart Campus Event Hub Prototype]
+    A --> B[Prepare Validation Session]
 
-C --> D[Collect User Feedback and Task Results]
+    B --> C[Test Student & Admin Features]
 
-D --> E[Record Validation Results in CSV or Excel]
+    C --> D[Collect Task Results]
 
-E --> F[Calculate Validation Metrics]
+    D --> E[Record CSV Validation Data]
 
-F --> G[Analyze Feedback and Identify Confusion Points]
+    E --> F[Calculate Success Metrics]
 
-G --> H[Identify Affected Requirements]
+    F --> G[Analyze Feedback]
 
-H --> I[Write Customer Validation Summary]
+    G --> H[Identify Usability Issues]
 
-I --> J[Write Analytics Insights]
+    H --> I[Update User Requirements]
 
-J --> K[Make MVP Decision]
+    I --> J[Prepare Analytics Insights]
 
-K --> L[Create GitHub Issues for Improvements]
+    J --> K{Prototype Successful?}
 
-L --> M[Update Prototype and Documentation]
+    K -->|Yes| L[Continue Final Development]
 
-M --> N[Continue Development for Final Prototype]
+    K -->|No| M[Improve Prototype]
+
+    M --> N[Retest Updated Version]
