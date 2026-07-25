@@ -1,0 +1,27 @@
+flowchart TD
+
+    A[Homepage / Landing Screen]
+
+    A --> B{What Does the User Need?}
+
+    %% Student Flow
+    B --> C[Browse / Register for Events]
+    C --> D[Event List and Registration]
+    D --> E[Registration Confirmation]
+
+    %% Admin Flow
+    B --> F[Organizer / Admin View]
+    F --> G[Create / Update Event]
+
+    %% Dashboard Flow
+    B --> H[Dashboard / Summary]
+
+    %% Shared Information
+    E --> I[Events / Information List]
+    G --> I
+    H --> I
+
+    %% Event Browsing
+    I --> J[Search / Filter Events]
+    J --> K[Event Details View]
+    K --> L[Event Status and Notifications]
