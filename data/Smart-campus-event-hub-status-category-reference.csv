@@ -1,1 +1,7 @@
-
+field,allowed_values,notes
+record_type,"Event; Event Registration; Student Review","Event is seeded demonstration content; Event Registration and Student Review are created by logged-in students."
+category,"Academic; Workshop; Seminar; Sports; Club Activity; Competition; Cultural; Volunteer","Matches the event categories used throughout the Smart Campus Event Hub prototype."
+status,"Upcoming; Open; Full; Completed; Cancelled","Upcoming events are scheduled; Open events accept registrations; Full events have reached capacity; Completed events are finished; Cancelled events are unavailable."
+rating,"1; 2; 3; 4; 5","Students submit whole-number ratings after attending an event. Average ratings displayed on the website may include decimals."
+author_role,"Student; Club Organizer; Administrator","Student submits registrations and reviews; Club Organizer and Administrator manage event information."
+moderation_priority,"Low; Medium; High","Priority helps administrators review reported events, inappropriate reviews, or urgent event updates."
