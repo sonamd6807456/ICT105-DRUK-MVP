@@ -1,52 +1,31 @@
 # Startup / Product Metrics
 
----
 
-# 1. Metrics Summary
+## 1. Metrics Summary
 
 | Metric ID | Metric Name | Metric Type | Why This Metric Matters | Formula / How to Calculate | Data Source | Prototype Screen |
 |---|---|---|---|---|---|---|
-| M-01 | Total Events | Usage | Shows the total number of events available on the platform. | Count all event records | localStorage (Events) | Admin Dashboard |
-| M-02 | Upcoming Events | Status | Shows how many events are currently available for students to register. | Count events where Status = Upcoming | Event Records | Homepage / Dashboard |
-| M-03 | Completed Events | Status | Tracks the number of successfully completed events. | Count events where Status = Completed | Event Records | Dashboard |
-| M-04 | Total Event Registrations | Engagement | Measures overall student participation in campus events. | Count all registration records | Registration Records | Student Dashboard |
-| M-05 | Registration Success Rate | Validation | Measures how successfully students complete event registration. | Successful Registrations ÷ Registration Attempts × 100 | Registration Logs | Analytics Summary |
-| M-06 | Event Capacity Utilization | Performance | Indicates how full each event is. | Registered Students ÷ Event Capacity × 100 | Event & Registration Records | Event Details |
-| M-07 | Most Popular Event | Analytics | Identifies the event with the highest number of registrations. | Event with the highest registration count | Registration Records | Admin Dashboard |
-| M-08 | Most Popular Category | Analytics | Shows which event category attracts the highest student participation. | Count registrations by category and select the highest | Event & Registration Records | Dashboard |
-| M-09 | Average Event Rating | User Satisfaction | Measures student satisfaction after attending events. | Total Rating ÷ Number of Reviews | Student Reviews | Event Details |
-| M-10 | Total Reviews Submitted | Engagement | Measures student feedback activity. | Count all review records | Review Records | Dashboard |
-| M-11 | Active Student Accounts | Usage | Shows the total number of registered student accounts. | Count all student accounts | User Records | Admin Dashboard |
-| M-12 | Login Success Rate | Validation | Measures successful student logins. | Successful Logins ÷ Login Attempts × 100 | Login Logs | Login Page |
-| M-13 | Event Search Usage | Engagement | Indicates how often students use the search feature. | Count search actions | Search Logs | Events Page |
-| M-14 | Category Filter Usage | Engagement | Measures how frequently students filter events by category. | Count category filter selections | Filter Logs | Events Page |
-| M-15 | Student Dashboard Visits | Usage | Shows how often students access their personal dashboard. | Count dashboard visits | Activity Logs | Student Dashboard |
+| M-01 | Total Events | Usage | Shows the total number of events available on the platform. | Count all event records | `localStorage (events)` | Admin Dashboard — Overview |
+| M-02 | Upcoming Events | Status | Shows how many events are currently open for students. | Count events where `status = Upcoming` | `localStorage (events)` | Homepage / Dashboard |
+| M-03 | Total Registrations | Usage | Measures overall student participation in campus events. | Count all registration records | `localStorage (registrations)` | Student Dashboard |
+| M-04 | Registered Students | User Activity | Shows how many student accounts are available to use the platform. | Count registered student accounts | `localStorage (users)` | Admin Dashboard — Users |
+| M-05 | Completed Events | Status | Tracks events that have been successfully completed. | Count events where `status = Completed` | `localStorage (events)` | Admin Dashboard |
+| M-06 | Academic Event Count | Category | Measures the number of academic-related events available. | Count events where `category = Academic` | `localStorage (events)` | Admin Dashboard — Event Breakdown |
+| M-07 | Club Activity Event Count | Category | Measures the number of club and student organization events. | Count events where `category = Club Activity` | `localStorage (events)` | Admin Dashboard — Event Breakdown |
+| M-08 | Total Reviews Submitted | Engagement | Measures how many event reviews students have submitted. | Count all review records | `localStorage (reviews)` | Admin Dashboard — Reviews |
+| M-09 | Average Event Rating | User Satisfaction | Shows student satisfaction with completed events. | Sum of ratings ÷ Number of reviews | `localStorage (reviews)` | Event Details |
+| M-10 | Task Success Rate | Validation | Shows whether users successfully completed the main Smart Campus Event Hub tasks. | Completed tasks ÷ Total validation records × 100 | Lab 08 Validation Results | Analytics Documentation |
+| M-11 | Average Usefulness Score | Validation | Measures how useful students perceive the Smart Campus Event Hub to be. | Sum of usefulness ratings ÷ Total responses | Lab 08 Validation Dataset | Analytics Documentation |
+| M-12 | Average Ease of Use Score | Validation | Measures how easy students found the prototype to use. | Sum of ease-of-use ratings ÷ Total responses | Lab 08 Validation Dataset | Analytics Documentation |
 
 ---
 
-# 2. Metrics Interpretation
+## 2. Metrics Interpretation
 
-The Smart Campus Event Hub uses these metrics to evaluate user engagement, event performance, and overall system effectiveness. Total Events, Upcoming Events, and Completed Events help administrators monitor the availability and progress of campus activities. Total Event Registrations, Event Capacity Utilization, and the Most Popular Event provide valuable insights into student participation and help organizers understand which events attract the greatest interest. Registration Success Rate, Login Success Rate, Event Search Usage, and Category Filter Usage measure how effectively students interact with the platform and identify areas where usability can be improved. Average Event Rating and Total Reviews Submitted provide direct feedback from students and help organizers improve future events. Active Student Accounts and Student Dashboard Visits indicate how actively students are using the platform. Together, these metrics support continuous improvement of the Smart Campus Event Hub and help ensure that the platform delivers a valuable experience for both students and administrators.
-
----
-
-# 3. Link to Final Prototype
-
-The Smart Campus Event Hub prototype demonstrates these metrics through several pages of the website. The Admin Dashboard displays Total Events, Upcoming Events, Completed Events, Active Student Accounts, Most Popular Event, and Most Popular Category using data stored in LocalStorage. The Student Dashboard displays registered events, participation history, and completed events. The Event Details page displays Event Capacity Utilization and Average Event Rating calculated from student registrations and reviews. Event Search Usage and Category Filter Usage are demonstrated through the Events page, while Registration Success Rate and Login Success Rate are measured during usability testing and validation rather than being displayed directly in the interface. These metrics collectively demonstrate how the Smart Campus Event Hub supports event discovery, online registration, participation tracking, student feedback, and data-driven decision-making for administrators.
+The Smart Campus Event Hub uses these metrics to evaluate both system performance and student engagement. Total Events, Upcoming Events, and Completed Events help administrators monitor the availability and progress of campus activities. Total Registrations and Registered Students measure participation and platform adoption among students. Academic Event Count and Club Activity Event Count provide insights into the distribution of event types offered on campus. Total Reviews Submitted and Average Event Rating help organizers understand student satisfaction and improve future events. Task Success Rate, Average Usefulness Score, and Average Ease of Use Score are based on the Lab 08 validation results and demonstrate how effectively users can complete tasks while reflecting their overall experience with the prototype. Together, these metrics support data-driven improvements to the Smart Campus Event Hub.
 
 ---
 
-# 4. Future Metrics
+## 3. Link to Final Prototype
 
-The following metrics may be implemented in future versions of the Smart Campus Event Hub:
-
-- Average Registration Time
-- Daily Active Users (DAU)
-- Monthly Active Users (MAU)
-- Event Attendance Rate
-- Event Cancellation Rate
-- Notification Click-Through Rate
-- Student Retention Rate
-- Average Time Spent Browsing Events
-- Repeat Event Participation Rate
-- Organizer Response Time
+These metrics are demonstrated throughout the Smart Campus Event Hub prototype. The Admin Dashboard displays statistics such as Total Events, Upcoming Events, Completed Events, Registered Students, Total Reviews Submitted, and event category breakdowns using data stored in LocalStorage. The Student Dashboard displays registration history and participation records. The Event Details page displays the Average Event Rating calculated from submitted student reviews. Validation metrics, including Task Success Rate, Average Usefulness Score, and Average Ease of Use Score, are presented in the project's analytics and validation documentation based on the Lab 08 user testing results. Together, these metrics demonstrate the effectiveness of the platform in supporting event discovery, registration, participation tracking, student feedback, and administrative decision-making.
