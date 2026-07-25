@@ -1,106 +1,380 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
 
-    <meta charset="UTF-8">
+  <title>Event Details</title>
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>Event Details | Smart Campus Event Hub</title>
-
-    <!-- Google Fonts -->
-
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
-
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet">
-
-    <!-- Font Awesome -->
-
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
-    <!-- CSS -->
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet" href="css/events.css">
-
-    <link rel="stylesheet" href="css/responsive.css">
-
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+  <div data-header></div>
 
-<header class="header">
+  <main class="section-sm">
+    <div class="container" id="detailsRoot"></div>
+  </main>
 
-    <div class="container">
+  <div data-footer></div>
 
-        <a href="index.html" class="logo">
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
 
-            <img src="images/logo1.webp" alt="Logo">
+  <script>
+    function loadDetails() {
+      const params = new URLSearchParams(window.location.search);
+      const id = Number(params.get("id"));
 
-            <span>Smart Campus Event Hub</span>
+      const events = getData("sceh_events");
+      const event = events.find((item) => item.id === id);
 
-        </a>
+      const root = document.getElementById("detailsRoot");
 
-        <nav class="navbar">
+      if (!event) {
+        root.innerHTML = `
+          <div class="empty-state">
+            Event not found.
+          </div>
+        `;
+        return;
+      }
 
-            <ul class="nav-menu">
+      const user = currentUser();
+      const registrations = getData("sceh_registrations");
 
-                <li><a href="index.html">Home</a></li>
+      const existingRegistration =
+        user &&
+        registrations.find(
+          (registration) =>
+            registration.eventId === id &&
+            registration.userId === user.id &&
+            registration.status !== "Cancelled"
+        );
 
-                <li><a href="events.html">Events</a></li>
+      const registrationCount = registrations.filter(
+        (registration) =>
+          registration.eventId === id &&
+          registration.status !== "Cancelled"
+      ).length;
 
-                <li><a href="dashboard.html">Dashboard</a></li>
+      const eventEnded = isEnded(event);
 
-            </ul>
+      const approvedReviews = getData("sceh_reviews").filter(
+        (review) =>
+          review.eventId === id &&
+          review.status === "Approved"
+      );
 
-        </nav>
+      root.innerHTML = `
+        <div class="details-layout">
+          <article class="details-main">
+            <div class="details-cover">
+              <img
+                src="${event.image}"
+                alt="${escapeHtml(event.title)}"
+              >
+            </div>
 
-    </div>
+            <div class="details-content">
+              <span class="badge badge-open">
+                ${escapeHtml(event.category)}
+              </span>
 
-</header>
+              <h1>${escapeHtml(event.title)}</h1>
 
-<section class="events-section">
+              <p>${escapeHtml(event.description)}</p>
 
-    <div class="container">
+              <h2>About this event</h2>
 
-        <div id="eventDetails">
+              <p>
+                This event is organized for university students.
+                Please arrive on time and bring your student
+                identification when required.
+              </p>
 
+              <h2>Student Reviews</h2>
+
+              <div id="reviewsList">
+                ${
+                  approvedReviews.length
+                    ? approvedReviews
+                        .map(
+                          (review) => `
+                            <div class="review-card">
+                              <strong>
+                                ${escapeHtml(review.userName)}
+                              </strong>
+
+                              <div class="stars">
+                                ${"★".repeat(review.rating)}
+                                ${"☆".repeat(5 - review.rating)}
+                              </div>
+
+                              <p>
+                                ${escapeHtml(review.comment)}
+                              </p>
+                            </div>
+                          `
+                        )
+                        .join("")
+                    : `
+                      <p class="section-subtitle">
+                        No approved reviews yet.
+                      </p>
+                    `
+                }
+              </div>
+
+              ${
+                eventEnded
+                  ? '<div id="reviewFormWrap"></div>'
+                  : ""
+              }
+            </div>
+          </article>
+
+          <aside class="details-side">
+            <h3>Event Information</h3>
+
+            <div class="detail-list">
+              <div class="detail-item">
+                <small>Date</small>
+                <strong>${formatDate(event.date)}</strong>
+              </div>
+
+              <div class="detail-item">
+                <small>Time</small>
+                <strong>${escapeHtml(event.time)}</strong>
+              </div>
+
+              <div class="detail-item">
+                <small>Location</small>
+                <strong>${escapeHtml(event.location)}</strong>
+              </div>
+
+              <div class="detail-item">
+                <small>Organizer</small>
+                <strong>${escapeHtml(event.organizer)}</strong>
+              </div>
+
+              <div class="detail-item">
+                <small>Registration</small>
+                <strong>
+                  ${registrationCount}/${event.capacity} students
+                </strong>
+              </div>
+            </div>
+
+            <button
+              class="btn btn-primary btn-block"
+              id="registerBtn"
+              ${
+                eventEnded ||
+                registrationCount >= event.capacity
+                  ? "disabled"
+                  : ""
+              }
+            >
+              ${
+                eventEnded
+                  ? "Event Ended"
+                  : existingRegistration
+                    ? "Cancel Registration"
+                    : registrationCount >= event.capacity
+                      ? "Event Full"
+                      : "Register for Event"
+              }
+            </button>
+          </aside>
         </div>
+      `;
 
-    </div>
+      const registerButton =
+        document.getElementById("registerBtn");
 
-</section>
+      if (
+        registerButton &&
+        !eventEnded &&
+        registrationCount < event.capacity
+      ) {
+        registerButton.addEventListener("click", () => {
+          const student = requireStudent(window.location.href);
 
-<footer class="footer">
+          if (!student) {
+            return;
+          }
 
-    <div class="container">
+          const allRegistrations =
+            getData("sceh_registrations");
 
-        <p>
+          const foundRegistration =
+            allRegistrations.find(
+              (registration) =>
+                registration.eventId === id &&
+                registration.userId === student.id &&
+                registration.status !== "Cancelled"
+            );
 
-            © 2026 Smart Campus Event Hub. All Rights Reserved.
+          if (foundRegistration) {
+            foundRegistration.status = "Cancelled";
+            foundRegistration.updatedAt =
+              new Date().toISOString();
 
-        </p>
+            toast("Registration cancelled.");
+          } else {
+            allRegistrations.push({
+              id: Date.now(),
+              eventId: id,
+              userId: student.id,
+              userName: student.name,
+              email: student.email,
+              status: "Registered",
+              registeredAt: new Date().toISOString()
+            });
 
-    </div>
+            toast("Registration successful.");
+          }
 
-</footer>
+          setData(
+            "sceh_registrations",
+            allRegistrations
+          );
 
-<script src="js/storage.js"></script>
-<script src="js/main.js"></script>
-<script src="js/event-details.js"></script>
+          setTimeout(loadDetails, 500);
+        });
+      }
 
-<div id="toast" class="toast"></div>
+      if (eventEnded) {
+        loadReviewForm({
+          id,
+          user,
+          registrations
+        });
+      }
+    }
 
-</body>
+    function loadReviewForm({
+      id,
+      user,
+      registrations
+    }) {
+      const reviewFormWrapper =
+        document.getElementById("reviewFormWrap");
 
-</html>
+      if (!reviewFormWrapper) {
+        return;
+      }
+
+      if (!user) {
+        reviewFormWrapper.innerHTML = `
+          <p
+            class="section-subtitle"
+            style="margin-top: 20px;"
+          >
+            <a href="login.html">Login</a>
+            to review this event.
+          </p>
+        `;
+        return;
+      }
+
+      const attended = registrations.some(
+        (registration) =>
+          registration.eventId === id &&
+          registration.userId === user.id &&
+          registration.status !== "Cancelled"
+      );
+
+      const alreadyReviewed = getData(
+        "sceh_reviews"
+      ).some(
+        (review) =>
+          review.eventId === id &&
+          review.userId === user.id
+      );
+
+      if (attended && !alreadyReviewed) {
+        reviewFormWrapper.innerHTML = `
+          <div
+            class="panel"
+            style="margin-top: 24px;"
+          >
+            <h3>Write a Review</h3>
+
+            <form id="reviewForm">
+              <div class="form-group">
+                <label for="rating">Rating</label>
+
+                <select id="rating" required>
+                  <option value="">
+                    Choose rating
+                  </option>
+
+                  <option value="5">
+                    5 - Excellent
+                  </option>
+
+                  <option value="4">
+                    4 - Very Good
+                  </option>
+
+                  <option value="3">
+                    3 - Good
+                  </option>
+
+                  <option value="2">
+                    2 - Fair
+                  </option>
+
+                  <option value="1">
+                    1 - Poor
+                  </option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="comment">Comment</label>
+
+                <textarea
+                  id="comment"
+                  required
+                  placeholder="Share your experience..."
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary"
+              >
+                Submit Review
+              </button>
+            </form>
+          </div>
+        `;
+
+        setupReviewSubmission(id, user);
+        return;
+      }
+
+      if (alreadyReviewed) {
+        reviewFormWrapper.innerHTML = `
+          <p
+            class="section-subtitle"
+            style="margin-top: 20px;"
+          >
+            You already submitted a review.
+          </p>
+        `;
+        return;
+      }
+
+      reviewFormWrapper.innerHTML = `
+        <p
+          class="section-subtitle"
+          style="margin-top: 20px;"
+        >
+          Only registered attendees can review
