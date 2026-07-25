@@ -612,15 +612,16 @@ Fresh screenshots should be captured after the final manual Sprint 2 walkthrough
 
 ---
 
-### Member Contributions
+## Member Contributions
 
-| Member | Lab 11 Contribution | Evidence |
-|---|---|---|
-| Sonam Deki | Updated the project styling, implementation metrics flow diagram, category status reference, and weekly documentation. | `prototype/css/`; `status-category-reference.css`; `diagram/implementation-metrics-flow.mmd`; `docs/weekly-logbook.md`; add Sprint 2 commit link |
-| Tenzin Dema | Improved JavaScript data handling, event listing controls, event registration, dashboards, event status management, metrics, and prototype testing documentation. | `prototype/js/`; `docs/prototype-testing-notes.md`; `docs/feature-implementation-status.md`; add Sprint 2 commit link |
-| Kinley Zam | Prepared Smart Campus Event Hub sample event records, startup metrics documentation, case study, and updated prototype HTML pages. | `data/smart-campus-event-hub-sample-records.md`; `docs/startup-metrics.md`; `docs/case-study.md`; `prototype/html/`; add Sprint 2 commit link |
+| Member Name | Contribution | File / Feature Updated | GitHub Evidence |
+|---|---|---|---|
+| **Sonam Deki** | Updated project styling, implementation metrics flow diagram, category status reference, and weekly documentation. | `prototype/css/`, `status-category-reference.css`, `diagram/implementation-metrics-flow.mmd`, `docs/weekly-logbook.md` | GitHub Issue #58, commits, updated documentation, prototype CSS, implementation flow diagram |
+| **Tenzin Dema** | Updated feature implementation status, prototype JavaScript functionality, prototype testing notes, and project README. | `docs/feature-implementation-status.md`, `docs/prototype-testing-notes.md`, `README.md`, `prototype/js/` | GitHub Issue #59, commits, updated JavaScript files, README updates |
+| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, and updated prototype HTML pages. | `data/smart-campus-event-hub-sample-records.md`, `docs/startup-metrics.md`, `docs/case-study.md`, `prototype/html/` | GitHub Issue #60, commits, documentation updates, prototype HTML pages |
 
 ---
+
 
 ### Testing
 
