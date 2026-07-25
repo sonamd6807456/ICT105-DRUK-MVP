@@ -614,11 +614,12 @@ Fresh screenshots should be captured after the final manual Sprint 2 walkthrough
 
 ## Member Contributions
 
+
 | Member Name | Contribution | File / Feature Updated | GitHub Evidence |
-|---|---|---|---|
-| **Sonam Deki** | Updated project styling, implementation metrics flow diagram, category status reference, and weekly documentation. | `prototype/css/`, `status-category-reference.css`, `diagram/implementation-metrics-flow.mmd`, `docs/weekly-logbook.md` | GitHub Issue #58, commits, updated documentation, prototype CSS, implementation flow diagram |
-| **Tenzin Dema** | Updated feature implementation status, prototype JavaScript functionality, prototype testing notes, and project README. | `docs/feature-implementation-status.md`, `docs/prototype-testing-notes.md`, `README.md`, `prototype/js/` | GitHub Issue #59, commits, updated JavaScript files, README updates |
-| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, and updated prototype HTML pages. | `data/smart-campus-event-hub-sample-records.md`, `docs/startup-metrics.md`, `docs/case-study.md`, `prototype/html/` | GitHub Issue #60, commits, documentation updates, prototype HTML pages |
+|-------------|--------------|------------------------|-----------------|
+| **Sonam Deki** | Updated project styling, implementation metrics flow diagram, category status reference, weekly documentation, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype. | prototype/css/, status-category-reference.css, diagram/implementation-metrics-flow.mmd, docs/weekly-logbook.md, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #58, commits, updated documentation, prototype CSS, implementation flow diagram, Power BI updates, screenshot updates, prototype improvements |
+| **Tenzin Dema** | Updated feature implementation status, prototype JavaScript functionality, prototype testing notes, project README, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype. | docs/feature-implementation-status.md, docs/prototype-testing-notes.md, README.md, prototype/js/, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #59, commits, updated JavaScript files, README updates, Power BI updates, screenshot updates, prototype improvements |
+| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, updated prototype HTML pages, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype. | data/smart-campus-event-hub-sample-records.md, docs/startup-metrics.md, docs/case-study.md, prototype/html/, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #60, commits, documentation updates, prototype HTML pages, Power BI updates, screenshot updates, prototype improvements |
 
 ---
 
