@@ -815,9 +815,9 @@ In the next lab, the team plans to:
 
 | Member Name | Contribution | File / Feature Updated | GitHub Evidence |
 |---|---|---|---|
-| **Sonam Deki** | Updated project styling, implementation metrics flow diagram, category status reference, and weekly documentation. | `prototype/css/`, `status-category-reference.css`, `diagram/implementation-metrics-flow.mmd`, `docs/weekly-logbook.md` | GitHub Issue #55, commits, updated documentation, prototype CSS, implementation flow diagram |
-| **Tenzin Dema** | Updated feature implementation status, prototype JavaScript functionality, prototype testing notes, and project README. | `docs/feature-implementation-status.md`, `docs/prototype-testing-notes.md`, `README.md`, `prototype/js/` | GitHub Issue #56, commits, updated JavaScript files, README updates |
-| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, and updated prototype HTML pages. | `data/smart-campus-event-hub-sample-records.md`, `docs/startup-metrics.md`, `docs/case-study.md`, `prototype/html/` | GitHub Issue #57, commits, documentation updates, prototype HTML pages |
+| **Sonam Deki** | Updated project styling, implementation metrics flow diagram, category status reference, and weekly documentation. | `prototype/css/`, `status-category-reference.css`, `diagram/implementation-metrics-flow.mmd`, `docs/weekly-logbook.md` | GitHub Issue #58, commits, updated documentation, prototype CSS, implementation flow diagram |
+| **Tenzin Dema** | Updated feature implementation status, prototype JavaScript functionality, prototype testing notes, and project README. | `docs/feature-implementation-status.md`, `docs/prototype-testing-notes.md`, `README.md`, `prototype/js/` | GitHub Issue #59, commits, updated JavaScript files, README updates |
+| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, and updated prototype HTML pages. | `data/smart-campus-event-hub-sample-records.md`, `docs/startup-metrics.md`, `docs/case-study.md`, `prototype/html/` | GitHub Issue #60, commits, documentation updates, prototype HTML pages |
 
 ---
 
