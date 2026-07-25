@@ -1,0 +1,8 @@
+field,allowed_values,notes
+record_type,Event Profile; Student Registration; Student Favorite,Event Profile is seeded demonstration content; Student Registration and Student Favorite are created by logged-in users
+category,Workshop; Competition; Career; Sports; Entertainment; Seminar; Club Activity,Matches the event categories used by the Smart Campus Event Hub prototype
+status,Upcoming; Registration Open; Registration Closed; Ongoing; Completed; Cancelled,Used to display the current event status throughout the system
+registration_status,Not Registered; Registered; Cancelled,Tracks each student's event registration status
+favorite_status,Yes; No,Indicates whether the logged-in user has saved the event as a favorite
+author_role,Student; Organizer; Administrator,Defines who created or manages the event information
+priority,Low; Medium; High,Helps organizers and administrators prioritize featured or important campus events
