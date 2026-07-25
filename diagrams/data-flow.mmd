@@ -1,33 +1,44 @@
-flowchart TD
-    A[Homepage] --> B[Choose Action]
+flowchart LR
 
-    B --> C[Browse Events]
-    B --> D[Search Events]
-    B --> E[Register Event]
-    B --> F[Dashboard]
+    Student[Student]
+    Admin[Administrator]
 
-    C --> G[Event List]
-    G --> H[Event Details]
+    Auth((Login / Authentication))
+    Browse((Browse Events))
+    Register((Register Event))
+    ManageEvents((Manage Events))
+    ManageRegistrations((Manage Registrations))
+    ManageReviews((Manage Reviews))
 
-    D --> I[Search / Filter]
-    I --> G
+    Users[(User Database)]
+    Events[(Event Database)]
+    Registrations[(Registration Database)]
+    Reviews[(Review Database)]
 
-    E --> J{Valid?}
-    J -->|Yes| K[Save Registration]
-    J -->|No| L[Show Error]
+    Student -->|Login| Auth
+    Auth --> Users
+    Users --> Auth
+    Auth --> Student
 
-    K --> M[Confirmation]
-    K --> N[(Registration DB)]
+    Student -->|Browse Events| Browse
+    Browse --> Events
+    Events --> Browse
+    Browse --> Student
 
-    O[Organizer/Admin] --> P[Manage Events]
-    P --> Q{Valid?}
-    Q -->|Yes| R[(Event DB)]
-    Q -->|No| S[Show Error]
+    Student -->|Register Event| Register
+    Register --> Events
+    Register --> Registrations
+    Registrations --> Register
+    Register --> Student
 
-    R --> G
-    N --> T[Dashboard]
-    R --> T
-    F --> T
+    Admin -->|Manage Events| ManageEvents
+    ManageEvents --> Events
+    Events --> ManageEvents
 
-    T --> U[Event Summary]
+    Admin -->|Manage Registrations| ManageRegistrations
+    ManageRegistrations --> Registrations
+    Registrations --> ManageRegistrations
 
+    Admin -->|Manage Reviews| ManageReviews
+    ManageReviews --> Reviews
+    Reviews --> ManageReviews
