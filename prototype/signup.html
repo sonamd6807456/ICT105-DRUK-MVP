@@ -1,157 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Sign Up | Smart Campus Event Hub</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet" href="css/signup.css">
-
-    <link rel="stylesheet" href="css/responsive.css">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>RSU Student Sign Up</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-<section class="signup-section">
+<div data-header></div>
 
-    <div class="signup-card">
+<main class="auth-wrap">
 
-        <h1>Create Account</h1>
+<div class="auth-card auth-card-wide">
 
-        <p>Join Smart Campus Event Hub</p>
+<h1>Create RSU student account</h1>
 
-        <form id="signupForm">
+<p>Only current RSU students can create an account and register for events.</p>
 
-            <div class="form-group">
+<div id="alert" class="alert alert-error"></div>
 
-                <label for="fullName">Full Name</label>
+<form id="signupForm">
 
-                <input
-                    type="text"
-                    id="fullName"
-                    placeholder="Enter your full name"
-                    required>
+<div class="form-row">
 
-            </div>
+<div class="form-group">
+<label>Full name</label>
+<input class="input" id="name" required>
+</div>
 
-            <div class="form-group">
+<div class="form-group">
+<label>Student ID</label>
+<input class="input" id="studentId" required placeholder="Example: 6501234">
+</div>
 
-                <label for="studentId">Student ID</label>
+</div>
 
-                <input
-                    type="text"
-                    id="studentId"
-                    placeholder="Enter your student ID"
-                    required>
+<div class="form-row">
 
-            </div>
+<div class="form-group">
+<label>Major</label>
+<input class="input" id="major" required placeholder="Example: Information Technology">
+</div>
 
-            <div class="form-group">
+<div class="form-group">
+<label>RSU email</label>
+<input class="input" id="email" type="email" required placeholder="name@rsu.ac.th">
+</div>
 
-                <label for="faculty">Faculty</label>
+</div>
 
-                <select id="faculty" required>
+<div class="form-row">
 
-                    <option value="">Select Faculty</option>
+<div class="form-group">
+<label>Password</label>
+<input class="input" id="password" type="password" minlength="6" required>
+</div>
 
-                    <option value="ICT">ICT</option>
+<div class="form-group">
+<label>Confirm password</label>
+<input class="input" id="confirmPassword" type="password" required>
+</div>
 
-                    <option value="Engineering">Engineering</option>
+</div>
 
-                    <option value="Business Administration">Business Administration</option>
+<button class="btn btn-primary btn-block">Create Account</button>
 
-                    <option value="Architecture">Architecture</option>
+</form>
 
-                    <option value="Arts">Arts</option>
+<p class="form-note">
+Already registered?
+<a href="login.html" style="color:var(--primary);font-weight:700">Login</a>
+</p>
 
-                    <option value="Law">Law</option>
+</div>
 
-                    <option value="Medicine">Medicine</option>
+</main>
 
-                </select>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
 
-            </div>
+<script>
+signupForm.onsubmit=e=>{
+e.preventDefault();
+const users=getData('sceh_users');
+const cleanEmail=email.value.trim().toLowerCase();
+const cleanStudentId=studentId.value.trim();
+alert.classList.remove('show');
 
-            <div class="form-group">
+if(password.value!==confirmPassword.value){
+alert.textContent='Passwords do not match.';
+alert.classList.add('show');
+return;
+}
 
-                <label for="email">Email</label>
+if(users.some(u=>u.email.toLowerCase()===cleanEmail)){
+alert.textContent='An account already exists with this email.';
+alert.classList.add('show');
+return;
+}
 
-                <input
-                    type="email"
-                    id="email"
-                    placeholder="Enter your email"
-                    required>
+if(users.some(u=>u.studentId===cleanStudentId)){
+alert.textContent='This student ID is already registered.';
+alert.classList.add('show');
+return;
+}
 
-            </div>
+const user={
+id:Date.now(),
+name:name.value.trim(),
+studentId:cleanStudentId,
+major:major.value.trim(),
+email:cleanEmail,
+password:password.value,
+role:'student',
+joinedAt:new Date().toISOString()
+};
 
-            <div class="form-group">
+users.push(user);
+setData('sceh_users',users);
 
-                <label for="password">Password</label>
+const session={...user};
+delete session.password;
 
-                <input
-                    type="password"
-                    id="password"
-                    placeholder="Create password"
-                    required>
+localStorage.setItem('sceh_currentUser',JSON.stringify(session));
 
-            </div>
-
-            <div class="form-group">
-
-                <label for="confirmPassword">Confirm Password</label>
-
-                <input
-                    type="password"
-                    id="confirmPassword"
-                    placeholder="Confirm password"
-                    required>
-
-            </div>
-
-            <button
-                type="submit"
-                class="btn-signup">
-
-                Create Account
-
-            </button>
-
-        </form>
-
-        <div class="login-link">
-
-            Already have an account?
-
-            <a href="login.html">
-
-                Login
-
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-<div id="toast" class="toast"></div>
-
-<script src="js/storage.js"></script>
-<script src="js/main.js"></script>
-<script src="js/signup.js"></script>
+location.href=localStorage.getItem('sceh_returnUrl')||'index.html';
+};
+</script>
 
 </body>
 
