@@ -778,7 +778,100 @@ In the next lab, the team plans to:
 - Update screenshots after improvements.
 - Update GitHub Issues with implementation evidence.
 - Complete Sprint 2 development and validation.
+------------
 
+## Lab 11 **MVP Implementation Sprint 2 and Startup Metrics**
+
+---
+
+## Group Case
+
+**Project Title:** Smart Campus Event Hub
+
+**Selected Case:** Development of a web-based Smart Campus Event Hub that centralizes campus event discovery, event registration, favorite events, student dashboards, organizer management, and administrator management using HTML, CSS, JavaScript, and Browser LocalStorage.
+
+---
+
+## Work Completed Today
+
+- Reviewed the Smart Campus Event Hub prototype against the updated system requirements.
+- Improved the event management workflow and user interface.
+- Updated the startup metrics documentation.
+- Created the implementation metrics flow diagram.
+- Updated feature implementation status documentation.
+- Improved prototype styling and responsive design.
+- Updated prototype JavaScript functionality.
+- Prepared prototype testing notes.
+- Updated project README.
+- Created Smart Campus Event Hub sample records.
+- Updated project case study documentation.
+- Improved prototype HTML pages.
+- Updated the weekly logbook and supporting documentation.
+- Verified that documentation, prototype files, and repository structure were consistent with the latest MVP implementation.
+
+---
+
+## Member Contributions
+
+| Member Name | Contribution | File / Feature Updated | GitHub Evidence |
+|---|---|---|---|
+| **Sonam Deki** | Updated project styling, implementation metrics flow diagram, category status reference, and weekly documentation. | `prototype/css/`, `status-category-reference.css`, `diagram/implementation-metrics-flow.mmd`, `docs/weekly-logbook.md` | GitHub Issue #55, commits, updated documentation, prototype CSS, implementation flow diagram |
+| **Tenzin Dema** | Updated feature implementation status, prototype JavaScript functionality, prototype testing notes, and project README. | `docs/feature-implementation-status.md`, `docs/prototype-testing-notes.md`, `README.md`, `prototype/js/` | GitHub Issue #56, commits, updated JavaScript files, README updates |
+| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, and updated prototype HTML pages. | `data/smart-campus-event-hub-sample-records.md`, `docs/startup-metrics.md`, `docs/case-study.md`, `prototype/html/` | GitHub Issue #57, commits, documentation updates, prototype HTML pages |
+
+---
+
+## Requirements Addressed
+
+- **FR-01** — Centralized Event Listing
+- **FR-03** — Search and Filter Events
+- **FR-04** — Event Details
+- **FR-05** — Event Registration
+- **FR-06** — Favorite Events
+- **FR-07** — Student Dashboard
+- **FR-08** — Organizer Dashboard
+- **FR-09** — Admin Dashboard
+- **FR-10** — Profile Management
+
+---
+
+## Metrics Added
+
+- Startup Metrics
+- MVP Validation Metrics
+- Feature Completion Status
+- User Journey Completion
+- Event Registration Success Rate
+- Favorite Event Usage
+- Dashboard Feature Coverage
+- Prototype Testing Results
+- Implementation Metrics Flow
+
+---
+
+## Problems Found
+
+- Some dashboard components required additional layout adjustments for smaller screens.
+- Event search and filtering required further refinement for improved usability.
+- Browser LocalStorage data needed additional testing across different user workflows.
+- Documentation required updates to remain consistent with the latest prototype implementation.
+- Organizer and Administrator workflows required additional validation testing.
+- Responsive design required further optimization on mobile devices.
+
+---
+
+## Next Action Before Lab 12
+
+- Complete final usability testing of the Smart Campus Event Hub.
+- Verify all event registration workflows.
+- Test favorite event functionality.
+- Test Student, Organizer, and Administrator Dashboards.
+- Verify Browser LocalStorage data persistence.
+- Complete startup metrics documentation.
+- Capture final prototype screenshots.
+- Review repository structure and documentation.
+- Update GitHub issues with implementation evidence.
+- Prepare the project for final MVP validation and presentation.
 
 
 
