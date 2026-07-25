@@ -514,11 +514,13 @@ Our goal in Lab 10 is to build the first working MVP of the **Smart Campus Event
 
 All group members contributed to the same GitHub repository and completed work through assigned GitHub issues, commits, prototype files, documentation, and screenshot evidence.
 
-| Member | Contribution | Evidence |
-|--------|--------------|----------|
-| **Kinley Zam – Member 1** | Prepared the feature implementation status documentation, updated the project README, captured and organized project screenshots, and developed the prototype HTML pages for the Smart Campus Event Hub. | GitHub Issue #55, `docs/feature-implementation-status.md`, `README.md`, `screenshots/`, `prototype/html/`, commits, and repository updates. |
-| **Sonam Deki – Member 2** | Created the Smart Campus Event Hub sample records and project documentation. Prepared the implementation plan, completed the case study, maintained the project styling, and organized project data and assets. | GitHub Issue #56, `data/smart-campus-event-hub-sample-record.md`, `docs/implementation-plan.md`, `docs/case-study.md`, `prototype/css/`, commits, and documentation updates. |
-| **Tenzin Dema – Member 3** | Prepared project statistics and documentation. Created the Smart Campus Event Hub statistics by category, implementation flow diagram, updated the weekly logbook, maintained the prototype link template, and implemented JavaScript functionality for the prototype. | GitHub Issue #57, `data/smart-campus-event-hub-statistics-category.md`, `diagram/implementation-flow/`, `docs/weekly-logbook.md`, `prototype/prototype-link.md`, `prototype/js/`, commits, and project updates. |
+## Member Contributions
+
+| Member Name | Contribution | File / Feature Updated | GitHub Evidence |
+|---|---|---|---|
+| **Sonam Deki** | Updated project styling, implementation metrics flow diagram, category status reference, and weekly documentation. | `prototype/css/`, `status-category-reference.css`, `diagram/implementation-metrics-flow.mmd`, `docs/weekly-logbook.md` | GitHub Issue #55, commits, updated documentation, prototype CSS, implementation flow diagram |
+| **Tenzin Dema** | Updated feature implementation status, prototype JavaScript functionality, prototype testing notes, and project README. | `docs/feature-implementation-status.md`, `docs/prototype-testing-notes.md`, `README.md`, `prototype/js/` | GitHub Issue #56, commits, updated JavaScript files, README updates |
+| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, and updated prototype HTML pages. | `data/smart-campus-event-hub-sample-records.md`, `docs/startup-metrics.md`, `docs/case-study.md`, `prototype/html/` | GitHub Issue #57, commits, documentation updates, prototype HTML pages |
 
 Section,Item,Content
 Lab 11,Title,"MVP Implementation Sprint 2 and Startup Metrics"
