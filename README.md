@@ -516,9 +516,8 @@ All group members contributed to the same GitHub repository and completed work t
 
 ## Member Contributions
 
-| Member Name | Contribution | File / Feature Updated | GitHub Evidence |
-|---|---|---|---|
-| **Sonam Deki** | Updated project styling, implementation metrics flow diagram, category status reference, and weekly documentation. | `prototype/css/`, `status-category-reference.css`, `diagram/implementation-metrics-flow.mmd`, `docs/weekly-logbook.md` | GitHub Issue #55, commits, updated documentation, prototype CSS, implementation flow diagram |
-| **Tenzin Dema** | Updated feature implementation status, prototype JavaScript functionality, prototype testing notes, and project README. | `docs/feature-implementation-status.md`, `docs/prototype-testing-notes.md`, `README.md`, `prototype/js/` | GitHub Issue #56, commits, updated JavaScript files, README updates |
-| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, and updated prototype HTML pages. | `data/smart-campus-event-hub-sample-records.md`, `docs/startup-metrics.md`, `docs/case-study.md`, `prototype/html/` | GitHub Issue #57, commits, documentation updates, prototype HTML pages |
-
+| Member | Contribution | Evidence |
+|--------|--------------|----------|
+| **Kinley Zam – Member 1** | Developed the Smart Campus Event Hub frontend pages using HTML, created and updated the homepage, events page, dashboard, profile page, and favorites page. Also updated the feature implementation status document, README, and organized project screenshots. | GitHub Issue #55, `prototype/*.html`, `docs/feature-implementation-status.md`, `README.md`, `screenshots/`, GitHub commits, and repository updates. |
+| **Sonam Deki – Member 2** | Prepared the Smart Campus Event Hub project documentation, implementation plan, case study, sample event records, and maintained the CSS styling for the prototype. Also organized project assets and repository documentation. | GitHub Issue #56, `docs/implementation-plan.md`, `docs/case-study.md`, `data/smart-campus-event-hub-sample-record.md`, `prototype/css/`, GitHub commits, and documentation updates. |
+| **Tenzin Dema – Member 3** | Developed the JavaScript functionality for the prototype, implemented localStorage features, event registration, favorites system, dashboard functionality,implementation flowchart and prepared project statistics, implementation flow diagram, weekly logbook, and prototype link documentation. | GitHub Issue #57, `prototype/js/`, `docs/weekly-logbook.md`, `prototype/prototype-link.md`, `data/smart-campus-event-hub-statistics-category.md`, `diagrams/implementation-flow/`, GitHub commits, and project updates. |
