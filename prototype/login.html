@@ -1,121 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Login | Smart Campus Event Hub</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet" href="css/login.css">
-
-    <link rel="stylesheet" href="css/responsive.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-<section class="login-section">
+    <div data-header></div>
 
-    <div class="login-card">
+    <main class="auth-wrap">
 
-        <h1>Welcome Back</h1>
+        <div class="auth-card">
 
-        <p>Login to Smart Campus Event Hub</p>
+            <h1>Welcome back</h1>
 
-        <form id="loginForm">
+            <p>Login to register for events and manage your activity.</p>
 
-            <div class="form-group">
+            <div id="alert" class="alert alert-error"></div>
 
-                <label for="email">Email Address</label>
+            <form id="loginForm">
 
-                <input
-                    type="email"
-                    id="email"
-                    placeholder="Enter your email"
-                    required>
-
-            </div>
-
-            <div class="form-group">
-
-                <label for="password">Password</label>
-
-                <div class="password-box">
-
-                    <input
-                        type="password"
-                        id="password"
-                        placeholder="Enter your password"
-                        required>
-
-                    <span
-                        id="togglePassword"
-                        class="toggle-password">
-
-                        Show
-
-                    </span>
-
+                <div class="form-group">
+                    <label>Email</label>
+                    <input class="input" id="email" type="email" required>
                 </div>
 
-            </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input class="input" id="password" type="password" required>
+                </div>
 
-            <div class="remember">
+                <button class="btn btn-primary btn-block">Login</button>
 
-                <label>
+            </form>
 
-                    <input
-                        type="checkbox"
-                        id="remember">
+            <p class="form-note">
+                Demo student: student@campus.edu / student123<br>
+                Demo admin: admin@campus.edu / admin123
+            </p>
 
-                    Remember Me
-
-                </label>
-
-            </div>
-
-            <button
-                type="submit"
-                class="btn-login">
-
-                Login
-
-            </button>
-
-        </form>
-
-        <div class="signup-link">
-
-            Don't have an account?
-
-            <a href="signup.html">
-
-                Sign Up
-
-            </a>
+            <p class="form-note">
+                No account?
+                <a href="signup.html" style="color:var(--primary);font-weight:700">Sign up</a>
+            </p>
 
         </div>
 
-    </div>
+    </main>
 
-</section>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
 
-<div id="toast" class="toast"></div>
+    <script>
+        loginForm.onsubmit = e => {
+            e.preventDefault();
 
-<script src="js/storage.js"></script>
-<script src="js/main.js"></script>
-<script src="js/login.js"></script>
+            const user = getData('sceh_users').find(
+                u =>
+                    u.email.toLowerCase() === email.value.trim().toLowerCase() &&
+                    u.password === password.value
+            );
+
+            if (!user) {
+                alert.textContent = 'Incorrect email or password.';
+                alert.classList.add('show');
+                return;
+            }
+
+            localStorage.setItem(
+                'sceh_currentUser',
+                JSON.stringify({ ...user, password: undefined })
+            );
+
+            const redirect = localStorage.getItem('sceh_returnUrl');
+            localStorage.removeItem('sceh_returnUrl');
+
+            location.href = redirect || (user.role === 'admin' ? 'admin.html' : 'index.html');
+        };
+    </script>
 
 </body>
 
