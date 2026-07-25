@@ -521,3 +521,126 @@ All group members contributed to the same GitHub repository and completed work t
 | **Kinley Zam – Member 1** | Developed the Smart Campus Event Hub frontend pages using HTML, created and updated the homepage, events page, dashboard, profile page, and favorites page. Also updated the feature implementation status document, README, and organized project screenshots. | GitHub Issue #55, `prototype/*.html`, `docs/feature-implementation-status.md`, `README.md`, `screenshots/`, GitHub commits, and repository updates. |
 | **Sonam Deki – Member 2** | Prepared the Smart Campus Event Hub project documentation, implementation plan, case study, sample event records, and maintained the CSS styling for the prototype. Also organized project assets and repository documentation. | GitHub Issue #56, `docs/implementation-plan.md`, `docs/case-study.md`, `data/smart-campus-event-hub-sample-record.md`, `prototype/css/`, GitHub commits, and documentation updates. |
 | **Tenzin Dema – Member 3** | Developed the JavaScript functionality for the prototype, implemented localStorage features, event registration, favorites system, dashboard functionality,implementation flowchart and prepared project statistics, implementation flow diagram, weekly logbook, and prototype link documentation. | GitHub Issue #57, `prototype/js/`, `docs/weekly-logbook.md`, `prototype/prototype-link.md`, `data/smart-campus-event-hub-statistics-category.md`, `diagrams/implementation-flow/`, GitHub commits, and project updates. |
+
+## Lab 11: MVP Implementation Sprint 2 and Startup Metrics
+
+### Prototype Progress
+
+Sprint 2 strengthens the Smart Campus Event Hub as a functional and measurable frontend prototype. The updated version keeps the original student, organizer, and administrator journeys while improving the visual design, event information, event listing controls, keyword search, category filtering, event detail pages, event registration, event status tracking, dashboard metrics, organizer and administrator management, input validation, confirmation feedback, privacy explanations, and responsive presentation.
+
+The prototype remains a classroom simulation built with HTML, CSS, JavaScript, sample event records, and browser localStorage. It does not use production authentication, server-side authorization, or a shared database.
+
+---
+
+### Run the Prototype
+
+1. Download or clone the repository.
+2. Open `prototype/index.html` in a current browser.
+3. Browse upcoming campus events from the homepage or Event Listing page.
+4. Use keyword search and category filters to find relevant campus events.
+5. Open an event detail page to view the event title, description, date, time, venue, organizer, event status, and available capacity.
+6. Register for an event using the event registration form.
+7. Open the Student Dashboard to view registered events and participation information.
+8. Use the Organizer/Admin dashboard to create, update, approve, reject, or delete event records.
+
+> **Important:** Use fictional information only because data is stored in the current browser using `localStorage`.
+
+---
+
+### Implemented / Improved Features
+
+| Requirement ID | Feature | Lab 11 Status | Evidence |
+|---|---|---|---|
+| FR-01–FR-02 | Updated homepage and shared navigation with the main student event discovery journey | Completed and improved | `prototype/index.html`; shared navigation; Homepage → Event Listing → Event Details → Registration |
+| FR-03–FR-04 | Event submission, event registration, and prototype event data storage | Completed as a prototype | Event submission form; registration form; JavaScript sample data; browser `localStorage` |
+| FR-05–FR-07 | Event listing, keyword search, category filtering, event browsing, and event detail view | Completed and improved | Event Listing page; search controls; category filters; Event Detail page |
+| FR-08 | Event registration and participation status tracking | Completed as a prototype | Registration records; event status indicators; Student Dashboard |
+| FR-09 | Organizer and administrator event management | Completed and improved as a prototype | Organizer/Admin dashboard; event creation, editing, approval, rejection, updating, and deletion actions |
+| FR-10–FR-11 | Input validation, registration confirmation, and user feedback | Completed and improved | Required-field validation; validation messages; registration confirmation; action feedback |
+| FR-12 | Student and administrator dashboard metrics and analytics | Completed and improved | Student Dashboard; Organizer/Admin Dashboard; event summary metrics |
+| FR-13–FR-14 | Consistent interface design and responsive visual system | Completed and improved | Shared CSS; common navigation; responsive layouts for desktop, tablet, and mobile |
+| FR-15 | Privacy and responsible data collection | Completed as a prototype | Privacy Notice; limited registration information; responsible data-handling explanation |
+| FR-16 | Requirement and feature traceability | Completed and maintained | System requirements; user stories; MVP feature list; feature implementation status documentation |
+
+Full requirement-by-requirement evidence is available in `docs/feature-implementation-status.md`.
+
+---
+
+### Startup / Product Metrics
+
+Smart Campus Event Hub now documents and demonstrates metrics that support product and operational decisions:
+
+- **Total Events**
+- **Upcoming Events**
+- **Completed Events**
+- **Pending Event Submissions**
+- **Approved Event Submissions**
+- **Rejected Event Submissions**
+- **Total Registered Participants**
+- **Popular Event Categories**
+- **Event Registration Activity**
+- **Student Participation History**
+- **Event Registration Success Rate**
+- **Task Completion Rate: 100% in the recorded usability testing sample**
+- **Average Usability Rating: 4.83/5**
+- **Average Task Completion Time: 33.72 seconds**
+- **Usability Testing Participants: 3 testers**
+- **User Stories Tested: 6**
+- **Total Usability Test Records: 18**
+
+Live event, registration, category, and status counts appear in the Student and Organizer/Admin dashboards. Definitions, testing results, sources, limitations, and supporting evidence are documented in the project documentation and prototype testing notes.
+
+---
+
+### Prototype Screenshots
+
+Current evidence is stored in `/screenshots/`, including:
+
+- `screenshots/homepage.png`
+- `screenshots/event-listing.png`
+- `screenshots/search-filter.png`
+- `screenshots/event-detail.png`
+- `screenshots/registration-form.png`
+- `screenshots/registration-confirmation.png`
+- `screenshots/student-dashboard.png`
+- `screenshots/organizer-dashboard.png`
+- `screenshots/admin-event-management.png`
+- `screenshots/event-status.png`
+- `screenshots/responsive-mobile-view.png`
+
+Fresh screenshots should be captured after the final manual Sprint 2 walkthrough so the evidence exactly matches the updated prototype.
+
+---
+
+### Member Contributions
+
+| Member | Lab 11 Contribution | Evidence |
+|---|---|---|
+| Sonam Deki | Updated the project styling, implementation metrics flow diagram, category status reference, and weekly documentation. | `prototype/css/`; `status-category-reference.css`; `diagram/implementation-metrics-flow.mmd`; `docs/weekly-logbook.md`; add Sprint 2 commit link |
+| Tenzin Dema | Improved JavaScript data handling, event listing controls, event registration, dashboards, event status management, metrics, and prototype testing documentation. | `prototype/js/`; `docs/prototype-testing-notes.md`; `docs/feature-implementation-status.md`; add Sprint 2 commit link |
+| Kinley Zam | Prepared Smart Campus Event Hub sample event records, startup metrics documentation, case study, and updated prototype HTML pages. | `data/smart-campus-event-hub-sample-records.md`; `docs/startup-metrics.md`; `docs/case-study.md`; `prototype/html/`; add Sprint 2 commit link |
+
+---
+
+### Testing
+
+The Lab 11 test matrix covers homepage navigation, event browsing, event submission, event registration, search and filtering, event detail viewing, event status tracking, dashboard metrics, organizer and administrator event management, privacy and validation, and responsive presentation.
+
+Source and reference checks are documented in `docs/prototype-testing-notes.md`.
+
+A final manual browser and mobile pass remains required before submission.
+
+---
+
+### Remaining Work
+
+- Complete one final student and organizer/administrator browser walkthrough and responsive test.
+- Capture a fresh Lab 11 screenshot set.
+- Replace member contribution placeholders with actual GitHub commit, issue, or pull request links.
+- Extend keyword search beyond event titles to event descriptions, tags, organizers, and locations.
+- Add additional filtering options such as event date, organizer, location, and event status.
+- Improve event capacity and remaining-seat information visibility.
+- Add clearer registration success and confirmation feedback.
+- Continue improving dashboard analytics and event participation statistics.
+- Add a campus map or location visualization to event details if required.
+- Replace `localStorage` and client-side role checks with a secure shared backend for any production release.
