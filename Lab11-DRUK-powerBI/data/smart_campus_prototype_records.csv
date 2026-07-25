@@ -1,0 +1,16 @@
+﻿RecordID,SubmittedDate,LastUpdatedDate,ItemCategory,Location,Priority,CurrentStatus,ResolutionDays,RequirementID,OwnerRole
+R001,7/12/2026,7/15/2026,Workshop,ICT Auditorium,High,Published,3,FR-05,Admin
+R002,7/12/2026,7/18/2026,Competition,Computer Laboratory,High,Published,6,FR-05,Admin
+R003,7/13/2026,7/19/2026,Career,Main Hall,High,Published,6,FR-05,Admin
+R004,7/13/2026,7/20/2026,Sports,Sports Complex,Medium,Published,7,FR-05,Admin
+R005,7/14/2026,7/21/2026,Entertainment,Open Ground,Medium,Published,7,FR-05,Admin
+R006,7/15/2026,7/16/2026,Workshop,Innovation Lab,Medium,Pending,1,FR-09,Admin
+R007,7/16/2026,7/18/2026,Sports,Football Field,Low,Published,2,FR-09,Admin
+R008,7/17/2026,7/19/2026,Career,Student Center,High,Pending,2,FR-09,Admin
+R009,7/18/2026,7/19/2026,Competition,Engineering Lab,Medium,Rejected,1,FR-09,Admin
+R010,7/18/2026,7/22/2026,Entertainment,Music Hall,Low,Published,4,FR-08,Admin
+R011,7/19/2026,7/21/2026,Workshop,Library Seminar Room,Medium,Published,2,FR-08,Admin
+R012,7/20/2026,7/23/2026,Career,Main Hall,High,Pending,3,FR-12,Admin
+R013,7/21/2026,7/22/2026,Sports,Gymnasium,Medium,Published,1,FR-08,Admin
+R014,7/22/2026,7/24/2026,Competition,ICT Auditorium,High,Pending,2,FR-09,Admin
+R015,7/23/2026,7/24/2026,Workshop,Computer Laboratory,Low,Published,1,FR-12,Admin
