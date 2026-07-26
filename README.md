@@ -646,3 +646,69 @@ A final manual browser and mobile pass remains required before submission.
 - Continue improving dashboard analytics and event participation statistics.
 - Add a campus map or location visualization to event details if required.
 - Replace `localStorage` and client-side role checks with a secure shared backend for any production release.
+
+-------
+
+## Lab 12 - Landing Page and Digital Go-to-Market
+
+### Landing Page
+
+- **Landing page folder/link:** `/landing-page/`
+- **Main CTA:** Explore Events
+- **Prototype/Demo Link:** `/prototype/index.html`
+
+---
+
+### Go-to-Market Plan
+
+**Target Early Users**
+- First-year undergraduate students
+- International and exchange students
+- Student clubs and organizations
+- Campus administrators
+
+**Selected Channels**
+- University class chat groups
+- Student club social media pages
+- Campus QR code posters
+- GitHub Pages prototype
+- Word-of-mouth among students
+
+**Main Marketing Message**
+
+> **Never miss a campus event again!** Discover, register, and stay updated with workshops, competitions, club activities, and university events—all in one place with Smart Campus Event Hub.
+
+---
+
+### Acquisition Metrics
+
+- **Metric 1:** Homepage Visits
+- **Metric 2:** Explore Events CTA Clicks
+- **Metric 3:** Event Registration Completion Rate
+
+---
+
+### Screenshots
+
+- Landing page screenshot: `/screenshots/landing-page.png`
+- CTA screenshot: `/screenshots/call-to-action.png`
+- Prototype demo screenshot: `/screenshots/prototype-link-or-demo-screen.png`
+- Acquisition metrics table: `/screenshots/acquisition-metrics-table.png`
+
+---
+
+### Requirement Alignment
+
+The landing page directly supports the Smart Campus Event Hub MVP by introducing the project's value proposition and guiding users toward the main prototype through clear Call-to-Action (CTA) buttons.
+
+The landing page aligns with the validated system requirements by allowing users to begin discovering campus events (FR-01), access event information (FR-04), register for activities (FR-05), and explore the complete Smart Campus Event Hub prototype. The marketing message and CTA reinforce the project's objective of providing a centralized platform that reduces scattered campus event information while encouraging student engagement and participation.
+
+---
+
+### Member Contributions
+
+| Member | Contribution | Commit / Issue Evidence |
+|---------|--------------|-------------------------|
+| **Sonam Deki** | Developed the Smart Campus Event Hub landing page metrics, prepared the Digital Go-to-Market Plan, created the landing page, and updated the project README documentation. | **GitHub Issue #61**, landing-page/, docs/go-to-market-plan.md, README.md, GitHub commits |
+| **Tenzin Dema** | Prepared the acquisition metrics template, documented acquisition metrics, contributed landing page content, updated the case study, and captured project screenshots including landing-page.png, call-to-action.png, prototype-link-or-demo-screen.png, and acquisition-metrics-table.png. | **GitHub Issue #62**, docs/acquisition-metrics.md, docs/case-study.md, screenshots/, GitHub commits |
+| **Kinley Zam** | Prepared the channel plan template, created the Smart Campus Event Hub User Journey Flow diagram, contributed landing page content, developed the marketing message, and updated the weekly logbook. | **GitHub Issue #63**, docs/channel-plan.md, diagrams/Smart-Campus-Event-Hub-User-Journey-Flow.mmd, docs/weekly-logbook.md, GitHub commits |
