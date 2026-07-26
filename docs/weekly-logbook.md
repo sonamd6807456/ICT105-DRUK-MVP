@@ -868,6 +868,80 @@ In the next lab, the team plans to:
 - Update GitHub issues with implementation evidence.
 - Prepare the project for final MVP validation and presentation.
 
+  # Weekly Logbook - Lab 12
+
+## Group Name
+
+DRUK
+
+---
+
+## Project Title
+
+Smart Campus Event Hub
+
+---
+
+## Lab Date
+
+26 July 2026
+
+---
+
+## Work Completed Today
+
+| Member Name | Contribution | File/Commit Evidence |
+| --- | --- | --- |
+| **Tenzin Dema** | Prepared acquisition metrics documentation, landing page content, case study updates, and captured screenshot evidence. | `data/acquisition-metrics-template.csv`, `docs/acquisition-metrics.md`, `docs/landing-page-content.md`, `Case_Study_Brief_Smart_Campus_Event_Hub.md`, screenshots |
+| **Sonam Deki** | Developed the Digital Go-to-Market Plan, landing page prototype, README updates, landing page link, and landing page metrics dataset. | `docs/Digital Go-to-Market Plan.md`, `data/sample_smart-campus-event-hub_landing_metrics.csv`, `README.md`, `landing-page/index.html`, `landing-page/style.css`, `landing-page/script.js`, `landing-page-link.md` |
+| **Kinley Zam** | Prepared the marketing plan, channel strategy, landing page flow diagram, and updated the weekly logbook. | `data/channel-plan-template.csv`, `docs/marketing-message.md`, `diagrams/landing-page-to-prototype-flow.mmd`, `docs/weekly-logbook.md` |
+
+---
+
+## Landing Page Progress
+
+The team designed and implemented the Smart Campus Event Hub landing page. The landing page introduces the platform, explains its purpose, highlights key features, presents clear call-to-action buttons, and guides users from the landing page to the prototype. The landing page content, layout, and navigation were improved to provide a simple and engaging user experience.
+
+---
+
+## Go-to-Market Progress
+
+The team identified the primary target users as first-year students, exchange students, student club organizers, administrators, and campus staff. Marketing channels include class chat, campus QR posters, email, student club social media, and the university website. Marketing messages emphasize discovering campus events, registering for activities, and improving student participation through a centralized platform.
+
+---
+
+## Metrics Plan
+
+The team plans to measure:
+
+- Landing page visits
+- Call-to-action (CTA) button clicks
+- QR code scans
+- Prototype visits
+- Event registration attempts
+- Feedback form submissions
+
+These metrics will help evaluate user engagement and identify opportunities for improving the landing page and prototype.
+
+---
+
+## Problems Encountered
+
+- Maintaining consistency across project documentation after updating the prototype.
+- Aligning requirement IDs, user stories, screenshots, and implementation evidence.
+- Ensuring all project documents matched the latest Smart Campus Event Hub prototype.
+- Limited to browser localStorage instead of a production database.
+
+---
+
+## Next Action Before Lab 13
+
+- Complete final testing of the landing page and prototype.
+- Verify that all screenshots and documentation are correctly aligned.
+- Review README and repository organization.
+- Perform final usability testing and fix any remaining UI issues.
+- Prepare the project for the final Lab 13 presentation and submission.
+
 
 
 
