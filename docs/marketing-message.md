@@ -2,7 +2,7 @@
 
 ## Short One-Sentence Message
 
-Discover, register for, and manage campus events easily with the Smart Campus Event Hub.
+Smart Campus Event Hub helps first-year, international, and exchange students discover, register for, and manage campus events through one centralized platform.
 
 ---
 
@@ -10,17 +10,27 @@ Discover, register for, and manage campus events easily with the Smart Campus Ev
 
 | Channel | Message | CTA | Link/QR Placeholder |
 | --- | --- | --- | --- |
-| Class Chat | Looking for campus events? Discover, register, and stay updated with the Smart Campus Event Hub. | Try Demo | [Insert link] |
-| Email | We are testing the Smart Campus Event Hub prototype to improve how students discover and participate in campus events. We'd love your feedback. | Give Feedback | [Insert link] |
-| Poster / QR | Discover upcoming campus events. Scan the QR code to browse and register. | Scan QR | [Insert QR/link] |
-| Social Media | Never miss a campus event again! Browse, register, and track your participation with the Smart Campus Event Hub. | Test it Now | [Insert link] |
+| Class Chat | New to RSU or looking for campus activities? Discover workshops, events, and student opportunities without searching through scattered announcements. | Try Demo | [Insert link] |
+| Email | We are testing the Smart Campus Event Hub prototype to make campus event discovery easier for students. Explore upcoming events, register quickly, and share your feedback to help us improve. | Give Feedback | [Insert link] |
+| Poster / QR | Find campus events, workshops, and activities in one place. Scan the QR code to explore upcoming events and register easily. | Scan QR | [Insert QR/link] |
+| Social Media | Missing campus events because announcements are spread across different platforms? Smart Campus Event Hub helps students discover events, register, and track their participation. | Test it Now | [Insert link] |
+| Student Club / Orientation Ambassador | Help students stay connected with campus activities. Smart Campus Event Hub allows clubs to share events and helps students find opportunities to participate. | Explore Platform | [Insert link] |
 
 ---
 
 ## Message Quality Check
 
-- ✓ Is the message clear within 5 seconds?
-- ✓ Does it identify the target user?
-- ✓ Does it explain the benefit of using the platform?
-- ✓ Does it include a clear call to action?
-- ✓ Does it avoid exaggerated claims?
+- ✓ Is the message clear within 5 seconds?  
+  **Yes. The message immediately explains that the platform helps students discover and register for campus events.**
+
+- ✓ Does it identify the target user?  
+  **Yes. It targets first-year students, international students, exchange students, student clubs, and campus communities.**
+
+- ✓ Does it explain the benefit of using the platform?  
+  **Yes. It explains that the platform centralizes scattered event information and simplifies event discovery and registration.**
+
+- ✓ Does it include a clear call to action?  
+  **Yes. Each channel encourages users to try the demo, scan the QR code, explore the platform, or provide feedback.**
+
+- ✓ Does it avoid exaggerated claims?  
+  **Yes. The message only describes available prototype features such as event discovery, registration, participation tracking, and feedback collection.**
