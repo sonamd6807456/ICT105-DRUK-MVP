@@ -1,0 +1,21 @@
+Column,Table,Meaning,Data Type,Example,Prototype Source
+RecordID,PrototypeRecords,Unique event record identifier,Text,R001,Smart Campus prototype records dataset
+SubmittedDate,PrototypeRecords,Date when the campus event was submitted by the organizer,Date,2026-07-12,Smart Campus event submission workflow
+LastUpdatedDate,PrototypeRecords,Latest date when event information or status was updated,Date,2026-07-15,Smart Campus moderation and status tracking workflow
+ItemCategory,PrototypeRecords,Category of the campus event,Text,Workshop,Event category classification from prototype records
+Location,PrototypeRecords,Physical location where the event takes place,Text,ICT Auditorium,Event location information provided by organizer
+Priority,PrototypeRecords,Importance level assigned for event management and review,Text,High,Prototype operational classification
+CurrentStatus,PrototypeRecords,"Current event status such as Published, Pending, or Rejected",Text,Published,Event approval and publishing workflow
+ResolutionDays,PrototypeRecords,Number of days taken from event submission to latest status update,Whole Number,3,Calculated from SubmittedDate and LastUpdatedDate
+RequirementID,PrototypeRecords,Primary Smart Campus requirement supported by the event record,Text,FR-05,Smart Campus functional requirement mapping
+OwnerRole,PrototypeRecords,Role responsible for creating or managing the event,Text,Admin,Prototype user role management
+RecordType,PrototypeRecords,Type of prototype record stored,Text,Campus Event,Smart Campus data structure definition
+EventCategory,PrototypeRecords,Classification of event type for filtering and searching,Text,Career,Event discovery and filtering feature
+EventID,ActivityLog,Unique identifier for user activity event,Text,E037,Smart Campus activity log dataset
+RecordID,ActivityLog,Related event record connected with the user activity,Text,R013,Relationship with PrototypeRecords table
+EventDateTime,ActivityLog,Date and time when the user action occurred,Date/Time,2026-07-22 13:25,Prototype activity tracking timestamp
+UserRole,ActivityLog,Role of the user performing the action,Text,Student,Prototype authentication and user management
+ActionType,ActivityLog,Specific action performed by the user in the system,Text,RegisterEvent,Smart Campus feature interaction tracking
+DeviceType,ActivityLog,Device used to access the prototype,Text,Mobile,Responsive testing context
+ProcessingTimeMinutes,ActivityLog,Estimated time required to complete the action,Whole Number,3,Prototype usability testing observation
+RequirementID,ActivityLog,Functional requirement demonstrated by the user action,Text,FR-03,Smart Campus requirement mapping
