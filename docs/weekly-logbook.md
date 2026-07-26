@@ -788,8 +788,7 @@ In the next lab, the team plans to:
 
 **Project Title:** Smart Campus Event Hub
 
-**Selected Case:** Development of a web-based Smart Campus Event Hub that centralizes campus event discovery, event registration, favorite events, student dashboards, organizer management, and administrator management using HTML, CSS, JavaScript, and Browser LocalStorage.
-
+**Selected Case:**Development of a web-based Smart Campus Event Hub that centralizes campus event discovery, event registration, favorite events, student dashboards, organizer management, and administrator management using HTML, CSS, JavaScript, and browser LocalStorage.
 ---
 
 ## Work Completed Today
@@ -800,7 +799,7 @@ In the next lab, the team plans to:
 - Created the implementation metrics flow diagram.
 - Updated feature implementation status documentation.
 - Improved prototype styling and responsive design.
-- Updated prototype JavaScript functionality.
+- Improved prototype JavaScript functionality.
 - Prepared prototype testing notes.
 - Updated project README.
 - Created Smart Campus Event Hub sample records.
@@ -816,9 +815,9 @@ In the next lab, the team plans to:
 
 | Member Name | Contribution | File / Feature Updated | GitHub Evidence |
 |-------------|--------------|------------------------|-----------------|
-| **Sonam Deki** | Updated project styling, implementation metrics flow diagram, category status reference, weekly documentation, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype. | prototype/css/, status-category-reference.css, diagram/implementation-metrics-flow.mmd, docs/weekly-logbook.md, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #58, commits, updated documentation, prototype CSS, implementation flow diagram, Power BI updates, screenshot updates, prototype improvements |
+| **Sonam Deki** |Updated project styling, implementation metrics flow diagram, status-category reference, weekly documentation, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype.| prototype/css/status-category-reference.css, diagram/implementation-metrics-flow.mmd, docs/weekly-logbook.md, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #58, commits, updated documentation, prototype CSS, implementation flow diagram, Power BI updates, screenshot updates, prototype improvements |
 | **Tenzin Dema** | Updated feature implementation status, prototype JavaScript functionality, prototype testing notes, project README, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype. | docs/feature-implementation-status.md, docs/prototype-testing-notes.md, README.md, prototype/js/, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #59, commits, updated JavaScript files, README updates, Power BI updates, screenshot updates, prototype improvements |
-| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, updated prototype HTML pages, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype. | data/smart-campus-event-hub-sample-records.md, docs/startup-metrics.md, docs/case-study.md, prototype/html/, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #60, commits, documentation updates, prototype HTML pages, Power BI updates, screenshot updates, prototype improvements |
+| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, updated prototype HTML pages, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype. | data/smart-campus-event-hub-sample-record.md, docs/startup-metrics.md, docs/case-study.md, prototype/html/, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #60, commits, documentation updates, prototype HTML pages, Power BI updates, screenshot updates, prototype improvements |
 ---
 
 ## Requirements Addressed
@@ -834,26 +833,22 @@ In the next lab, the team plans to:
 - **FR-10** — Profile Management
 
 ---
-
-## Metrics Added
-
-- Startup Metrics
+## Startup Metrics
 - MVP Validation Metrics
-- Feature Completion Status
-- User Journey Completion
 - Event Registration Success Rate
 - Favorite Event Usage
-- Dashboard Feature Coverage
+- Dashboard Usage Metrics
+- User Journey Completion Rate
+- Feature Implementation Status
 - Prototype Testing Results
 - Implementation Metrics Flow
-
 ---
 
 ## Problems Found
 
 - Some dashboard components required additional layout adjustments for smaller screens.
 - Event search and filtering required further refinement for improved usability.
-- Browser LocalStorage data needed additional testing across different user workflows.
+- Browser LocalStorage required additional testing across different user workflows.
 - Documentation required updates to remain consistent with the latest prototype implementation.
 - Organizer and Administrator workflows required additional validation testing.
 - Responsive design required further optimization on mobile devices.
@@ -867,7 +862,7 @@ In the next lab, the team plans to:
 - Test favorite event functionality.
 - Test Student, Organizer, and Administrator Dashboards.
 - Verify Browser LocalStorage data persistence.
-- Complete startup metrics documentation.
+- Finalize startup metrics documentation.
 - Capture final prototype screenshots.
 - Review repository structure and documentation.
 - Update GitHub issues with implementation evidence.
