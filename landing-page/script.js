@@ -213,7 +213,7 @@
 
 
         observer.observe(
-            prototypeSection
+            prototypeSection 
         );
 
 
