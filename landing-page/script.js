@@ -1,40 +1,241 @@
-(() => {
-  const EVENTS_KEY = 'sceh_acquisition_events';
-  const VISITOR_KEY = 'sceh_landing_visitor_id';
+/* ==========================================
+   SMART CAMPUS EVENT HUB
+   LANDING PAGE ANALYTICS
+   ICT105 LAB 12
+========================================== */
 
-  function getVisitorId() {
-    let id = localStorage.getItem(VISITOR_KEY);
-    if (!id) {
-      id = `visitor-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
-      localStorage.setItem(VISITOR_KEY, id);
+
+(function(){
+
+    "use strict";
+
+
+
+    /*
+        LocalStorage Keys
+
+        These values can be used
+        for acquisition metrics.
+    */
+
+    const metrics = {
+
+        pageViews:
+        "smartCampusEventHub_pageViews",
+
+
+        demoClicks:
+        "smartCampusEventHub_demoClicks",
+
+
+        featureClicks:
+        "smartCampusEventHub_featureClicks",
+
+
+        prototypeViews:
+        "smartCampusEventHub_prototypeViews"
+
+    };
+
+
+
+
+
+    /*
+        Increase Counter Function
+    */
+
+    function increaseCounter(key){
+
+        let current =
+        Number.parseInt(
+            localStorage.getItem(key) || "0",
+            10
+        );
+
+
+        localStorage.setItem(
+            key,
+            String(current + 1)
+        );
+
     }
-    return id;
-  }
 
-  function recordEvent(eventType, source, details = '') {
-    const events = JSON.parse(localStorage.getItem(EVENTS_KEY) || '[]');
-    events.push({
-      timestamp: new Date().toISOString(),
-      visitorId: getVisitorId(),
-      eventType,
-      source,
-      details
+
+
+
+
+
+
+    /*
+        Track Landing Page Visit
+    */
+
+    increaseCounter(
+        metrics.pageViews
+    );
+
+
+
+
+
+
+
+
+    /*
+        Track CTA Buttons
+
+        Buttons:
+        - Try Demo
+        - Launch Prototype
+        - Open Smart Campus Event Hub
+    */
+
+
+    document
+    .querySelectorAll(".js-cta")
+    .forEach(function(button){
+
+
+        button.addEventListener(
+            "click",
+            function(){
+
+
+                increaseCounter(
+                    metrics.demoClicks
+                );
+
+
+            }
+        );
+
+
     });
-    localStorage.setItem(EVENTS_KEY, JSON.stringify(events));
-  }
 
-  recordEvent('landing_view', document.referrer ? 'referral' : 'direct', location.pathname);
 
-  document.querySelectorAll('.track-cta').forEach(link => {
-    link.addEventListener('click', () => recordEvent('cta_click', link.dataset.cta || 'unknown', link.getAttribute('href') || ''));
-  });
 
-  const interestButton = document.getElementById('interestButton');
-  const interestMessage = document.getElementById('interestMessage');
-  interestButton?.addEventListener('click', () => {
-    recordEvent('test_interest', 'landing_page', 'User recorded interest in testing the prototype');
-    interestButton.textContent = 'Interest Recorded ✓';
-    interestButton.disabled = true;
-    interestMessage.textContent = 'Thank you. Your test interest was stored in this browser.';
-  });
+
+
+
+
+
+
+
+    /*
+        Track Feature Interest
+
+        When users scroll
+        and interact with features
+    */
+
+
+    document
+    .querySelectorAll(".feature-card")
+    .forEach(function(card){
+
+
+        card.addEventListener(
+            "click",
+            function(){
+
+
+                increaseCounter(
+                    metrics.featureClicks
+                );
+
+
+            }
+        );
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+    /*
+        Track Prototype Section View
+
+        Detect when prototype
+        screenshots appear
+    */
+
+
+    const prototypeSection =
+    document.querySelector("#prototype");
+
+
+
+    if(prototypeSection){
+
+
+        const observer =
+        new IntersectionObserver(
+            function(entries){
+
+
+                entries.forEach(
+                    function(entry){
+
+
+                        if(entry.isIntersecting){
+
+
+                            increaseCounter(
+                                metrics.prototypeViews
+                            );
+
+
+                            observer.disconnect();
+
+
+                        }
+
+
+                    }
+                );
+
+
+            },
+            {
+                threshold:0.5
+            }
+        );
+
+
+
+        observer.observe(
+            prototypeSection
+        );
+
+
+    }
+
+
+
+
+
+
+
+
+    /*
+        Console Information
+        For Testing
+    */
+
+
+    console.log(
+        "Smart Campus Event Hub Landing Page Analytics Loaded"
+    );
+
+
+
 })();
