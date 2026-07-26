@@ -8,70 +8,131 @@
     "use strict";
 
     /* ==========================================
-       LOCAL STORAGE KEYS
+       LOCAL STORAGE METRICS
     ========================================== */
 
-    const metrics = {
+    const METRICS = {
 
-        homepageViews: "scehHomepageViews",
-
-        primaryCtaClicks: "scehPrimaryCtaClicks",
-
-        secondaryCtaClicks: "scehSecondaryCtaClicks"
+        homepageViews: "sceh_homepage_views",
+        exploreClicks: "sceh_explore_events_clicks",
+        signupClicks: "sceh_signup_clicks",
+        viewAllClicks: "sceh_viewall_clicks"
 
     };
 
 
     /* ==========================================
-       UPDATE METRIC
+       INCREASE METRIC
     ========================================== */
 
-    function updateMetric(key) {
+    function increaseMetric(key) {
 
-        const currentValue =
+        const current =
             parseInt(localStorage.getItem(key) || "0", 10);
 
-        localStorage.setItem(
-            key,
-            currentValue + 1
-        );
+        localStorage.setItem(key, current + 1);
 
     }
 
 
     /* ==========================================
-       COUNT PAGE VIEW
+       PAGE VIEW
     ========================================== */
 
-    updateMetric(metrics.homepageViews);
+    increaseMetric(METRICS.homepageViews);
 
 
     /* ==========================================
-       PRIMARY CTA BUTTONS
+       WAIT FOR PAGE
     ========================================== */
 
-    document.querySelectorAll(".js-cta").forEach((button) => {
+    document.addEventListener("DOMContentLoaded", () => {
 
-        button.addEventListener("click", () => {
+        /* ------------------------------
+           Explore Events Button
+        ------------------------------ */
 
-            updateMetric(metrics.primaryCtaClicks);
+        const exploreBtn =
+            document.querySelector('a[href="events.html"].btn-primary');
+
+        if (exploreBtn) {
+
+            exploreBtn.addEventListener("click", () => {
+
+                increaseMetric(METRICS.exploreClicks);
+
+            });
+
+        }
+
+
+        /* ------------------------------
+           Create Student Account
+        ------------------------------ */
+
+        const signupBtn =
+            document.querySelector('a[href="signup.html"]');
+
+        if (signupBtn) {
+
+            signupBtn.addEventListener("click", () => {
+
+                increaseMetric(METRICS.signupClicks);
+
+            });
+
+        }
+
+
+        /* ------------------------------
+           View All Events
+        ------------------------------ */
+
+        const buttons =
+            document.querySelectorAll('a[href="events.html"].btn-secondary');
+
+        buttons.forEach(button => {
+
+            button.addEventListener("click", () => {
+
+                increaseMetric(METRICS.viewAllClicks);
+
+            });
 
         });
 
-    });
 
+        /* ------------------------------
+           Homepage Statistics
+        ------------------------------ */
 
-    /* ==========================================
-       SECONDARY CTA BUTTONS
-    ========================================== */
+        if (typeof getData === "function") {
 
-    document.querySelectorAll(".js-secondary-cta").forEach((button) => {
+            const events = getData("sceh_events");
+            const registrations = getData("sceh_registrations");
+            const users = getData("sceh_users");
 
-        button.addEventListener("click", () => {
+            const eventCount =
+                document.getElementById("eventCount");
 
-            updateMetric(metrics.secondaryCtaClicks);
+            const registrationCount =
+                document.getElementById("registrationCount");
 
-        });
+            const studentCount =
+                document.getElementById("studentCount");
+
+            if (eventCount)
+                eventCount.textContent = events.length;
+
+            if (registrationCount)
+                registrationCount.textContent =
+                    registrations.length;
+
+            if (studentCount)
+                studentCount.textContent =
+                    users.filter(user => user.role === "student").length;
+
+        }
 
     });
 
