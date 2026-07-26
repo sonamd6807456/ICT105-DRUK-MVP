@@ -3,7 +3,7 @@ M-01,Homepage Visits,Number of users who open the Smart Campus Event Hub homepag
 M-02,Event Views,Number of users who browse the Events page,86,"Page visit counter or LocalStorage tracking"
 M-03,Event Registrations,Number of successful event registrations completed,72,"Registration records stored in LocalStorage"
 M-04,Favorite Events Saved,Number of events added to Favorites,54,"Favorite button counter using LocalStorage"
-M-05,Search & Filter Usage,Number of users who use the search or filter feature,63,"Search/filter interaction counter"
+M-05,Search and Filter Usage,Number of users who use the search or filter feature,63,"Search/filter interaction counter"
 M-06,Dashboard Visits,Number of users who access the Student Dashboard,58,"Dashboard page visit counter"
 M-07,Organizer Event Management,Number of event creation or update actions performed by organizers,22,"Organizer dashboard activity records"
 M-08,Admin Management Actions,Number of administrator approval, edit, or delete actions,17,"Admin dashboard activity records"
