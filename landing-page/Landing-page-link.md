@@ -1,14 +1,11 @@
 # Landing Page Link
 
-Use this file if your group builds the landing page using Figma, Canva, Google Sites, Notion, Webflow, Wix, AppSheet, Glide, or another no-code/low-code platform.
------
-
 ## Landing Page URL
 https://sonamd6807456.github.io/ICT105-DRUK-MVP/
 -----
 
 ## Prototype Demo URL
-https://sonamd6807456.github.io/ICT105-DRUK-MVP/
+https://sonamd6807456.github.io/ICT105-DRUK-MVP/prototype/login.html
 -----
 
 ## CTA Used
