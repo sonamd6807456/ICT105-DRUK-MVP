@@ -1,1 +1,6 @@
-
+channel,target_user,message_angle,cta,metric,responsible_note
+Class chat,Students,Discover campus events in one place and never miss important activities,Try Demo,CTA clicks,Do not collect unnecessary personal information
+Campus QR poster,Students on campus,Scan to browse and register for upcoming campus events,Scan QR,QR scans/page views,Display only public event information
+Email,Potential testers,Request feedback on the Smart Campus Event Hub prototype,Give Feedback,Feedback responses,Explain how prototype data is collected and used
+Student Club Social Media,Student club organizers,Promote events through one centralized platform,Submit Event,Event submissions,Only authorized organizers can manage events
+University Website,Students and Staff,Access official campus event information from one location,Explore Events,Page visits,Keep event information accurate and up to date
