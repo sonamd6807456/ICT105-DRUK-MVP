@@ -1,25 +1,48 @@
 # Case Study Brief: Smart Campus Event Hub
 
-## Practice Case Context
+## Case Context
 
-Students often miss campus events because announcements are scattered across multiple platforms such as social media, messaging applications, emails, and printed posters. As a result, students may miss important workshops, seminars, competitions, club activities, and volunteer opportunities. Event organizers also find it difficult to manage registrations, communicate updates, and monitor participation using separate tools.
+Students often miss campus events because event announcements are distributed across multiple platforms such as social media, messaging applications, university emails, and printed posters.
 
-## Sprint 2 Goal
+Because information is scattered, students may not discover important workshops, seminars, competitions, student club activities, volunteer opportunities, and university events in time. This problem is especially challenging for first-year students, international students, and exchange students who are still adapting to campus life.
 
-In Lab 11, the goal is to improve the working Smart Campus Event Hub prototype developed in Lab 10 by strengthening data handling, improving event management features, implementing product metrics, and enhancing the user experience.
+Event organizers and campus administrators also experience difficulties managing event information, updating announcements, tracking registrations, and monitoring student participation when using multiple separate tools.
 
-## Required Functions
+## Proposed Prototype
 
-- Display a list of campus events.
-- Allow students to search and filter events by category, date, or status.
-- Display detailed event information.
-- Allow students to register for events.
-- Allow students to view registered and completed events in the Student Dashboard.
-- Allow students to submit ratings and reviews after attending events.
-- Allow administrators to create, edit, and delete events.
-- Allow administrators to manage student reviews.
-- Display dashboard metrics such as Total Events, Upcoming Events, Total Registrations, Most Popular Event Category, Most Registered Event, Total Reviews Submitted, and Average Event Rating.
+A Smart Campus Event Hub that provides a centralized platform for students, organizers, and administrators to manage campus activities.
+
+The system allows students to:
+
+- discover upcoming campus events;
+- search and filter events by category, date, or status;
+- view complete event details;
+- register for events;
+- save favorite events;
+- view registered and completed events through the Student Dashboard;
+- submit ratings and reviews after attending events.
+
+The system also allows organizers and administrators to:
+
+- create new campus events;
+- edit and update event information;
+- manage event registrations;
+- review student feedback;
+- monitor event performance through dashboard metrics.
+
+## Lab 12 Practice Focus
+
+For the practice case, create a landing page that explains the Smart Campus Event Hub, targets university students and campus communities, and encourages users to explore the prototype, register for events, or participate in user testing.
+
+The landing page should communicate:
+
+- the problem of scattered campus event information;
+- how Smart Campus Event Hub provides a centralized solution;
+- key features such as event discovery, registration, favorites, reviews, and dashboards;
+- benefits for students, organizers, and administrators.
 
 ## Reminder
 
-This project applies the Lab 11 Sprint 2 process to the Smart Campus Event Hub. The prototype demonstrates improved data handling, event registration, review management, dashboard analytics, and product metrics using browser LocalStorage as the simulated data source.
+This practice case demonstrates the Lab 12 landing page process using the Smart Campus Event Hub project.
+
+The graded Lab 12 submission should be based on the group's own Smart Campus Event Hub case, updated with the latest prototype features, validation evidence from Lab 08, and uploaded to the same group GitHub repository/page.
