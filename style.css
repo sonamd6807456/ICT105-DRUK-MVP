@@ -1,0 +1,1164 @@
+/* ==========================================
+   SMART CAMPUS EVENT HUB
+   LANDING PAGE STYLE
+========================================== */
+
+
+:root{
+
+    --navy:#003B8E;
+    --blue:#0056D2;
+    --sky:#4DA3FF;
+    --gold:#FFD54F;
+
+    --dark:#14213D;
+    --muted:#5F6B80;
+
+    --paper:#F5F7FB;
+    --white:#FFFFFF;
+
+    --line:#DDE5F0;
+
+    --green:#0F9F6E;
+
+}
+
+
+
+
+
+*{
+
+    box-sizing:border-box;
+
+}
+
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+
+body{
+
+    margin:0;
+
+    min-width:320px;
+
+    font-family:
+    "Poppins",
+    Arial,
+    sans-serif;
+
+    color:var(--dark);
+
+    background:white;
+
+    line-height:1.6;
+
+}
+
+
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+
+
+.wrap{
+
+    width:min(1160px,90%);
+
+    margin:auto;
+
+}
+
+
+
+
+.skip-link{
+
+    position:fixed;
+
+    top:-80px;
+
+    left:20px;
+
+    background:white;
+
+    color:var(--navy);
+
+    padding:12px 20px;
+
+    z-index:99;
+
+}
+
+
+
+.skip-link:focus{
+
+    top:20px;
+
+}
+
+
+
+
+
+/* ==========================================
+        HEADER
+========================================== */
+
+
+.site-header{
+
+
+    position:sticky;
+
+    top:0;
+
+    z-index:50;
+
+    background:
+    rgba(0,59,142,.95);
+
+    backdrop-filter:blur(12px);
+
+    color:white;
+
+    border-bottom:
+    1px solid rgba(255,255,255,.15);
+
+}
+
+
+
+
+
+.nav{
+
+    min-height:75px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+
+
+
+
+.brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:white;
+
+    font-size:1.2rem;
+
+    font-weight:700;
+
+}
+
+
+
+
+
+.brand-mark{
+
+    width:40px;
+
+    height:40px;
+
+    display:grid;
+
+    place-items:center;
+
+    font-size:1.5rem;
+
+}
+
+
+
+
+
+.nav-links{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+
+
+
+
+.nav-links a:not(.button){
+
+    color:#E5F0FF;
+
+    font-weight:600;
+
+    font-size:.9rem;
+
+}
+
+
+
+
+
+.nav-links a:hover{
+
+    color:white;
+
+}
+
+
+
+
+
+/* ==========================================
+        BUTTONS
+========================================== */
+
+
+.button{
+
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:14px 28px;
+
+    border-radius:30px;
+
+    background:var(--sky);
+
+    color:white;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+
+
+
+
+.button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 12px 30px rgba(0,0,0,.2);
+
+}
+
+
+
+
+
+.button-small{
+
+    padding:10px 20px;
+
+    background:var(--gold);
+
+    color:var(--navy);
+
+}
+
+
+
+
+
+/* ==========================================
+        HERO
+========================================== */
+
+
+.hero{
+
+    color:white;
+
+    overflow:hidden;
+
+    background:
+
+    radial-gradient(
+    circle at 80% 20%,
+    rgba(77,163,255,.35),
+    transparent 300px
+    ),
+
+    linear-gradient(
+    135deg,
+    #003B8E,
+    #0056D2
+    );
+
+
+}
+
+
+
+
+
+.hero-grid{
+
+    min-height:680px;
+
+    display:grid;
+
+    grid-template-columns:
+    1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+
+
+
+
+.eyebrow{
+
+    color:#B9DCFF;
+
+    text-transform:uppercase;
+
+    letter-spacing:.12em;
+
+    font-size:.8rem;
+
+    font-weight:800;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+.eyebrow.dark{
+
+    color:var(--blue);
+
+}
+
+
+
+
+
+h1{
+
+    font-size:
+    clamp(3rem,6vw,5.3rem);
+
+    line-height:1;
+
+    letter-spacing:-.05em;
+
+    margin-bottom:25px;
+
+}
+
+
+
+
+
+h1 span{
+
+    display:block;
+
+    color:var(--gold);
+
+}
+
+
+
+
+
+.hero-lead{
+
+    max-width:620px;
+
+    color:#E3EEFF;
+
+    font-size:1.15rem;
+
+}
+
+
+
+
+
+.actions{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+    margin-top:35px;
+
+}
+
+
+
+
+
+.text-link{
+
+    color:white;
+
+    font-weight:700;
+
+    text-decoration:underline;
+
+}
+/* ==========================================
+        HERO EVENT PREVIEW
+========================================== */
+
+
+.product-preview{
+
+    position:relative;
+
+    padding:25px;
+
+    background:white;
+
+    color:var(--dark);
+
+    border-radius:25px;
+
+    box-shadow:
+    0 35px 80px rgba(0,0,0,.25);
+
+    transform:rotate(1deg);
+
+}
+
+
+
+.product-preview::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:-15px 20px 15px -15px;
+
+    border-radius:25px;
+
+    background:
+    rgba(255,255,255,.15);
+
+    z-index:-1;
+
+}
+
+
+
+.preview-top{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:20px;
+
+    font-weight:700;
+
+}
+
+
+
+.preview-logo{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:12px;
+
+    display:grid;
+
+    place-items:center;
+
+    background:#E5F0FF;
+
+    color:var(--blue);
+
+}
+
+
+
+.preview-pill{
+
+    margin-left:auto;
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+    background:#FFF3C4;
+
+    color:#806000;
+
+    font-size:.7rem;
+
+    font-weight:700;
+
+}
+
+
+
+.preview-search{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:12px;
+
+    border:1px solid var(--line);
+
+    border-radius:12px;
+
+    color:#788397;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.preview-card{
+
+    display:grid;
+
+    grid-template-columns:auto 1fr auto;
+
+    gap:15px;
+
+    align-items:center;
+
+    padding:15px;
+
+    margin-bottom:15px;
+
+    border-radius:15px;
+
+    border:1px solid var(--line);
+
+    background:white;
+
+}
+
+
+
+.preview-icon{
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:15px;
+
+    display:grid;
+
+    place-items:center;
+
+    background:#E8F2FF;
+
+    color:var(--blue);
+
+    font-size:1.3rem;
+
+}
+
+
+
+.preview-card small{
+
+    display:block;
+
+    color:var(--muted);
+
+}
+
+
+
+.preview-card b{
+
+    color:var(--blue);
+
+    font-size:.8rem;
+
+}
+
+
+
+.preview-guide{
+
+    padding:20px;
+
+    border-radius:18px;
+
+    color:white;
+
+    background:
+    linear-gradient(
+    120deg,
+    var(--blue),
+    var(--sky)
+    );
+
+}
+
+
+
+.preview-guide span{
+
+    font-size:.7rem;
+
+    letter-spacing:.1em;
+
+}
+
+
+
+.preview-guide strong{
+
+    display:block;
+
+    margin-top:8px;
+
+}
+
+
+
+.guide-dots{
+
+    display:flex;
+
+    gap:8px;
+
+    margin-top:15px;
+
+}
+
+
+
+.guide-dots i{
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:var(--gold);
+
+}
+
+
+
+
+
+
+
+/* ==========================================
+        GENERAL SECTIONS
+========================================== */
+
+
+.section{
+
+    padding:90px 0;
+
+}
+
+
+
+h2{
+
+    font-size:
+    clamp(2.2rem,4vw,3.8rem);
+
+    line-height:1.1;
+
+    letter-spacing:-.04em;
+
+    margin-bottom:30px;
+
+}
+
+
+
+
+
+
+
+/* ==========================================
+        PROBLEM
+========================================== */
+
+
+.problem-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    1fr 1fr;
+
+    gap:70px;
+
+}
+
+
+
+.problem-copy{
+
+    border-left:
+
+    4px solid var(--gold);
+
+    padding-left:30px;
+
+    color:var(--muted);
+
+    font-size:1.05rem;
+
+}
+
+
+
+
+
+/* ==========================================
+        SOLUTION
+========================================== */
+
+
+.solution{
+
+    background:var(--paper);
+
+}
+
+
+
+.solution p:last-child{
+
+    max-width:800px;
+
+    color:var(--muted);
+
+    font-size:1.1rem;
+
+}
+
+
+
+
+
+
+
+/* ==========================================
+        FEATURES
+========================================== */
+
+
+.features-section{
+
+    background:white;
+
+}
+
+
+
+.section-heading{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:end;
+
+    gap:40px;
+
+    margin-bottom:50px;
+
+}
+
+
+
+.section-heading p{
+
+    max-width:350px;
+
+    color:var(--muted);
+
+}
+
+
+
+
+
+.feature-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.feature-card{
+
+    position:relative;
+
+    padding:30px;
+
+    min-height:260px;
+
+    background:white;
+
+    border:
+
+    1px solid var(--line);
+
+    border-radius:20px;
+
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,.05);
+
+    transition:.3s;
+
+}
+
+
+
+.feature-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+
+    0 20px 40px rgba(0,0,0,.1);
+
+}
+
+
+
+.feature-number{
+
+    position:absolute;
+
+    top:20px;
+
+    right:25px;
+
+    color:#B9C5D6;
+
+    font-weight:800;
+
+}
+
+
+
+.feature-icon{
+
+    width:55px;
+
+    height:55px;
+
+    display:grid;
+
+    place-items:center;
+
+    border-radius:15px;
+
+    font-size:1.4rem;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.feature-icon.blue{
+
+    background:#E5F0FF;
+
+    color:var(--blue);
+
+}
+
+
+
+.feature-icon.gold{
+
+    background:#FFF3C4;
+
+    color:#9A7600;
+
+}
+
+
+
+.feature-icon.green{
+
+    background:#DDF8EC;
+
+    color:var(--green);
+
+}
+
+
+
+.feature-icon.violet{
+
+    background:#EEE6FF;
+
+    color:#6941C6;
+
+}
+
+
+
+.feature-card p{
+
+    color:var(--muted);
+
+}
+
+
+
+
+
+
+
+/* ==========================================
+        PROTOTYPE SHOWCASE
+========================================== */
+
+
+.prototype-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:20px;
+
+    margin-top:40px;
+
+}
+
+
+
+.prototype-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    border:1px solid var(--line);
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.08);
+
+}
+
+
+
+.prototype-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+
+
+.prototype-card h3{
+
+    padding:15px;
+
+    margin:0;
+
+    font-size:1rem;
+
+    color:var(--navy);
+
+}
+/* ==========================================
+        PRIVACY SECTION
+========================================== */
+
+
+.privacy-section{
+
+    padding:80px 0;
+
+    background:var(--navy);
+
+    color:white;
+
+}
+
+
+
+.privacy-grid{
+
+    display:grid;
+
+    grid-template-columns:auto 1fr;
+
+    gap:35px;
+
+    align-items:center;
+
+}
+
+
+
+.privacy-mark{
+
+    width:75px;
+
+    height:75px;
+
+    display:grid;
+
+    place-items:center;
+
+    border-radius:20px;
+
+    background:
+    rgba(77,163,255,.25);
+
+    color:#6DE3B8;
+
+    font-size:2rem;
+
+    font-weight:800;
+
+}
+
+
+
+.privacy-grid h2{
+
+    margin-bottom:15px;
+
+}
+
+
+
+.privacy-grid p:last-child{
+
+    max-width:750px;
+
+    color:#C8D7ED;
+
+}
+
+
+
+
+
+
+
+
+/* ==========================================
+        FINAL CTA
+========================================== */
+
+
+.final-cta{
+
+    padding:90px 0;
+
+    background:
+
+    linear-gradient(
+    120deg,
+    var(--blue),
+    #1872D8
+    );
+
+    color:white;
+
+}
+
+
+
+.final-inner{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:40p
