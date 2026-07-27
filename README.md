@@ -677,7 +677,7 @@ The Smart Campus Event Hub landing page includes:
 
 - **Landing page folder/link:** https://sonamd6807456.github.io/ICT105-DRUK-MVP/
 - **Main CTA:** Explore Events
-- **Prototype/Demo Link:** `/prototype/index.html`
+- **Prototype/Demo Link:** https://sonamd6807456.github.io/ICT105-DRUK-MVP/prototype
 
 ---
 
@@ -737,7 +737,7 @@ The metrics are tracked using JavaScript click tracking, prototype navigation lo
 
 - Landing page screenshot: `/screenshots/landing-page.png`
 - CTA screenshot: `/screenshots/call-to-action.png`
-- Prototype demo screenshot: `/screenshots/prototype-link-or-demo-screen.png`
+- Prototype demo screenshot: `/screenshots/demo-screen.png`
 - Acquisition metrics table: `/screenshots/acquisition-metrics-table.png`
 
 ---
