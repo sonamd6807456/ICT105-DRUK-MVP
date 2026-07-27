@@ -2,42 +2,93 @@
 
 ## Minimum Final Prototype Functionalities
 
-These requirements define the minimum prototype functionalities for the Smart Campus Event Hub system. The prototype should support event discovery, registration, participation tracking, and campus engagement features. It is platform-independent and can be implemented using web, mobile, dashboard, or low-code tools.
+These requirements define the minimum functional requirements for the Smart Campus Event Hub prototype. The system enables students to discover campus events, register for activities, manage participation, submit event reviews after completion, and allows administrators to manage campus events. The prototype is implemented as a responsive web application using HTML, CSS, JavaScript, and browser localStorage for simulated data storage.
 
 | Req ID | Minimum Prototype Functionality | What Students Must Show in Final Prototype |
 | --- | --- | --- |
-| **FR-01** | **Smart Campus Event Hub Homepage** |The prototype must clearly show the system name, purpose (campus event discovery and participation), target users (students, staff), and main navigation (Events, Register, Dashboard, Profile).|
-| **FR-02** | **Event Discovery User Flow** | The system must show a complete user journey: Open Event Hub → Browse Events → View Event Details → Register → Receive Confirmation → Track Participation. |
-| **FR-03** | **Event Creation / Submission** | Users (admin or organizers) must be able to create or submit events including title, description, date, time, location, category, and capacity. |
-| **FR-04** | **Event Data Storage & Management** | All events and registrations must be stored using a database, spreadsheet, Firebase, or equivalent system and be retrievable in the interface. |
-| **FR-05** | **Event Listing Page** | Users must be able to view all available campus events such as seminars, workshops, clubs, sports, and academic activities in a structured list or card layout. |
-| **FR-06** | **Search and Filter Functionality** |Users must be able to search events by keyword and filter by category (academic, sports, cultural), date, location, or availability. |
-| **FR-07** | **Event Detail View** |Each event must have a detailed page showing full information including description, schedule, venue map/location, organizer, and available seats. |
-| **FR-08** | **Registration & Attendance Status Tracking** |The system must show event status such as Upcoming, Open for Registration, Full, Registered, Attended, or Completed.|
-| **FR-09** | **Admin Event Management** | Admins must be able to approve, edit, update, cancel, or delete events and manage registrations. |
-| **FR-10** | **Input Validation** | The system must validate user inputs such as required fields, valid email/student ID, date constraints, and capacity limits.|
-| **FR-11** | **Confirmation & Feedback Messages** |Users must receive system feedback such as “Registration Successful”, “Event Created”, or “Event Full”.|
-| **FR-12** | **Dashboard and Analytics** | The prototype must include a dashboard showing total events, upcoming events, registered users, popular categories, and attendance summary. |
-| **FR-13** | **Consistent UI Design** | All screens must maintain consistent layout, navigation, color theme, typography, and button styles across the system.|
-| **FR-14** | **Responsive Design** |The system must function properly on both mobile and desktop devices.|
-| **FR-15** | **User Profile & Participation History** |Users must have a profile page showing registered events, attended events, and participation history. |
-| **FR-16** | **Privacy & Data Responsibility** |The system must collect only necessary user data and display a basic privacy notice for event registration.|
-| **FR-17** | **Prototype Traceability** |Every feature must clearly connect to user needs such as student engagement, event awareness, and participation improvement.|
+| **FR-01** | **Homepage** | The homepage must display the Smart Campus Event Hub title, project purpose, navigation menu, featured events, and quick access to major pages. |
+| **FR-02** | **User Login** | Users must be able to log into the system using a simulated student email and password with basic input validation. |
+| **FR-03** | **User Registration (Sign Up)** | New users must be able to create an account by entering required information such as name, student ID, email, and password. |
+| **FR-04** | **Browse Events** | Users must be able to browse all available campus events displayed in a structured card or list layout. |
+| **FR-05** | **Search and Filter Events** | Users must be able to search events by keyword and filter events by category. |
+| **FR-06** | **Event Details** | Users must be able to view complete information for an event including description, organizer, date, time, venue, category, capacity, available seats, and registration status. |
+| **FR-07** | **Event Registration** | Users must be able to register for available events and receive confirmation after successful registration. |
+| **FR-08** | **My Events Dashboard** | Registered users must be able to view their registered events, completed events, and participation status. |
+| **FR-09** | **Admin Event Management** | Administrators must be able to create, edit, update, approve, cancel, and delete event records. |
+| **FR-10** | **Input Validation** | The system must validate required fields, email format, student ID format, password confirmation, and event registration inputs before submission. |
+| **FR-11** | **Confirmation and Feedback Messages** | The system must display confirmation and error messages for login, registration, event registration, event creation, updates, deletion, and invalid form submissions. |
+| **FR-12** | **Event Data Storage** | Event information, user accounts, registrations, and reviews must be stored using browser localStorage to simulate persistent data during prototype execution. |
+| **FR-13** | **About and Contact Pages** | The prototype must include About and Contact pages providing information about the platform and contact details for support. |
+| **FR-14** | **Responsive User Interface** | The prototype must function correctly on desktop, tablet, and mobile devices using responsive layouts. |
+| **FR-15** | **Event Review & Feedback** | Users who have attended a completed event must be able to submit a rating and written review. Reviews are only available after the event status changes to **Completed**. |
+| **FR-16** | **Consistent User Interface Design** | All pages must maintain consistent colors, typography, navigation, spacing, icons, and button styles throughout the system. |
+| **FR-17** | **Privacy and Responsible Data Collection** | The prototype must collect only necessary user information, simulate secure handling of user data, and provide a basic privacy notice where appropriate. |
+| **FR-18** | **Prototype Traceability** | Every implemented feature must directly support the project's objective of improving campus event awareness, participation, and student engagement. |
 
 ---
 
-## Minimum Technical Requirement
-The Smart Campus Event Hub must be an interactive prototype, not just a static design. Users must be able to click, register, search, filter, and simulate real event participation workflows.
+# Minimum Technical Requirements
 
-Acceptable platforms may include:
+The Smart Campus Event Hub must be an interactive web prototype rather than a static design. Users should be able to navigate between pages, create accounts, log in, browse events, search events, view event details, register for events, manage registrations, submit reviews after completed events, and interact with simulated data.
 
-| Platform Type | Acceptable Prototype Form |
+## Technology Stack
+
+| Component | Technology |
 | --- | --- |
-| Web app |HTML/CSS/JavaScript, React, PHP/MySQL, Laravel, etc. |
-| Mobile app prototype | Figma clickable prototype, Flutter, React Native, MIT App Inventor, or similar |
-| Dashboard system | Power BI, Tableau, Google Looker Studio, Excel dashboard, or web dashboard |
-| Low-code/no-code system | Google Forms + Sheets, Airtable, Notion, Glide, AppSheet, Bubble, or similar |
-| Data-driven prototype |Database/spreadsheet system with real filtering, registration, and dashboards |
-| UI/UX prototype | Figma clickable prototype with full event flow and interaction skills |
+| Frontend | HTML5 |
+| Styling | CSS3 |
+| Programming Language | JavaScript (ES6) |
+| Data Storage | Browser localStorage |
+| Responsive Design | CSS Media Queries |
+| Prototype Type | Interactive Web Prototype |
 
+---
 
+## Prototype Pages
+
+The final prototype must include the following pages:
+
+| Page | Purpose |
+| --- | --- |
+| Homepage | Landing page and navigation |
+| Login | User authentication |
+| Sign Up | User account registration |
+| Events | Browse all campus events |
+| Event Details | View detailed event information |
+| My Events | View registered events, completed events, and submit reviews |
+| Admin Dashboard | Manage campus events |
+| About | Platform information |
+| Contact | Contact information |
+
+---
+
+## Simulated Data
+
+The prototype uses browser localStorage to simulate:
+
+- User accounts
+- Event records
+- Event registrations
+- Event reviews
+- Administrator-managed event data
+
+---
+
+## Supported User Roles
+
+| User Role | Permissions |
+| --- | --- |
+| Student | Register for events, browse events, search events, manage personal registrations, and submit reviews after completed events |
+| Administrator | Create, edit, update, approve, cancel, and delete campus events |
+
+---
+
+## Non-Functional Requirements
+
+| Requirement | Description |
+| --- | --- |
+| Usability | Simple and intuitive interface for first-year and international students |
+| Performance | Pages should load quickly and interactions should respond immediately |
+| Responsiveness | Compatible with desktop, tablet, and mobile devices |
+| Reliability | Simulated data should remain available while stored in browser localStorage |
+| Maintainability | Modular HTML, CSS, and JavaScript files for easier future development |
