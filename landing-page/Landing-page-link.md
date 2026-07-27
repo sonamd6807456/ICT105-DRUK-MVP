@@ -1,11 +1,11 @@
 # Landing Page Link
 
 ## Landing Page URL
-https://sonamd6807456.github.io/ICT105-DRUK-MVP/
+https://sonamd6807456.github.io/ICT105-DRUK-MVP/landing-page
 -----
 
 ## Prototype Demo URL
-https://sonamd6807456.github.io/ICT105-DRUK-MVP/prototype/login.html
+https://sonamd6807456.github.io/ICT105-DRUK-MVP/prototype
 -----
 
 ## CTA Used
