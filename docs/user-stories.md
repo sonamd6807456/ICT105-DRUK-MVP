@@ -2,21 +2,36 @@
 
 ## User Story Format
 
-As a [user role], I want to [goal/action], so that [benefit/value].
+**As a [user role], I want to [goal/action], so that [benefit/value].**
 
-## User Stories
+---
+
+# User Stories
 
 | Story ID | Role | User Story | Related Requirement | Priority | Acceptance Criteria | Demo Evidence |
 |---|---|---|---|---|---|---|
-| US-01 | Year 1 Student | As a Year 1 student, I want to view all campus events in one place, so that I can easily stay informed about upcoming activities. | FR-05 | Must | Given the Event Listing page is opened, when the page loads, then all available events are displayed with their title, date, and location. | Homepage screenshot |
-| US-02 | Exchange Student | As an exchange student, I want to view complete event details, so that I can understand the schedule, location, and requirements before joining. | FR-07 | Must | Given an event card is selected, when the Event Details page opens, then the title, description, date, time, location, organizer, and available seats are displayed. | Event details screenshot |
-| US-03 | Year 2 Student | As a Year 2 student, I want to search for events using keywords, so that I can quickly find activities that interest me. | FR-06 | Must | Given a keyword is entered into the search bar, when the search is submitted, then matching events are displayed. | Search result screenshot |
-| US-04 | Exchange Student | As an exchange student, I want to filter events by category, so that I can quickly discover activities that match my interests. | FR-06 | Should | Given a category is selected, when the filter is applied, then only matching events are displayed. | Filter screenshot |
-| US-05 | Student Club Organizer | As a student club organizer, I want to submit new event information, so that students can easily discover upcoming activities. | FR-03 | Should | Given the organizer completes the event submission form, when the form is submitted successfully, then the event appears in the event listing. | Event submission demo |
-| US-06 | Student | As a student, I want to view a dashboard summary of upcoming events, so that I can quickly see important campus activities. | FR-12 | Could | Given the dashboard page is opened, when it loads, then upcoming events and summary statistics are displayed. | Dashboard screenshot |
+| US-01 | Year 1 Student | As a Year 1 student, I want to access the Smart Campus Event Hub homepage, so that I can quickly navigate to important features. | FR-01 | Must | Homepage displays the system title, navigation menu, featured events, and quick access buttons. | `homepage.png` |
+| US-02 | Exchange Student | As an exchange student, I want to log into my account, so that I can access my personalized dashboard and event information. | FR-02 | Must | Users can successfully log in using valid credentials and are redirected to the dashboard. | `login.png` |
+| US-03 | New Student | As a new student, I want to create an account, so that I can access all platform features. | FR-03 | Must | Registration form validates required fields and successfully creates a new account. | `signup.png` |
+| US-04 | Year 1 Student | As a Year 1 student, I want to browse all campus events, so that I can discover activities I want to join. | FR-04 | Must | Events are displayed as organized event cards with images and summaries. | `events.png` |
+| US-05 | Exchange Student | As an exchange student, I want to search and filter events, so that I can quickly find events that match my interests. | FR-05 | Must | Search keywords and category filters display matching events instantly. | `search-filter.png` |
+| US-06 | Year 2 Student | As a Year 2 student, I want to view complete event details, so that I can decide whether to participate. | FR-06 | Must | Event details display the organizer, venue, schedule, capacity, available seats, and registration status. | `event-details.png` |
+| US-07 | Year 1 Student | As a Year 1 student, I want to register for campus events, so that I can participate in activities. | FR-07 | Must | Registration is completed successfully and a confirmation message is displayed. | `event-registration.png` |
+| US-08 | Year 2 Student | As a Year 2 student, I want to view my registered and completed events, so that I can track my participation history. | FR-08 | Must | Dashboard displays registered events, completed events, and participation status. | `dashboard.png` |
+| US-09 | Student Club Organizer | As a student club organizer, I want to create, edit, update, and manage my club's events, so that students receive accurate event information. | FR-09 | Must | Organizer can successfully manage event records. | `admin-dashboard.png` |
+| US-10 | Administrator | As an administrator, I want the system to validate event information before saving it, so that incomplete or incorrect data cannot be submitted. | FR-10 | Must | Invalid or incomplete input displays validation messages before submission. | `input-validation.png` |
+| US-11 | Exchange Student | As an exchange student, I want confirmation messages after completing actions, so that I know whether my request was successful. | FR-11 | Must | Success and error messages are displayed after login, registration, and event actions. | `confirmation-message.png` |
+| US-12 | Administrator | As an administrator, I want event information and registrations to be stored, so that users can retrieve updated information later. | FR-12 | Must | Event records and registrations remain available using browser localStorage after refreshing the page. | localStorage demonstration |
+| US-13 | Campus Staff | As a campus staff member, I want to access the About and Contact pages, so that I can learn about the platform and contact the development team if needed. | FR-13 | Should | About and Contact pages display complete information correctly. | `about.png`, `contact.png` |
+| US-14 | Exchange Student | As an exchange student, I want the website to work on my phone, tablet, and laptop, so that I can access it anywhere. | FR-14 | Must | The website automatically adjusts to different screen sizes. | `responsive-mobile-view.png` |
+| US-15 | Year 2 Student | As a Year 2 student, I want to submit a rating and review after attending a completed event, so that I can share my experience and help improve future events. | FR-15 | Should | Review form becomes available only after the event status is marked as Completed. | `event-review.png` |
+| US-16 | Year 1 Student | As a Year 1 student, I want the interface to remain visually consistent across all pages, so that the system is easy to learn and use. | FR-16 | Should | Navigation, colors, typography, buttons, and layouts remain consistent throughout the system. | Multiple screenshots |
+| US-17 | Exchange Student | As an exchange student, I want my personal information to be collected responsibly, so that my privacy is protected. | FR-17 | Must | Registration collects only required information and displays a privacy notice. | `privacy-notice.png` |
+| US-18 | Administrator | As an administrator, I want all implemented features to remain linked to the documented requirements, so that the prototype can be easily maintained and evaluated. | FR-18 | Must | Every functional requirement can be traced to documentation, screenshots, and implementation evidence. | GitHub documentation |
 
+---
 
-## Acceptance Criteria Checklist
+# Acceptance Criteria Checklist
 
 A good acceptance criterion should be:
 
@@ -26,12 +41,13 @@ A good acceptance criterion should be:
 - **Connected to user evidence** — supported by survey responses and prototype demonstration.
 - **Specific** — detailed enough that anyone can determine whether the feature works correctly.
 
+---
 
-## Rejected / Future User Stories
+# Rejected / Future User Stories
 
 | Story ID | Reason for Postponing | Future Condition |
 |---|---|---|
-| FUT-01 | Event reminder notifications require backend notification services that are beyond the MVP scope. | Add after the core platform is validated. |
-| FUT-02 | Personalized event recommendations require user preference data and recommendation logic. | Implement in future versions after collecting sufficient user data. |
-| FUT-03 | Calendar synchronization requires integration with external calendar services. | Add after the web application is completed. |
-| FUT-04 | User accounts and authentication increase development complexity for the MVP. | Include in a future release after MVP validation. |
+| FUT-01 | Push notification reminders require backend notification services. | Add after MVP validation. |
+| FUT-02 | Personalized event recommendations require recommendation algorithms and user preference data. | Implement in a future version. |
+| FUT-03 | Calendar synchronization requires integration with external calendar services. | Add after the production version is developed. |
+| FUT-04 | QR-code attendance tracking requires backend validation. | Add after backend implementation. |
