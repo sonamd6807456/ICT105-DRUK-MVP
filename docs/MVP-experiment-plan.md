@@ -2,82 +2,103 @@
 
 ## 1. Group and Project Information
 
-- Group name: DRUK
-- Project title: Smart Campus Event Hub.
-- Repository link: https://github.com/sonamd6807456/ICT105-DRUK-MVP.
-- Main target user: First-year and international students at Rangsit University.
-- Prototype platform: HTML, CSS, JavaScript web prototype with LocalStorage simulation.
+- **Group Name:** DRUK
+- **Project Title:** Smart Campus Event Hub
+- **Repository Link:** https://github.com/sonamd6807456/ICT105-DRUK-MVP
+- **Main Target Users:** Year 1 students, Year 2 students, Exchange students, Student Club Organizers, and Administrators at Rangsit University.
+- **Prototype Platform:** HTML5, CSS3, JavaScript web prototype with browser localStorage simulation.
 
 ---
 
 ## 2. Experiment Objective
 
-We want to test whether students can successfully discover campus events, view event information, and complete event registration through the Smart Campus Event Hub prototype without external assistance.
+The purpose of this experiment is to determine whether users can successfully create an account, discover campus events, search and filter events, register for activities, manage their participation through My Events, and complete common tasks without external assistance.
 
 ---
 
 ## 3. Requirement Scope for the Experiment
 
-| Requirement ID | Requirement Summary | Related Screen/Feature | Tested in This Experiment? |
+| Requirement ID | Requirement Summary | Related Screen / Feature | Tested in This Experiment? |
 |---|---|---|---|
-| FR-01 | Display a centralized list of upcoming campus events | Homepage / Event Listing Page | Yes |
-| FR-03 | Provide search and filtering by category, date, organizer, and keywords | Search and Filter Feature | Yes |
-| FR-04 | Display detailed event information | Event Details Page | Yes |
-| FR-05 | Allow students to register for events | Event Registration Form | Yes |
-| FR-06 | Send reminders before scheduled events | Notification/Reminder Feature | Yes |
-| FR-08 | Display events in a calendar view | Dashboard / Calendar View | Yes |
+| FR-01 | Homepage | Homepage | Yes |
+| FR-02 | User Login | Login Page | Yes |
+| FR-03 | User Registration | Sign Up Page | Yes |
+| FR-04 | Browse Campus Events | Event Listing | Yes |
+| FR-05 | Search and Filter Events | Search & Filter | Yes |
+| FR-06 | View Event Details | Event Details | Yes |
+| FR-07 | Register for Events | Registration | Yes |
+| FR-08 | My Events Dashboard | My Events | Yes |
+| FR-09 | Admin Event Management | Admin Dashboard | Yes |
+| FR-10 | Input Validation | Registration & Admin Forms | Yes |
+| FR-11 | Confirmation Messages | Registration & Forms | Yes |
+| FR-14 | Responsive Design | Mobile & Desktop Layout | Yes |
 
 ---
 
 ## 4. MVP Experiment Type
 
-### Selected experiment type:
-- Clickable prototype
-- Simple web prototype
-- Form-based simulation
-- Dashboard demo
+### Selected Experiment Type
 
-### Reason for selection:
+- Interactive Web Prototype
+- Form-based Simulation
+- Usability Testing
+- Dashboard Demonstration
 
-The Smart Campus Event Hub MVP focuses on validating the main student experience, including discovering events, checking event details, registering for activities, and viewing upcoming schedules. A web prototype is suitable because it allows students to interact with the main features without requiring a complete backend system.
+### Reason for Selection
+
+The Smart Campus Event Hub MVP focuses on validating the complete student experience, including creating an account, logging in, discovering events, viewing event details, registering for activities, managing participation through My Events, and administrator event management. Browser localStorage is used to simulate backend functionality while allowing realistic user interaction.
 
 ---
 
 ## 5. Test Users
 
-| Test User Group | Number of Testers | Why They Are Relevant |
+| Test User Group | Number of Testers | Reason |
 |---|---:|---|
-| First-year undergraduate students | 5 | They are still learning university communication channels and are likely to experience difficulties finding campus events. |
-| International students | 5 | They may have limited access to informal student networks and need a centralized event platform. |
-| Student club/event participants | 5 | They frequently search for activities and can provide feedback on event discovery and registration. |
+| Year 1 Students | 5 | New students who need help discovering campus activities. |
+| Exchange Students | 5 | International students who rely on centralized event information. |
+| Student Club Organizers | 3 | Users responsible for creating and managing campus events. |
+| Administrators | 2 | Users responsible for managing event records and registrations. |
 
 ---
 
-## 6. Experiment Procedure Summary
+## 6. Experiment Procedure
 
-The team will conduct usability testing with students from Rangsit University using the Smart Campus Event Hub prototype.
+Participants will complete the following tasks:
 
-Testers will be asked to complete several tasks:
+1. Open the Smart Campus Event Hub homepage.
+2. Create a new account.
+3. Log in to the system.
+4. Browse available campus events.
+5. Search for an event using keywords.
+6. Filter events by category.
+7. Open an event details page.
+8. Register for an event.
+9. View registered events in My Events.
+10. Submit a review only after a completed event (simulation).
+11. Administrator creates or edits an event (admin testing only).
 
-1. Open the homepage and identify the purpose of the platform.
-2. Find an upcoming campus event.
-3. Search for an event using keywords or filters.
-4. Open event details and check important information.
-5. Register for an event.
-6. View upcoming events through the dashboard/calendar.
+During testing, the team will record:
 
-During testing, the team will record task completion rate, completion time, difficulties encountered, help requests, and user feedback ratings.
+- Task completion rate
+- Task completion time
+- Number of user errors
+- Requests for assistance
+- User satisfaction ratings
+- Suggestions for improvement
 
 ---
 
 ## 7. Expected Learning
 
-After completing the experiment, the team will decide whether the current MVP design successfully solves the problem of scattered campus event information.
+The experiment will help determine whether the Smart Campus Event Hub successfully solves the problem of scattered campus event information.
 
-The experiment will help the team identify:
-- Whether students can easily discover events.
-- Whether the registration process is simple and understandable.
-- Which interface elements require improvement.
-- Whether additional features or requirement changes are needed before final implementation.
+The team expects to learn:
 
-If the experiment meets the success metrics, the team will continue developing the final prototype. If important issues are identified, the team will revise the user flow, interface design, or feature priorities before further development.
+- Whether users can easily navigate the system.
+- Whether students can successfully register for events.
+- Whether search and filtering help users discover relevant activities.
+- Whether My Events clearly displays participation history.
+- Whether organizers and administrators can manage event information efficiently.
+- Which interface elements require improvement before the final submission.
+
+If the experiment meets the success criteria, the team will proceed with the final prototype. Otherwise, improvements will be made to navigation, interface design, usability, and feature implementation before the final project submission.
