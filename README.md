@@ -1206,3 +1206,74 @@ README.md
 The Smart Campus Event Hub landing page successfully communicates the project's purpose, explains the problem of fragmented campus event information, and provides users with a clear pathway to access the prototype.
 
 Combined with the digital go-to-market plan and acquisition metrics, Lab 12 prepares Smart Campus Event Hub for early promotion, user engagement measurement, and future validation activities while remaining consistent with the implemented MVP features.
+
+# Lab 13: Sales Scenario, Demo Script, and User Testing
+
+## Lab 13 Objective
+
+Lab 13 focused on preparing the Smart Campus Event Hub for the final MVP presentation by developing the sales scenario, demo script, user testing plan, user testing results, final improvement list, supporting diagrams, screenshots, and documentation. The team completed all assigned tasks and updated the GitHub repository to prepare for the final MVP release in Lab 14.
+
+---
+
+## Files Completed
+
+### Documentation
+- [x] /docs/sales-scenario.md
+- [x] /docs/demo-script.md
+- [x] /docs/user-testing-plan.md
+- [x] /docs/user-testing-results.md
+- [x] /docs/final-improvement-list.md
+- [x] /docs/case-study-brief.md
+- [x] /docs/weekly-logbook.md
+
+### Data
+- [x] /data/final-improvement-list.csv
+- [x] /data/user-testing-result-sample.csv
+- [x] /data/user-testing-result-template.csv
+
+### Diagrams
+- [x] /diagrams/demo-flow.mmd
+- [x] /diagrams/user-testing-flow.mmd
+
+### Prototype
+- [x] /prototype/final-demo-link.md
+
+### Pitch
+- [x] /pitch/demo-outline.md
+
+### Screenshots
+- [x] Demo Flow Screenshot
+- [x] User Testing Evidence Screenshot
+
+### Repository
+- [x] README.md updated
+
+---
+
+## Team Member Contributions
+
+| Member | Contributions |
+|---------|---------------|
+| **Sonam Deki** | **/docs:** `demo-script.md`, `user-testing-plan.md`, `weekly-logbook.md` **/data:** `final-improvement-list.csv` **/diagrams:** `user-testing-flow.mmd` |
+| **Tenzin Dema** | **/docs:** `final-improvement-list.md`, `user-testing-results.md`, `case-study-brief.md` **/data:** `user-testing-result-sample.csv` **/pitch:** `demo-outline.md` |
+| **Kinley Zam** | **/docs:** `sales-scenario.md` **/data:** `user-testing-result-template.csv` **/diagrams:** `demo-flow.mmd` **/prototype:** `final-demo-link.md` **Repository:** `README.md` |
+---
+
+## Prototype / Demo Links
+
+**Landing Page**  
+https://sonamd6807456.github.io/ICT105-DRUK-MVP/landing-page
+
+**Prototype**  
+https://sonamd6807456.github.io/ICT105-DRUK-MVP/prototype
+
+**GitHub Repository**  
+https://github.com/sonamd6807456/ICT105-DRUK-MVP
+
+---
+
+## Final Preparation Status
+
+The Smart Campus Event Hub has successfully completed all Lab 13 deliverables. The repository now includes the complete sales scenario, demonstration script, user testing documents, improvement plan, supporting diagrams, screenshots, and updated project documentation.
+
+The project is ready to proceed to **Lab 14: Final MVP Release**, where the team will complete the final prototype verification, presentation, repository review, and final submission.
