@@ -933,6 +933,31 @@ These metrics will help evaluate user engagement and identify opportunities for 
 - Limited to browser localStorage instead of a production database.
 
 ---
+## Requirement Change Record
+
+### Requirement Changed
+The Smart Campus Event Hub system requirements were reviewed and updated to accurately reflect the latest prototype implementation and ensure consistency across all project documentation.
+
+### Reason
+During MVP implementation and Landing Page development (Lab 12), several project documents required synchronization with the current prototype. The previous requirements no longer fully reflected the implemented features, user flow, and MVP scope. Updating the system requirements ensured accurate traceability between the requirements, user stories, MVP features, implementation, prototype, and validation results.
+
+### Evidence
+The following project files were reviewed and updated to maintain alignment:
+
+- `docs/system-requirements.md`
+- `docs/user-stories.md`
+- `docs/mvp-feature-list.md`
+- `docs/implementation-plan.md`
+- `docs/feature-implementation-status.md`
+- `docs/landing-page-content.md`
+- `docs/go-to-market-plan.md`
+- `docs/marketing-message.md`
+- `docs/acquisition-metrics.md`
+
+The updates are documented through GitHub Issues (#69) and the corresponding GitHub commits.
+
+### Approval
+The requirement updates were reviewed and approved by Team DRUK after comparing the documentation with the latest Smart Campus Event Hub prototype. The team confirmed that the updated requirements, documentation, data files, and prototype are consistent and accurately represent the current MVP before the final submission.
 
 ## Next Action Before Lab 13
 
