@@ -106,4 +106,4 @@ GitHub Repository:
 
 https://github.com/sonamd6807456/ICT105-DRUK-MVP
 
-Thank you for reviewing the Smart Campus Event Hub prototype. We welcome feedback to help improve the system before the final MVP submission.
+
