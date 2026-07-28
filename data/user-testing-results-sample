@@ -1,0 +1,16 @@
+Tester_ID,Tester_Type,Task_ID,Task_Description,Completed,Completion_Time_Min,Confusion_Point,Feedback_Score_1_5,Comment,Related_Requirement
+U01,Student User,T01,Understand the homepage purpose,Yes,1.2,None,5,Homepage clearly explains the purpose of the Smart Campus Event Hub.,FR-01
+U01,Student User,T02,Browse available campus events,Yes,2.0,None,5,Event cards are well organized and easy to browse.,FR-05
+U02,Student User,T03,Search for an event using the search bar,Yes,1.8,None,4,Search function works well but advanced filters would be useful.,FR-06
+U02,Student User,T04,Filter events by category,Yes,2.1,None,5,Category filter makes it easy to find relevant events.,FR-06
+U03,Student User,T05,View complete event details,Yes,1.6,None,5,Event information is complete and easy to understand.,FR-07
+U03,Student User,T06,Register for a campus event,Yes,2.4,None,5,Registration process is quick and confirmation message is helpful.,FR-08
+U04,Student User,T07,View registered events in My Events,Yes,1.9,None,5,My Events page clearly displays registered events.,FR-08
+U04,Student User,T08,Add an event to Favorites,Yes,1.5,None,5,Favorites feature is simple and useful.,FR-15
+U05,Student User,T09,Submit an event review after attending,Yes,2.6,None,4,Review submission is easy but adding photos could improve it.,FR-15
+U06,Organizer,T10,Submit a new campus event,Yes,3.4,None,5,Event submission form is straightforward and easy to complete.,FR-03
+U07,Administrator,T11,Approve and manage submitted events,Yes,2.8,None,5,Admin dashboard makes event management efficient.,FR-09
+U07,Administrator,T12,Edit event information,Yes,2.3,None,5,Editing event details is simple and responsive.,FR-09
+U08,Administrator,T13,View dashboard analytics,Yes,2.2,None,4,Dashboard provides useful participation statistics.,FR-12
+U09,Student User,T14,Access the About and Contact pages,Yes,1.3,None,5,Project information and contact details are easy to find.,FR-13
+U10,Student User,T15,Receive confirmation after completing an action,Yes,1.1,None,5,Success messages provide clear feedback after registration and review submission.,FR-11
