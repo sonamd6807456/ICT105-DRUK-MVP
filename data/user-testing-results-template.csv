@@ -1,1 +1,16 @@
-
+Tester_ID,Tester_Type,Task_ID,Task_Description,Completed,Completion_Time_Min,Confusion_Point,Feedback_Score_1_5,Comment,Related_Requirement
+T001,Year 1 Student,T01,Open the homepage and identify the purpose of the Smart Campus Event Hub,Yes,1.2,None,5,"Homepage clearly explains the platform and navigation was easy to use.",FR-01
+T002,Year 1 Student,T02,Log into the system using a student email and password,Yes,1.8,None,5,"Login process was simple and validation messages were helpful.",FR-02;FR-10;FR-11
+T003,Exchange Student,T03,Create a new user account using the registration page,Yes,2.5,Password confirmation,4,"Registration was easy but password confirmation could be clearer.",FR-03;FR-10;FR-11
+T004,Year 2 Student,T04,Browse all available campus events,Yes,1.7,None,5,"Event cards were well organized and easy to browse.",FR-04
+T005,Year 1 Student,T05,Search for an event using keywords and filter by category,Yes,2.6,Filter location,4,"Search worked well but category filters could be more visible.",FR-05
+T006,Exchange Student,T06,Open an event and view its detailed information,Yes,2.1,None,5,"Event details provided all important information before registration.",FR-06
+T007,Year 1 Student,T07,Register for an available campus event,Yes,2.8,Confirmation button,5,"Registration process was straightforward and confirmation was displayed.",FR-07;FR-11
+T008,Year 2 Student,T08,Open My Events Dashboard and check registered events,Yes,2.2,None,5,"Dashboard clearly displayed registered and completed events.",FR-08
+T009,Administrator,T09,Create a new campus event from the Admin Dashboard,Yes,3.9,Form layout,4,"Admin functions worked correctly but more spacing would improve readability.",FR-09;FR-10;FR-11
+T010,Administrator,T10,Edit an existing campus event and save the changes,Yes,3.5,None,5,"Editing and updating event information was easy.",FR-09;FR-11
+T011,Administrator,T11,Delete or cancel a campus event,Yes,3.1,None,5,"Deletion confirmation prevented accidental removal.",FR-09;FR-11
+T012,Year 1 Student,T12,Attempt to submit an incomplete registration form,Yes,1.9,None,5,"Validation messages correctly identified missing required fields.",FR-10;FR-11
+T013,Exchange Student,T13,Visit the About and Contact pages,Yes,1.4,None,5,"Platform information and contact details were easy to locate.",FR-13
+T014,Year 2 Student,T14,Use the prototype on different screen sizes,Yes,2.3,None,5,"Pages remained responsive on desktop and mobile devices.",FR-14;FR-16
+T015,Year 1 Student,T15,Submit a review for a completed event from My Events,Yes,2.9,Review location,4,"Review submission worked well after event completion.",FR-15
