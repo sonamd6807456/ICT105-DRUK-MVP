@@ -967,8 +967,96 @@ The requirement updates were reviewed and approved by Team DRUK after comparing 
 - Perform final usability testing and fix any remaining UI issues.
 - Prepare the project for the final Lab 13 presentation and submission.
 
+------
 
+- Lab 13
 
+## Group Name
 
+**DRUK**
+
+---
+
+## Project Title
+
+**Smart Campus Event Hub**
+
+---
+
+## Date
+
+**28 July 2026**
+
+---
+
+## Members and Contributions
+
+| Member | Contribution This Lab | GitHub Evidence |
+| --- | --- | --- |
+| **Sonam Deki** | Prepared the final improvement list, demo script template, user testing plan template, user testing flow diagram, and updated the weekly logbook,  | GitHub Issue #70, `docs/final-improvement-list.md`, `docs/demo-script.md`, `docs/user-testing-plan.md`, `diagrams/user-testing-flow.mmd`, `docs/weekly-logbook.md`,  GitHub commits |
+| **Tenzin Dema** | Prepared the user testing results sample, final improvement list template, user testing results template, case study brief, and demo outline template. | GitHub Issue #71, `docs/user-testing-results.md`, `docs/final-improvement-template.md`, `docs/user-testing-results-template.md`, `docs/case-study-brief.md`, `docs/demo-outline.md`, GitHub commits |
+| **Kinley Zam** | Prepared the user testing results template, sales scenario template, demo flow diagram, final demo link template, captured project screenshots for the final demonstration, and updated the project README documentation. | GitHub Issue #72, `docs/user-testing-results-template.md`, `docs/sales-scenario.md`, `diagrams/demo-flow.mmd`, `docs/final-demo-link.md`, `screenshots/`, `README.md`, GitHub commits |
+
+---
+
+## Work Completed
+
+- Prepared the sales scenario for the Smart Campus Event Hub.
+- Developed the demo script for the final product presentation.
+- Created the user testing plan and supporting testing materials.
+- Prepared the user testing results template and sample results.
+- Documented the final improvement list based on usability feedback.
+- Created the user testing flow and demo flow diagrams.
+- Updated the README and supporting project documentation.
+- Captured and organized screenshots for the final demonstration.
+
+---
+
+## Key Decisions
+
+- Finalized the Smart Campus Event Hub demonstration workflow.
+- Confirmed that all prototype features are aligned with the functional requirements.
+- Prioritized usability improvements identified during prototype testing.
+- Prepared all documentation required for the final demonstration in Lab 14.
+
+---
+
+## Problems Encountered
+
+- Minor inconsistencies were identified between documentation and the prototype.
+- Some prototype pages required layout improvements for better usability on smaller screens.
+- Several documentation files required updates to ensure requirement traceability and consistency.
+
+---
+
+## Next Actions Before Lab 14
+
+- Conduct one final usability test using the completed testing plan.
+- Apply the remaining prototype improvements.
+- Capture the final screenshot set.
+- Verify requirement traceability across all documentation.
+- Update the GitHub repository with the final prototype and documentation.
+- Prepare and rehearse the final project demonstration.
+
+---
+
+## Requirement Traceability Notes
+
+Before Lab 14, verify that the following requirements are fully demonstrated and supported by the prototype and documentation:
+
+- **FR-01:** Display a centralized list of upcoming campus events.
+- **FR-02:** Allow organizers to publish new campus events.
+- **FR-03:** Provide search and filtering by category, date, organizer, and keywords.
+- **FR-04:** Display detailed event information.
+- **FR-05:** Allow students to register for campus events.
+- **FR-06:** Display registered events in the Student Dashboard.
+- **FR-07:** Allow organizers to manage participant registrations.
+- **FR-08:** Display event status.
+- **FR-09:** Validate event registration and event submission forms.
+- **FR-10:** Provide role-based access for students and administrators.
+
+The team reviewed the Smart Campus Event Hub prototype and documentation to ensure that all functional requirements (FR-01 to FR-10) remain consistent.
+
+-----
 
 
