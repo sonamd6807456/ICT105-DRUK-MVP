@@ -1,6 +1,6 @@
 Issue_ID,Issue_Description,Severity,Related_Requirement,Evidence_Source,Proposed_Fix,Owner,Status
-UI-01,Search and filter controls are not immediately noticeable on the Events page,Important,FR-03,Tester U02,Improve the visibility and placement of the search bar and category filter,,Pending
-UX-02,Some users found the event registration process unclear after submitting the form,Important,FR-05,Tester U04,Add a clearer registration confirmation message and redirect users to the Student Dashboard,,Pending
-UI-03,Event status labels are difficult to distinguish at a glance,Important,FR-08,Tester U01,Use consistent color-coded badges and add a status legend,,Pending
-DATA-04,Event registration form accepts incomplete or invalid input,Critical,FR-09,Tester U03,Strengthen client-side form validation and display clear validation messages,,Pending
-ADMIN-05,Administrator event management actions are not clearly labeled,Minor,FR-07,Tester U05,Rename action buttons and improve dashboard layout for better usability,,Pending
+UI-01,Search and filter controls are not immediately noticeable on the Events page,Important,FR-03,Tester U02,Improve the visibility and placement of the search bar and category filter,Kinley Zam,Pending
+UX-02,Some users found the event registration process unclear after submitting the form,Important,FR-05,Tester U04,Add a clearer registration confirmation message and redirect users to the Student Dashboard,Tenzin Dema,Pending
+UI-03,Event status labels are difficult to distinguish at a glance,Important,FR-08,Tester U01,Use consistent color-coded badges and add a status legend,Kinley Zam,Pending
+DATA-04,Event registration form accepts incomplete or invalid input,Critical,FR-09,Tester U03,Strengthen client-side form validation and display clear validation messages,Tenzin Dema,Pending
+ADMIN-05,Administrator event management actions are not clearly labeled,Minor,FR-07,Tester U05,Rename action buttons and improve dashboard layout for better usability,Sonam Deki,Pending
