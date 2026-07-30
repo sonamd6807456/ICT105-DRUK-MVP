@@ -1,9 +1,11 @@
 requirement_id,feature_or_screen,user_story_id,evidence_source,final_status,screenshot_file,notes
-FR-01,Homepage & Event Listing,US-01,Lab03 E02,Completed,homepage.png,Displays centralized list of campus events
-FR-03,Search & Filter Events,US-02,Lab08 Validation,Completed,search-filter.png,Users can search by keyword and filter by category
-FR-04,Event Details Page,US-03,Lab05 Wireframe,Completed,event-details.png,Displays complete event information
-FR-05,Event Registration,US-04,Lab08 Validation,Completed,registration-form.png,Students can register for campus events
-FR-07,Organizer/Admin Dashboard,US-05,Lab10 Prototype,Completed,admin-dashboard.png,Organizers can manage participant registrations
-FR-08,Student Dashboard & Event Status,US-06,Lab11 Sprint 2,Completed,student-dashboard.png,Displays registered events and participation status
-FR-09,Form Validation,US-04,Lab09 Responsible IT Review,Completed,registration-form.png,Client-side validation prevents incomplete submissions
-FR-10,Event Status Tracking,US-06,Lab11 Sprint 2,Completed,event-status.png,Displays Upcoming, Registration Open, Closed, Ongoing, and Completed statuses
+FR-01,Homepage & Event Listing,US-01,Lab03 Customer Discovery,Completed,homepage.png,Displays centralized list of upcoming campus events
+FR-02,Organizer/Admin Dashboard,US-05,Lab10 MVP Sprint 1,Completed,admin-dashboard.png,Allows organizers to publish and manage campus events
+FR-03,Search & Filter,US-02,Lab08 Customer Validation,Completed,search-filter.png,Students can search and filter events by category and keywords
+FR-04,Event Details Page,US-03,Lab05 Wireframes,Completed,event-details.png,Displays complete event information
+FR-05,Event Registration,US-04,Lab08 Customer Validation,Completed,registration-form.png,Students can register for campus events
+FR-06,Event Reminder Notifications,US-04,Lab11 Sprint 2,Completed,student-dashboard.png,Displays upcoming registered events and reminders
+FR-07,New Event Notifications,US-04,Lab11 Sprint 2,Completed,student-dashboard.png,Notifies users of newly available events
+FR-08,Event Calendar View,US-06,Lab11 Sprint 2,Completed,calendar-view.png,Displays campus events in calendar format
+FR-09,Participant Management,US-05,Lab10 MVP Sprint 1,Completed,admin-dashboard.png,Organizers manage participant registrations
+FR-10,Event Status Tracking,US-06,Lab11 Sprint 2,Completed,event-status.png,Displays Upcoming, Registration Open, Closed, Ongoing and Completed statuses
