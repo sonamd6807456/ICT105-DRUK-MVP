@@ -1058,3 +1058,87 @@ Before Lab 14, verify that the following requirements are fully demonstrated and
 The team reviewed the Smart Campus Event Hub prototype and documentation to ensure that all functional requirements (FR-01 to FR-10) remain consistent.
 
 -----
+
+#  Lab 14
+
+## Group Name
+
+**DRUK**
+
+---
+
+## Date
+
+**30 July 2026**
+
+---
+
+## Members Present
+
+- Sonam Deki
+- Tenzin Dema
+- Kinley Zam
+
+---
+
+## What We Completed Today
+
+- Completed the final Smart Campus Event Hub prototype review.
+- Verified that all implemented features matched the system requirements.
+- Updated the README documentation.
+- Finalized the project documentation and submission files.
+- Reviewed screenshots, diagrams, and supporting evidence.
+- Performed final testing and prepared the prototype for presentation.
+
+---
+
+## Final Prototype Updates
+
+- Verified Homepage, Event Listing, Search & Filter, Event Details, Event Registration, Student Dashboard, and Organizer/Admin Dashboard.
+- Improved form validation and navigation consistency.
+- Confirmed responsive layout across desktop and mobile devices.
+- Verified LocalStorage functionality for simulated event data.
+- Completed final prototype walkthrough and testing.
+
+---
+
+## Final Documentation Updates
+
+- Updated README.md.
+- Finalized Requirement Traceability.
+- Completed Final Reflection.
+- Completed Final Demo Script.
+- Updated Feature Implementation Status.
+- Finalized Prototype Report.
+- Completed Final Testing Results.
+- Updated Member Contribution records.
+- Verified screenshots, diagrams, and GitHub documentation.
+
+---
+
+## GitHub Contributions Today
+
+| Member | File/Issue/Commit Updated | Evidence Link |
+|---|---|---|
+| **Sonam Deki** | Final Requirement Traceability, Member Contribution Template, Final Demo Script, Final Reflection, Weekly Logbook, Prototype Improvements | GitHub Issue #78, GitHub commits |
+| **Tenzin Dema** | Final Sample Data, Final Demo Flow (.mmd), Feature Implementation Status, Final Submission Checklist, README.md, JavaScript Updates, Prototype Testing Documentation | GitHub Issue #79, GitHub commits |
+| **Kinley Zam** | Final Testing Results, Final Prototype Report, Requirement Traceability Matrix, Final Prototype Link, Final Project Screenshots | GitHub Issue #80, GitHub commits |
+
+---
+
+## Problems Found Before Submission
+
+- Minor formatting inconsistencies in several documentation files were corrected.
+- Final screenshots were updated to match the latest prototype.
+- Requirement traceability was verified to ensure all implemented features aligned with the final prototype.
+- README links and documentation references were reviewed and updated.
+
+---
+
+## Action Before Final Presentation
+
+- Perform one final walkthrough of the Smart Campus Event Hub prototype.
+- Verify that all GitHub Pages links are working correctly.
+- Ensure all documentation, screenshots, and diagrams are included in the repository.
+- Prepare the team presentation and assign speaking roles.
+- Submit the final GitHub repository and supporting files before the deadline.
