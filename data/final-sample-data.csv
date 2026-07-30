@@ -1,0 +1,13 @@
+review_id,record_type,event_name,category,location,submission_date,status,rating,author_role,moderation_priority
+ER001,Event Review,AI Innovation Workshop,Workshop,Building 11 Auditorium,2026-08-16,Approved,4.8,Student,Low
+ER002,Event Review,Programming Competition,Competition,Innovation Lab,2026-08-21,Approved,4.6,Student,Low
+ER003,Event Review,Career Development Seminar,Seminar,Conference Hall,2026-08-26,Approved,4.7,Student,Low
+ER004,Event Review,International Cultural Festival,Cultural Event,University Sports Ground,2026-09-06,Approved,4.9,International Student,Low
+ER005,Event Review,Entrepreneurship Bootcamp,Training,Business Building Room 402,2026-09-13,Approved,4.8,Student,Low
+ER006,Event Review,Cybersecurity Awareness Workshop,Workshop,Computer Laboratory,2026-09-18,Pending,4.5,Student,Medium
+ER007,Event Review,Sports Day 2026,Sports Event,University Stadium,2026-09-22,Approved,4.7,Student,Low
+ER008,Event Review,Volunteer Community Service,Volunteer Activity,Community Hall,2026-09-25,Pending,4.4,Student,Medium
+ER009,Event Review,Photography Contest,Competition,Art Building,2026-09-28,Rejected,2.3,Student,High
+ER010,Event Review,Startup Innovation Talk,Seminar,Business Auditorium,2026-10-02,Approved,4.9,International Student,Low
+ER011,Event Review,Freshman Orientation,Orientation,Main Auditorium,2026-10-05,Removal Requested,3.7,Student,High
+ER012,Event Review,Environmental Awareness Campaign,Campaign,Central Plaza,2026-10-08,Pending,4.8,Exchange Student,Medium
