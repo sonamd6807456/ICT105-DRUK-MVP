@@ -1,51 +1,117 @@
-# Feature Implementation Status — Lab 11
+# Feature Implementation Status
 
-| Req ID | Required Functionality | Screen / Module | Lab 10 Status | Lab 11 Status | Owner | Evidence | Notes / Next Action |
-|---|---|---|---|---|---|---|---|
-| FR-01 | Smart Campus Event Hub Homepage | Homepage | Completed | Completed and Improved | Tenzin Dema | `prototype/index.html`, screenshots/homepage.png | Homepage introduces the system, project purpose, navigation, featured events, and quick access buttons. |
-| FR-02 | User Login | Login Page | Completed | Completed and Improved | Kinley Zam | `prototype/login.html`, screenshots/login.png | Users can log in using simulated authentication and access their dashboard. |
-| FR-03 | User Registration (Sign Up) | Sign Up Page | Completed | Completed and Improved | Kinley Zam | `prototype/signup.html`, screenshots/signup.png | New users can create an account after completing all required fields. |
-| FR-04 | Browse Campus Events | Events Page | Completed | Completed and Improved | Tenzin Dema | `prototype/events.html`, screenshots/events.png | Users can browse all available campus events displayed in event cards. |
-| FR-05 | Search and Filter Events | Search & Filter Module | Completed | Completed and Improved | Sonam Deki | `prototype/events.html`, screenshots/search-filter.png | Users can search events by keyword and filter them by category. |
-| FR-06 | Event Details | Event Details Page | Completed | Completed and Improved | Kinley Zam | `prototype/event-details.html`, screenshots/event-details.png | Detailed event information including organizer, venue, capacity, available seats, and registration status is displayed. |
-| FR-07 | Event Registration | Registration Module | Completed | Completed and Improved | Kinley Zam | `prototype/event-details.html`, screenshots/event-registration.png | Students can successfully register for available events and receive confirmation messages. |
-| FR-08 | My Events Dashboard | Dashboard | Completed | Completed and Improved | Kinley Zam | `prototype/dashboard.html`, screenshots/dashboard.png | Dashboard displays registered events, upcoming events, attended events, and completed events. |
-| FR-09 | Admin Event Management | Admin Dashboard | Completed | Completed and Improved | Tenzin Dema | `prototype/admin.html`, screenshots/admin-dashboard.png | Administrators can create, approve, edit, update, cancel, and delete events. |
-| FR-10 | Input Validation | Registration & Admin Forms | Completed | Completed and Improved | Tenzin Dema | `prototype/js/register.js`, `prototype/js/admin.js`, screenshots/input-validation.png | Required fields, email format, student ID, date validation, and empty fields are validated before submission. |
-| FR-11 | Confirmation & Feedback Messages | Registration & Forms | Completed | Completed and Improved | Sonam Deki | `prototype/js/register.js`, screenshots/confirmation-message.png | Success and error messages are displayed after registration, login, event creation, updates, and validation failures. |
-| FR-12 | Event Data Storage | JavaScript localStorage | Completed | Completed and Improved | Sonam Deki | prototype/js/storage.js | Browser localStorage stores user accounts, event information, registrations, and completed event reviews. |
-| FR-13 | About & Contact Pages | About / Contact | Completed | Completed and Improved | Kinley Zam | `prototype/about.html`, `prototype/contact.html`, `screenshots/about.png`, screenshots/contact.png | Users can access platform information and contact details from dedicated pages. |
-| FR-14 | Responsive User Interface | All Pages | Completed | Completed and Improved | Tenzin Dema | `prototype/css/style.css`, screenshots/responsive-mobile-view.png | Responsive layouts work correctly on desktop, tablet, and mobile devices. |
-| FR-15 | Event Review & Feedback | Completed Events | Completed | Completed and Improved | Kinley Zam | `prototype/dashboard.html`, screenshots/event-review.png | Students can submit ratings and reviews only after attending completed events. |
-| FR-16 | Consistent UI Design | All Prototype Screens | Completed | Completed and Improved | Kinley Zam | `prototype/css/style.css`, all screenshots | Navigation, typography, buttons, spacing, colors, and layouts remain consistent throughout the prototype. |
-| FR-17 | Privacy & Responsible Data Collection | Registration Forms | Completed | Completed and Improved | Sonam Deki | `prototype/signup.html`, screenshots/privacy-notice.png | Only essential user information is collected and a privacy notice is displayed before registration. |
-| FR-18 | Prototype Traceability | Documentation | Completed | Completed and Improved | Sonam Deki | `README.md`, `docs/system-requirements.md`, `docs/user-stories.md`, docs/implementation-plan.md | Every implemented feature is mapped to functional requirements, user stories, screenshots, and project documentation. |
+| Requirement ID | Requirement Summary | Prototype Screen/Module | Status | Evidence/Screenshot | Notes |
+|---|---|---|---|---|---|
+| FR-01 | Homepage or landing screen | `prototype/index.html`, `landing-page/index.html` | Completed | `screenshots/homepage.png`, `screenshots/landing-page.png` | The landing page introduces Smart Campus Event Hub, explains the problem, target users, value proposition, and provides quick access to explore campus events. |
+| FR-02 | Primary user pathway | Landing Page → Homepage → Event Listing → Event Details → Register → Student Dashboard → Admin Dashboard | Completed | `screenshots/demo-flow.png` | The complete student and administrator workflow is implemented, allowing users to browse events, register, manage registrations, and demonstrate the complete system during the final presentation. |
+| FR-03 | User input or data submission | `register.html`, `login.html`, `event-registration.html`, `profile.html` | Completed | `screenshots/event-registration.png` | Students can create accounts, sign in, update profiles, register for campus events, and submit event reviews using validated forms. |
+| FR-04 | Data storage or simulated storage | JavaScript + Browser `localStorage` | Completed | `js/storage.js`, `js/events.js` | Event registrations, user accounts, favorite events, event reviews, notifications, and administrator data are stored using browser `localStorage` for classroom demonstration. |
+| FR-05 | View records/list | `events.html`, Homepage, Student Dashboard | Completed | `screenshots/event-list.png`, `screenshots/student-dashboard.png` | Students can browse available events, view featured events, registration history, upcoming activities, and saved events. |
+| FR-06 | Search/filter/category | `events.html`, `js/events.js` | Completed | `screenshots/event-search.png` | Users can search events using keywords and filter events by category, event type, or registration status to quickly locate suitable activities. |
+| FR-07 | Detail view | `event-details.html` | Completed | `screenshots/event-details.png` | Event detail pages display descriptions, schedules, venues, organizers, available seats, registration deadlines, and event information. |
+| FR-08 | Status/progress tracking | `student-dashboard.html` | Completed | `screenshots/student-dashboard.png` | Students can monitor registration status, view upcoming events, completed activities, and participation history through the dashboard. |
+| FR-09 | Admin/manager function | `admin-dashboard.html` | Completed | `screenshots/admin-dashboard.png` | Administrators can create, edit, delete, approve, and manage campus events, monitor registrations, and update event statuses. |
+| FR-10 | Validation and feedback | `register.html`, `login.html`, `event-registration.html`, `profile.html` | Completed | `screenshots/form-validation.png` | Required-field validation, duplicate registration prevention, confirmation messages, password validation, and user feedback improve usability and data quality. |
+| FR-11 | Dashboard/summary/metrics | Student Dashboard, Admin Dashboard | Completed | `screenshots/student-dashboard.png`, `screenshots/admin-dashboard.png` | Dashboards display registration summaries, participation statistics, event analytics, upcoming events, and overall system metrics. |
+| FR-12 | Final prototype traceability | Entire Smart Campus Event Hub Prototype | Completed | `README.md`, `docs/system-requirements.md`, `docs/user-stories.md`, `docs/mvp-feature-list.md` | Every implemented feature is traceable to the documented functional requirements, user stories, MVP features, validation results, and final demonstration workflow. |
 
 ---
 
-# Sprint 2 Issues Addressed
+# Final Prototype Enhancements
 
-1. Improved homepage navigation and user flow.
-2. Added user registration (Sign Up) with input validation.
-3. Improved login validation and simulated authentication.
-4. Enhanced event search and category filtering.
-5. Improved event card layout and event details.
-6. Added clearer registration confirmation messages.
-7. Improved dashboard statistics and participation tracking.
-8. Added event reviews that become available only after completed events.
-9. Improved administrator event management workflow.
-10. Added About and Contact pages.
-11. Added privacy notice and responsible data collection.
-12. Improved responsive layouts for desktop, tablet, and mobile devices.
-13. Improved localStorage handling for users, events, registrations, and reviews.
-14. Updated documentation to maintain full traceability between requirements, user stories, implementation, and screenshots.
+The Smart Campus Event Hub Final Prototype includes several usability, functionality, security, accessibility, and performance improvements beyond the original MVP requirements.
+
+## Student Experience
+
+- **My Events Dashboard** allowing students to manage registered and completed events.
+- **Favorite Events** enabling students to bookmark events for quick access.
+- **Event Search and Category Filters** helping students quickly discover relevant campus activities.
+- **Participation History** showing previously attended events.
+- **Registration Status Tracking** displaying Registered, Upcoming, Completed, or Cancelled events.
+- **Event Reviews and Ratings** allowing participants to provide feedback after attending events.
+- **Event Capacity Display** showing available seats before registration.
+- **Event Reminder Information** helping students remember important upcoming activities.
+
+## Security Improvements
+
+The authentication workflow has been strengthened with:
+
+- Show/Hide password option
+- Confirm password validation
+- Minimum password length
+- Password complexity requirements
+- Improved email validation
+- Duplicate registration prevention
+
+## System Improvements
+
+- Improved event management workflow.
+- Better registration handling using browser localStorage.
+- Clear confirmation messages after registration.
+- Improved profile editing.
+- Better event status management.
+- Organized administrator dashboard.
+
+## Homepage Improvements
+
+The homepage now:
+
+- Displays featured campus events.
+- Highlights upcoming activities.
+- Provides quick access to event categories.
+- Encourages student participation through clear navigation.
+
+## Privacy Improvements
+
+The privacy notice explains:
+
+- Browser localStorage usage
+- Classroom demonstration accounts
+- Event registration information
+- User profile information
+- Data removal options
+- Prototype limitations
+
+## Accessibility Improvements
+
+The final prototype includes:
+
+- Responsive layout
+- Improved keyboard accessibility
+- Visible focus indicators
+- Better mobile compatibility
+- Consistent form controls
+
+## Performance Improvements
+
+- Optimized JavaScript loading.
+- Reduced image sizes using WebP where appropriate.
+- Faster page loading through optimized assets.
 
 ---
 
-# Status Summary
+# Final Prototype Summary
 
-- **Completed or completed as a prototype:** 18 requirements.
-- **Partially completed:** None.
-- **Main limitations:** Browser localStorage is used instead of a production database. Authentication is simulated and intended only for prototype demonstration. Notifications, email services, QR attendance, calendar synchronization, and backend security remain future improvements.
-- **Main usability improvements:** Improved homepage navigation, search and filtering, responsive layouts, dashboard statistics, administrator workflow, confirmation messages, completed-event reviews, and privacy notice.
-- **Sprint 2 Decision:** Smart Campus Event Hub is ready for Lab 11 classroom demonstration after final testing of user registration, login, event discovery, search and filtering, event registration, completed-event reviews, administrator management, responsive layouts, privacy notice, and documentation traceability.
+The Smart Campus Event Hub Final Prototype successfully implements all required functional requirements while providing additional enhancements that improve usability, accessibility, responsiveness, security, and overall user experience.
+
+The prototype supports a complete student and administrator workflow, including browsing events, searching and filtering, viewing event details, registering for activities, managing participation, monitoring registration status, administrator event management, dashboards, analytics, and event feedback.
+
+---
+
+# Prototype Platform
+
+- **Technology:** HTML5, CSS3, JavaScript
+- **Hosting Platform:** GitHub Pages
+- **Data Storage:** Browser `localStorage`
+- **Prototype Type:** Frontend Classroom MVP (No Production Backend)
+
+---
+
+# Prototype Limitations
+
+- Data is stored only in the current browser using `localStorage`.
+- Information is not synchronized across browsers or devices.
+- Authentication and authorization are simulated for demonstration purposes.
+- Internet access may be required for icons, maps, or external resources.
+- All users, events, registrations, and records are fictional and intended solely for classroom demonstration.
+- The prototype is not intended for production deployment without a secure backend database and authentication system.
