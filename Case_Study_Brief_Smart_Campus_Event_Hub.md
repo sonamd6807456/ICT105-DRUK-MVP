@@ -1,76 +1,39 @@
 # Case Study Brief: Smart Campus Event Hub
 
-## Context
+This case study is used for the final MVP demonstration in Lab 14. The Smart Campus Event Hub prototype demonstrates how a centralized event management platform can improve campus event awareness, participation, and student engagement at Rangsit University.
 
-Students often miss campus events because event information is distributed across multiple platforms such as social media pages, messaging applications, university emails, posters, and different announcement channels.
+## Problem
 
-Because event information is scattered, students may discover workshops, competitions, seminars, student club activities, and university events too late or miss registration deadlines. This problem is especially challenging for first-year students, international students, and exchange students who are still adapting to university communication systems.
+Campus event information is currently scattered across multiple communication channels such as social media, messaging applications, email announcements, and campus posters. Students often miss important events, struggle to find accurate event information, and face difficulties registering for activities. Event organizers also lack a centralized platform to promote and manage campus events efficiently.
 
-Event organizers and campus administrators also face difficulties managing event information, updating announcements, tracking participation, and monitoring event activities when using multiple separate tools.
+## Target Users
 
-## Prototype Summary
+### Primary Users
 
-The proposed Smart Campus Event Hub prototype provides a centralized web-based platform that helps students discover and participate in campus activities.
+- First-year undergraduate students
+- International students
+- Exchange students
 
-The prototype allows students to:
+### Secondary Users
 
-- Browse upcoming campus events.
-- Search and filter events by keyword and category.
-- View complete event details.
-- Register for campus activities.
-- View registered events through the My Events page.
-- Save interesting events using Favorites.
-- Submit reviews and feedback after attending completed events.
+- Student clubs and organizations
+- Event organizers
+- Campus administrators
 
-The prototype also supports organizers and administrators by allowing them to:
+## Final Prototype Workflow
 
-- Create and submit new campus events.
-- Edit and update event information.
-- Manage event approval status.
-- Monitor event participation records.
-- View event statistics through dashboard analytics.
+1. User opens the Landing Page.
+2. User clicks **Try Demo** and enters the Homepage.
+3. User signs up or logs into the system.
+4. User browses available campus events.
+5. User searches and filters events by keyword or category.
+6. User opens the Event Details page.
+7. User registers for an available event.
+8. User views registered events in the **My Events Dashboard**.
+9. User submits an event review after attending a completed event.
+10. Administrator creates, edits, updates, approves, cancels, or deletes event records through the Admin Dashboard.
+11. The system stores simulated event data, user accounts, registrations, and reviews using browser localStorage.
 
-## Lab 13 Practice Goal
+## Final Value
 
-Use this case to practice:
-
-- Sales scenario writing.
-- Final MVP demonstration script preparation.
-- User testing result analysis.
-- Customer feedback evaluation.
-- Final improvement planning before the final presentation.
-
-The Lab 13 activities focus on presenting how the Smart Campus Event Hub solves the problem of scattered campus event information, demonstrates the value for students and university communities, and identifies improvements based on validation evidence.
-
-## Validation Evidence
-
-The Smart Campus Event Hub prototype was validated through usability testing.
-
-Validation results:
-
-- Task Completion Rate: 100%
-- Average Feedback Score: 4.9/5
-- Average Interest Level: 4.9/5
-
-Users successfully completed important tasks including:
-
-- Discovering campus events.
-- Viewing event information.
-- Registering for events.
-- Managing registered activities.
-- Saving favorite events.
-- Submitting event reviews.
-
-## Final Improvement Focus
-
-Based on user feedback, future improvements include:
-
-- Advanced search and filtering options.
-- Event reminder notifications.
-- Improved analytics dashboard.
-- Enhanced review features.
-- Better responsive design optimization.
-
-## Reminder
-
-Your graded Lab 13 work must use your own Smart Campus Event Hub case, your own prototype implementation, and your own validation evidence from the project repository.
+The Smart Campus Event Hub provides one centralized platform where students can easily discover, register for, and manage campus events. It reduces missed opportunities, simplifies event participation, improves communication between organizers and students, and increases overall campus engagement. The administrator dashboard also helps organizers efficiently manage event information while browser localStorage simulates persistent data for the interactive prototype.
