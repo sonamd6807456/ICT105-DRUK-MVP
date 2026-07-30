@@ -1,7 +1,9 @@
 # Smart Campus Event Hub Final Demo Script
 
-**Recommended duration:** 5–7 minutes  
+**Recommended duration:** 5–7 minutes 
+
 **Prototype:** https://sonamd6807456.github.io/ICT105-DRUK-MVP/landing-page
+
 **Demo:** Browser-based prototype (HTML, CSS, JavaScript, LocalStorage)
 
 ---
