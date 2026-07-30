@@ -1,4 +1,4 @@
-# Feature Implementation Status for lab 14
+# Feature Implementation Status 
 
 | Requirement ID | Requirement Summary | Prototype Screen/Module | Status | Evidence/Screenshot | Notes |
 |---|---|---|---|---|---|
