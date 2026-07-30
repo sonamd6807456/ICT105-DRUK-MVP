@@ -1121,8 +1121,8 @@ The team reviewed the Smart Campus Event Hub prototype and documentation to ensu
 | Member | File/Issue/Commit Updated | Evidence Link |
 |---|---|---|
 | **Sonam Deki** | Final Requirement Traceability, Member Contribution Template, Final Demo Script, Final Reflection, Weekly Logbook, Prototype Improvements | GitHub Issue #78, GitHub commits |
-| **Tenzin Dema** | Final Sample Data, Final Demo Flow (.mmd), Feature Implementation Status, Final Submission Checklist, README.md, JavaScript Updates, Prototype Testing Documentation | GitHub Issue #79, GitHub commits |
-| **Kinley Zam** | Final Testing Results, Final Prototype Report, Requirement Traceability Matrix, Final Prototype Link, Final Project Screenshots | GitHub Issue #80, GitHub commits |
+| **Tenzin Dema** | Final Sample Data, Final Demo Flow (.mmd), Feature Implementation Status, Final Submission Checklist, README.md, JavaScript Updates, Prototype Testing Documentation | GitHub Issue #80, GitHub commits |
+| **Kinley Zam** | Final Testing Results, Final Prototype Report, Requirement Traceability Matrix, Final Prototype Link, Final Project Screenshots, Final pitch outline | GitHub Issue #79, GitHub commits |
 
 ---
 
