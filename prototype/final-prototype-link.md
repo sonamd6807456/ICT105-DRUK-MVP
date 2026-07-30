@@ -4,7 +4,7 @@
 - HTML5, CSS3, JavaScript, GitHub Pages
   -------
 - **Final prototype URL:**
--  https://sonamd6807456.github.io/ICT105-DRUK-MVP/
+-  https://sonamd6807456.github.io/ICT105-DRUK-MVP/landing-page
   ----
 - **Login/access instructions if needed:**
 -  No login is required. Open the URL in a web browser. The prototype uses browser LocalStorage to simulate event data.
