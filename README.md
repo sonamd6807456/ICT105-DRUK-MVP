@@ -1279,7 +1279,7 @@ The Smart Campus Event Hub has successfully completed all Lab 13 deliverables. T
 The project is ready to proceed to **Lab 14: Final MVP Release**, where the team will complete the final prototype verification, presentation, repository review, and final submission.
 
 
- #Lab14
+# Lab14
 
 # Smart Campus Event Hub
 
