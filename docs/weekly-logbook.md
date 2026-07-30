@@ -1060,85 +1060,133 @@ The team reviewed the Smart Campus Event Hub prototype and documentation to ensu
 -----
 #  Lab 14
 
-## Group Name
-
-**DRUK**
+# Smart Campus Event Hub
 
 ---
 
-## Date
+## Group Members
 
-**30 July 2026**
-
----
-
-## Members Present
-
-- Sonam Deki
-- Tenzin Dema
-- Kinley Zam
-
----
-
-## What We Completed Today
-
-- Completed the final Smart Campus Event Hub prototype review.
-- Verified that all implemented features matched the system requirements.
-- Updated the README documentation.
-- Finalized the project documentation and submission files.
-- Reviewed screenshots, diagrams, and supporting evidence.
-- Performed final testing and prepared the prototype for presentation.
-
----
-
-## Final Prototype Updates
-
-- Verified Homepage, Event Listing, Search & Filter, Event Details, Event Registration, Student Dashboard, and Organizer/Admin Dashboard.
-- Improved form validation and navigation consistency.
-- Confirmed responsive layout across desktop and mobile devices.
-- Verified LocalStorage functionality for simulated event data.
-- Completed final prototype walkthrough and testing.
-
----
-
-## Final Documentation Updates
-
-- Updated README.md.
-- Finalized Requirement Traceability.
-- Completed Final Reflection.
-- Completed Final Demo Script.
-- Updated Feature Implementation Status.
-- Finalized Prototype Report.
-- Completed Final Testing Results.
-- Updated Member Contribution records.
-- Verified screenshots, diagrams, and GitHub documentation.
-
----
-
-## GitHub Contributions Today
-
-| Member | File/Issue/Commit Updated | Evidence Link |
+| Name | Role | Main Contribution |
 |---|---|---|
-| **Sonam Deki** | Final Requirement Traceability, Member Contribution Template, Final Demo Script, Final Reflection, Weekly Logbook, Prototype Improvements | GitHub Issue #78, GitHub commits |
-| **Tenzin Dema** | Final Sample Data, Final Demo Flow (.mmd), Feature Implementation Status, Final Submission Checklist, README.md, JavaScript Updates, Prototype Testing Documentation | GitHub Issue #79, GitHub commits |
-| **Kinley Zam** | Final Testing Results, Final Prototype Report, Requirement Traceability Matrix, Final Prototype Link, Final Project Screenshots | GitHub Issue #80, GitHub commits |
+| Sonam Deki | Product Lead & Documentation Lead | Finalized project documentation, requirement traceability, final demo script, final reflection, weekly logbook, and prototype improvements. |
+| Tenzin Dema | Technical Lead | Developed JavaScript functionality, updated README, completed feature implementation status, final demo flow, prototype testing, sample data, and final submission documents. |
+| Kinley Zam | UX/UI Lead & Validation Lead | Completed the final prototype report, testing results, screenshots, UI improvements, and requirement traceability verification. |
 
 ---
 
-## Problems Found Before Submission
+## Project Overview
 
-- Minor formatting inconsistencies in several documentation files were corrected.
-- Final screenshots were updated to match the latest prototype.
-- Requirement traceability was verified to ensure all implemented features aligned with the final prototype.
-- README links and documentation references were reviewed and updated.
+Smart Campus Event Hub is a browser-based Minimum Viable Product (MVP) developed for the ICT105 Fundamental Technology Entrepreneurship course. The platform provides a centralized location where students can discover campus events, search and filter activities, register online, and manage their participation through a personal dashboard.
+
+The prototype also supports organizers and administrators by allowing them to create, edit, manage, and monitor campus events. Developed using HTML5, CSS3, JavaScript, and browser LocalStorage, the system demonstrates the complete event management workflow in a frontend classroom MVP.
 
 ---
 
-## Action Before Final Presentation
+## Target Users
 
-- Perform one final walkthrough of the Smart Campus Event Hub prototype.
-- Verify that all GitHub Pages links are working correctly.
-- Ensure all documentation, screenshots, and diagrams are included in the repository.
-- Prepare the team presentation and assign speaking roles.
-- Submit the final GitHub repository and supporting files before the deadline.
+### Primary Users
 
+- First-year undergraduate students
+- International students
+- Exchange students
+
+### Secondary Users
+
+- Student clubs and organizations
+- Campus event organizers
+- University administrators
+
+---
+
+## Problem Solved
+
+Campus event information is often distributed across multiple communication channels such as university websites, emails, social media, messaging applications, and posters. As a result, students may miss important activities, registration deadlines, and opportunities to participate in campus life.
+
+Smart Campus Event Hub solves this problem by providing a centralized platform where students can easily browse, search, and register for campus events while enabling organizers to manage event information more efficiently.
+
+---
+
+## Final Prototype
+
+- **Prototype folder/link:** `https://sonamd6807456.github.io/ICT105-DRUK-MVP/prototype/`
+- **Landing page link:** `https://sonamd6807456.github.io/ICT105-DRUK-MVP/`
+- **Final demo link:** `/prototype/final-demo-link.md`
+
+---
+
+## Final Documentation
+
+- System requirements: `/docs/system-requirements.md`
+- User stories: `/docs/user-stories.md`
+- MVP feature list: `/docs/mvp-feature-list.md`
+- Feature implementation status: `/docs/feature-implementation-status.md`
+- Final prototype report: `/docs/final-prototype-report.md`
+- Final demo script: `/docs/final-demo-script.md`
+- Final reflection: `/docs/final-reflection.md`
+
+---
+
+## Screenshots
+
+The `/screenshots/` folder contains the final prototype evidence, including:
+
+- Homepage
+- Landing Page
+- Event Listing
+- Event Details
+- Event Registration
+- Student Dashboard
+- Organizer/Admin Dashboard
+- Search and Filter
+- Event Management
+- Demo Flow
+- User Testing Results
+- Validation Evidence
+- Landing Page Call-to-Action
+
+---
+
+## Pitch
+
+- Final pitch slides or outline: `/pitch/`
+
+The pitch materials include the final venture presentation, prototype demonstration flow, business value, validation evidence, startup metrics, technical architecture, and future development roadmap.
+
+---
+
+## Data and Diagrams
+
+### Final Sample Data
+
+Stored in `/data/`, including:
+
+- Sample event records
+- Customer validation results
+- User testing results
+- Startup metrics
+- Acquisition metrics
+- Final improvement list
+- Testing templates
+
+### Final Diagrams
+
+Stored in `/diagrams/`, including:
+
+- User Flow Diagram
+- Use Case Diagram
+- Technical Architecture Diagram
+- Data Flow Diagram
+- Demo Flow Diagram
+- User Testing Flow Diagram
+- Privacy & Security Review Flow
+- Implementation Flow Diagram
+
+---
+
+## Final Submission Notes
+
+The Smart Campus Event Hub project successfully completed all fourteen ICT105 laboratory activities, progressing from opportunity identification and customer discovery to a fully functional browser-based MVP.
+
+Before submission, the team reviewed the complete prototype, verified that all implemented features aligned with the documented functional requirements, user stories, MVP feature list, and requirement traceability, and ensured that all documentation, screenshots, diagrams, and supporting evidence were included in the repository.
+
+The final prototype demonstrates a complete student and organizer workflow using HTML5, CSS3, JavaScript, and browser LocalStorage. It provides a centralized platform for discovering campus events, registering for activities, and managing event information while serving as a classroom MVP suitable for demonstrations, usability testing, and future development into a production-ready system.
