@@ -1,41 +1,43 @@
-```mermaid
 flowchart TD
-    A["Start Final Smart Campus Event Hub Demo"] --> B["Introduce the problem<br/>Students miss campus events because information is scattered across multiple platforms."]
-    B --> C["Open Landing Page<br/>Project overview + Target users + Explore Events button<br/>FR-01"]
-    C --> D["Open Homepage<br/>View featured and upcoming campus events<br/>FR-01, FR-05"]
+    A["Start Final Smart Campus Event Hub Demo"] --> B["Introduce the problem<br/>Students often miss campus events because information is scattered across multiple platforms"]
 
-    D --> E{"Choose a Student Pathway"}
+    B --> C["Open Smart Campus Event Hub Landing Page<br/>Target users + Value Proposition + Explore Events<br/>FR-01, FR-02"]
 
-    E --> F["Browse Event Listing<br/>Search + Filter by Category<br/>FR-05, FR-06"]
-    E --> G["View My Events & Favorites<br/>Track registered and saved events<br/>FR-08, FR-15"]
+    C --> D["Open Homepage<br/>Featured Events + Upcoming Events + Navigation<br/>FR-01, FR-05"]
 
-    F --> H["Open Event Details<br/>View description, venue, date, seats, and organizer<br/>FR-07"]
+    D --> E["Browse Event Listings<br/>Search + Filter by Category<br/>FR-05, FR-06"]
 
-    H --> I{"Register for Event?"}
+    E --> F["Open Event Details<br/>View description, venue, organizer, schedule and available seats<br/>FR-07"]
 
-    I -- "No" --> J["Continue browsing events"]
+    F --> G{"Register for Event?"}
 
-    I -- "Yes" --> K["Complete Registration Form"]
+    G -- "No" --> H["Continue Browsing Events"]
 
-    K --> L["Validate required fields<br/>Display confirmation message<br/>FR-10, FR-11"]
+    G -- "Yes" --> I{"Student Signed In?"}
 
-    L --> M["Store registration in LocalStorage<br/>Update My Events page<br/>FR-04, FR-08"]
+    I -- "No" --> J["Sign In using Student Demo Account"]
 
-    M --> N["After event completion<br/>Submit Event Review & Rating<br/>FR-15"]
+    I -- "Yes" --> K["Complete Event Registration Form"]
 
-    N --> O["Save review and display success message<br/>Review pending moderation"]
+    J --> K
 
-    O --> P["Sign in as Administrator"]
+    K --> L["Validate Required Fields<br/>Show Confirmation Message<br/>FR-03, FR-10"]
 
-    P --> Q["Open Admin Dashboard<br/>Manage submitted events + View analytics<br/>FR-09, FR-12"]
+    L --> M["Save Registration in browser localStorage<br/>Update Registration Status<br/>FR-04, FR-08"]
 
-    Q --> R["Approve/Edit/Delete Events<br/>Moderate Event Reviews<br/>FR-09, FR-15"]
+    M --> N["Open Student Dashboard (My Events)<br/>View Registered Events, Participation History and Status<br/>FR-08, FR-11, FR-15"]
 
-    R --> S["Dashboard updates<br/>Event statistics + Registration summary<br/>FR-12"]
+    N --> O["Sign In using Administrator Demo Account"]
 
-    S --> T["Connect prototype screens to<br/>Requirements, User Stories,<br/>Validation Evidence, and MVP Features<br/>FR-17"]
+    O --> P["Open Admin Dashboard<br/>Manage Events, Registrations and Analytics<br/>FR-09, FR-11"]
 
-    T --> U["Explain Business Value,<br/>Future Improvements,<br/>and Close Final Venture Pitch"]
+    P --> Q["Create / Edit / Delete Events<br/>Approve Registrations<br/>Update Event Status<br/>FR-09"]
+
+    Q --> R["Dashboard Metrics Update<br/>Event Statistics + Registration Summary<br/>FR-11, FR-12"]
+
+    R --> S["Connect Screens to Requirements,<br/>User Stories, Validation Evidence and MVP Features<br/>FR-17"]
+
+    S --> T["Explain Business Value,<br/>Future Improvements and Close Venture Pitch"]
 
     classDef problem fill:#fff4e5,stroke:#d97706,color:#7c2d12,stroke-width:2px;
     classDef student fill:#eaf2ff,stroke:#2563eb,color:#163b73,stroke-width:2px;
@@ -44,8 +46,7 @@ flowchart TD
     classDef outcome fill:#0b3d91,stroke:#082f72,color:#ffffff,stroke-width:2px;
 
     class A,B problem;
-    class C,D,E,F,G,H,I,J,K,L,M,N,O student;
-    class P,Q,R admin;
-    class S action;
-    class T,U outcome;
-```
+    class C,D,E,F,G,H,I,J,K,L,M,N student;
+    class O,P,Q admin;
+    class R action;
+    class S,T outcome;
