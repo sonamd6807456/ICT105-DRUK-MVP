@@ -8,4 +8,4 @@ FR-06,Event Reminder Notifications,US-04,Lab11 Sprint 2,Completed,student-dashbo
 FR-07,New Event Notifications,US-04,Lab11 Sprint 2,Completed,student-dashboard.png,Notifies users of newly available events
 FR-08,Event Calendar View,US-06,Lab11 Sprint 2,Completed,calendar-view.png,Displays campus events in calendar format
 FR-09,Participant Management,US-05,Lab10 MVP Sprint 1,Completed,admin-dashboard.png,Organizers manage participant registrations
-FR-10,Event Status Tracking,US-06,Lab11 Sprint 2,Completed,event-status.png,Displays Upcoming, Registration Open, Closed, Ongoing and Completed statuses
+FR-10,Event Status Tracking,US-06,Lab11 Sprint 2,Completed,event-status.png,"Displays Upcoming, Registration Open, Closed, Ongoing, and Completed statuses"
