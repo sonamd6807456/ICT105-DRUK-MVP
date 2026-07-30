@@ -1289,9 +1289,9 @@ The project is ready to proceed to **Lab 14: Final MVP Release**, where the team
 
 | Name | Role | Main Contribution |
 |---|---|---|
-| Sonam Deki | Product Lead & Documentation Lead | Finalized project documentation, requirement traceability, final demo script, final reflection, weekly logbook, and prototype improvements. |
-| Tenzin Dema | Technical Lead | Developed JavaScript functionality, updated README, completed feature implementation status, final demo flow, prototype testing, sample data, and final submission documents. |
-| Kinley Zam | UX/UI Lead & Validation Lead | Completed the final prototype report, testing results, screenshots, UI improvements, and requirement traceability verification. |
+| **Sonam Deki** | Final Requirement Traceability, Member Contribution Template, Final Demo Script, Final Reflection, Weekly Logbook, Prototype Improvements | GitHub Issue #78, GitHub commits |
+| **Tenzin Dema** | Final Sample Data, Final Demo Flow (.mmd), Feature Implementation Status, Final Submission Checklist, README.md, JavaScript Updates, Prototype Testing Documentation | GitHub Issue #79, GitHub commits |
+| **Kinley Zam** | Final Testing Results, Final Prototype Report, Requirement Traceability Matrix, Final Prototype Link, Final Project Screenshots | GitHub Issue #80, GitHub commits |
 
 ---
 
