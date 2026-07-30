@@ -1,1 +1,11 @@
-
+tester_id,target_user_type,task,completed,time_minutes,confusion_point,feedback_score_1_5,comment,improvement_needed
+T01,First-Year Student,Browse campus events,Yes,2,None,5,Events were easy to browse,No
+T02,International Student,Search and filter events,Yes,3,Category filter could be clearer,4,Search worked well but filters need clearer labels,Yes
+T03,First-Year Student,Register for an event,Yes,3,Registration confirmation not obvious,4,Registration process was simple but confirmation could be more visible,Yes
+T04,Student,View My Events Dashboard,Yes,2,None,5,Dashboard was easy to understand,No
+T05,Student,Submit an event review,Yes,3,Review button location slightly confusing,4,Review submission was straightforward after finding the button,Yes
+T06,Student Club Organizer,Create a new event,Yes,4,None,5,Event creation form was easy to complete,No
+T07,Administrator,Edit event information,Yes,3,None,5,Editing events was simple and intuitive,No
+T08,Administrator,Delete an event,Yes,2,Delete confirmation could be clearer,4,Need a more noticeable confirmation message,Yes
+T09,International Student,View event details,Yes,2,None,5,Event information was complete and useful,No
+T10,First-Year Student,Login and access homepage,Yes,2,None,5,Login process was smooth and easy to follow,No
