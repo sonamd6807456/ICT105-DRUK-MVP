@@ -1,0 +1,9 @@
+requirement_id,feature_or_screen,user_story_id,evidence_source,final_status,screenshot_file,notes
+FR-01,Homepage & Event Listing,US-01,Lab03 E02,Completed,homepage.png,Displays centralized list of campus events
+FR-03,Search & Filter Events,US-02,Lab08 Validation,Completed,search-filter.png,Users can search by keyword and filter by category
+FR-04,Event Details Page,US-03,Lab05 Wireframe,Completed,event-details.png,Displays complete event information
+FR-05,Event Registration,US-04,Lab08 Validation,Completed,registration-form.png,Students can register for campus events
+FR-07,Organizer/Admin Dashboard,US-05,Lab10 Prototype,Completed,admin-dashboard.png,Organizers can manage participant registrations
+FR-08,Student Dashboard & Event Status,US-06,Lab11 Sprint 2,Completed,student-dashboard.png,Displays registered events and participation status
+FR-09,Form Validation,US-04,Lab09 Responsible IT Review,Completed,registration-form.png,Client-side validation prevents incomplete submissions
+FR-10,Event Status Tracking,US-06,Lab11 Sprint 2,Completed,event-status.png,Displays Upcoming, Registration Open, Closed, Ongoing, and Completed statuses
