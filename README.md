@@ -143,6 +143,8 @@ ICT105-DRUK-MVP
 | **Lab 10** | MVP Implementation Sprint 1 | Working prototype, feature implementation status, feature traceability, prototype screenshots, sprint documentation, updated README | Completed |
 | **Lab 11** | MVP Implementation Sprint 2 & Startup Metrics | Enhanced prototype, startup metrics, Power BI dashboard, usability testing, updated documentation, prototype improvements | Completed |
 | **Lab 12** | Landing Page & Digital Go-to-Market | Landing page, go-to-market strategy, marketing messages, acquisition metrics, CTA tracking, GitHub Pages deployment | Completed |
+| **Lab 13** | Final Prototype Refinement & Project Integration | Final prototype improvements, bug fixes, UI/UX refinements, feature alignment verification, repository cleanup, complete project documentation, final testing and quality assurance | Completed |
+| **Lab 14** | Final Deliverable & Project Presentation | Final GitHub repository submission, completed prototype, presentation slides, demonstration, final documentation review, project showcase and submission | Completed |
 
 ---
 
